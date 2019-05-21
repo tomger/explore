@@ -10,10 +10,11 @@ import {
 import { DatePicker, ScheduleList, VenueList, Pane } from "./canvas"
 const data = Data({
     datePickerTop: 50,
-    venueList: true,
+    // venueList: true,
 })
 
 export function ContentList(props) {
+    var [venueList, setVenueList] = React.useState(true)
     var listTopMotionValue = useMotionValue(300)
     if (props && props.showTabs) {
         listTopMotionValue = props.showTabs.listTop
@@ -43,7 +44,7 @@ export function ContentList(props) {
     const selectedStyle = Object.assign({}, tabStyle)
     selectedStyle.borderBottom = "2px solid #0055ff"
     selectedStyle.color = "#05f"
-    let content = data.venueList ? (
+    let content = venueList ? (
         <VenueList top={93} left={0} />
     ) : (
         <ScheduleList top={93} left={0} />
@@ -73,7 +74,7 @@ export function ContentList(props) {
             />
             <Frame
                 onTap={() => {
-                    data.venueList = !data.venueList
+                    setVenueList(!venueList)
                 }}
                 z={1}
                 opacity={tabsOpacity}
@@ -86,8 +87,8 @@ export function ContentList(props) {
                     background: "transparent",
                 }}
             >
-                <div style={tabStyle}>Studios</div>
-                <div style={selectedStyle}>Classes</div>
+                <div style={!venueList ? tabStyle : selectedStyle}>Studios</div>
+                <div style={!venueList ? selectedStyle : tabStyle}>Classes</div>
             </Frame>
 
             <DatePicker y={dataPickerTop} left={0} z={1} />

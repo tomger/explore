@@ -49,11 +49,11 @@
         "parentid" : "TAppACBc8",
         "previewSettings" : {
           "__class" : "PreviewSettings",
-          "bezel" : true,
+          "bezel" : false,
           "deviceType" : "framer\/FramerAppleIPhone8",
           "responsive" : false,
           "rotate" : false,
-          "skin" : "Gold",
+          "skin" : "",
           "touch" : false,
           "zoom" : -1
         },
@@ -872,9 +872,9 @@
                 "os" : "10_14",
                 "size" : {
                   "height" : 14,
-                  "width" : 76
+                  "width" : 101
                 },
-                "width" : 75
+                "width" : 100
               },
               "entityMap" : {
 
@@ -5615,7 +5615,7 @@
             "fillType" : "image",
             "height" : 1459,
             "heightType" : 0,
-            "id" : "aS53lnc2c",
+            "id" : "Lly31K71p",
             "intrinsicHeight" : 1458.5,
             "intrinsicWidth" : 375,
             "isExternalMaster" : null,
