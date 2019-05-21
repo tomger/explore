@@ -45,7 +45,7 @@ export function ContentList(props) {
     selectedStyle.borderBottom = "2px solid #0055ff"
     selectedStyle.color = "#05f"
     let content = venueList ? (
-        <VenueList top={93} left={0} />
+        <VenueList top={49} left={0} />
     ) : (
         <ScheduleList top={93} left={0} />
     )
@@ -73,9 +73,6 @@ export function ContentList(props) {
                 top={6}
             />
             <Frame
-                onTap={() => {
-                    setVenueList(!venueList)
-                }}
                 z={1}
                 opacity={tabsOpacity}
                 height={50}
@@ -87,11 +84,25 @@ export function ContentList(props) {
                     background: "transparent",
                 }}
             >
-                <div style={!venueList ? tabStyle : selectedStyle}>Studios</div>
-                <div style={!venueList ? selectedStyle : tabStyle}>Classes</div>
+                <div
+                    onClick={() => {
+                        setVenueList(true)
+                    }}
+                    style={!venueList ? tabStyle : selectedStyle}
+                >
+                    Studios
+                </div>
+                <div
+                    onClick={() => {
+                        setVenueList(false)
+                    }}
+                    style={!venueList ? selectedStyle : tabStyle}
+                >
+                    Classes
+                </div>
             </Frame>
 
-            <DatePicker y={dataPickerTop} left={0} z={1} />
+            {venueList ? null : <DatePicker y={dataPickerTop} left={0} z={1} />}
             {content}
         </Frame>
     )
