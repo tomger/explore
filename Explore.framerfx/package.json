@@ -1,0 +1,29 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@framer/framer.device-hand-iphone-1": "^1.0.0",
+		"@framer/framer.device-hand-iphone-2": "^1.0.0",
+		"@framer/framer.device-skin-apple-iphone8-gold": "^1.0.0",
+		"@framer/framer.device-skin-apple-iphone8-silver": "^1.0.0",
+		"@framer/framer.device-skin-apple-iphone8-space-gray": "^1.0.0",
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10.1 || ^1",
+		"react": "^16.8.0",
+		"react-dom": "^16.8.0"
+	},
+	"framer": {
+		"id": "c9bc8a6b-ce96-414a-81b7-fbc763dc5c87"
+	},
+	"author": "Tom G",
+	"dependencies": {
+		"@framer/framer.examples": "^1.5.0",
+		"@framer/gusso.magic-move": "^1.13.0",
+		"@framer/ismael.sticky": "^1.1.0",
+		"@framer/lily.figma-import": "^1.4.0",
+		"@framer/mapbox.mapbox": "^1.3.0",
+		"@framer/wilcoschoneveld.tabs": "^1.0.0"
+	}
+}
