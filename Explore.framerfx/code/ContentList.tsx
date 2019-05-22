@@ -10,11 +10,11 @@ import {
 import { DatePicker, ScheduleList, VenueList, Pane } from "./canvas"
 const data = Data({
     datePickerTop: 50,
-    // venueList: true,
+    venueList: true,
 })
 
 export function ContentList(props) {
-    var [venueList, setVenueList] = React.useState(true)
+    var [venueList, setVenueList] = React.useState(data.venueList)
     var listTopMotionValue = useMotionValue(300)
     if (props && props.showTabs) {
         listTopMotionValue = props.showTabs.listTop
@@ -87,6 +87,7 @@ export function ContentList(props) {
                 <div
                     onClick={() => {
                         setVenueList(true)
+                        data.venueList = true
                     }}
                     style={!venueList ? tabStyle : selectedStyle}
                 >
@@ -95,6 +96,7 @@ export function ContentList(props) {
                 <div
                     onClick={() => {
                         setVenueList(false)
+                        data.venueList = false
                     }}
                     style={!venueList ? selectedStyle : tabStyle}
                 >

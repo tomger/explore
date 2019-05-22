@@ -1,44 +1,20 @@
-import { Data, Override } from "framer"
+import { Data, Override, MotionValue } from "framer"
 
 const data = Data({
-    rotate: 0,
+    rotate: 45,
     rotateY: 0,
     toggle: true,
 })
 
-export function TapEffect(): Override {
+export function AnimateCard(): Override {
     return {
-        whileTap: { scale: 0.97 },
-    }
-}
-
-export function Draggable(): Override {
-    return {
-        drag: true,
-    }
-}
-
-export function Rotate(): Override {
-    return {
-        animate: { rotate: data.rotate },
-        onTap() {
-            data.rotate = data.rotate + 90
-        },
-    }
-}
-
-export function FlipInput(): Override {
-    return {
-        onTap() {
-            const toggle = data.toggle
-            data.rotateY = toggle ? 180 : 0
-            data.toggle = !toggle
-        },
-    }
-}
-
-export function FlipOutput(): Override {
-    return {
-        animate: { rotateY: data.rotateY },
+        rotate: 45,
+        // initial: { rotate: 24 },
+        // animate: { rotate: 0 },
+        // rotate: data.rotate,
+        // onTap: () => {
+        //     console.log(data.rotate)
+        //     data.rotate.set(data.rotate.get() + 90)
+        // },
     }
 }
