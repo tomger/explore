@@ -14,25 +14,30 @@ import {
     transform,
 } from "framer"
 
+const dockListY = 280
 const data = Data({
     listContentTop: 0,
     carouselTop: 667,
     listTop: new MotionValue(0), // 300
-    // listTop: 300,
     mapActionOpacity: 0,
     mapTapDown: false,
     listTapBeforeDrag: false,
 })
 
 const dockList = animation => {
-    console.log()
     data.mapActionOpacity = 1
-    // data.listTop.set(241)
-    animation.stop()
-    animation.start({
-        y: 280,
-        transition: { ease: "easeIn", duration: 0.2 },
-    })
+
+    // animate.ease(data.listTop, dockListY)
+    // data.listTop.start(animation)
+    if (animation) {
+        animation.stop()
+        animation.start({
+            y: dockListY,
+            transition: { ease: "easeIn", duration: 0.2 },
+        })
+    } else {
+        data.listTop.set(dockListY)
+    }
 }
 
 const animateListToMiddle = animation => {
@@ -61,6 +66,18 @@ export function MapActions(): Override {
     }
 }
 
+export function StickyCalendar(): Override {
+    return {
+        top: useTransform(data.listTop, value => {
+            if (value > -221) {
+                return 0
+            } else {
+                return -value - 221
+            }
+        }),
+    }
+}
+
 export function Map(): Override {
     const mapTop = useTransform(data.listTop, value =>
         Math.min(200, value * 0.7 - 200, 100)
@@ -69,7 +86,7 @@ export function Map(): Override {
         y: mapTop,
         left: 0,
         onTapStart: () => {
-            // dockList()
+            dockList(null) //xxx
         },
         onTapCancel: () => {
             data.mapTapDown = false
@@ -94,11 +111,17 @@ export function ContentList(): Override {
         // showTabs: data.listTop,
         drag: "y",
         y: data.listTop,
-        // transition: { ease: "easeIn" },
+        onDrag: (_, info) => {
+            console.log(info.point.y)
+        },
         animate: animation,
+        dragConstraints: {
+            top: -1000,
+            bottom: dockListY,
+        },
         onTap: event => {
             // if (data.listTop.get() > 550) {
-            if (data.listTop.get() > 550) {
+            if (data.listTop.get() > 200) {
                 data.listTapBeforeDrag = true
                 animateListToMiddle(animation)
                 event.stopPropagation()
