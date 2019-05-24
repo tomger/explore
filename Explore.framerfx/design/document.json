@@ -6208,7 +6208,7 @@
         "id" : "Va96xkcN8",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "left" : 141,
+        "left" : 152,
         "locked" : false,
         "name" : "ContentList",
         "opacity" : 1,
@@ -24161,7 +24161,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : -538,
+        "top" : -551,
         "visible" : true,
         "width" : 375,
         "widthType" : 0

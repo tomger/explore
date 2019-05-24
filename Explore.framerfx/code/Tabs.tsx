@@ -42,11 +42,19 @@ export function Tabs(props) {
     }
 
     const selectedStyle = Object.assign({}, tabStyle)
-    selectedStyle.borderBottom = "2px solid #0055ff"
     selectedStyle.color = "#05f"
 
     return (
         <Frame background="transparent" size="100%">
+            <Frame
+                height={2}
+                background="#05f"
+                y={48}
+                z={2}
+                width={375 / 2}
+                animate={{ left: !venueList ? 375 / 2 : 0 }}
+                transition={{ ease: "easeOut", duration: 0.2 }}
+            />
             <Frame
                 z={1}
                 opacity={tabsOpacity}

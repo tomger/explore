@@ -62,6 +62,7 @@ const hideCarousel = () => {
 export function MapActions(): Override {
     return {
         top: 120,
+        initial: { opacity: 0 },
         animate: { opacity: data.mapActionOpacity },
     }
 }
@@ -121,6 +122,7 @@ export function ContentList(): Override {
         },
         onTap: event => {
             // if (data.listTop.get() > 550) {
+            console.log(data.listTop.get())
             if (data.listTop.get() > 200) {
                 data.listTapBeforeDrag = true
                 animateListToMiddle(animation)
