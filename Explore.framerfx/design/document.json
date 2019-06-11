@@ -6541,9 +6541,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 0,
+            "bottom" : -1,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.50600305610128793,
+            "centerAnchorY" : 0.50622134905042571,
             "children" : [
 
             ],
@@ -6603,7 +6603,7 @@
             "radiusTopRight" : 0,
             "right" : 0,
             "rotation" : 0,
-            "top" : 55,
+            "top" : 56,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -21848,7 +21848,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "rgba(0, 0, 0, 0.07)",
+            "fillColor" : "rgba(208, 195, 174, 0.44)",
             "fillEnabled" : true,
             "fillImage" : null,
             "fillImagePixelHeight" : null,
@@ -26028,11 +26028,11 @@
         "parentid" : "TAppACBc8",
         "previewSettings" : {
           "__class" : "PreviewSettings",
-          "bezel" : false,
+          "bezel" : true,
           "deviceType" : "framer\/FramerAppleIPhone8",
           "responsive" : false,
           "rotate" : false,
-          "skin" : "",
+          "skin" : "Gold",
           "touch" : false,
           "zoom" : -1
         },
