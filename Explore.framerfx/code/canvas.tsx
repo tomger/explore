@@ -26,4 +26,4 @@ export const ScheduleList = createDesignComponent<{parentSize?:{width:number|str
 export const Small = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,image?:string,Fitness?:string}>(canvas, "id_q12i3CDfu", {image:"image",Fitness:"string"}, 128,123);
 export const Statusbar = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_jB9kbE3TA", {}, 375,20);
 export const Tabbar = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_rzNpz41Xx", {}, 375,49);
-export const VenueList = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_zWLOHWNw4", {}, 375,4581);
+export const VenueList = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_zWLOHWNw4", {}, 375,5291);
