@@ -5,3 +5,5 @@ Explore.framerfx/build/*
 Explore.framerfx/.cache/*
 Explore.framerfx/.project.log
 Explore.framerfx/.project.log
+cpdata/cache/*
+cpdata/node_modules/*

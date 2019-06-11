@@ -113,11 +113,10 @@ export function ContentList(): Override {
         drag: "y",
         y: data.listTop,
         onDrag: (_, info) => {
-            console.log(info.point.y)
+            // console.log(info.point.y)
         },
         animate: animation,
         dragConstraints: {
-            top: -1000,
             bottom: dockListY,
         },
         onTap: event => {

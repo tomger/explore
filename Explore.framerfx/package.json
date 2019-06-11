@@ -20,10 +20,7 @@
 	"author": "Tom G",
 	"dependencies": {
 		"@framer/framer.examples": "^1.5.0",
-		"@framer/gusso.magic-move": "^1.13.0",
-		"@framer/ismael.sticky": "^1.1.0",
-		"@framer/lily.figma-import": "^1.4.0",
 		"@framer/mapbox.mapbox": "^1.3.0",
-		"@framer/wilcoschoneveld.tabs": "^1.0.0"
+		"cpdata": "file:../cpdata"
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.1",
+    "moment": "^2.18.1",
+    "yargs": "^13.2.4"
+  }
+}
