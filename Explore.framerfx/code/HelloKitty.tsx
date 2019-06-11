@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Frame, useCycle } from "framer"
 import cpdata from "cpdata"
 
 // const venues = []
@@ -17,8 +16,9 @@ export function HelloKitty() {
             klass.schedules.sort((a, b) => {
                 return a.starttime - b.starttime
             })
+
             let schedules = klass.schedules
-                .filter(s => s.starttime > 60 * 60 * 24 * 2)
+                // .filter(s => s.starttime > 60 * 60 * 24 * 2)
                 .slice(0, 3)
                 .map(s => {
                     let date = new Date(1560052855000 + s.starttime * 1000)
@@ -41,7 +41,7 @@ export function HelloKitty() {
                                 borderRadius: 100,
                                 padding: "4px 10px",
                                 margin: "0 4px 0 0",
-                                fontSize: 14,
+                                fontSize: 13,
                             }}
                         >
                             {format}
@@ -57,7 +57,22 @@ export function HelloKitty() {
                     }}
                 >
                     <div style={{ marginBottom: 8 }}>{klass.name}</div>
-                    <div>{schedules}</div>
+                    <div>
+                        {schedules}{" "}
+                        {klass.schedules.length > 3 ? (
+                            <span
+                                style={{
+                                    fontSize: 12,
+                                    color: "#aaa",
+                                    fontWeight: 500,
+                                }}
+                            >
+                                + MORE
+                            </span>
+                        ) : (
+                            ""
+                        )}
+                    </div>
                 </div>
             )
         })
@@ -116,13 +131,15 @@ export function HelloKitty() {
         return element
     })
     return (
-        <Frame
-            background="#F7F7F7"
-            width="100%"
-            height="100%"
-            style={{ fontSize: 14, fontFamily: "TT Norms", color: "#333" }}
+        <div
+            style={{
+                fontSize: 14,
+                fontFamily: "TT Norms",
+                color: "#333",
+                background: "#F7F7F7",
+            }}
         >
             {elements}
-        </Frame>
+        </div>
     )
 }
