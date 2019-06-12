@@ -1,8 +1,5 @@
-import React from 'react'
-import cpdata from "./denver_venues.js"
-
-// const venues = []
-const venues = cpdata
+import * as React from "react"
+import venues from "./venues"
 
 export function HelloKitty() {
     const venueStyle = {
@@ -11,7 +8,7 @@ export function HelloKitty() {
         "flex-direction": "row",
     }
 
-    const elements = venues.slice(0, 20).map(venue => {
+    const elements = venues.map(venue => {
         let classes = venue.classes.map(klass => {
             klass.schedules.sort((a, b) => {
                 return a.starttime - b.starttime

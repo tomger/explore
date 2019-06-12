@@ -81,6 +81,7 @@ function cprequest(path, method, data, onSuccess) {
 function handleVenues(response) {
   let venueData = JSON.parse(response).data;
   let venues = venueData.modules.web_search_results_01.data.venue_tab_items;
+  // console.log(response.substr(0, 300), "...");
   // console.info('// Loading venues:', venues.length);
 
   venues.forEach((venue, i) => {

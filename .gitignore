@@ -9,3 +9,5 @@ cpdata/cache/*
 cpdata/node_modules/*
 cpdata/output/*
 cpdata/.DS_Store
+cpdata/.DS_Store
+.DS_Store
