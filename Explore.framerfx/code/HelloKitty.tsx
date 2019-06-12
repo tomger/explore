@@ -16,20 +16,14 @@ export function HelloKitty() {
 
             let schedules = klass.schedules
                 // .filter(s => s.starttime > 60 * 60 * 24 * 2)
-                .slice(0, 3)
+                .slice(0, 2)
                 .map(s => {
                     let date = new Date(1560052855000 + s.starttime * 1000)
-                    let format =
-                        date.toLocaleDateString("en-US", {
-                            weekday: "short",
-                            timeZone: "America/Denver",
-                        }) +
-                        " " +
-                        date.toLocaleTimeString("en-US", {
-                            hour: "numeric",
-                            minute: "numeric",
-                            timeZone: "America/Denver",
-                        })
+                    let format = date.toLocaleTimeString("en-US", {
+                        hour: "numeric",
+                        minute: "numeric",
+                        timeZone: "America/Denver",
+                    })
                     return (
                         <span
                             style={{
@@ -41,7 +35,17 @@ export function HelloKitty() {
                                 fontSize: 13,
                             }}
                         >
-                            {format}
+                            {format}{" "}
+                            <span
+                                style={{
+                                    borderLeft: "1px solid #e7e7e7",
+                                    paddingLeft: 6,
+                                    marginLeft: 4,
+                                    fontWeight: 500,
+                                }}
+                            >
+                                {s.availability.credits}
+                            </span>
                         </span>
                     )
                 })
@@ -53,23 +57,33 @@ export function HelloKitty() {
                         borderTop: "1px solid #e7e7e7",
                     }}
                 >
-                    <div style={{ marginBottom: 8 }}>{klass.name}</div>
-                    <div>
-                        {schedules}{" "}
-                        {klass.schedules.length > 3 ? (
-                            <span
-                                style={{
-                                    fontSize: 12,
-                                    color: "#aaa",
-                                    fontWeight: 500,
-                                }}
-                            >
-                                + MORE
+                    <div>{klass.name}</div>
+                    {1 && (
+                        <div style={{ marginTop: 8 }}>
+                            <span style={{ marginRight: 4, fontSize: 14 }}>
+                                {new Date(
+                                    1560052855000 + klass.schedules[0].starttime
+                                ).toLocaleDateString("en-US", {
+                                    weekday: "short",
+                                    timeZone: "America/Denver",
+                                })}
                             </span>
-                        ) : (
-                            ""
-                        )}
-                    </div>
+                            {schedules}
+                            {klass.schedules.length > 3 ? (
+                                <span
+                                    style={{
+                                        fontSize: 12,
+                                        color: "#aaa",
+                                        fontWeight: 500,
+                                    }}
+                                >
+                                    + {klass.schedules.length - 3} MORE
+                                </span>
+                            ) : (
+                                ""
+                            )}
+                        </div>
+                    )}
                 </div>
             )
         })
@@ -121,7 +135,23 @@ export function HelloKitty() {
                         display: "flex",
                     }}
                 >
-                    <div>{classes}</div>
+                    <div>
+                        {classes.slice(0, 2)}
+                        {classes.length > 2 ? (
+                            <div
+                                style={{
+                                    borderTop: "1px solid #e7e7e7",
+                                    color: "#05f",
+                                    fontWeight: 500,
+                                    padding: 12,
+                                }}
+                            >
+                                See all {classes.length} classes
+                            </div>
+                        ) : (
+                            ""
+                        )}
+                    </div>
                 </div>
             </div>
         )

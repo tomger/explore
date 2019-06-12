@@ -14,6 +14,10 @@ venues = venues
     venue.images = venue.images.default;
     venue.display_rating_average = String(Math.round(venue.display_rating_average*10)/10)
     venue.schedules.forEach(s => {
+      // only Monday schedules
+      if (s.starttime < 60*60*24 || s.starttime > 60*60*24*2 ) {
+        return;
+      }
       delete s.ratings
       delete s.class.ratings
       let klass = venue.classes.find(klass => s.class.id == klass.id);
@@ -27,6 +31,9 @@ venues = venues
     })
     delete venue.schedules;
     return venue;
+  })
+  .filter(venue => {
+    return venue.classes.length
   })
 
 // Real
