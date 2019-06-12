@@ -1,5 +1,5 @@
-import * as React from "react"
-import cpdata from "cpdata"
+import React from 'react'
+import cpdata from "./denver_venues.js"
 
 // const venues = []
 const venues = cpdata

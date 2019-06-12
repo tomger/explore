@@ -7,3 +7,5 @@ Explore.framerfx/.project.log
 Explore.framerfx/.project.log
 cpdata/cache/*
 cpdata/node_modules/*
+cpdata/output/*
+cpdata/.DS_Store

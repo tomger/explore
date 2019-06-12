@@ -6,8 +6,25 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "async": "^2.4.1",
     "moment": "^2.18.1",
+    "puppeteer": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
   }
 }

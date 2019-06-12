@@ -29,5 +29,5 @@ venues = venues
   })
 
 
-// process.stdout.write("export default ");
+process.stdout.write("export default ");
 process.stdout.write(JSON.stringify(venues, null, 2));
