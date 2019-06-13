@@ -28,7 +28,7 @@ export function HelloKitty() {
                    let format = date.toLocaleTimeString("en-US", {
                        hour: "numeric",
                        minute: "numeric",
-                       timeZone: "America/Denver",
+                       timeZone: "Asia/Singapore",
                    })
                    return (
                        <span
@@ -68,10 +68,10 @@ export function HelloKitty() {
                        <div style={{ marginTop: 8 }}>
                            <span style={{ marginRight: 4, fontSize: 14 }}>
                                {new Date(
-                                   1560052855000 + klass.schedules[0].starttime
+                                   1560052855000 + klass.schedules[0].starttime * 1000
                                ).toLocaleDateString("en-US", {
                                    weekday: "short",
-                                   timeZone: "America/Denver",
+                                   timeZone: "Asia/Singapore",
                                })}
                            </span>
                            {schedules}
