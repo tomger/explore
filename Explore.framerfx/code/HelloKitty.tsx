@@ -51,7 +51,18 @@ export function HelloKitty() {
                         borderTop: "1px solid #e7e7e7",
                     }}
                 >
-                    <div>{klass.name}</div>
+                    <div>
+                        {klass.name}{" "}
+                        <span style={{ color: "#7f7f7f", fontSize: 14 }}>
+                            (
+                            {Math.round(
+                                (klass.schedules[0].endtime -
+                                    klass.schedules[0].starttime) /
+                                    60
+                            )}
+                            min)
+                        </span>
+                    </div>
                     {1 && (
                         <div style={{ marginTop: 8 }}>
                             <span style={{ marginRight: 4, fontSize: 14 }}>
@@ -64,6 +75,17 @@ export function HelloKitty() {
                                 })}
                             </span>
                             {schedules}
+                            {klass.schedules.length == 1 ? (
+                                <span
+                                    style={{
+                                        fontSize: 14,
+                                    }}
+                                >
+                                    with {klass.schedules[0].teacher.name}
+                                </span>
+                            ) : (
+                                ""
+                            )}
                             {klass.schedules.length > 3 ? (
                                 <span
                                     style={{
