@@ -8,13 +8,7 @@ let venues = JSON.parse(fs.readFileSync('/dev/stdin', 'utf8').toString());
 
 
 export function HelloKitty() {
-  const venueStyle = {
-       padding: 12,
-       display: "flex",
-       "flex-direction": "row",
-   }
-
-   const elements = venues.map(venue => {
+  const elements = venues.map(venue => {
        let classes = venue.classes.map(klass => {
            klass.schedules.sort((a, b) => {
                return a.starttime - b.starttime
@@ -28,7 +22,7 @@ export function HelloKitty() {
                    let format = date.toLocaleTimeString("en-US", {
                        hour: "numeric",
                        minute: "numeric",
-                       timeZone: "Asia/Singapore",
+                       timeZone: "America/New_York",
                    })
                    return (
                        <span
@@ -68,10 +62,11 @@ export function HelloKitty() {
                        <div style={{ marginTop: 8 }}>
                            <span style={{ marginRight: 4, fontSize: 14 }}>
                                {new Date(
-                                   1560052855000 + klass.schedules[0].starttime * 1000
+                                   1560052855000 +
+                                       klass.schedules[0].starttime * 1000
                                ).toLocaleDateString("en-US", {
                                    weekday: "short",
-                                   timeZone: "Asia/Singapore",
+                                   timeZone: "America/New_York",
                                })}
                            </span>
                            {schedules}
@@ -103,7 +98,14 @@ export function HelloKitty() {
                        "0px 2px 4px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25)",
                }}
            >
-               <div style={venueStyle}>
+               <div
+                   style={{
+                       padding: 12,
+                       display: "flex",
+                       lineHeight: "22px",
+                       "flex-direction": "row",
+                   }}
+               >
                    <div
                        style={{
                            flex: 1,
@@ -118,9 +120,19 @@ export function HelloKitty() {
                        <div style={{ fontSize: 14 }}>
                            {venue.location_name}
                        </div>
-                       <div style={{ fontSize: 14 }}>
-                           {venue.display_rating_average} (
-                           {venue.display_rating_total})
+                       <div style={{ fontSize: 14, color: "#7f7f7f" }}>
+                           {venue.display_rating_average}
+                           <span
+                               style={{
+                                   fontSize: 12,
+                                   marginLeft: 4,
+                                   position: "relative",
+                                   top: -1,
+                               }}
+                           >
+                               ★
+                           </span>{" "}
+                           ({venue.display_rating_total})
                        </div>
                    </div>
                    <div>
@@ -142,8 +154,8 @@ export function HelloKitty() {
                    }}
                >
                    <div>
-                       {classes.slice(0, 2)}
-                       {classes.length > 2 ? (
+                       {classes}
+                       {undefined && classes.length > 2 ? (
                            <div
                                style={{
                                    borderTop: "1px solid #e7e7e7",
