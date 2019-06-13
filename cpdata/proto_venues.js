@@ -36,8 +36,6 @@ venues = venues
     return venue.classes.length
   })
 
-// Real
-process.stdout.write("exports.data = ");
 process.stdout.write(JSON.stringify(venues, null, 2));
 
 

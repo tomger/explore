@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import data from "./output/nywellness-mon.js"
-let venues = data.data;
+const fs = require('fs');
+// import data from "./output/nywellness-mon.js"
+let venues = JSON.parse(fs.readFileSync('/dev/stdin', 'utf8').toString());
 // let classes = data.data;
 
 

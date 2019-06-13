@@ -5,7 +5,7 @@ const outputpath = argv.output;
 
 (async () => {
   const html = fs.readFileSync('/dev/stdin', 'utf8').toString();
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ executablePath: "/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"});
   const page = await browser.newPage();
   await page.setViewport({width: 375, height: 667, deviceScaleFactor: 2});
   await page.setContent(html, {waitUntil: 'networkidle0'});
