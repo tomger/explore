@@ -88,9 +88,9 @@ export function ClassList() {
                         <div
                             style={{
                                 fontSize: 14,
-                                height: 30,
-                                color: "#7f7f7f",
-                                "-webkit-line-clamp": 2,
+                                margin: "4px 0",
+                                color: "#333",
+                                "-webkit-line-clamp": "2",
                                 "-webkit-box-orient": "vertical",
                                 display: "-webkit-box",
                                 overflow: "hidden",

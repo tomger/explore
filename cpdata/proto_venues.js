@@ -11,11 +11,12 @@ venues = venues
   })
   .map(venue => {
     venue.classes = [];
+    let schedules = [];
     venue.images = venue.images.default;
     venue.display_rating_average = String(Math.round(venue.display_rating_average*10)/10)
     venue.schedules.forEach(s => {
       // only Monday schedules
-      if (s.starttime < 60*60*24 || s.starttime > 60*60*24*2 ) {
+      if (s.starttime < 60*60*(24+18) || s.starttime > 60*60*24*2 ) {
         return;
       }
       delete s.ratings
@@ -26,10 +27,13 @@ venues = venues
         klass.schedules = [];
         venue.classes.push(klass)
       }
-      delete s.class;
+      // delete s.class;
+      s.class = { name: s.class.name} // alt
+      schedules.push(s)
       klass.schedules.push(s);
     })
-    delete venue.schedules;
+    // delete venue.schedules;
+    venue.schedules = schedules; // alt
     return venue;
   })
   .filter(venue => {
