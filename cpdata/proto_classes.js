@@ -14,6 +14,9 @@ venues
     venue.images = venue.images.default;
     venue.display_rating_average = String(Math.round(venue.display_rating_average*10)/10)
     venue.schedules.forEach(s => {
+      if (s.starttime < 60*60*24 || s.starttime > 60*60*24*2 ) {
+        return;
+      }
       let klass = classes.find(klass => s.class.id == klass.id);
       if (!klass) {
         klass = s.class
@@ -29,8 +32,7 @@ venues
   })
 
 // Real output
-process.stdout.write("exports.data = ");
-process.stdout.write(JSON.stringify(classes.slice(0,50), null, 2));
+process.stdout.write(JSON.stringify(classes.slice(0,200), null, 2));
 
 
 // Test output

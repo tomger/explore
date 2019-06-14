@@ -7,37 +7,38 @@ export function ClassList() {
             return a.starttime - b.starttime
         })
 
-        let schedules = klass.schedules
-            // .filter(s => s.starttime > 60 * 60 * 24 * 2)
-            .slice(0, 3)
-            .map(s => {
-                let date = new Date(1560052855000 + s.starttime * 1000)
-                let format =
-                    date.toLocaleDateString("en-US", {
-                        weekday: "short",
-                        timeZone: "America/Denver",
-                    }) +
-                    " " +
-                    date.toLocaleTimeString("en-US", {
-                        hour: "numeric",
-                        minute: "numeric",
-                        timeZone: "America/Denver",
-                    })
-                return (
+        let schedules = klass.schedules.map(s => {
+            let date = new Date(1560052855000 + s.starttime * 1000)
+            let format = date.toLocaleTimeString("en-US", {
+                hour: "numeric",
+                minute: "numeric",
+                timeZone: "America/New_York",
+            })
+            return (
+                <span
+                    style={{
+                        display: "inline-block",
+                        border: "1px solid #e7e7e7",
+                        borderRadius: 100,
+                        padding: "4px 10px",
+                        margin: "4px 4px 0 0",
+                        fontSize: 13,
+                    }}
+                >
+                    {format}{" "}
                     <span
                         style={{
-                            display: "inline-block",
-                            border: "1px solid #e7e7e7",
-                            borderRadius: 100,
-                            padding: "4px 10px",
-                            margin: "0 4px 0 0",
-                            fontSize: 13,
+                            borderLeft: "1px solid #e7e7e7",
+                            paddingLeft: 6,
+                            marginLeft: 4,
+                            fontWeight: 500,
                         }}
                     >
-                        {format}
+                        {s.availability.credits}
                     </span>
-                )
-            })
+                </span>
+            )
+        })
 
         let header = (
             <div
@@ -57,6 +58,7 @@ export function ClassList() {
                             flex: 1,
                             "flex-direction": "column",
                             "justify-content": "center",
+                            lineHeight: 1.4,
                             display: "flex",
                         }}
                     >
@@ -66,12 +68,35 @@ export function ClassList() {
                         <div style={{ fontSize: 14 }}>
                             {klass.venue.venue_name}
                         </div>
-                        <div style={{ fontSize: 14 }}>
+                        <div style={{ fontSize: 14, color: "#7f7f7f" }}>
                             {klass.venue.location_name}
                         </div>
-                        <div style={{ fontSize: 14 }}>
-                            {klass.venue.display_rating_average} (
-                            {klass.venue.display_rating_total})
+                        <div style={{ fontSize: 14, color: "#7f7f7f" }}>
+                            {klass.venue.display_rating_average}
+                            <span
+                                style={{
+                                    fontSize: 12,
+                                    marginLeft: 4,
+                                    position: "relative",
+                                    top: -1,
+                                }}
+                            >
+                                ★
+                            </span>{" "}
+                            ({klass.venue.display_rating_total})
+                        </div>
+                        <div
+                            style={{
+                                fontSize: 14,
+                                height: 30,
+                                color: "#7f7f7f",
+                                "-webkit-line-clamp": 2,
+                                "-webkit-box-orient": "vertical",
+                                display: "-webkit-box",
+                                overflow: "hidden",
+                            }}
+                        >
+                            {klass.description}
                         </div>
                     </div>
                 </div>
@@ -95,7 +120,7 @@ export function ClassList() {
                 {header}
                 <div>
                     {schedules}{" "}
-                    {klass.schedules.length > 3 ? (
+                    {undefined && klass.schedules.length > 3 ? (
                         <span
                             style={{
                                 fontSize: 12,
@@ -103,7 +128,7 @@ export function ClassList() {
                                 fontWeight: 500,
                             }}
                         >
-                            + MORE
+                            + {klass.schedules.length - 3} MORE
                         </span>
                     ) : (
                         ""

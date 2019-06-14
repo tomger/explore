@@ -1,8 +1,8 @@
 npx babel tohtml.js | node | node booth.js --output output/denver.jpg
-convert -crop 750x1000 output/latest.png output/%d.png
+convert -crop 750x1000 output/denver.png output/denver_%d.png
 
 cat output/denver.json |  ./proto_classes.js  > output/denver_classes.js
-cat output/denver.json |  ./proto_venues.js  > output/denver_classes.js
 
 
-./get.js --request '{"search_request":{"filters":{"date":"2019-06-13","lat":52.3679843,"lon":4.9035614,"place_id":"ChIJVXealLU_xkcRja_At0z9AGY","result_type":"VENUE","tag":[],"radius":13.3}}}' | ./proto_venues.js | npx babel-node tohtml.js | node booth.js --output output/latest.jpg
+
+./get.js --request '{"search_request":{"filters":{"lat":40.71962920625383,"lon":-74.04500010264353,"result_type":"VENUE","tag":[],"map_bounds":"-74.05774163095468,40.708552917650735,-74.03225857432639,40.730703652111686"}}}' | ./proto_classes.js | npx babel-node tohtml.js | ./booth.js --output output/latest.png
