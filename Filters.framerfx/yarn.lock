@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@framer/classpass.classpass-ds@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.framer.com/@framer/classpass.classpass-ds/-/@framer/classpass.classpass-ds-1.1.0.tgz#69e9e2d2b7740639fbc2f9da653c1a46187013e8"
+  integrity sha512-a2Ii4uJNx0kRaimnK53zHgIFcSTrzKChYW5o/AYGBEDyU7vVuCQFXwPVrdYUKkZQXtiFMGXEaGEw8BeAZMtZZg==
+
 "@types/prop-types@*":
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"

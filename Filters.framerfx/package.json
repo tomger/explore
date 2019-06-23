@@ -11,5 +11,8 @@
 	"framer": {
 		"id": "603f480a-c687-40ed-81a8-45df0e6bd4bd"
 	},
-	"author": "Tom G"
+	"author": "Tom G",
+	"dependencies": {
+		"@framer/classpass.classpass-ds": "^1.1.0"
+	}
 }
