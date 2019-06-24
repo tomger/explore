@@ -2,6 +2,7 @@
 import { createDesignComponent, CanvasStore } from "framer"
 const canvas = CanvasStore.shared(); // CANVAS_DATA;
 export const Carousel = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_q7zRSEPHl", {}, 375,168);
+export const CatNav = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_DYfZDQ9B0", {}, 375,52);
 export const Chrome = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_K4ar3zw1L", {}, 375,116);
 export const ChromeLine = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_P00ffXRt2", {}, 375,1);
 export const ChromeShadow = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_Dw_dL9ymV", {}, 375,4);
@@ -10,6 +11,7 @@ export const Component_1 = createDesignComponent<{parentSize?:{width:number|stri
 export const Component_2 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_ZVNxFUjui", {}, 375,54);
 export const Component_3 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_OSlrV2oHq", {}, 375,56);
 export const Component_4 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_iKRq93pet", {}, 49,56);
+export const Component_5 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_lLUugzi2M", {}, 123,28);
 export const ContentList2 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_Bv3TZPTM9", {}, 375,2715);
 export const DatePicker = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_gfqV63Ijc", {}, 375,44);
 export const Explore2 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_X_TUp6k06", {}, 375,667);
@@ -26,4 +28,4 @@ export const ScheduleList = createDesignComponent<{parentSize?:{width:number|str
 export const Small = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string,image?:string,Fitness?:string}>(canvas, "id_q12i3CDfu", {image:"image",Fitness:"string"}, 128,123);
 export const Statusbar = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_jB9kbE3TA", {}, 375,20);
 export const Tabbar = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_rzNpz41Xx", {}, 375,49);
-export const VenueList = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_zWLOHWNw4", {}, 375,5291);
+export const VenueList = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_zWLOHWNw4", {}, 375,1628);

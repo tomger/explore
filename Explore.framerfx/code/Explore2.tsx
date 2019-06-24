@@ -22,7 +22,14 @@ const data = Data({
     mapActionOpacity: 0,
     mapTapDown: false,
     listTapBeforeDrag: false,
+    keyword: "Find an activity or venue",
+    keywordFieldBack: false,
+    loading: false,
 })
+
+function sleep(seconds) {
+    return new Promise(resolve => setTimeout(resolve, seconds * 1000))
+}
 
 const dockList = animation => {
     data.mapActionOpacity = 1
@@ -169,27 +176,39 @@ export function ContentList(): Override {
     }
 }
 
-/*
-export function ListMap(props) {
-    
-
-
-
-
-
-
-
-    return (
-  
-     
-            <Chrome
-                left={0}
-                top={0}
-                onTap={event => {
-                    animateListToMiddle()
-                }}
-            />
-        </Frame>
-    )
+export function KeywordField(): Override {
+    return {
+        text: data.keyword,
+    }
 }
-*/
+
+export function MapFill(): Override {
+    if (!data.loading) {
+        return {}
+    }
+    return {
+        background: "#eee",
+    }
+}
+
+export function KeywordFieldIcon(): Override {
+    return {
+        visible: !data.keywordFieldBack,
+    }
+}
+
+export function CatNav(): Override {
+    return {
+        whileTap: { background: "#f2f2f2" },
+        onTap: () => {
+            data.keyword = "Fitness Classes"
+            data.keywordFieldBack = true
+            let queue = async () => {
+                data.loading = true
+                await sleep(Math.random() * 0.8 + 0.5)
+                data.loading = false
+            }
+            queue()
+        },
+    }
+}
