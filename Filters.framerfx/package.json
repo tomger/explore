@@ -13,6 +13,7 @@
 	},
 	"author": "Tom G",
 	"dependencies": {
-		"@framer/classpass.classpass-ds": "^1.1.0"
+		"@framer/classpass.classpass-ds": "^1.1.0",
+		"@framer/hyfive.feather-ui-fundamentals": "^1.22.0"
 	}
 }

@@ -7,6 +7,11 @@
   resolved "https://registry.framer.com/@framer/classpass.classpass-ds/-/@framer/classpass.classpass-ds-1.1.0.tgz#69e9e2d2b7740639fbc2f9da653c1a46187013e8"
   integrity sha512-a2Ii4uJNx0kRaimnK53zHgIFcSTrzKChYW5o/AYGBEDyU7vVuCQFXwPVrdYUKkZQXtiFMGXEaGEw8BeAZMtZZg==
 
+"@framer/hyfive.feather-ui-fundamentals@^1.22.0":
+  version "1.22.0"
+  resolved "https://registry.framer.com/@framer/hyfive.feather-ui-fundamentals/-/@framer/hyfive.feather-ui-fundamentals-1.22.0.tgz#1f7ac9f6b4a6db4bcb236dccc25cb423fe26c506"
+  integrity sha1-H3rJ9rSm20vLI23Mwly0I/4mxQY=
+
 "@types/prop-types@*":
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
