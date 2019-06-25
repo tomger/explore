@@ -14,6 +14,7 @@ import {
     transform,
 } from "framer"
 
+const DEFAULT_KEYWORD_TEXT = "xFind an activity or venue"
 const dockListY = 280
 const data = Data({
     listContentTop: 0,
@@ -22,7 +23,7 @@ const data = Data({
     mapActionOpacity: 0,
     mapTapDown: false,
     listTapBeforeDrag: false,
-    keyword: "Find an activity or venue",
+    keyword: DEFAULT_KEYWORD_TEXT,
     keywordFieldBack: false,
     loading: false,
 })
@@ -197,13 +198,38 @@ export function KeywordFieldIcon(): Override {
     }
 }
 
+export function KeywordFieldBack(): Override {
+    return {
+        visible: data.keywordFieldBack,
+        onTap: () => {
+            data.keyword = DEFAULT_KEYWORD_TEXT
+            data.keywordFieldBack = false
+        },
+    }
+}
+
+export function ShownOnBack(): Override {
+    return {
+        visible: data.keywordFieldBack && !data.loading,
+    }
+}
+export function ShownOnRoot(): Override {
+    return {
+        visible: !data.keywordFieldBack,
+    }
+}
+export function ShownOnLoading(): Override {
+    return {
+        visible: data.loading,
+    }
+}
+
 export function CatNav(): Override {
     return {
         whileTap: { background: "#f2f2f2" },
         onTap: () => {
-            data.keyword = "Fitness Classes"
-            data.keywordFieldBack = true
             let queue = async () => {
+                data.keywordFieldBack = true
                 data.loading = true
                 await sleep(Math.random() * 0.8 + 0.5)
                 data.loading = false

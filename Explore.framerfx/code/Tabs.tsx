@@ -86,9 +86,13 @@ export function Tabs(props) {
                     Classes
                 </div>
             </Frame>
-            <Frame top={50}>
-                <Frame left={!venueList ? 375 : 0}>{props.tab1}</Frame>
-                <Frame left={venueList ? 375 : 0}>{props.tab2}</Frame>
+            <Frame top={50} background="transparent">
+                <Frame background="transparent" left={!venueList ? 375 : 0}>
+                    {props.tab1}
+                </Frame>
+                <Frame background="transparent" left={venueList ? 375 : 0}>
+                    {props.tab2}
+                </Frame>
             </Frame>
         </Frame>
     )
