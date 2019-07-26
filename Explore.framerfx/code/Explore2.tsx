@@ -14,7 +14,7 @@ import {
     transform,
 } from "framer"
 
-const DEFAULT_KEYWORD_TEXT = "xFind an activity or venue"
+const DEFAULT_KEYWORD_TEXT = "Find an activity or venue"
 const dockListY = 280
 const data = Data({
     listContentTop: 0,

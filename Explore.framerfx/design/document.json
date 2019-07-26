@@ -5210,7 +5210,7 @@
                     },
                     "top" : null,
                     "visible" : true,
-                    "width" : 93,
+                    "width" : 94,
                     "widthType" : 0
                   }
                 ],
@@ -7129,7 +7129,7 @@
             "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.52774234693877553,
+            "centerAnchorY" : 0.49330357142857145,
             "children" : [
 
             ],
@@ -7213,7 +7213,7 @@
             "replicaInfo" : null,
             "right" : 0,
             "rotation" : 0,
-            "top" : 98,
+            "top" : 44,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -7310,115 +7310,6 @@
             "right" : 0,
             "rotation" : 0,
             "top" : 1444,
-            "visible" : true,
-            "width" : 375,
-            "widthType" : 0
-          },
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "bottom" : null,
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.045918367346938778,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "#FEF9F1",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillLinearGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 180,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0,0,0,0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "black"
-                }
-              ]
-            },
-            "fillRadialGradient" : {
-              "__class" : "RadialGradient",
-              "alpha" : 1,
-              "centerAnchorX" : 0.5,
-              "centerAnchorY" : 0.5,
-              "heightFactor" : 0.5,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0,0,0,0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "black"
-                }
-              ],
-              "widthFactor" : 0.5
-            },
-            "fillType" : "color",
-            "height" : 56,
-            "heightType" : 0,
-            "id" : "fByR0L_4H",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : 0,
-            "locked" : false,
-            "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
-            "opacity" : 1,
-            "originalid" : "OSlrV2oHq",
-            "parentid" : "Ueo2kRUq9",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "replicaInfo" : {
-              "master" : "OSlrV2oHq",
-              "overrides" : {
-                "OSlrV2oHq" : {
-                  "bottom" : null,
-                  "centerAnchorX" : 0.5,
-                  "centerAnchorY" : 0.045918367346938778,
-                  "left" : 0,
-                  "name" : null,
-                  "right" : 0,
-                  "top" : 44
-                }
-              }
-            },
-            "right" : 0,
-            "rotation" : 0,
-            "top" : 44,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -35028,6 +34919,9 @@
             "replicaInfo" : {
               "master" : "K4ar3zw1L",
               "overrides" : {
+                "feXk5dpBN" : {
+                  "codeOverrideEnabled" : false
+                },
                 "K4ar3zw1L" : {
                   "bottom" : null,
                   "centerAnchorX" : 0.5,
@@ -35329,6 +35223,12 @@
         "widthType" : 0
       }
     ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
     "id" : "TAppACBc8",
     "name" : null,
     "originalid" : null,
@@ -35341,5 +35241,5 @@
     ],
     "visible" : false
   },
-  "version" : 52
+  "version" : 53
 }
