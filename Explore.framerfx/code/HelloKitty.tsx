@@ -3,7 +3,6 @@ import venues from "./denver_dump.js"
 import {Scroll, Frame} from "framer"
 
 export function HelloKitty(props) {
-    console.log("HelloKitty",props.dateFilter)
     const elements = venues.map(venue => {
         let classes = venue.classes.map(klass => {
             klass.schedules.sort((a, b) => {
