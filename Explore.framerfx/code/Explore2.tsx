@@ -26,6 +26,7 @@ const data = Data({
     keyword: DEFAULT_KEYWORD_TEXT,
     keywordFieldBack: false,
     loading: false,
+    dateFilter: 0,
 })
 
 function sleep(seconds) {
@@ -221,6 +222,20 @@ export function ShownOnRoot(): Override {
 export function ShownOnLoading(): Override {
     return {
         visible: data.loading,
+    }
+}
+
+export function DatePicker(): Override {
+    return {
+        onChange: (dateOffset) => {
+          data.dateFilter = dateOffset;
+        }
+    }
+}
+
+export function VenueList(): Override {
+    return {
+        dateFilter: data.dateFilter
     }
 }
 

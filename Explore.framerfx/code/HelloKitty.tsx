@@ -1,7 +1,9 @@
 import * as React from "react"
-import venues from "./venues"
+import venues from "./denver_dump.js"
+import {Scroll, Frame} from "framer"
 
-export function HelloKitty() {
+export function HelloKitty(props) {
+    console.log("HelloKitty",props.dateFilter)
     const elements = venues.map(venue => {
         let classes = venue.classes.map(klass => {
             klass.schedules.sort((a, b) => {
@@ -154,12 +156,14 @@ export function HelloKitty() {
                     <div>
                         <img
                             style={{
+                                border: 0,
+                                background: "#f7f7f7",
                                 width: 120,
                                 height: 80,
                                 borderRadius: 3,
                                 "object-fit": "cover",
                             }}
-                            src={venue.images}
+                            xsrc={venue.images}
                         />
                     </div>
                 </div>
@@ -192,15 +196,17 @@ export function HelloKitty() {
         return element
     })
     return (
-        <div
+      <Scroll size="100%">
+        <Frame
             style={{
                 fontSize: 14,
                 fontFamily: "TT Norms",
                 color: "#333",
-                background: "#F7F7F7",
+                background: "transparent",
             }}
         >
             {elements}
-        </div>
+        </Frame>
+      </Scroll>
     )
 }
