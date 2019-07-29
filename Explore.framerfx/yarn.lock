@@ -9,6 +9,11 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@framer/benjamin.slider@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.framer.com/@framer/benjamin.slider/-/@framer/benjamin.slider-1.9.0.tgz#efcf686b34520dbf3b0f3fa7a2035daee2f81901"
+  integrity sha512-RAMN6G62s4MhyTRvR7MigAIinSjzAqcChN9kVLj8zNhd204Sij9EEoNDQUbNgwoweaMMYXx1JyEkfr2FJZn+Yg==
+
 "@framer/framer.device-hand-iphone-1@^1.0.0":
   version "1.0.0"
   resolved "https://registry.framer.com/@framer/framer.device-hand-iphone-1/-/@framer/framer.device-hand-iphone-1-1.0.0.tgz#0fbfd5313694b8834b91b138c9a961e59cfea1fd"
