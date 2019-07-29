@@ -227,15 +227,21 @@ export function ShownOnLoading(): Override {
 
 export function DatePicker(): Override {
     return {
-        onChange: (dateOffset) => {
-          data.dateFilter = dateOffset;
-        }
+        onChange: dateOffset => {
+            data.dateFilter = dateOffset
+        },
     }
 }
 
 export function VenueList(): Override {
     return {
-        dateFilter: data.dateFilter
+        dateFilter: data.dateFilter,
+    }
+}
+
+export function TimePickerVisible(): Override {
+    return {
+        visible: true,
     }
 }
 

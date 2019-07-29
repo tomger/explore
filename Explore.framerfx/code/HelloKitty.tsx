@@ -1,17 +1,28 @@
 import * as React from "react"
-import venues from "./denver_dump.js"
-import {Scroll, Frame} from "framer"
+import venues from "./jersey_dump.js"
+import {Scroll, Frame, RenderTarget} from "framer"
 
 export function HelloKitty(props) {
-    const elements = venues.slice(0,5).map(venue => {
+    if (RenderTarget.current() === RenderTarget.canvas) {
+      venues = venues.slice(0, 3)
+    }
+
+    const dateFilter = props.dateFilter || 0;
+
+    const elements = venues.map(venue => {
         let classes = venue.classes.map(klass => {
             klass.schedules.sort((a, b) => {
                 return a.starttime - b.starttime
             })
 
-            let schedules = klass.schedules
-                // .filter(s => s.starttime > 60 * 60 * 24 * 2)
-                .slice(0, 2)
+            let filteredSchedules = klass.schedules
+                // .slice(0, 2)
+                .filter(s => {
+                  return s.starttime > 60 * 60 * 24 * dateFilter &&
+                         s.starttime < 60 * 60 * 24 * (dateFilter + 1)
+                })
+
+            let schedules = filteredSchedules
                 .map(s => {
                     let date = new Date(1560052855000 + s.starttime * 1000)
                     let format = date.toLocaleTimeString("en-US", {
@@ -44,6 +55,7 @@ export function HelloKitty(props) {
                         </span>
                     )
                 })
+
             return (
                 <div
                     style={{
@@ -67,13 +79,13 @@ export function HelloKitty(props) {
                     {1 && (
                         <div style={{ marginTop: 8 }}>
                             <span style={{ marginRight: 4, fontSize: 14 }}>
-                                {new Date(
+                                {filteredSchedules.length ? (new Date(
                                     1560052855000 +
-                                        klass.schedules[0].starttime * 1000
+                                        filteredSchedules[0].starttime * 1000
                                 ).toLocaleDateString("en-US", {
                                     weekday: "short",
                                     timeZone: "America/New_York",
-                                })}
+                                })) : "N/A"}
                             </span>
                             {schedules}
                             {klass.schedules.length == 1 ? (
@@ -87,7 +99,7 @@ export function HelloKitty(props) {
                             ) : (
                                 ""
                             )}
-                            {klass.schedules.length > 3 ? (
+                            {filteredSchedules.length > 3 ? (
                                 <span
                                     style={{
                                         fontSize: 12,
@@ -95,7 +107,7 @@ export function HelloKitty(props) {
                                         fontWeight: 500,
                                     }}
                                 >
-                                    + {klass.schedules.length - 3} MORE
+                                    + {filteredSchedules.length - 3} MORE
                                 </span>
                             ) : (
                                 ""
@@ -155,14 +167,13 @@ export function HelloKitty(props) {
                     <div>
                         <img
                             style={{
-                                border: 0,
                                 background: "#f7f7f7",
                                 width: 120,
                                 height: 80,
                                 borderRadius: 3,
                                 "object-fit": "cover",
                             }}
-                            xsrc={venue.images}
+                            src={venue.images}
                         />
                     </div>
                 </div>
@@ -204,7 +215,8 @@ export function HelloKitty(props) {
                 background: "transparent",
             }}
         >
-            {elements}
+            {elements.slice(0, 20)}
+            {elements.length > 20 ? `Load ${elements.length-20} more results` : ""}
         </Frame>
       </Scroll>
     )

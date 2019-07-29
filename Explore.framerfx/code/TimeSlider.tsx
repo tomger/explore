@@ -21,6 +21,7 @@ export function TimeSlider(props) {
 
     const valueX = useMotionValue(0)
     const valueWidth = useMotionValue(0)
+
     React.useEffect(() => {
         return x1.onChange(onPan)
     })

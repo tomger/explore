@@ -2,14 +2,9 @@ import * as React from "react"
 import {
     addPropertyControls,
     ControlType,
-    Data,
     Frame,
     Scroll,
 } from "framer"
-
-const data = Data({
-
-})
 
 function addDaysToDate(input, days) {
     var date = new Date(input.valueOf());
@@ -18,7 +13,8 @@ function addDaysToDate(input, days) {
 }
 
 export function Daypicker(props) {
-    // var [venueList, setVenueList] = React.useState(data.venueList)
+
+    const [selected, setSelected] = React.useState(0);
 
     const dayStyle: React.CSSProperties = {
         whiteSpace: "nowrap",
@@ -26,31 +22,39 @@ export function Daypicker(props) {
         padding: "0 16px",
         display: "flex",
         alignItems: "center",
+        height: 40
     }
 
-    // const selectedStyle = Object.assign({}, tabStyle)
-    // selectedStyle.color = "#05f"
-
+    const selectedStyle: React.CSSProperties = {...dayStyle, ...{
+        background: "pink"
+    }}
 
     const days = [];
     for (let i = 0; i < 10; i++) {
       let d = addDaysToDate(new Date(), i);
-      let label = d.toLocaleDateString("en-US",{ weekday:"short", day: "numeric"})
+      let label = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
       days.push(<div onClick={() => {
-        if (props.onChange) {
-          props.onChange(i)
-        }
-      }} style={dayStyle}>{label}</div>)
+        setSelected(i);
+        setTimeout(() => {
+          if (props.onChange) {
+            props.onChange(d.getDay())
+          }          
+        },1)
+      }} style={selected === i ? selectedStyle : dayStyle}>{label}</div>)
     }
 
     return (
-        <Frame background="pink" size="100%">
-          <Scroll direction="horizontal" size="100%">
-          <Frame style={{
+        <Frame height={40} width="100%" direction="horizontal" style={{
+          background: "white",
+          display: "flex",
+        }}>
+          <Frame  style={{
             background: "transparent",
-            display: "flex"
-          }}>{days}</Frame>
-          </Scroll>
+            display: "flex",
+            flexDirection: "horizontal"
+          }}>
+          {days}
+          </Frame>
         </Frame>
     )
 }
