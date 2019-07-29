@@ -3,7 +3,7 @@ import venues from "./denver_dump.js"
 import {Scroll, Frame} from "framer"
 
 export function HelloKitty(props) {
-    const elements = venues.map(venue => {
+    const elements = venues.slice(0,5).map(venue => {
         let classes = venue.classes.map(klass => {
             klass.schedules.sort((a, b) => {
                 return a.starttime - b.starttime
