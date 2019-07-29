@@ -81,11 +81,17 @@ function cprequest(path, method, data, onSuccess) {
 function handleVenues(response) {
   let venueData = JSON.parse(response).data;
   let venues = venueData.modules.web_search_results_01.data.venue_tab_items;
+  let mapItems = venueData.modules.web_search_results_01.data.map_items;
   // console.log(response.substr(0, 300), "...");
   // console.info('// Loading venues:', venues.length);
 
   venues.forEach((venue, i) => {
     output[i] = venue;
+    let mapItem = mapItems.find(n => n.venue_id === venue.venue_id);
+    if (mapItem) {
+      venue.lat = mapItem.lat;
+      venue.lon = mapItem.lon;
+    }
     delete venue.attended;
     delete venue.facebook_page_url;
     delete venue.phone_number;
