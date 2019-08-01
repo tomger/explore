@@ -1,5 +1,5 @@
 Arguments: 
-  /Applications/Framer X.app/Contents/Resources/Node/bin/node /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/bin/yarn.js outdated --cwd /Users/tom/Documents/GitHub/explore/Explore.framerfx --skip-integrity-check --cache-folder /Users/tom/Library/Caches/Framer/yarn/cache --mutex file:/Users/tom/Library/Caches/Framer/yarn/mutex --json --ignore-scripts --link-folder /Users/tom/Library/Application Support/Framer X/yarn-link-folder
+  /Applications/Framer X.app/Contents/Resources/Node/bin/node /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/bin/yarn.js outdated --cwd /Users/tgermeau/Documents/GitHub/explore/Explore.framerfx --skip-integrity-check --cache-folder /Users/tgermeau/Library/Caches/Framer/yarn/cache --mutex file:/Users/tgermeau/Library/Caches/Framer/yarn/mutex --json --ignore-scripts --link-folder /Users/tgermeau/Library/Application Support/Framer X/yarn-link-folder
 
 PATH: 
   undefined

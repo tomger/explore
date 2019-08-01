@@ -27,6 +27,8 @@ const data = Data({
     keywordFieldBack: false,
     loading: false,
     dateFilter: 0,
+    timeRange: [4, 23],
+    timePickerVisible: false,
 })
 
 function sleep(seconds) {
@@ -236,12 +238,41 @@ export function DatePicker(): Override {
 export function VenueList(): Override {
     return {
         dateFilter: data.dateFilter,
+        timeRange: data.timeRange,
     }
 }
 
 export function TimePickerVisible(): Override {
     return {
-        visible: true,
+        visible: data.timePickerVisible,
+    }
+}
+
+export function TimeSlider(): Override {
+    return {
+        timeRange: data.timeRange,
+        onChange: (min, max) => {
+            data.timeRange = [min, max]
+        },
+    }
+}
+
+export function TimePickerHideOnTap(): Override {
+    return {
+        onTap: () => {
+            console.log("TimePickerHideOnTap BLA", this)
+            data.timePickerVisible = false
+        },
+    }
+}
+
+export function TimePill(): Override {
+    return {
+        timeRange: data.timeRange,
+        onTap: () => {
+            data.timePickerVisible = true
+            console.log(data.timePickerVisible)
+        },
     }
 }
 

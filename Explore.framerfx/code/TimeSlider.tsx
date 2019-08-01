@@ -17,10 +17,11 @@ export function TimeSlider(props) {
     const timeRange = 19 * 2
 
     const x1 = useMotionValue(0)
-    const x2 = useMotionValue(0)
+    const x2 = useMotionValue(props.width)
+
 
     const valueX = useMotionValue(0)
-    const valueWidth = useMotionValue(0)
+    const valueWidth = useMotionValue(props.width)
 
     React.useEffect(() => {
         return x1.onChange(onPan)
@@ -40,6 +41,9 @@ export function TimeSlider(props) {
         )
         valueX.set(min)
         valueWidth.set(max - min)
+        if (props.onChange) {
+          props.onChange(valueStart, valueEnd)
+        }
     }
 
     const knobStyle = {

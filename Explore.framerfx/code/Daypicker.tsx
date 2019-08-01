@@ -18,7 +18,7 @@ export function Daypicker(props) {
 
     const dayStyle: React.CSSProperties = {
         whiteSpace: "nowrap",
-        fontSize: 16,
+        fontSize: 14,
         padding: "0 16px",
         display: "flex",
         alignItems: "center",
@@ -26,7 +26,8 @@ export function Daypicker(props) {
     }
 
     const selectedStyle: React.CSSProperties = {...dayStyle, ...{
-        background: "pink"
+        background: "#fafafa",
+        color: "#05f",
     }}
 
     const days = [];
@@ -38,7 +39,7 @@ export function Daypicker(props) {
         setTimeout(() => {
           if (props.onChange) {
             props.onChange(d.getDay())
-          }          
+          }
         },1)
       }} style={selected === i ? selectedStyle : dayStyle}>{label}</div>)
     }

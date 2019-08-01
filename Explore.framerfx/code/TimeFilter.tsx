@@ -23,9 +23,9 @@ export function TimeFilter(props) {
     // selectedStyle.color = "#05f"
 
     return (
-      <Frame style={{background: "transparent"}}>
+      <Frame {...props} style={{background: "transparent"}}>
         <div style={pillStyle} >
-            Time
+            {props.timeRange[0]} – {props.timeRange[1]}
         </div>
       </Frame>
     )

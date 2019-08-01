@@ -1,13 +1,14 @@
 import * as React from "react"
 import venues from "./jersey_dump.js"
-import {Scroll, Frame, RenderTarget} from "framer"
+import { Scroll, Frame, RenderTarget } from "framer"
 
 export function HelloKitty(props) {
     if (RenderTarget.current() === RenderTarget.canvas) {
-      venues = venues.slice(0, 3)
+        venues = venues.slice(0, 3)
     }
 
-    const dateFilter = props.dateFilter || 0;
+    const dateFilter = props.dateFilter || 0
+    const startTimeHour = new Date()
 
     const elements = venues.map(venue => {
         let classes = venue.classes.map(klass => {
@@ -18,45 +19,53 @@ export function HelloKitty(props) {
             let filteredSchedules = klass.schedules
                 // .slice(0, 2)
                 .filter(s => {
-                  return s.starttime > 60 * 60 * 24 * dateFilter &&
-                         s.starttime < 60 * 60 * 24 * (dateFilter + 1)
-                })
-
-            let schedules = filteredSchedules
-                .map(s => {
-                    let date = new Date(1560052855000 + s.starttime * 1000)
-                    let format = date.toLocaleTimeString("en-US", {
-                        hour: "numeric",
-                        minute: "numeric",
-                        timeZone: "America/New_York",
-                    })
                     return (
-                        <span
-                            style={{
-                                display: "inline-block",
-                                border: "1px solid #e7e7e7",
-                                borderRadius: 100,
-                                padding: "4px 10px",
-                                margin: "0 4px 0 0",
-                                fontSize: 13,
-                            }}
-                        >
-                            {format}{" "}
-                            <span
-                                style={{
-                                    borderLeft: "1px solid #e7e7e7",
-                                    paddingLeft: 6,
-                                    marginLeft: 4,
-                                    fontWeight: 500,
-                                }}
-                            >
-                                {s.availability.credits}
-                            </span>
-                        </span>
+                        s.starttime > 60 * 60 * 24 * dateFilter &&
+                        s.starttime < 60 * 60 * 24 * (dateFilter + 1)
+                    )
+                })
+                .filter(s => {
+                    startTimeHour.setTime(1560052855000 + s.starttime * 1000)
+                    return (
+                        startTimeHour.getHours() > props.timeRange[0] &&
+                        startTimeHour.getHours() < props.timeRange[1]
                     )
                 })
 
-            return (
+            let schedules = filteredSchedules.map(s => {
+                let date = new Date(1560052855000 + s.starttime * 1000)
+                let format = date.toLocaleTimeString("en-US", {
+                    hour: "numeric",
+                    minute: "numeric",
+                    timeZone: "America/New_York",
+                })
+                return (
+                    <span
+                        style={{
+                            display: "inline-block",
+                            border: "1px solid #e7e7e7",
+                            borderRadius: 100,
+                            padding: "4px 10px",
+                            margin: "0 4px 0 0",
+                            fontSize: 13,
+                        }}
+                    >
+                        {format}{" "}
+                        <span
+                            style={{
+                                borderLeft: "1px solid #e7e7e7",
+                                paddingLeft: 6,
+                                marginLeft: 4,
+                                fontWeight: 500,
+                            }}
+                        >
+                            {s.availability.credits}
+                        </span>
+                    </span>
+                )
+            })
+
+            return filteredSchedules.length === 0 ? undefined : (
                 <div
                     style={{
                         padding: "12px",
@@ -79,26 +88,18 @@ export function HelloKitty(props) {
                     {1 && (
                         <div style={{ marginTop: 8 }}>
                             <span style={{ marginRight: 4, fontSize: 14 }}>
-                                {filteredSchedules.length ? (new Date(
-                                    1560052855000 +
-                                        filteredSchedules[0].starttime * 1000
-                                ).toLocaleDateString("en-US", {
-                                    weekday: "short",
-                                    timeZone: "America/New_York",
-                                })) : "N/A"}
+                                {filteredSchedules.length===10000
+                                    ? new Date(
+                                          1560052855000 +
+                                              filteredSchedules[0].starttime *
+                                                  1000
+                                      ).toLocaleDateString("en-US", {
+                                          weekday: "short",
+                                          timeZone: "America/New_York",
+                                      })
+                                    : ""}
                             </span>
                             {schedules}
-                            {klass.schedules.length == 1 ? (
-                                <span
-                                    style={{
-                                        fontSize: 14,
-                                    }}
-                                >
-                                    with {klass.schedules[0].teacher.name}
-                                </span>
-                            ) : (
-                                ""
-                            )}
                             {filteredSchedules.length > 3 ? (
                                 <span
                                     style={{
@@ -116,8 +117,9 @@ export function HelloKitty(props) {
                     )}
                 </div>
             )
-        })
-        let element = (
+        }).filter(p => !!p); // classes
+
+        let element = classes.length === 0 ? undefined : (
             <div
                 style={{
                     margin: 12,
@@ -204,20 +206,23 @@ export function HelloKitty(props) {
             </div>
         )
         return element
-    })
+    }).filter(p => !!p); // venues
     return (
-      <Scroll size="100%">
         <Frame
+            size="100%"
             style={{
                 fontSize: 14,
                 fontFamily: "TT Norms",
                 color: "#333",
-                background: "transparent",
+                background: "white",
             }}
         >
+          <div style={{background: "white"}}>
             {elements.slice(0, 20)}
-            {elements.length > 20 ? `Load ${elements.length-20} more results` : ""}
+            {elements.length > 20
+                ? `Load ${elements.length - 20} more results`
+                : ""}
+          </div>
         </Frame>
-      </Scroll>
     )
 }
