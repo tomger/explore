@@ -9,16 +9,18 @@ import {
     Scroll,
 } from "framer"
 
-export function TimeSlider(props) {
-    const [valueStart, setValueStart] = React.useState(0)
-    const [valueEnd, setValueEnd] = React.useState(0)
+function debounce(a,b,c){var d,e;return function(){function h(){d=null,c||(e=a.apply(f,g))}var f=this,g=arguments;return clearTimeout(d),d=setTimeout(h,b),c&&!d&&(e=a.apply(f,g)),e}}
 
-    const timeOffset = 4 * 2
-    const timeRange = 19 * 2
+
+export function TimeSlider(props) {
+    // const [valueStart, setValueStart] = React.useState(0)
+    // const [valueEnd, setValueEnd] = React.useState(0)
+
+    const timeOffset = 4// * 2
+    const timeRange = 19// * 2
 
     const x1 = useMotionValue(0)
     const x2 = useMotionValue(props.width)
-
 
     const valueX = useMotionValue(0)
     const valueWidth = useMotionValue(props.width)
@@ -30,19 +32,27 @@ export function TimeSlider(props) {
         return x2.onChange(onPan)
     })
 
+    const convertToHours = (pixels) => {
+      return Math.round((pixels / props.width) * timeRange + timeOffset) // / 2
+    }
+
+    const prettyHours = (hours) => {
+      if (hours == 12) {
+        return hours + "pm"
+      } else if (hours > 12) {
+        return (hours - 12) + "pm"
+      } else {
+        return hours + "am"
+      }
+    }
+
     const onPan = _ => {
         const min = Math.min(x1.get(), x2.get())
         const max = Math.max(x1.get(), x2.get())
-        setValueStart(
-            Math.round((min / props.width) * timeRange + timeOffset) / 2
-        )
-        setValueEnd(
-            Math.round((max / props.width) * timeRange + timeOffset) / 2
-        )
         valueX.set(min)
         valueWidth.set(max - min)
         if (props.onChange) {
-          props.onChange(valueStart, valueEnd)
+            props.onChange(convertToHours(min), convertToHours(max))
         }
     }
 
@@ -51,12 +61,18 @@ export function TimeSlider(props) {
         borderRadius: 32,
         boxShadow: "0 2px 4px rgba(0,0,0,.2)",
     }
+    const knobLabelStyle = {
+      height: 20, y: -25, width: 32,
+      borderRadius: 3
+
+    }
 
     return (
         <Frame style={{ background: "transparent" }}>
+
             <Frame
                 style={{
-                    top: 10,
+                    top: 14,
                     borderRadius: 4,
                     width: props.width,
                     height: 4,
@@ -65,7 +81,7 @@ export function TimeSlider(props) {
             ></Frame>
             <Frame
                 borderRadius={4}
-                y={10}
+                y={14}
                 x={valueX}
                 width={valueWidth}
                 background="blue"
@@ -73,22 +89,22 @@ export function TimeSlider(props) {
             ></Frame>
             <Frame
                 x={x1}
-                size={24}
-                left={-12}
+                size={32}
+                left={-16}
                 overdrag={false}
                 style={knobStyle}
                 drag="x"
                 dragConstraints={{ left: 0, right: props.width }}
-            ></Frame>
+            ><Frame style={knobLabelStyle}>{prettyHours(convertToHours(x1.get()))}</Frame></Frame>
             <Frame
                 x={x2}
-                size={24}
+                size={32}
                 overdrag={false}
-                left={-12}
+                left={-16}
                 style={knobStyle}
                 drag="x"
                 dragConstraints={{ left: 0, right: props.width }}
-            ></Frame>
+            ><Frame style={knobLabelStyle}>{prettyHours(convertToHours(x2.get()))}</Frame></Frame>
         </Frame>
     )
 }
@@ -97,3 +113,26 @@ TimeSlider.defaultProps = {
     height: 24,
     width: "100%",
 }
+//
+// export function useDebounce(value, delay) {
+//   // State and setters for debounced value
+//   const [debouncedValue, setDebouncedValue] = React.useState(value);
+//
+//   React.useEffect(
+//     () => {
+//       // Set debouncedValue to value (passed in) after the specified delay
+//       const handler = setTimeout(() => {
+//         setDebouncedValue(value);
+//       }, delay);
+//       return () => {
+//         clearTimeout(handler);
+//       };
+//     },
+//     // Only re-call effect if value changes
+//     // You could also add the "delay" var to inputs array if you ...
+//     // ... need to be able to change that dynamically.
+//     [value]
+//   );
+//
+//   return debouncedValue;
+// }

@@ -16,9 +16,10 @@ venues = venues
     venue.display_rating_average = String(Math.round(venue.display_rating_average*10)/10)
     venue.schedules.forEach(s => {
       // only Monday schedules
-      if (s.starttime < 60*60*(24+18) || s.starttime > 60*60*24*2 ) {
-        return;
-      }
+      // if (s.starttime < 60*60*(24+18) || s.starttime > 60*60*24*2 ) {
+      //   return;
+      // }
+
       delete s.ratings
       delete s.class.ratings
       let klass = venue.classes.find(klass => s.class.id == klass.id);
@@ -40,9 +41,9 @@ venues = venues
     return venue.classes.length
   })
 
+process.stdout.write("export default ");
 process.stdout.write(JSON.stringify(venues, null, 2));
 
 
 // Test output
-// process.stdout.write("export default ");
 // process.stdout.write(JSON.stringify(venues.slice(0, 4), null, 2));
