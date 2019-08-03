@@ -6,118 +6,129 @@ export function HelloKitty(props) {
     if (RenderTarget.current() === RenderTarget.canvas) {
         venues = venues.slice(0, 3)
     }
-
-    const dateFilter = props.dateFilter || 0
+    console.log("HelloKitty", props.dateFilter, props.timeRange[0])
+    const dateFilter = props.dateFilter
     const startTimeHour = new Date()
 
-    const elements = venues.map(venue => {
-        let classes = venue.classes.map(klass => {
-            klass.schedules.sort((a, b) => {
-                return a.starttime - b.starttime
-            })
+    function mapVenues() {
 
-            let filteredSchedules = klass.schedules
-                // .slice(0, 2)
-                .filter(s => {
-                    return (
-                        s.starttime >= 60 * 60 * 24 * dateFilter &&
-                        s.starttime <= 60 * 60 * 24 * (dateFilter + 1)
-                    )
-                })
-                .filter(s => {
-                    startTimeHour.setTime(1560052855000 + s.starttime * 1000)
-                    return (
-                        startTimeHour.getHours() >= props.timeRange[0] &&
-                        startTimeHour.getHours() <= props.timeRange[1]
-                    )
-                })
+    }
 
-            let schedules = filteredSchedules.map(s => {
-                let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
-                let format = date.toLocaleTimeString("en-US", {
-                    hour: "numeric",
-                    minute: "numeric",
-                    timeZone: "America/New_York",
-                }).toLowerCase();
-                return (
-                    <span
-                        style={{
-                            display: "inline-block",
-                            border: "1px solid #e7e7e7",
-                            borderRadius: 3,
-                            boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
-                            padding: "4px 10px",
-                            margin: "0 4px 0 0",
-                            fontSize: 13,
-                            fontWeight: 500,
-                            width: 105,
-                            height: 26,
-                            whiteSpace: "nowrap",
-                            textAlign: "center",
-                        }}
-                    >
-                        {format}{" "}
-                        <span
-                            style={{
-                                borderLeft: "1px solid #e7e7e7",
-                                paddingLeft: 8,
-                                marginLeft: 4,
-                                fontWeight: 500,
-                                color: "#7f7f7f"
-                            }}
-                        >
-                            {s.availability.credits}
-                        </span>
-                    </span>
-                )
-            })
+    function mapClasses(klass) {
+      klass.schedules.sort((a, b) => {
+          return a.starttime - b.starttime
+      })
 
-            return filteredSchedules.length === 0 ? undefined : (
-                <div
-                    style={{
-                        padding: "12px",
-                        fontSize: 16,
-                        borderTop: "1px solid #e7e7e7",
-                    }}
-                >
-                    <div>
-                        {klass.name}{" "}
-                        <span style={{ color: "#7f7f7f", fontSize: 14 }}>
-                            (
-                            {Math.round(
-                                (klass.schedules[0].endtime -
-                                    klass.schedules[0].starttime) /
-                                    60
-                            )}
-                            min)
-                        </span>
-                    </div>
-                    {1 && (
-                        <div style={{ marginTop: 8 }}>
-                            <Scroll style={{position:"relative", left: -12, width: "calc(100% + 24px)"}} height={30} direction="horizontal">
-                              <Frame width={schedules.length * 120} style={{ background:"white", paddingLeft: 12}}>{schedules}</Frame>
-                              {filteredSchedules.length > 3 ? (
-                                  <span
-                                      style={{
-                                          fontSize: 12,
-                                          color: "#aaa",
-                                          fontWeight: 500,
-                                      }}
-                                  >
-                                      + {filteredSchedules.length - 3} MORE
-                                  </span>
-                              ) : (
-                                  ""
-                              )}
-                            </Scroll>
-                        </div>
-                    )}
-                </div>
-            )
-        }).filter(p => !!p); // classes
+      let filteredSchedules = klass.schedules
+          // .slice(0, 2)
+          .filter(s => {
+              return (
+                  s.starttime >= 60 * 60 * 24 * dateFilter &&
+                  s.starttime <= 60 * 60 * 24 * (dateFilter + 1)
+              )
+          })
+          .filter(s => {
+              startTimeHour.setTime(1560052855000 + s.starttime * 1000)
+              return (
+                  startTimeHour.getHours() >= props.timeRange[0] &&
+                  startTimeHour.getHours() <= props.timeRange[1]
+              )
+          })
+
+      let schedules = filteredSchedules.map(mapSchedules);
+
+      return filteredSchedules.length === 0 ? undefined : (
+          <div
+              key={klass.name}
+              style={{
+                  padding: "12px",
+                  fontSize: 16,
+                  borderTop: "1px solid #e7e7e7",
+              }}
+          >
+              <div>
+                  {klass.name}{" "}
+                  <span style={{ color: "#7f7f7f", fontSize: 14 }}>
+                      (
+                      {Math.round(
+                          (klass.schedules[0].endtime -
+                              klass.schedules[0].starttime) /
+                              60
+                      )}
+                      min)
+                  </span>
+              </div>
+              {1 && (
+                  <div style={{ marginTop: 8 }}>
+                      <Scroll style={{position:"relative", left: -12, width: "calc(100% + 24px)"}} height={30} direction="horizontal">
+                        <Frame width={schedules.length * 120} style={{ background:"white", paddingLeft: 12}}>{schedules}</Frame>
+                        {filteredSchedules.length > 3 ? (
+                            <span
+                                style={{
+                                    fontSize: 12,
+                                    color: "#aaa",
+                                    fontWeight: 500,
+                                }}
+                            >
+                                + {filteredSchedules.length - 3} MORE
+                            </span>
+                        ) : (
+                            ""
+                        )}
+                      </Scroll>
+                  </div>
+              )}
+          </div>
+      )
+    }
+
+    function mapSchedules(s) {
+      let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
+      let format = date.toLocaleTimeString("en-US", {
+          hour: "numeric",
+          minute: "numeric",
+          timeZone: "America/New_York",
+      }).toLowerCase();
+      return (
+          <span
+              key={s.starttime}
+              style={{
+                  display: "inline-block",
+                  border: "1px solid #e7e7e7",
+                  borderRadius: 3,
+                  boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
+                  padding: "4px 10px",
+                  margin: "0 4px 0 0",
+                  fontSize: 13,
+                  fontWeight: 500,
+                  width: 105,
+                  height: 26,
+                  whiteSpace: "nowrap",
+                  textAlign: "center",
+              }}
+          >
+              {format}{" "}
+              <span
+                  style={{
+                      borderLeft: "1px solid #e7e7e7",
+                      paddingLeft: 8,
+                      marginLeft: 4,
+                      fontWeight: 500,
+                      color: "#7f7f7f"
+                  }}
+              >
+                  {s.availability.credits}
+              </span>
+          </span>
+      )
+    }
+
+    const venueElements = venues.map(venue => {
+        let classes = venue.classes.map(mapClasses).filter(p => !!p); // classes
 
         let element = classes.length === 0 ? undefined : (
             <div
+                key={venue.venue_id}
                 style={{
                     margin: 12,
                     background: "#fff",
@@ -132,22 +143,22 @@ export function HelloKitty(props) {
                         padding: 12,
                         display: "flex",
                         lineHeight: "22px",
-                        "flex-direction": "row",
+                        flexDirection: "row",
                     }}
                 >
                     <div
                         style={{
                             flex: 1,
-                            "flex-direction": "column",
-                            "justify-content": "center",
+                            flexDirection: "column",
+                            justifyContent: "center",
                             display: "flex",
                         }}
                     >
 
-                      <div style={{ "font-weight": "600", fontSize: "12px", textTransform: "uppercase", color: "#999" }}>
+                      <div style={{ fontWeight: "600", fontSize: "12px", textTransform: "uppercase", color: "#999" }}>
                           {venue.activities}
                       </div>
-                        <div style={{ "font-weight": "500", fontSize: "16px" }}>
+                        <div style={{ fontWeight: "500", fontSize: "16px" }}>
                             {venue.venue_name}
                         </div>
                         <div style={{ fontSize: 14 }}>
@@ -175,7 +186,7 @@ export function HelloKitty(props) {
                                 width: 120,
                                 height: 80,
                                 borderRadius: 3,
-                                "object-fit": "cover",
+                                objectFit: "cover",
                             }}
                             src={venue.images}
                         />
@@ -183,7 +194,7 @@ export function HelloKitty(props) {
                 </div>
                 <div
                     style={{
-                        "flex-direction": "column",
+                        flexDirection: "column",
                         display: "flex",
                     }}
                 >
@@ -220,9 +231,9 @@ export function HelloKitty(props) {
             }}
         >
           <div style={{background: "white"}}>
-            {elements.slice(0, 20)}
-            {elements.length > 20
-                ? `Load ${elements.length - 20} more results`
+            {venueElements.slice(0, 20)}
+            {venueElements.length > 20
+                ? `Load ${venueElements.length - 20} more results`
                 : ""}
           </div>
         </Frame>

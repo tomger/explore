@@ -34,7 +34,7 @@ export function Daypicker(props) {
     for (let i = 0; i < 10; i++) {
       let d = addDaysToDate(new Date(), i);
       let label = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
-      days.push(<div onClick={() => {
+      days.push(<div key={i} onClick={() => {
         setSelected(i);
         setTimeout(() => {
           if (props.onChange) {

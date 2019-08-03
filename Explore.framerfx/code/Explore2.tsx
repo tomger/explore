@@ -26,7 +26,7 @@ const data = Data({
     keyword: DEFAULT_KEYWORD_TEXT,
     keywordFieldBack: false,
     loading: false,
-    dateFilter: 0,
+    dateFilter: (new Date).getDay(),
     timeRange: [4, 23],
     timePickerVisible: true,
 })
