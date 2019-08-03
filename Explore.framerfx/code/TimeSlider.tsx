@@ -14,7 +14,7 @@ function debounce(a,b,c){var d,e;return function(){function h(){d=null,c||(e=a.a
 
 export function TimeSlider(props) {
     // const [valueStart, setValueStart] = React.useState(0)
-    // const [valueEnd, setValueEnd] = React.useState(0)
+    const [previousValue, setPreviousValue] = React.useState([0, 0])
 
     const timeOffset = 4// * 2
     const timeRange = 19// * 2
@@ -52,7 +52,14 @@ export function TimeSlider(props) {
         valueX.set(min)
         valueWidth.set(max - min)
         if (props.onChange) {
-            props.onChange(convertToHours(min), convertToHours(max))
+            const minHour = convertToHours(min)
+            const maxHour = convertToHours(max)
+            if (previousValue[0] == minHour &&
+                previousValue[1] == maxHour) {
+              return
+            }
+            // setPreviousValue(minHour, maxHour) // XXX TODO
+            props.onChange(minHour, maxHour)
         }
     }
 
@@ -113,26 +120,3 @@ TimeSlider.defaultProps = {
     height: 24,
     width: "100%",
 }
-//
-// export function useDebounce(value, delay) {
-//   // State and setters for debounced value
-//   const [debouncedValue, setDebouncedValue] = React.useState(value);
-//
-//   React.useEffect(
-//     () => {
-//       // Set debouncedValue to value (passed in) after the specified delay
-//       const handler = setTimeout(() => {
-//         setDebouncedValue(value);
-//       }, delay);
-//       return () => {
-//         clearTimeout(handler);
-//       };
-//     },
-//     // Only re-call effect if value changes
-//     // You could also add the "delay" var to inputs array if you ...
-//     // ... need to be able to change that dynamically.
-//     [value]
-//   );
-//
-//   return debouncedValue;
-// }
