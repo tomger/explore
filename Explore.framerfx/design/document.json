@@ -37107,7 +37107,7 @@
         "previewSettings" : {
           "__class" : "PreviewSettings",
           "bezel" : true,
-          "deviceType" : "framer\/FramerAppleIPhone8",
+          "deviceType" : null,
           "responsive" : false,
           "rotate" : false,
           "skin" : "Silver",
