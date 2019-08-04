@@ -20,12 +20,7 @@ export function HelloKitty(props) {
     function mapVenues() {}
 
     function mapClasses(klass) {
-        klass.schedules.sort((a, b) => {
-            return a.starttime - b.starttime
-        })
-
         let filteredSchedules = klass.schedules
-            // .slice(0, 2)
             .filter(s => {
                 return (
                     s.starttime >= 60 * 60 * 24 * dateFilter &&
@@ -46,13 +41,17 @@ export function HelloKitty(props) {
                     startTimeHour.getHours() <= props.timeRange[1]
                 )
             })
+            .slice().sort((a, b) => {
+                return a.starttime - b.starttime
+            })
 
-        let schedules = filteredSchedules.map(mapSchedules)
+        let schedulesElements = filteredSchedules.map(mapSchedules)
 
         return filteredSchedules.length === 0 ? (
             undefined
         ) : (
             <div
+                earliestScheduleTime={filteredSchedules[0].starttime}
                 key={klass.name + klass.schedules[0].starttime}
                 style={{
                     padding: "12px",
@@ -84,10 +83,10 @@ export function HelloKitty(props) {
                             direction="horizontal"
                         >
                             <Frame
-                                width={schedules.length * 120}
+                                width={schedulesElements.length * 120}
                                 style={{ background: "white", paddingLeft: 12 }}
                             >
-                                {schedules}
+                                {schedulesElements}
                             </Frame>
                             {filteredSchedules.length > 3 ? (
                                 <span
@@ -154,7 +153,12 @@ export function HelloKitty(props) {
 
     const venueElements = venues
         .map(venue => {
-            let classes = venue.classes.map(mapClasses).filter(p => !!p) // classes
+            let classes = venue.classes
+              .map(mapClasses)
+              .filter(p => !!p)
+              .slice().sort((a, b) => {
+                return a.props.earliestScheduleTime - b.props.earliestScheduleTime
+              })
 
             let classSection;
             if (expandedVenues.indexOf(venue.venue_id) !== -1) {
@@ -163,17 +167,22 @@ export function HelloKitty(props) {
                 classSection = [classes.slice(0, 2)]
                 if (classes.length > 2) {
                     classSection.push(
-                        <div
-                            onClick={_ => addExpandedVenue(venue.venue_id)}
+                        <Frame
+                            onTap={_ => addExpandedVenue(venue.venue_id)}
+                            width="100%"
                             style={{
+                                position: "relative",
+                                height: 40,
+                                background:"transparent",
+                                textAlign: "left",
                                 borderTop: "1px solid #e7e7e7",
                                 color: "#05f",
                                 fontWeight: 500,
                                 padding: 12,
                             }}
                         >
-                            See all {classes.length} classes
-                        </div>
+                            See {classes.length - 2} more
+                        </Frame>
                     )
                 }
             }
