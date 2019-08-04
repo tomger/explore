@@ -28,7 +28,7 @@ const data = Data({
     loading: false,
     dateFilter: (new Date).getDay(),
     timeRange: [4, 23],
-    timePickerVisible: true,
+    timePickerVisible: false,
 })
 
 function sleep(seconds) {
