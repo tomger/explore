@@ -113,6 +113,10 @@ function handleVenues(response) {
             delete s.cancellation_policy;
             delete s.source;
             delete s.org_visits_including_plus;
+            // timezone offset
+            s.starttime -= 60*60*2;
+            s.endtime -= 60*60*2;
+
             if (!output[i].schedules) {
               output[i].schedules = [];
             }

@@ -26,6 +26,7 @@ export function Daypicker(props) {
         width: 68,
         background: "transparent",
         position: "relative",
+        fontFamily: "TT Norms",
     }
 
     const selectedStyle: React.CSSProperties = {...dayStyle, ...{

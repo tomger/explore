@@ -1,7 +1,7 @@
 /* global mapkit */
 import * as React from "react"
 import { Frame, FrameProperties } from "framer"
-import venues from "./jersey_dump.js"
+import venues from "./missoula.js"
 
 function loadCSS(path) {
     const style = document.createElement("link")
@@ -61,6 +61,15 @@ export function MapKit(props) {
                     leaflet.on(prop.substr(2), props[prop])
                 }
             }
+
+            function fireChange() {
+              if (props.onChange) {
+                props.onChange(leaflet.getBounds(), leaflet);
+              }
+            }
+
+            leaflet.on("moveend", fireChange);
+            leaflet.on("zoomend", fireChange);
 
             const positions = venues.map(venue => [venue.lat, venue.lon])
             positions.forEach(position => {

@@ -1,5 +1,5 @@
 import * as React from "react"
-import venues from "./jersey_dump.js"
+import venues from "./missoula.js"
 import { Scroll, Frame, RenderTarget } from "framer"
 
 export function HelloKitty(props) {
@@ -152,6 +152,13 @@ export function HelloKitty(props) {
     }
 
     const venueElements = venues
+        .filter(venue => {
+          if (!props.mapBounds) {
+            return true;
+          }
+
+          return props.mapBounds.contains([venue.lat, venue.lon]);
+        })
         .map(venue => {
             let classes = venue.classes
               .map(mapClasses)

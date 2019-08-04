@@ -36198,7 +36198,10 @@
             "codeComponentProps" : {
 
             },
-            "codeOverrideEnabled" : false,
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/Explore2.tsx",
+            "codeOverrideIdentifier" : ".\/Explore2.tsx_MapPicker",
+            "codeOverrideName" : "MapPicker",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [

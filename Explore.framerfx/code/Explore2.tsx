@@ -29,6 +29,7 @@ const data = Data({
     dateFilter: (new Date).getDay(),
     timeRange: [4, 23],
     timePickerVisible: false,
+    mapBounds: null,
 })
 
 function sleep(seconds) {
@@ -254,10 +255,20 @@ export function DatePicker(): Override {
     }
 }
 
+export function MapPicker(): Override {
+    return {
+        onChange: bounds => {
+            data.mapBounds = bounds
+        },
+    }
+}
+
+
 export function VenueList(): Override {
     return {
         dateFilter: data.dateFilter,
         timeRange: data.timeRange,
+        mapBounds: data.mapBounds,
     }
 }
 
