@@ -192,6 +192,7 @@ export function HelloKitty(props) {
                     undefined
                 ) : (
                     <div
+                        earliestScheduleTime={classes[0].props.earliestScheduleTime}
                         key={venue.venue_id}
                         style={{
                             margin: 12,
@@ -279,7 +280,10 @@ export function HelloKitty(props) {
                 )
             return element
         })
-        .filter(p => !!p) // venues
+        .filter(p => !!p)
+        .slice().sort((a, b) => {
+          return a.props.earliestScheduleTime - b.props.earliestScheduleTime
+        }) // venues
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     return (

@@ -36261,9 +36261,9 @@
               {
                 "__class" : "CodeComponentNode",
                 "aspectRatio" : null,
-                "bottom" : -52,
+                "bottom" : -76,
                 "centerAnchorX" : 0.5,
-                "centerAnchorY" : 0.66696914700544463,
+                "centerAnchorY" : 0.71052631578947367,
                 "children" : [
 
                 ],
@@ -36411,8 +36411,8 @@
                 "__class" : "CodeComponentNode",
                 "aspectRatio" : null,
                 "bottom" : null,
-                "centerAnchorX" : 0.504,
-                "centerAnchorY" : 0.15698729582577131,
+                "centerAnchorX" : 0.5013333333333333,
+                "centerAnchorY" : 0.19147005444646098,
                 "children" : [
 
                 ],
@@ -36442,7 +36442,7 @@
                 "id" : "rYuRBxsZE",
                 "intrinsicHeight" : 24,
                 "intrinsicWidth" : null,
-                "left" : 43,
+                "left" : 42,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -36456,9 +36456,9 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : 40,
+                "right" : 41,
                 "rotation" : 0,
-                "top" : 75,
+                "top" : 94,
                 "visible" : true,
                 "width" : 292,
                 "widthType" : 0
