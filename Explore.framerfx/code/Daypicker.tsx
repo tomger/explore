@@ -22,32 +22,39 @@ export function Daypicker(props) {
         padding: "0 16px",
         display: "flex",
         alignItems: "center",
-        height: 40
+        height: 36,
+        width: 68,
+        background: "transparent",
+        position: "relative",
     }
 
     const selectedStyle: React.CSSProperties = {...dayStyle, ...{
-        background: "#fafafa",
+        background: "#0055ff0a",
+        boxShadow: "inset 0 0 0 1px #0055ff20",
         color: "#05f",
+        borderRadius: 100,
+        fontWeight: 500,
     }}
 
     const days = [];
     for (let i = 0; i < 10; i++) {
       let d = addDaysToDate(new Date(), i);
       let label = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
-      days.push(<div key={i} onClick={() => {
+      days.push(<Frame key={i} onTap={() => {
         setSelected(i);
         setTimeout(() => {
           if (props.onChange) {
             props.onChange(d.getDay())
           }
         },1)
-      }} style={selected === i ? selectedStyle : dayStyle}>{label}</div>)
+      }} style={selected === i ? selectedStyle : dayStyle}>{label}</Frame>)
     }
 
     return (
-        <Frame height={40} width="100%" direction="horizontal" style={{
+        <Scroll height={40} width="100%" direction="horizontal" style={{
           background: "white",
           display: "flex",
+          paddingLeft: 8,
         }}>
           <Frame  style={{
             background: "transparent",
@@ -56,7 +63,7 @@ export function Daypicker(props) {
           }}>
           {days}
           </Frame>
-        </Frame>
+        </Scroll>
     )
 }
 
