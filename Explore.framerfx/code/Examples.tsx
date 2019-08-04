@@ -6,13 +6,6 @@ const data = Data({
     toggle: true,
 })
 
-export function Draggable(seconds): Override {
-    return {
-        drag: "y",
-        dragConstraints: {bottom: 200}
-    }
-}
-
 function sleep(seconds) {
     return new Promise(resolve => setTimeout(resolve, seconds * 1000))
 }

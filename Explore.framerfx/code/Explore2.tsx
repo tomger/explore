@@ -227,6 +227,25 @@ export function ShownOnLoading(): Override {
     }
 }
 
+export function CatNav(): Override {
+    return {
+        whileTap: { background: "#f2f2f2" },
+        onTap: () => {
+            let queue = async () => {
+                data.keywordFieldBack = true
+                data.loading = true
+                await sleep(Math.random() * 0.8 + 0.5)
+                data.loading = false
+            }
+            queue()
+        },
+    }
+}
+
+
+
+////// THE NEW WORLD
+
 export function DatePicker(): Override {
     return {
         onChange: dateOffset => {
@@ -276,17 +295,12 @@ export function TimePill(): Override {
     }
 }
 
-export function CatNav(): Override {
+
+export function Draggable(props): Override {
+    // const hack = document.querySelector("#xxx_hellokitty_height");
+    // const height = hack ? hack.offsetHeight : 1000;
     return {
-        whileTap: { background: "#f2f2f2" },
-        onTap: () => {
-            let queue = async () => {
-                data.keywordFieldBack = true
-                data.loading = true
-                await sleep(Math.random() * 0.8 + 0.5)
-                data.loading = false
-            }
-            queue()
-        },
+        drag: "y",
+        dragConstraints: {bottom: 200}
     }
 }

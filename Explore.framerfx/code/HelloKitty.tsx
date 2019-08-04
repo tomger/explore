@@ -230,7 +230,7 @@ export function HelloKitty(props) {
                 background: "white",
             }}
         >
-          <div style={{background: "white"}}>
+          <div id="xxx_hellokitty_height" style={{background: "white"}}>
             {venueElements.slice(0, 20)}
             {venueElements.length > 20
                 ? `Load ${venueElements.length - 20} more results`
