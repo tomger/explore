@@ -1,5 +1,5 @@
 import * as React from "react"
-import venues from "./missoula.js"
+import venues from "./denversouth.js"
 import { Scroll, Frame, RenderTarget } from "framer"
 
 export function HelloKitty(props) {

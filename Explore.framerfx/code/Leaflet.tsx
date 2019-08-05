@@ -1,7 +1,7 @@
 /* global mapkit */
 import * as React from "react"
 import { Frame, FrameProperties } from "framer"
-import venues from "./missoula.js"
+import venues from "./denversouth.js"
 
 function loadCSS(path) {
     const style = document.createElement("link")
