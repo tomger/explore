@@ -319,6 +319,25 @@ export function TimePill(): Override {
 }
 
 
+export function Scrollable(props): Override {
+    let el = document.querySelector(`#${props.children[0].props.children[0].props.id}`);
+    if (el) {
+      el.style.overflow = "visible";
+      el.parentNode.style.overflow = "visible";
+      el.parentNode.parentNode.style.overflow = "visible";
+      el.parentNode.parentNode.parentNode.style.overflow = "visible";
+    }
+    return {
+      contentHeight: data.contentListHeight + 200,
+      onScrollStart: function(e) {
+        let el = document.querySelector("#xxx_hellokitty_height");
+        if (el) {
+          data.contentListHeight = el.offsetHeight;
+        }
+      }
+    }
+}
+
 export function Draggable(props): Override {
     // const hack = document.querySelector("#xxx_hellokitty_height");
     // const height = hack ? hack.offsetHeight : 1000;
