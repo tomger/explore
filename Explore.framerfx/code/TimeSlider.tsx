@@ -13,7 +13,7 @@ function debounce(a,b,c){var d,e;return function(){function h(){d=null,c||(e=a.a
 
 
 export function TimeSlider(props) {
-    const [values, setValues] = React.useState(0)
+    const [values, setValues] = React.useState([0, props.width])
     const [previousValue, setPreviousValue] = React.useState([0, 0])
 
     const timeOffset = 4// * 2
@@ -52,7 +52,7 @@ export function TimeSlider(props) {
         valueX.set(min)
         valueWidth.set(max - min)
         setTimeout(() => {
-          // ¯\_(ツ)_/¯ 
+          // ¯\_(ツ)_/¯
           setValues([x1.get(), x2.get()])
         },100)
     }
