@@ -13,7 +13,7 @@ function debounce(a,b,c){var d,e;return function(){function h(){d=null,c||(e=a.a
 
 
 export function TimeSlider(props) {
-    // const [valueStart, setValueStart] = React.useState(0)
+    const [values, setValues] = React.useState(0)
     const [previousValue, setPreviousValue] = React.useState([0, 0])
 
     const timeOffset = 4// * 2
@@ -51,16 +51,20 @@ export function TimeSlider(props) {
         const max = Math.max(x1.get(), x2.get())
         valueX.set(min)
         valueWidth.set(max - min)
-        if (props.onChange) {
-            const minHour = convertToHours(min)
-            const maxHour = convertToHours(max)
-            if (previousValue[0] == minHour &&
-                previousValue[1] == maxHour) {
-              return
-            }
-            // setPreviousValue(minHour, maxHour) // XXX TODO
-            props.onChange(minHour, maxHour)
-        }
+        setTimeout(() => {
+          // ¯\_(ツ)_/¯ 
+          setValues([x1.get(), x2.get()])
+        },100)
+    }
+
+    const onDragEnd = () => {
+      const min = Math.min(x1.get(), x2.get())
+      const max = Math.max(x1.get(), x2.get())
+      if (props.onChange) {
+          const minHour = convertToHours(min)
+          const maxHour = convertToHours(max)
+          props.onChange(minHour, maxHour)
+      }
     }
 
     const knobStyle = {
@@ -95,6 +99,9 @@ export function TimeSlider(props) {
                 height={4}
             ></Frame>
             <Frame
+                dragElastic={0}
+                dragMomentum={false}
+                onDragEnd={onDragEnd}
                 x={x1}
                 size={32}
                 left={-16}
@@ -102,8 +109,11 @@ export function TimeSlider(props) {
                 style={knobStyle}
                 drag="x"
                 dragConstraints={{ left: 0, right: props.width }}
-            ><Frame style={knobLabelStyle}>{prettyHours(convertToHours(x1.get()))}</Frame></Frame>
+            ><Frame style={knobLabelStyle}>{prettyHours(convertToHours(values[0]))}</Frame></Frame>
             <Frame
+                dragElastic={0}
+                dragMomentum={false}
+                onDragEnd={onDragEnd}
                 x={x2}
                 size={32}
                 overdrag={false}
@@ -111,7 +121,7 @@ export function TimeSlider(props) {
                 style={knobStyle}
                 drag="x"
                 dragConstraints={{ left: 0, right: props.width }}
-            ><Frame style={knobLabelStyle}>{prettyHours(convertToHours(x2.get()))}</Frame></Frame>
+            ><Frame style={knobLabelStyle}>{prettyHours(convertToHours(values[1]))}</Frame></Frame>
         </Frame>
     )
 }
