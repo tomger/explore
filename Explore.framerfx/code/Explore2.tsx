@@ -30,6 +30,7 @@ const data = Data({
     timeRange: [4, 23],
     timePickerVisible: false,
     mapBounds: null,
+    contentListHeight: 2000,
 })
 
 function sleep(seconds) {
@@ -312,6 +313,13 @@ export function Draggable(props): Override {
     // const height = hack ? hack.offsetHeight : 1000;
     return {
         drag: "y",
-        dragConstraints: {bottom: 200}
+        dragConstraints: {bottom: 200, top: -data.contentListHeight+290},
+        onDragStart: function() {
+          let el = document.querySelector("#xxx_hellokitty_height");
+          if (el) {
+            console.log("x", el.offsetHeight)
+            data.contentListHeight = el.offsetHeight;
+          }
+        }
     }
 }

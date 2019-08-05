@@ -304,9 +304,9 @@ export function HelloKitty(props) {
             }}
         >
             <div id="xxx_hellokitty_height" style={{ background: "white" }}>
-                {venueElements.slice(0, 20)}
-                {venueElements.length > 20
-                    ? `Load ${venueElements.length - 20} more results`
+                {venueElements.slice(0, 30)}
+                {venueElements.length > 30
+                    ? `Load ${venueElements.length - 30} more results`
                     : ""}
             </div>
         </Frame>

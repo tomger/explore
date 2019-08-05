@@ -37110,7 +37110,7 @@
         "previewSettings" : {
           "__class" : "PreviewSettings",
           "bezel" : true,
-          "deviceType" : null,
+          "deviceType" : "framer\/FramerAppleIPhone8",
           "responsive" : false,
           "rotate" : false,
           "skin" : "Silver",
