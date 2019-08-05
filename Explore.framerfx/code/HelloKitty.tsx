@@ -159,6 +159,13 @@ export function HelloKitty(props) {
 
           return props.mapBounds.contains([venue.lat, venue.lon]);
         })
+        .filter(venue => {
+          if (!props.activityFilter) {
+            return true;
+          }
+          return venue.activities.toLowerCase()
+            .indexOf(props.activityFilter.toLowerCase()) !== -1;
+        })
         .map(venue => {
             let classes = venue.classes
               .map(mapClasses)
@@ -304,9 +311,9 @@ export function HelloKitty(props) {
             }}
         >
             <div id="xxx_hellokitty_height" style={{ background: "white" }}>
-                {venueElements.slice(0, 30)}
-                {venueElements.length > 30
-                    ? `Load ${venueElements.length - 30} more results`
+                {venueElements.slice(0, 20)}
+                {venueElements.length > 20
+                    ? `Load ${venueElements.length - 20} more results`
                     : ""}
             </div>
         </Frame>

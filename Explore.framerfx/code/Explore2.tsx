@@ -31,6 +31,7 @@ const data = Data({
     timePickerVisible: false,
     mapBounds: null,
     contentListHeight: 2000,
+    activityFilter: "",
 })
 
 function sleep(seconds) {
@@ -256,6 +257,15 @@ export function DatePicker(): Override {
     }
 }
 
+export function ActivityPicker(): Override {
+    return {
+        onValueChange: value => {
+            data.activityFilter = value
+        },
+    }
+}
+
+
 export function MapPicker(): Override {
     return {
         onChange: bounds => {
@@ -270,6 +280,7 @@ export function VenueList(): Override {
         dateFilter: data.dateFilter,
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
+        activityFilter: data.activityFilter,
     }
 }
 
