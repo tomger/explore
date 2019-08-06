@@ -16,3 +16,12 @@ denver/littleton:
 
 
 ./get.js --request '{"search_request":{"filters":{"date":"2019-08-05","lat":39.586113630573315,"lon":-104.9753079589899,"result_type":"VENUE","tag":[],"map_bounds":"-105.1394331236637,39.44184646792431,-104.81118279430203,39.73008105452806"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/denversouth.js
+./get.js --request '{"search_request":{"filters":{"date":"2019-08-05","lat":40.71233156183358,"lon":-73.99098462896949,"result_type":"VENUE","tag":[],"map_bounds":"-74.03141647388058,40.67302527293026,-73.95055278403007,40.75161466074499"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/nysouth.js
+
+
+
+./get.js --request '{"search_request":{"filters":{"date":"2019-08-05","lat":40.69420372514628,"lon":-73.99417901845815,"result_type":"VENUE","tag":[],"map_bounds":"-74.02890659631986,40.66817958321471,-73.95945144059188,40.7202177060494"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/nysouth.js
+./get.js --request '{"search_request":{"filters":{"date":"2019-08-05","lat":40.727306233738986,"lon":-74.03956578723337,"result_type":"VENUE","tag":[],"map_bounds":"-74.08625489049143,40.71087300021367,-73.99287668397957,40.743735410325286"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/njwestmanhattan.js
+./get.js --request '{"search_request":{"filters":{"date":"2019-08-06","lat":40.7428931709069,"lon":-73.99782028680697,"result_type":"VENUE","tag":[],"map_bounds":"-74.0065544903419,40.732833910818215,-73.98908608327427,40.75295090982033"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/chelsea.js
+./get.js --request '{"search_request":{"filters":{"date":"2019-08-05","lat":40.68742690726565,"lon":-73.98481013576462,"result_type":"VENUE","tag":[],"map_bounds":"-74.00862899567097,40.66684323707332,-73.960991275848,40.708004221736445"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/bkwest.js
+./get.js --request '{"search_request":{"filters":{"date":"2019-08-06","lat":46.8620601016578,"lon":-114.01269502470818,"result_type":"VENUE","tag":[],"map_bounds":"-114.0630629530007,46.81788484027285,-113.96232709642159,46.906199044654414"}}}' | ./proto_venues.js   > ../Explore.framerfx/code/missoula.js

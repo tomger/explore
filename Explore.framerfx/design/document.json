@@ -37753,7 +37753,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5013333333333333,
-            "centerAnchorY" : 0.39280359820089955,
+            "centerAnchorY" : 0.35982008995502252,
             "children" : [
 
             ],
@@ -37778,12 +37778,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 292,
+            "height" : 248,
             "heightType" : 0,
             "id" : "BNKAzzCwI",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 1,
+            "left" : 0,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -38003,7 +38003,7 @@
             "aspectRatio" : null,
             "bottom" : 0,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.70314842578710646,
+            "centerAnchorY" : 0.73913043478260865,
             "children" : [
 
             ],
@@ -38038,7 +38038,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 396,
+            "height" : 348,
             "heightType" : 0,
             "id" : "uPca6R7cr",
             "intrinsicHeight" : null,
@@ -38072,7 +38072,7 @@
         "exportOptions" : [
 
         ],
-        "fillColor" : "#f7f7f7",
+        "fillColor" : "hsl(0, 0%, 100%)",
         "fillEnabled" : true,
         "fillImage" : null,
         "fillImagePixelHeight" : null,
@@ -38109,7 +38109,7 @@
           "deviceType" : "framer\/FramerAppleIPhone8",
           "responsive" : false,
           "rotate" : false,
-          "skin" : "Gold",
+          "skin" : "Silver",
           "touch" : false,
           "zoom" : -1
         },
@@ -38123,7 +38123,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 760,
+        "top" : 746,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
@@ -38377,7 +38377,7 @@
         "id" : "kzMgGjluV",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "left" : 4308,
+        "left" : 4089,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -38393,7 +38393,7 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 637,
+        "top" : 822,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
@@ -38653,7 +38653,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : 4166,
+        "left" : 4089,
         "locked" : false,
         "name" : "Pane",
         "navigationTarget" : null,
@@ -38674,7 +38674,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 961,
+        "top" : 947,
         "visible" : true,
         "width" : 375,
         "widthType" : 0

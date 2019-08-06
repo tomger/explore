@@ -1,6 +1,6 @@
 import * as React from "react"
-import venues from "./denversouth.js"
 import { Scroll, Frame, RenderTarget } from "framer"
+import venues from "./chelsea.js"
 
 export function HelloKitty(props) {
     if (RenderTarget.current() === RenderTarget.canvas) {
@@ -190,7 +190,7 @@ export function HelloKitty(props) {
                                 background:"transparent",
                                 textAlign: "left",
                                 borderTop: "1px solid #e7e7e7",
-                                color: "#05f",
+                                color: "#333",
                                 fontWeight: 500,
                                 padding: 12,
                             }}
@@ -311,6 +311,12 @@ export function HelloKitty(props) {
             }}
         >
             <div id="xxx_hellokitty_height" style={{ background: "white" }}>
+            <div style={{
+              fontSize: 20,
+              fontWeight: 700,
+              margin: 16,
+              color: "#333",
+            }}>We found {venueElements.length} venues</div>
                 {venueElements.slice(0, 20)}
                 {venueElements.length > 20
                     ? `Load ${venueElements.length - 20} more results`

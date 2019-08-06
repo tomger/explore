@@ -1,7 +1,7 @@
 /* global mapkit */
 import * as React from "react"
 import { Frame, FrameProperties } from "framer"
-import venues from "./denversouth.js"
+import venues from "./chelsea.js"
 
 function loadCSS(path) {
     const style = document.createElement("link")
@@ -49,12 +49,17 @@ export function MapKit(props) {
             L.tileLayer(
                 "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
                 {
+                    zoomControl: true,
                     maxZoom: 18,
                     id: "mapbox.streets",
                     accessToken:
                         "pk.eyJ1IjoibXNsZWUiLCJhIjoiY2psdnB6cXN0MHd3bjNwb2R6bWFtbmg4eSJ9.DMA9TUmO4G_vDIkb6RDtZA", // MapBox Framer Token
                 }
             ).addTo(leaflet)
+
+            L.control.zoom({
+              position:'topright'
+            }).addTo(leaflet);
             // attach events
             for (let prop in props) {
                 if (prop.startsWith("on")) {
@@ -77,7 +82,7 @@ export function MapKit(props) {
             })
             const bounds = L.latLngBounds(positions).pad(0.1);
             leaflet.fitBounds(bounds);
-            leaflet.setMaxBounds(bounds);
+            // leaflet.setMaxBounds(bounds);
 
             setMapContext(leaflet)
         })
