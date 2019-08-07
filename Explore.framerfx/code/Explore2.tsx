@@ -330,6 +330,7 @@ export function Scrollable(props): Override {
       el.parentNode.parentNode.parentNode.style.overflow = "visible";
     }
     return {
+      contentOffsetY: -240,
       contentHeight: data.contentListHeight + 200,
       onScrollStart: function(e) {
         let el = document.querySelector("#xxx_hellokitty_height");
