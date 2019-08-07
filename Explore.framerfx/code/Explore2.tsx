@@ -281,6 +281,7 @@ export function VenueList(): Override {
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
+        top: data.dateFilter === -1 ? 10 : 150,
     }
 }
 
@@ -292,6 +293,7 @@ export function TimePickerVisible(): Override {
 
 export function TimeSlider(): Override {
     return {
+        visible: data.dateFilter === -1 ? false : true,
         timeRange: data.timeRange,
         onChange: (min, max) => {
             data.timeRange = [min, max]

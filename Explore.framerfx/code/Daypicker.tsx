@@ -23,7 +23,6 @@ export function Daypicker(props) {
         display: "flex",
         alignItems: "center",
         height: 36,
-        width: 68,
         background: "transparent",
         position: "relative",
         fontFamily: "TT Norms",
@@ -38,14 +37,19 @@ export function Daypicker(props) {
     }}
 
     const days = [];
-    for (let i = 0; i < 10; i++) {
+    for (let i = -1; i < 10; i++) {
       let d = addDaysToDate(new Date(), i);
       let label = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
-      days.push(<Frame key={i} onTap={() => {
+      if (i === -1) {
+        label = "All dates"
+      } else if (i === 0) {
+        label = "Today"
+      }
+      days.push(<Frame width={i === -1 ? 80 : 68} key={i} onTap={() => {
         setSelected(i);
         setTimeout(() => {
           if (props.onChange) {
-            props.onChange(d.getDay())
+            props.onChange(i === -1 ? -1 : d.getDay())
           }
         },1)
       }} style={selected === i ? selectedStyle : dayStyle}>{label}</Frame>)

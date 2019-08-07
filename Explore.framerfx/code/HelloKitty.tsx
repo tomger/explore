@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Scroll, Frame, RenderTarget } from "framer"
-import venues from "./chelsea.js"
+import venues from "./dataset.js"
 
 export function HelloKitty(props) {
     if (RenderTarget.current() === RenderTarget.canvas) {
@@ -167,7 +167,7 @@ export function HelloKitty(props) {
             .indexOf(props.activityFilter.toLowerCase()) !== -1;
         })
         .map(venue => {
-            let classes = venue.classes
+            let classes = props.dateFilter === -1 ? [] : venue.classes
               .map(mapClasses)
               .filter(p => !!p)
               .slice().sort((a, b) => {
@@ -202,11 +202,11 @@ export function HelloKitty(props) {
             }
 
             let element =
-                classes.length === 0 ? (
+                props.dateFilter !== -1 && classes.length === 0 ? (
                     undefined
                 ) : (
                     <div
-                        earliestScheduleTime={classes[0].props.earliestScheduleTime}
+                        earliestScheduleTime={!!classes[0] ? classes[0].props.earliestScheduleTime : 0}
                         key={venue.venue_id}
                         style={{
                             margin: 12,
@@ -288,7 +288,7 @@ export function HelloKitty(props) {
                                 display: "flex",
                             }}
                         >
-                            <div>{classSection}</div>
+                            {props.dateFilter === -1 ? undefined : <div>{classSection}</div>}
                         </div>
                     </div>
                 )
