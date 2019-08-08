@@ -11,17 +11,21 @@ venues
     return !!venue.schedules && venue.schedules.length
   })
   .forEach(venue => {
-    venue.images = venue.images.default;
-    venue.display_rating_average = String(Math.round(venue.display_rating_average*10)/10)
     venue.schedules.forEach(s => {
-      if (s.starttime < 60*60*24 || s.starttime > 60*60*24*2 ) {
-        return;
-      }
+      // if (s.starttime < 60*60*24 || s.starttime > 60*60*24*2 ) {
+      //   return;
+      // }
       let klass = classes.find(klass => s.class.id == klass.id);
       if (!klass) {
         klass = s.class
         classes.push(klass);
-        klass.venue = venue;
+        // klass.venue = venue;
+        klass.venue = {
+          venue_name: venue.venue_name,
+          activities: venue.activities,
+          images: venue.images.default,
+          display_rating_average: String(Math.round(venue.display_rating_average*10)/10),
+        }
         klass.schedules = [];
       }
       klass.schedules.push(s)
@@ -29,12 +33,15 @@ venues
       delete klass.ratings.count
       delete klass.venue.schedules
     });
+
+  })
+classes
+  .forEach(klass => {
+    klass.schedules.sort((a, b) => {
+      return a.starttime - b.starttime;
+    })
   })
 
-// Real output
-process.stdout.write(JSON.stringify(classes.slice(0,200), null, 2));
-
-
-// Test output
-// process.stdout.write("export default ");
-// process.stdout.write(JSON.stringify(classes.slice(0, 4), null, 2));
+// process.stdout.write(JSON.stringify(classes.slice(0,200), null, 2));
+process.stdout.write("export default ");
+process.stdout.write(JSON.stringify(classes, null, 2));

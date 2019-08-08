@@ -33,8 +33,8 @@ venues = venues
       schedules.push(s)
       klass.schedules.push(s);
     })
-    // delete venue.schedules;
-    venue.schedules = schedules; // alt
+    delete venue.schedules;
+    // venue.schedules = schedules; // alt
     return venue;
   })
   .filter(venue => {

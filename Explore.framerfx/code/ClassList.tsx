@@ -1,13 +1,42 @@
 import * as React from "react"
-import classes from "./classes"
+import classes from "./dataset_classes"
+import {RenderTarget, Frame} from "framer"
 
-export function ClassList() {
+export function ClassList(props) {
+    if (RenderTarget.current() === RenderTarget.canvas) {
+        classes = classes.slice(0, 4)
+    }
+    const dateFilter = props.dateFilter;
+    const startTimeHour = new Date()
+    const nowDay = new Date().getDay()
+    const nowHour = new Date().getHours()
+
     const elements = classes.map(klass => {
-        klass.schedules.sort((a, b) => {
-            return a.starttime - b.starttime
-        })
-
-        let schedules = klass.schedules.map(s => {
+        let schedules = klass.schedules
+          .filter(s => {
+              return (
+                  s.starttime >= 60 * 60 * 24 * dateFilter &&
+                  s.starttime <= 60 * 60 * 24 * (dateFilter + 1)
+              )
+          })
+          .filter(s => {
+              startTimeHour.setTime(1560052855000 + s.starttime * 1000)
+              // hide "past classes"
+              if (
+                  dateFilter === nowDay &&
+                  startTimeHour.getHours() < nowHour
+              ) {
+                  return false
+              }
+              return (
+                  startTimeHour.getHours() >= props.timeRange[0] &&
+                  startTimeHour.getHours() <= props.timeRange[1]
+              )
+          })
+          .slice().sort((a, b) => {
+              return a.starttime - b.starttime
+          })
+          .map(s => {
             let date = new Date(1560052855000 + s.starttime * 1000)
             let format = date.toLocaleTimeString("en-US", {
                 hour: "numeric",
@@ -39,6 +68,10 @@ export function ClassList() {
                 </span>
             )
         })
+
+        if (schedules.length === 0) {
+          return undefined
+        }
 
         let header = (
             <div
@@ -139,7 +172,9 @@ export function ClassList() {
     })
 
     return (
-        <div
+        <Frame
+            overflow="visible"
+            size="100%"
             style={{
                 fontSize: 14,
                 fontFamily: "TT Norms",
@@ -148,6 +183,6 @@ export function ClassList() {
             }}
         >
             {elements}
-        </div>
+        </Frame>
     )
 }

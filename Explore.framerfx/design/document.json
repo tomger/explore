@@ -30393,9 +30393,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 16,
-                      "width" : 127
+                      "width" : 101
                     },
-                    "width" : 126
+                    "width" : 100
                   },
                   "entityMap" : {
 
@@ -30682,10 +30682,10 @@
                       "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"2kngr-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2kngr-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#333;font-size:14px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Wellness &amp; massage<\/span><\/span><\/div><\/div>",
                       "os" : "10_14",
                       "size" : {
-                        "height" : 16,
-                        "width" : 158
+                        "height" : 32,
+                        "width" : 101
                       },
-                      "width" : 157
+                      "width" : 100
                     },
                     "entityMap" : {
 
@@ -30884,9 +30884,9 @@
                       "os" : "10_14",
                       "size" : {
                         "height" : 16,
-                        "width" : 95
+                        "width" : 101
                       },
-                      "width" : 94
+                      "width" : 100
                     },
                     "entityMap" : {
 
@@ -39025,6 +39025,309 @@
         "right" : null,
         "rotation" : 0,
         "top" : 1542,
+        "visible" : true,
+        "width" : 375,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : -333,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.99909255898366611,
+            "children" : [
+
+            ],
+            "clip" : false,
+            "codeComponentIdentifier" : "framer\/Scroll",
+            "codeComponentProps" : {
+              "children" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "Oo9ET3daB"
+                }
+              ],
+              "direction" : "vertical",
+              "directionLock" : true,
+              "dragEnabled" : true,
+              "wheelEnabled" : true
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 667,
+            "heightType" : 0,
+            "id" : "bzOZxgBJ_",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "k2oMPb1vA",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 0,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 375,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.10344827586206896,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/Daypicker.tsx_Daypicker",
+            "codeComponentProps" : {
+
+            },
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/Explore2.tsx",
+            "codeOverrideIdentifier" : ".\/Explore2.tsx_DatePicker",
+            "codeOverrideName" : "DatePicker",
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 40,
+            "heightType" : 0,
+            "id" : "cju_Tc_6z",
+            "intrinsicHeight" : 40,
+            "intrinsicWidth" : null,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "k2oMPb1vA",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 0,
+            "rotation" : 0,
+            "top" : 37,
+            "visible" : true,
+            "width" : 375,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.5013333333333333,
+            "centerAnchorY" : 0.23139745916515425,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/TimeSlider.tsx_TimeSlider",
+            "codeComponentProps" : {
+
+            },
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/Explore2.tsx",
+            "codeOverrideIdentifier" : ".\/Explore2.tsx_TimeSlider",
+            "codeOverrideName" : "TimeSlider",
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 23,
+            "heightType" : 0,
+            "id" : "PiDATXV8C",
+            "intrinsicHeight" : 24,
+            "intrinsicWidth" : null,
+            "left" : 42,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "k2oMPb1vA",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : 41,
+            "rotation" : 0,
+            "top" : 116,
+            "visible" : true,
+            "width" : 292,
+            "widthType" : 0
+          }
+        ],
+        "clip" : false,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 551,
+        "heightType" : 0,
+        "id" : "k2oMPb1vA",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 5119,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "TAppACBc8",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 771,
+        "visible" : true,
+        "width" : 375,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0.86533333333333329,
+        "centerAnchorY" : 0.96851574212893554,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/ClassList.tsx_ClassList",
+        "codeComponentProps" : {
+
+        },
+        "codeOverrideEnabled" : true,
+        "codeOverrideFile" : ".\/Explore2.tsx",
+        "codeOverrideIdentifier" : ".\/Explore2.tsx_VenueList",
+        "codeOverrideName" : "VenueList",
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 1789,
+        "heightType" : 0,
+        "id" : "Oo9ET3daB",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 5931,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "TAppACBc8",
+        "previewSettings" : {
+          "__class" : "PreviewSettings",
+          "bezel" : false,
+          "deviceType" : null,
+          "responsive" : true,
+          "rotate" : false,
+          "touch" : false,
+          "zoom" : -1
+        },
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 771,
         "visible" : true,
         "width" : 375,
         "widthType" : 0

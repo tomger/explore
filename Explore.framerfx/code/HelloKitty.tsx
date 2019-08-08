@@ -12,6 +12,7 @@ export function HelloKitty(props) {
     const nowDay = new Date().getDay()
     const nowHour = new Date().getHours()
     const [expandedVenues, setExpandedVenues] = React.useState([])
+    const ALL_DAYS = props.dateFilter === -1;
 
     function addExpandedVenue(venue_id) {
         setExpandedVenues(expandedVenues.concat([venue_id]))
@@ -167,7 +168,7 @@ export function HelloKitty(props) {
             .indexOf(props.activityFilter.toLowerCase()) !== -1;
         })
         .map(venue => {
-            let classes = props.dateFilter === -1 ? [] : venue.classes
+            let classes = ALL_DAYS ? [] : venue.classes
               .map(mapClasses)
               .filter(p => !!p)
               .slice().sort((a, b) => {
@@ -202,7 +203,7 @@ export function HelloKitty(props) {
             }
 
             let element =
-                props.dateFilter !== -1 && classes.length === 0 ? (
+                !ALL_DAYS && classes.length === 0 ? (
                     undefined
                 ) : (
                     <div
@@ -288,7 +289,7 @@ export function HelloKitty(props) {
                                 display: "flex",
                             }}
                         >
-                            {props.dateFilter === -1 ? undefined : <div>{classSection}</div>}
+                            {ALL_DAYS ? undefined : <div>{classSection}</div>}
                         </div>
                     </div>
                 )
