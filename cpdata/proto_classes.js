@@ -22,9 +22,13 @@ venues
         // klass.venue = venue;
         klass.venue = {
           venue_name: venue.venue_name,
+          location_name: venue.location_name,
           activities: venue.activities,
+          lat: venue.lat,
+          lon: venue.lon,
           images: venue.images.default,
           display_rating_average: String(Math.round(venue.display_rating_average*10)/10),
+          display_rating_total: venue.display_rating_total,
         }
         klass.schedules = [];
       }

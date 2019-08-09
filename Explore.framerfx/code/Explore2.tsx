@@ -281,7 +281,7 @@ export function VenueList(): Override {
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
-        top: data.dateFilter === -1 ? 10 : 150,
+        top: data.dateFilter === -1 ? 50 : 150,
     }
 }
 
@@ -322,20 +322,18 @@ export function TimePill(): Override {
 
 
 export function Scrollable(props): Override {
-    let el = document.querySelector(`#${props.children[0].props.children[0].props.id}`);
+    const el = document.querySelector(`#${props.children[0].props.children[0].props.id}`);
     if (el) {
-      el.style.overflow = "visible";
-      el.parentNode.style.overflow = "visible";
       el.parentNode.parentNode.style.overflow = "visible";
       el.parentNode.parentNode.parentNode.style.overflow = "visible";
     }
     return {
-      contentOffsetY: -240,
-      contentHeight: data.contentListHeight + 200,
+      contentOffsetY: -50,
+      contentHeight: data.contentListHeight + 350,
       onScrollStart: function(e) {
-        let el = document.querySelector("#xxx_hellokitty_height");
-        if (el) {
-          data.contentListHeight = el.offsetHeight;
+        const scrollHeightElement = el.querySelector(".scroll_height");
+        if (scrollHeightElement) {
+          data.contentListHeight = scrollHeightElement.offsetHeight;
         }
       }
     }

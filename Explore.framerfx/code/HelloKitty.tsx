@@ -2,6 +2,51 @@ import * as React from "react"
 import { Scroll, Frame, RenderTarget } from "framer"
 import venues from "./dataset.js"
 
+
+
+function mapSchedules(s) {
+    let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
+    let format = date
+        .toLocaleTimeString("en-US", {
+            hour: "numeric",
+            minute: "numeric",
+            timeZone: "America/New_York",
+        })
+        .toLowerCase()
+    return (
+        <span
+            key={s.starttime}
+            style={{
+                display: "inline-block",
+                border: "1px solid #e7e7e7",
+                borderRadius: 3,
+                boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
+                padding: "4px 10px",
+                margin: "0 4px 0 0",
+                fontSize: 13,
+                fontWeight: 500,
+                width: 105,
+                height: 26,
+                whiteSpace: "nowrap",
+                textAlign: "center",
+            }}
+        >
+            {format}{" "}
+            <span
+                style={{
+                    borderLeft: "1px solid #e7e7e7",
+                    paddingLeft: 8,
+                    marginLeft: 4,
+                    fontWeight: 500,
+                    color: "#7f7f7f",
+                }}
+            >
+                {s.availability.credits}
+            </span>
+        </span>
+    )
+}
+
 export function HelloKitty(props) {
     if (RenderTarget.current() === RenderTarget.canvas) {
         venues = venues.slice(0, 3)
@@ -109,49 +154,6 @@ export function HelloKitty(props) {
         )
     }
 
-    function mapSchedules(s) {
-        let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
-        let format = date
-            .toLocaleTimeString("en-US", {
-                hour: "numeric",
-                minute: "numeric",
-                timeZone: "America/New_York",
-            })
-            .toLowerCase()
-        return (
-            <span
-                key={s.starttime}
-                style={{
-                    display: "inline-block",
-                    border: "1px solid #e7e7e7",
-                    borderRadius: 3,
-                    boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
-                    padding: "4px 10px",
-                    margin: "0 4px 0 0",
-                    fontSize: 13,
-                    fontWeight: 500,
-                    width: 105,
-                    height: 26,
-                    whiteSpace: "nowrap",
-                    textAlign: "center",
-                }}
-            >
-                {format}{" "}
-                <span
-                    style={{
-                        borderLeft: "1px solid #e7e7e7",
-                        paddingLeft: 8,
-                        marginLeft: 4,
-                        fontWeight: 500,
-                        color: "#7f7f7f",
-                    }}
-                >
-                    {s.availability.credits}
-                </span>
-            </span>
-        )
-    }
-
     const venueElements = venues
         .filter(venue => {
           if (!props.mapBounds) {
@@ -203,11 +205,9 @@ export function HelloKitty(props) {
             }
 
             let element =
-                !ALL_DAYS && classes.length === 0 ? (
-                    undefined
-                ) : (
+                  (
                     <div
-                        earliestScheduleTime={!!classes[0] ? classes[0].props.earliestScheduleTime : 0}
+                        earliestScheduleTime={!!classes[0] ? classes[0].props.earliestScheduleTime : -1}
                         key={venue.venue_id}
                         style={{
                             margin: 12,
@@ -295,10 +295,13 @@ export function HelloKitty(props) {
                 )
             return element
         })
-        .filter(p => !!p)
         .slice().sort((a, b) => {
           return a.props.earliestScheduleTime - b.props.earliestScheduleTime
         }) // venues
+
+    const venuesWithAvailability = ALL_DAYS ? venueElements :
+      venueElements
+        .filter(p => p.props.earliestScheduleTime !== -1);
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     return (
@@ -311,16 +314,16 @@ export function HelloKitty(props) {
                 background: "white",
             }}
         >
-            <div id="xxx_hellokitty_height" style={{ background: "white" }}>
+            <div class="scroll_height" style={{ background: "white" }}>
             <div style={{
               fontSize: 20,
               fontWeight: 700,
               margin: 16,
               color: "#333",
-            }}>We found {venueElements.length} venues</div>
-                {venueElements.slice(0, 20)}
-                {venueElements.length > 20
-                    ? `Load ${venueElements.length - 20} more results`
+            }}>We found {venuesWithAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} Venues</div>
+                {venuesWithAvailability.slice(0, 20)}
+                {venuesWithAvailability.length > 20
+                    ? `Load ${venuesWithAvailability.length - 20} more results`
                     : ""}
             </div>
         </Frame>
