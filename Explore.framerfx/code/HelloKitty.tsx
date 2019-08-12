@@ -13,7 +13,7 @@ function mapSchedules(s) {
         .toLowerCase()
     return (
         <Frame
-            key={s.class.name + s.starttime}
+            key={s.id}
             onTap={e => {
               if (this.onScheduleTapped) {
                 this.onScheduleTapped(s)
@@ -304,11 +304,31 @@ export function HelloKitty(props) {
           return a.props.earliestScheduleTime - b.props.earliestScheduleTime
         }) // venues
 
-    const venuesWithAvailability = ALL_DAYS ? venueElements :
-      venueElements
+    // const venuesWithAvailability = ALL_DAYS ? venueElements :
+    //   venueElements
+    //     .filter(p => p.props.earliestScheduleTime !== -1);
+
+    const venuesWithAvailability = venueElements
         .filter(p => p.props.earliestScheduleTime !== -1);
 
-    // console.info("HelloKitty took",performance.now() - performanceStart);
+
+    var bottomSection = [];
+    const venuesWithoutAvailability = venueElements.filter(p => p.props.earliestScheduleTime === -1);
+    if (venuesWithAvailability.length < 20 && venuesWithoutAvailability.length > 0) {
+      bottomSection.push(  <div style={{
+          fontSize: 20,
+          fontWeight: 700,
+          margin: "40px 0 16px 16px",
+          paddingRight: 32,
+          color: "#333",
+        }}>We found {venuesWithoutAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} venues available on other days</div>)
+      bottomSection.push(venuesWithoutAvailability.slice(0, 20))
+
+    }
+
+
+    console.info("HelloKitty took",performance.now() - performanceStart);
+
     return (
         <Frame
             size="100%"
@@ -330,6 +350,9 @@ export function HelloKitty(props) {
                 {venuesWithAvailability.length > 20
                     ? `Load ${venuesWithAvailability.length - 20} more results`
                     : ""}
+
+
+              {bottomSection}
             </div>
         </Frame>
     )

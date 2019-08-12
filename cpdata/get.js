@@ -114,8 +114,8 @@ function handleVenues(response) {
             delete s.source;
             delete s.org_visits_including_plus;
             // timezone offset
-            // s.starttime -= 60*60*2;
-            // s.endtime -= 60*60*2;
+            s.starttime -= 60*60*1;
+            s.endtime -= 60*60*1;
 
             if (!output[i].schedules) {
               output[i].schedules = [];

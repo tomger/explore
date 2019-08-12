@@ -73,8 +73,11 @@ export function TimeSlider(props) {
         boxShadow: "0 2px 4px rgba(0,0,0,.2)",
     }
     const knobLabelStyle = {
-      height: 20, y: -25, width: 32,
-      borderRadius: 3
+      height: 22, y: -27, width: 36, x: -2,
+      borderRadius: 3,
+      border: "1px solid #ddd",
+      boxShadow: "0 1px 1px #eee",
+      background: "#fff",
 
     }
 

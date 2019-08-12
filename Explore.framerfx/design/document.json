@@ -38896,9 +38896,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 19,
-                      "width" : 320
+                      "width" : 83
                     },
-                    "width" : 319
+                    "width" : 82
                   },
                   "entityMap" : {
 
@@ -39472,9 +39472,7 @@
             "top" : 31,
             "visible" : true,
             "width" : 334,
-            "widthType" : 0,
-            "x" : 29,
-            "y" : 25
+            "widthType" : 0
           }
         ],
         "clip" : true,
@@ -39508,7 +39506,7 @@
         "isExternalMaster" : null,
         "isMaster" : true,
         "isTarget" : false,
-        "left" : 4135,
+        "left" : 3641,
         "locked" : false,
         "name" : "Dialog",
         "navigationTarget" : null,
@@ -39538,7 +39536,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 1494,
+        "top" : 1761,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
