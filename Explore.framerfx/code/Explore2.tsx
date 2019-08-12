@@ -32,6 +32,7 @@ const data = Data({
     mapBounds: null,
     contentListHeight: 2000,
     activityFilter: "",
+    confirmationDialogActive: false
 })
 
 function sleep(seconds) {
@@ -274,6 +275,42 @@ export function MapPicker(): Override {
     }
 }
 
+function wtf(s){
+  let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
+  let format = date
+      .toLocaleTimeString("en-US", {
+          hour: "numeric",
+          minute: "numeric",
+          timeZone: "America/New_York",
+      })
+      .toLowerCase()
+
+  data.confirmationDialogText = `${s.class.name} at ${format}` ;
+  data.confirmationDialogActive = true;
+}
+
+export function isConfirmationDialogActive() : Override {
+  return {
+    bottom: -300,
+    animate: { bottom: data.confirmationDialogActive ? 0 : -300}
+  }
+}
+
+export function confirmationDialogText() : Override {
+  return {
+    text: data.confirmationDialogText
+  }
+}
+
+export function hideConfirmationDialog() : Override {
+  return {
+    onTap: function() {
+      data.confirmationDialogActive = false
+    }
+  }
+}
+
+
 
 export function VenueList(): Override {
     return {
@@ -282,9 +319,7 @@ export function VenueList(): Override {
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
         top: data.dateFilter === -1 ? 50 : 150,
-        onScheduleTapped: function(schedule) {
-          confirm(`Do you want to reserve "${schedule.class.name}"?`)
-        }
+        onScheduleTapped: wtf
     }
 }
 
