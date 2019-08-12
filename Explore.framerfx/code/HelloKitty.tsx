@@ -2,8 +2,6 @@ import * as React from "react"
 import { Scroll, Frame, RenderTarget } from "framer"
 import venues from "./dataset.js"
 
-
-
 function mapSchedules(s) {
     let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
     let format = date
@@ -14,10 +12,16 @@ function mapSchedules(s) {
         })
         .toLowerCase()
     return (
-        <span
-            key={s.starttime}
+        <Frame
+            key={s.class.name + s.starttime}
+            onTap={e => {
+              if (this.onScheduleTapped) {
+                this.onScheduleTapped(s)
+              }
+            }}
             style={{
                 display: "inline-block",
+                position: "relative",
                 border: "1px solid #e7e7e7",
                 borderRadius: 3,
                 boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
@@ -29,6 +33,7 @@ function mapSchedules(s) {
                 height: 26,
                 whiteSpace: "nowrap",
                 textAlign: "center",
+                background: '#fff',
             }}
         >
             {format}{" "}
@@ -43,7 +48,7 @@ function mapSchedules(s) {
             >
                 {s.availability.credits}
             </span>
-        </span>
+        </Frame>
     )
 }
 
@@ -91,7 +96,7 @@ export function HelloKitty(props) {
                 return a.starttime - b.starttime
             })
 
-        let schedulesElements = filteredSchedules.map(mapSchedules)
+        let schedulesElements = filteredSchedules.map(mapSchedules.bind(props))
 
         return filteredSchedules.length === 0 ? (
             undefined

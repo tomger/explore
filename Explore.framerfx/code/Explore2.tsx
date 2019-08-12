@@ -282,6 +282,9 @@ export function VenueList(): Override {
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
         top: data.dateFilter === -1 ? 50 : 150,
+        onScheduleTapped: function(schedule) {
+          confirm(`Do you want to reserve "${schedule.class.name}"?`)
+        }
     }
 }
 
