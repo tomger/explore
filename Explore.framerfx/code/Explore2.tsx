@@ -318,7 +318,7 @@ export function VenueList(): Override {
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
-        top: data.dateFilter === -1 ? 50 : 150,
+        // top: data.dateFilter === -1 ? 50 : 150,
         onScheduleTapped: wtf
     }
 }

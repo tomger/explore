@@ -45,6 +45,7 @@ export function MapKit(props) {
             var leaflet = L.map(frameRef.current, {
                 zoomControl: false,
                 preferCanvas: true,
+                scrollWheelZoom: false,
             })
             leaflet.setView([40.74, -74.0014], 14)
             L.tileLayer(

@@ -74,7 +74,7 @@ export function Tabs(props) {
                     }}
                     style={!venueList ? tabStyle : selectedStyle}
                 >
-                    Studios
+                    Venues
                 </div>
                 <div
                     onClick={() => {
