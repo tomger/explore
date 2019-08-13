@@ -38065,102 +38065,67 @@
             "widthType" : 0
           },
           {
-            "__class" : "FrameNode",
+            "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "bottom" : 0,
-            "boxShadows" : [
-              {
-                "__class" : "BoxShadow",
-                "blur" : 65,
-                "color" : "rgba(0,0,0,0.25)",
-                "enabled" : true,
-                "inset" : false,
-                "spread" : 0,
-                "x" : 0,
-                "y" : 0
-              }
-            ],
+            "bottom" : -667,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.91229385307346322,
+            "centerAnchorY" : 0.5,
             "children" : [
 
             ],
-            "clip" : true,
+            "clip" : false,
+            "codeComponentIdentifier" : "framer\/Scroll",
+            "codeComponentProps" : {
+              "children" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "clt4OGvcL"
+                }
+              ],
+              "direction" : "vertical",
+              "directionLock" : true,
+              "dragEnabled" : true,
+              "wheelEnabled" : true
+            },
             "codeOverrideEnabled" : true,
             "codeOverrideFile" : ".\/Explore2.tsx",
-            "codeOverrideIdentifier" : ".\/Explore2.tsx_isConfirmationDialogActive",
-            "codeOverrideName" : "isConfirmationDialogActive",
+            "codeOverrideIdentifier" : ".\/Explore2.tsx_ScheduleDetailScroll",
+            "codeOverrideName" : "ScheduleDetailScroll",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
 
             ],
-            "fillColor" : "hsl(0, 0%, 100%)",
-            "fillEnabled" : true,
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
             "fillImage" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 165,
+            "height" : 667,
             "heightType" : 0,
-            "id" : "Ew_SgOfW2",
+            "id" : "dntWS2z6E",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
             "left" : 0,
             "locked" : false,
-            "name" : "Dialog",
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
+            "name" : "detailScroll",
             "opacity" : 1,
-            "originalid" : "CZcmvT3D1",
+            "originalid" : null,
             "parentid" : "zkCv7VErF",
-            "previewSettings" : {
-              "__class" : "PreviewSettings",
-              "bezel" : true,
-              "deviceType" : null,
-              "responsive" : false,
-              "rotate" : false,
-              "skin" : "Gold",
-              "touch" : false,
-              "zoom" : -1
-            },
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
             "radiusIsRelative" : false,
-            "radiusPerCorner" : true,
-            "radiusTopLeft" : 8,
-            "radiusTopRight" : 8,
-            "replicaInfo" : {
-              "master" : "CZcmvT3D1",
-              "overrides" : {
-                "CZcmvT3D1" : {
-                  "bottom" : 0,
-                  "centerAnchorX" : 0.5,
-                  "centerAnchorY" : 0.91229385307346322,
-                  "left" : 0,
-                  "right" : 0,
-                  "top" : null
-                }
-              }
-            },
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
             "right" : 0,
             "rotation" : 0,
-            "top" : null,
+            "top" : 667,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -40255,107 +40220,6 @@
             "visible" : true,
             "width" : 375,
             "widthType" : 0
-          },
-          {
-            "__class" : "FrameNode",
-            "aspectRatio" : null,
-            "blendingEnabled" : 0,
-            "blendingMode" : "normal",
-            "bottom" : 0,
-            "boxShadows" : [
-              {
-                "__class" : "BoxShadow",
-                "blur" : 65,
-                "color" : "rgba(0,0,0,0.25)",
-                "enabled" : true,
-                "inset" : false,
-                "spread" : 0,
-                "x" : 0,
-                "y" : 0
-              }
-            ],
-            "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.87631184407796103,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/Explore2.tsx",
-            "codeOverrideIdentifier" : ".\/Explore2.tsx_isConfirmationDialogActive",
-            "codeOverrideName" : "isConfirmationDialogActive",
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "hsl(0, 0%, 100%)",
-            "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "guidesX" : [
-
-            ],
-            "guidesY" : [
-
-            ],
-            "height" : 165,
-            "heightType" : 0,
-            "id" : "iVf3b4qvW",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "isExternalMaster" : null,
-            "isMaster" : false,
-            "isTarget" : false,
-            "left" : 0,
-            "locked" : false,
-            "name" : "Dialog",
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
-            "opacity" : 1,
-            "originalid" : "CZcmvT3D1",
-            "parentid" : "rj1uQlsa2",
-            "previewSettings" : {
-              "__class" : "PreviewSettings",
-              "bezel" : true,
-              "deviceType" : null,
-              "responsive" : false,
-              "rotate" : false,
-              "skin" : "Gold",
-              "touch" : false,
-              "zoom" : -1
-            },
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : true,
-            "radiusTopLeft" : 8,
-            "radiusTopRight" : 8,
-            "replicaInfo" : {
-              "master" : "CZcmvT3D1",
-              "overrides" : {
-                "CZcmvT3D1" : {
-                  "bottom" : 0,
-                  "centerAnchorX" : 0.5,
-                  "centerAnchorY" : 0.87631184407796103,
-                  "left" : 0,
-                  "right" : 0,
-                  "top" : null
-                }
-              }
-            },
-            "right" : 0,
-            "rotation" : 0,
-            "top" : null,
-            "visible" : true,
-            "width" : 375,
-            "widthType" : 0
           }
         ],
         "clip" : true,
@@ -41287,7 +41151,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : 3641,
+        "left" : 4089,
         "locked" : false,
         "name" : null,
         "navigationTarget" : null,
@@ -41317,7 +41181,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 1542,
+        "top" : 2752,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
@@ -41698,7 +41562,7 @@
         "isExternalMaster" : null,
         "isMaster" : true,
         "isTarget" : false,
-        "left" : 3641,
+        "left" : 4089,
         "locked" : false,
         "name" : "Dialog",
         "navigationTarget" : null,
@@ -41728,7 +41592,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 1761,
+        "top" : 2971,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
@@ -44715,6 +44579,163 @@
         "right" : null,
         "rotation" : 0,
         "top" : 756,
+        "visible" : true,
+        "width" : 375,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "boxShadows" : [
+          {
+            "__class" : "BoxShadow",
+            "blur" : 65,
+            "color" : "rgba(0,0,0,0.25)",
+            "enabled" : true,
+            "inset" : false,
+            "spread" : 0,
+            "x" : 0,
+            "y" : 0
+          }
+        ],
+        "centerAnchorX" : 0.5,
+        "centerAnchorY" : 0.94677661169415295,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : true,
+        "codeOverrideFile" : ".\/Explore2.tsx",
+        "codeOverrideIdentifier" : ".\/Explore2.tsx_isConfirmationDialogActive",
+        "codeOverrideName" : "isConfirmationDialogActive",
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "hsl(0, 0%, 100%)",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 165,
+        "heightType" : 0,
+        "id" : "Ew_SgOfW2",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 4089,
+        "locked" : false,
+        "name" : "Dialog",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : "CZcmvT3D1",
+        "parentid" : "TAppACBc8",
+        "previewSettings" : {
+          "__class" : "PreviewSettings",
+          "bezel" : true,
+          "deviceType" : null,
+          "responsive" : false,
+          "rotate" : false,
+          "skin" : "Gold",
+          "touch" : false,
+          "zoom" : -1
+        },
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : true,
+        "radiusTopLeft" : 8,
+        "radiusTopRight" : 8,
+        "replicaInfo" : {
+          "master" : "CZcmvT3D1",
+          "overrides" : {
+            "CZcmvT3D1" : {
+              "bottom" : null,
+              "centerAnchorX" : 0.5,
+              "centerAnchorY" : 0.94677661169415295,
+              "left" : 4089,
+              "right" : null,
+              "top" : 3265
+            }
+          }
+        },
+        "right" : null,
+        "rotation" : 0,
+        "top" : 3265,
+        "visible" : true,
+        "width" : 375,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0.90533333333333332,
+        "centerAnchorY" : 2.3205128205128207,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/ScheduleDetail.tsx_ScheduleDetail",
+        "codeComponentProps" : {
+
+        },
+        "codeOverrideEnabled" : true,
+        "codeOverrideFile" : ".\/Explore2.tsx",
+        "codeOverrideIdentifier" : ".\/Explore2.tsx_ScheduleDetail",
+        "codeOverrideName" : "ScheduleDetail",
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 627,
+        "heightType" : 0,
+        "id" : "clt4OGvcL",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 4089,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "TAppACBc8",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 1764,
         "visible" : true,
         "width" : 375,
         "widthType" : 0

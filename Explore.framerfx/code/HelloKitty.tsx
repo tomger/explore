@@ -2,7 +2,7 @@ import * as React from "react"
 import { Scroll, Frame, RenderTarget } from "framer"
 import venues from "./dataset.js"
 
-function mapSchedules(s) {
+function mapSchedules(venue, klass, schedules, s) {
     let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
     let format = date
         .toLocaleTimeString("en-US", {
@@ -15,8 +15,14 @@ function mapSchedules(s) {
         <Frame
             key={s.id}
             onTap={e => {
+              e.stopPropagation();
               if (this.onScheduleTapped) {
-                this.onScheduleTapped(s)
+                this.onScheduleTapped({
+                  schedule: s,
+                  venue: venue,
+                  class: klass,
+                  schedules: schedules,
+                })
               }
             }}
             style={{
@@ -70,7 +76,7 @@ export function HelloKitty(props) {
 
     function mapVenues() {}
 
-    function mapClasses(klass) {
+    function mapClasses(venue, klass) {
         let filteredSchedules = klass.schedules
             .filter(s => {
                 return (
@@ -96,18 +102,34 @@ export function HelloKitty(props) {
                 return a.starttime - b.starttime
             })
 
-        let schedulesElements = filteredSchedules.map(mapSchedules.bind(props))
+        let schedulesElements = filteredSchedules.map(
+          mapSchedules.bind(props, venue, klass, filteredSchedules)
+        )
 
         return filteredSchedules.length === 0 ? (
             undefined
         ) : (
-            <div
+            <Frame
                 earliestScheduleTime={filteredSchedules[0].starttime}
                 key={klass.name + klass.schedules[0].starttime}
+                onTap={e => {
+                  if (props.onScheduleTapped) {
+                    props.onScheduleTapped({
+                      venue: venue,
+                      class: klass,
+                      schedules: filteredSchedules,
+                    })
+                  }
+                }}
                 style={{
                     padding: "12px",
                     fontSize: 16,
+                    background: "transparent",
                     borderTop: "1px solid #e7e7e7",
+                    position: "relative",
+                    display: "block",
+                    height: "auto", //  we want the class tap target to be as big as possible
+                    width: "100%",
                 }}
             >
                 <div>
@@ -155,7 +177,7 @@ export function HelloKitty(props) {
                         </Scroll>
                     </div>
                 )}
-            </div>
+            </Frame>
         )
     }
 
@@ -176,7 +198,7 @@ export function HelloKitty(props) {
         })
         .map(venue => {
             let classes = ALL_DAYS ? [] : venue.classes
-              .map(mapClasses)
+              .map(mapClasses.bind(null, venue))
               .filter(p => !!p)
               .slice().sort((a, b) => {
                 return a.props.earliestScheduleTime - b.props.earliestScheduleTime
@@ -211,10 +233,21 @@ export function HelloKitty(props) {
 
             let element =
                   (
-                    <div
+                    <Frame
                         earliestScheduleTime={!!classes[0] ? classes[0].props.earliestScheduleTime : -1}
                         key={venue.venue_id}
+                        onTap={e => {
+                          e.stopPropagation();
+                          if (props.onScheduleTapped) {
+                            props.onScheduleTapped({
+                              venue: venue,
+                            })
+                          }
+                        }}
                         style={{
+                            position: "relative",
+                            width: "auto",
+                            height: "auto",
                             margin: 12,
                             background: "#fff",
                             borderRadius: 5,
@@ -296,7 +329,7 @@ export function HelloKitty(props) {
                         >
                             {ALL_DAYS ? undefined : <div>{classSection}</div>}
                         </div>
-                    </div>
+                    </Frame>
                 )
             return element
         })
@@ -328,7 +361,7 @@ export function HelloKitty(props) {
 
 
     console.info("HelloKitty took",performance.now() - performanceStart);
-
+    const CATS = ["Yoga", "Pilates", "Boxing", "Strength", "Barre"];
     return (
         <Frame
             size="100%"
@@ -346,6 +379,32 @@ export function HelloKitty(props) {
               margin: 16,
               color: "#333",
             }}>We found {venuesWithAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} Venues</div>
+                <Scroll direction="horizontal" width="100%" style={{
+                  position: "relative",
+                  height: 32,
+                }}>
+                <Frame style={{
+                  background: "white",
+                  paddingLeft: 16,
+                  width: CATS.length * 110
+                }}>
+                  {
+                    CATS.map(name =>
+                      <Frame style={{
+                        position: "relative",
+                        display: "inline-flex",
+                        height: 32,
+                        width: 100,
+                        borderRadius: 100,
+                        background: "#fff",
+                        border: "1px solid #ddd",
+                        marginRight: 8,
+                      }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
+                    )
+
+                  }
+                </Frame>
+                </Scroll>
                 {venuesWithAvailability.slice(0, 20)}
                 {venuesWithAvailability.length > 20
                     ? `Load ${venuesWithAvailability.length - 20} more results`

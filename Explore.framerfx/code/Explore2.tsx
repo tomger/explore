@@ -32,7 +32,8 @@ const data = Data({
     mapBounds: null,
     contentListHeight: 2000,
     activityFilter: "",
-    confirmationDialogActive: false
+    confirmationDialogActive: false,
+    selectedDetailData: null,
 })
 
 function sleep(seconds) {
@@ -275,43 +276,36 @@ export function MapPicker(): Override {
     }
 }
 
-function wtf(s){
-  let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
-  let format = date
-      .toLocaleTimeString("en-US", {
-          hour: "numeric",
-          minute: "numeric",
-          timeZone: "America/New_York",
-      })
-      .toLowerCase()
 
-  data.confirmationDialogText = `${s.class.name} at ${format}` ;
-  data.confirmationDialogActive = true;
-}
+export function ScheduleDetailScroll() : Override {
 
-export function isConfirmationDialogActive() : Override {
   return {
-    bottom: -300,
-    animate: { bottom: data.confirmationDialogActive ? 0 : -300}
+    top: data.confirmationDialogActive ? 40 : 667,
+    transition: { ease: "easeOut", duration: 0.2 },
+    animate: { top: data.confirmationDialogActive ? 40 : 667}
   }
 }
 
-export function confirmationDialogText() : Override {
-  return {
-    text: data.confirmationDialogText
-  }
-}
 
-export function hideConfirmationDialog() : Override {
+export function ScheduleDetail() : Override {
   return {
     onTap: function() {
       data.confirmationDialogActive = false
-    }
+    },
+    data: data.selectedDetailData,
   }
 }
 
-
-
+function wtf(s){
+  if (data.confirmationDialogActive) {
+    return; // hack cause i can't figure out stopPropagation
+  }
+  data.selectedDetailData = s;
+  data.confirmationDialogActive = true;
+}
+function onCategoryChange(cat) {
+  data.activityFilter = cat
+}
 export function VenueList(): Override {
     return {
         dateFilter: data.dateFilter,
@@ -319,7 +313,8 @@ export function VenueList(): Override {
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
         // top: data.dateFilter === -1 ? 50 : 150,
-        onScheduleTapped: wtf
+        onScheduleTapped: wtf,
+        onCategoryChange: onCategoryChange,
     }
 }
 
