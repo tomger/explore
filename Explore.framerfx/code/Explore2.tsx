@@ -261,6 +261,7 @@ export function DatePicker(): Override {
 
 export function ActivityPicker(): Override {
     return {
+        value: data.activityFilter,
         onValueChange: value => {
             data.activityFilter = value
         },

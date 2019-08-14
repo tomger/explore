@@ -193,8 +193,18 @@ export function HelloKitty(props) {
           if (!props.activityFilter) {
             return true;
           }
+
+
+          if (props.activityFilter.toLowerCase() == "fitness") {
+            return ["yoga", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
+                .indexOf(venue.activities.toLowerCase()) !== -1;
+          }
+          if (props.activityFilter.toLowerCase() == "wellness") {
+            return ["massage", "facial", "cryotherapy", "sports recovery", "sauna", "meditation", "acupuncture", "cupping", "beauty"]
+                .indexOf(venue.activities.toLowerCase()) !== -1;
+          }
           return venue.activities.toLowerCase()
-            .indexOf(props.activityFilter.toLowerCase()) !== -1;
+              .indexOf(props.activityFilter.toLowerCase()) !== -1;
         })
         .map(venue => {
             let classes = ALL_DAYS ? [] : venue.classes
@@ -360,8 +370,15 @@ export function HelloKitty(props) {
     }
 
 
-    console.info("HelloKitty took",performance.now() - performanceStart);
-    const CATS = ["Yoga", "Pilates", "Boxing", "Strength", "Barre"];
+    // console.info("HelloKitty took",performance.now() - performanceStart);
+    let CATS = ["Fitness", "Wellness", "Gym"]
+    if (props.activityFilter == "Fitness") {
+      CATS = ["Yoga", "Pilates", "Boxing", "Strength", "Barre"];
+    } else if (props.activityFilter == "Wellness") {
+      CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
+    } else if (props.activityFilter) {
+      CATS = []
+    }
     return (
         <Frame
             size="100%"
@@ -372,7 +389,7 @@ export function HelloKitty(props) {
                 background: "white",
             }}
         >
-            <div class="scroll_height" style={{ background: "white" }}>
+            <div className="scroll_height" style={{ background: "white" }}>
             <div style={{
               fontSize: 20,
               fontWeight: 700,
@@ -386,7 +403,7 @@ export function HelloKitty(props) {
                 <Frame style={{
                   background: "white",
                   paddingLeft: 16,
-                  width: CATS.length * 110
+                  width: CATS.length * 120
                 }}>
                   {
                     CATS.map(name =>
