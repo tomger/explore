@@ -281,16 +281,16 @@ export function MapPicker(): Override {
 export function ScheduleDetailScroll() : Override {
 
   return {
-    top: data.confirmationDialogActive ? 40 : 667,
+    top: data.confirmationDialogActive ? 0 : 700,
     transition: { ease: "easeOut", duration: 0.2 },
-    animate: { top: data.confirmationDialogActive ? 40 : 667}
+    animate: { top: data.confirmationDialogActive ? 0 : 700}
   }
 }
 
 
 export function ScheduleDetail() : Override {
   return {
-    onTap: function() {
+    onClose: function() {
       data.confirmationDialogActive = false
     },
     data: data.selectedDetailData,

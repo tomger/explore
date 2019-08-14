@@ -26,6 +26,7 @@ function mapSchedules(venue, klass, schedules, s) {
               }
             }}
             style={{
+                willChange: "unset",
                 display: "inline-block",
                 position: "relative",
                 border: "1px solid #e7e7e7",
@@ -40,6 +41,7 @@ function mapSchedules(venue, klass, schedules, s) {
                 whiteSpace: "nowrap",
                 textAlign: "center",
                 background: '#fff',
+
             }}
         >
             {format}{" "}

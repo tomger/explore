@@ -100,8 +100,6 @@ export function ScheduleDetail(props) {
                 fontFamily: "TT Norms",
                 color: "#333",
                 background: "#fff",
-                borderRadius: "8px 8px 0 0",
-                boxShadow: "0 0 20px rgba(0, 0, 0, .4)",
             }}
         >
           <img src={data.venue.images} style={{
@@ -174,6 +172,12 @@ export function ScheduleDetail(props) {
             </div>
           </div>
           ) : undefined}
+
+
+          <Frame bottom="0" left="0" right="0" height={48+32} style={{background:"#fff", boxShadow: "0 0 4px #ccc", display:"flex"}}>
+            <Frame onTap={e=>props.onClose()} height={48} left={20} top={16} right={20}
+                style={{borderRadius: 5, fontSize: 16,  fontWeight: 500, background: "#05f", color: "#fff"}}>Confirm reservation</Frame>
+          </Frame>
         </Frame>
     )
 }
