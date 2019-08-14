@@ -375,7 +375,7 @@ export function HelloKitty(props) {
     // console.info("HelloKitty took",performance.now() - performanceStart);
     let CATS = ["Fitness", "Wellness", "Gym"]
     if (props.activityFilter == "Fitness") {
-      CATS = ["Yoga", "Pilates", "Boxing", "Strength", "Barre"];
+      CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"];
     } else if (props.activityFilter == "Wellness") {
       CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
     } else if (props.activityFilter) {
