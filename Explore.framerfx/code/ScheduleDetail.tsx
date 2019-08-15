@@ -109,6 +109,11 @@ export function ScheduleDetail(props) {
             borderRadius: "8px 8px 0 0",
           }}/>
 
+          <Frame
+            onTap={e=>props.onClose()}
+            top={20} left={20} style={{padding: "8px 16px", fontWeight: 500, height: "auto", width: "auto", background: "#000000aa", color: "#fff", borderRadius: 100}}>
+            Close</Frame>
+
 
           <div style={{
             fontSize: 16,
@@ -173,11 +178,12 @@ export function ScheduleDetail(props) {
           </div>
           ) : undefined}
 
-
+          {data.schedule ? (
           <Frame bottom="0" left="0" right="0" height={48+32} style={{background:"#fff", boxShadow: "0 0 4px #ccc", display:"flex"}}>
             <Frame onTap={e=>props.onClose()} height={48} left={20} top={16} right={20}
                 style={{borderRadius: 5, fontSize: 16,  fontWeight: 500, background: "#05f", color: "#fff"}}>Confirm reservation</Frame>
           </Frame>
+        ) : undefined }
         </Frame>
     )
 }

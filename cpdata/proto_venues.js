@@ -12,7 +12,7 @@ venues = venues
   .map(venue => {
     venue.classes = [];
     let schedules = [];
-    venue.images = venue.images.default;
+    venue.images = venue.images.mobile["1x"];
     venue.display_rating_average = String(Math.round(venue.display_rating_average*10)/10)
     venue.schedules.forEach(s => {
       // only Monday schedules
