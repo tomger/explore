@@ -1,5 +1,6 @@
 import * as React from "react"
-import {RenderTarget, Frame, Scroll} from "framer"
+import ReactDOM from 'react-dom'
+import {RenderTarget, Frame, Scroll, useMotionValue} from "framer"
 
 function formatTimestamp(starttime) {
   let date = new Date(1560052855000 + 8000 + starttime * 1000)
@@ -59,6 +60,8 @@ function formatTimestamp(starttime) {
 // }
 
 export function ScheduleDetail(props) {
+    const [userOverrideId, setUserOverrideId] = React.useState()
+    const scrollX = useMotionValue(0);
     const dateFilter = props.dateFilter;
     const startTimeHour = new Date()
     const data = props.data;
@@ -67,10 +70,20 @@ export function ScheduleDetail(props) {
     }
 
     let scheduleList = [];
+    let initialIndex = -1
     if (data.schedules) {
-      scheduleList = data.schedules.map(s => {
+      scheduleList = data.schedules.map((s, index) => {
         let isSelected = data.schedule && s.id == data.schedule.id;
-        return (<Frame style={{
+        if (data.schedules.find(n=>n.id==userOverrideId)) {
+          isSelected = s.id == userOverrideId;
+        } else if (isSelected){
+          initialIndex = index;
+        }
+        let frame = (<Frame
+          onTap={e=> {
+            setUserOverrideId(s.id)
+          }}
+          style={{
           fontSize: 16,
           fontWeight: 300,
           margin: "16px 8px 0 0px",
@@ -81,13 +94,31 @@ export function ScheduleDetail(props) {
           position:"relative",
           height: "auto",
           borderRadius: 5,
-          background: isSelected ? "#0055ff20" : "#fff",
-          width: 150,
+          background: isSelected ? "#0055ff10" : "#fff",
+          width: 190,
         }}>
-          <div>{formatTimestamp(s.starttime)}</div>
-          <div>{s.teacher.name}</div>
+          <div style={{
+            mixBlendMode: "multiply",
+            fontWeight: 500
+          }}>{formatTimestamp(s.starttime)}</div>
+          <div style={{
+            fontSize: 14
+          }}>{s.teacher.name}</div>
+          <div style={{
+            fontSize: 14
+          }}>{s.availability.credits} credits</div>
         </Frame>)
+        return frame;
       })
+    }
+    if (initialIndex !== -1)
+      scrollX.set(Math.max(
+        ((-198*data.schedules.length-1)+200),
+        -198 * initialIndex))
+
+    function close() {
+      setUserOverrideId(undefined);
+      props.onClose();
     }
 
     return (
@@ -110,7 +141,7 @@ export function ScheduleDetail(props) {
           }}/>
 
           <Frame
-            onTap={e=>props.onClose()}
+            onTap={e=>close()}
             top={20} left={20} style={{padding: "8px 16px", fontWeight: 500, height: "auto", width: "auto", background: "#000000aa", color: "#fff", borderRadius: 100}}>
             Close</Frame>
 
@@ -147,8 +178,8 @@ export function ScheduleDetail(props) {
           </div>) : undefined
           }
 
-          <Scroll direction="horizontal" width="100%" style={{position: "relative", height:80}}>
-            <Frame style={{background: "#fff",position: "relative", height: "auto", paddingLeft: 16}} width={scheduleList.length * 170}>
+          <Scroll contentOffsetX={scrollX} className="jesusLeaveMeAlone" direction="horizontal" width="100%" style={{position: "relative", height:95}}>
+            <Frame  style={{background: "#fff",xposition: "relative", height: "auto", paddingLeft: 16 }} width={scheduleList.length * 210}>
           {scheduleList}
             </Frame>
           </Scroll>
@@ -166,9 +197,10 @@ export function ScheduleDetail(props) {
             <div
               style={{
                   fontSize: 16,
-                  marginTop: 4,
+                  lineHeight: 1.3,
+                  marginTop: 8,
                   color: "#333",
-                  "-webkit-line-clamp": "5",
+                  "-webkit-line-clamp": "4",
                   "-webkit-box-orient": "vertical",
                   display: "-webkit-box",
                   overflow: "hidden",
@@ -180,7 +212,7 @@ export function ScheduleDetail(props) {
 
           {data.schedule ? (
           <Frame bottom="0" left="0" right="0" height={48+32} style={{background:"#fff", boxShadow: "0 0 4px #ccc", display:"flex"}}>
-            <Frame onTap={e=>props.onClose()} height={48} left={20} top={16} right={20}
+            <Frame onTap={e=>close()} height={48} left={20} top={16} right={20}
                 style={{borderRadius: 5, fontSize: 16,  fontWeight: 500, background: "#05f", color: "#fff"}}>Confirm reservation</Frame>
           </Frame>
         ) : undefined }

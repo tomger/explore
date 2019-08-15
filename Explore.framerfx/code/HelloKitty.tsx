@@ -198,7 +198,7 @@ export function HelloKitty(props) {
 
 
           if (props.activityFilter.toLowerCase() == "fitness") {
-            return ["yoga", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
+            return ["yoga", "strength training", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
                 .indexOf(venue.activities.toLowerCase()) !== -1;
           }
           if (props.activityFilter.toLowerCase() == "wellness") {
