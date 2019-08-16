@@ -362,7 +362,7 @@ export function Scrollable(props): Override {
       el.parentNode.parentNode.parentNode.style.overflow = "visible";
     }
     return {
-      contentOffsetY: -50,
+      contentOffsetY: -70,
       contentHeight: data.contentListHeight + 350,
       onScrollStart: function(e) {
         const scrollHeightElement = el.querySelector(".scroll_height");

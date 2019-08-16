@@ -205,8 +205,10 @@ export function HelloKitty(props) {
             return ["massage", "facial", "cryotherapy", "sports recovery", "sauna", "meditation", "acupuncture", "cupping", "beauty"]
                 .indexOf(venue.activities.toLowerCase()) !== -1;
           }
-          return venue.activities.toLowerCase()
-              .indexOf(props.activityFilter.toLowerCase()) !== -1;
+          return (venue.venue_name.toLowerCase()
+              .indexOf(props.activityFilter.toLowerCase()) !== -1 ||
+            venue.activities.toLowerCase()
+              .indexOf(props.activityFilter.toLowerCase()) !== -1);
         })
         .map(venue => {
             let classes = ALL_DAYS ? [] : venue.classes

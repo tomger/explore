@@ -25,9 +25,9 @@ var q = queue(function(request, cb) {
     offset += 7 * 86400; //week * day * sec
   }
 
-  if (fs.existsSync(cachePath)) {
-    cb(JSON.parse(fs.readFileSync(cachePath)))
-  } else {
+  // if (fs.existsSync(cachePath)) {
+    // cb(JSON.parse(fs.readFileSync(cachePath)))
+  // } else {
       let path = '/_api/v1/venues/' + request.venue_id + '/schedules?date=' + day.format('YYYY-MM-DD');;
       cprequest(path, 'GET', null, function(response) {
         let data = JSON.parse(response);
@@ -39,7 +39,7 @@ var q = queue(function(request, cb) {
         cb(data);
 
       });
-  }
+  // }
 
 }, 20);
 
