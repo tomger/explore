@@ -139,8 +139,11 @@ export function ScheduleDetail(props) {
             height: 250,
             width: 375,
             objectFit: "cover",
-            borderRadius: "8px 8px 0 0",
           }}/>
+          <Frame top={250-8} left={0} right={0} background="white" style={{
+            borderRadius:8,
+            height: 16,
+          }}></Frame>
 
           <Frame
             onTap={e=>close()}
@@ -264,12 +267,13 @@ export function ScheduleDetail(props) {
                 .map(s => {
                   return (
                     <div style={{
+                      fontSize: 16,
                       display: "flex",
                       flexDirection: "row",
                       borderBottom: "1px solid #eee",
                       padding: "12px 16px",
                     }}>
-                      <div style={{width: 72}}>{formatTimestamp(s.starttime)}</div>
+                      <div style={{width: 80}}>{formatTimestamp(s.starttime)}</div>
                       <div style={{ flex: 1 }}>
                         <div style={{fontWeight: 500}}>{s.class.name}</div>
                         <div style={{color: "#7f7f7f"}}>{s.teacher.name}</div>
