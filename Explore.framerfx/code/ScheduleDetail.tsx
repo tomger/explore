@@ -121,6 +121,8 @@ export function ScheduleDetail(props) {
       props.onClose();
     }
 
+    let schedules = data.venue.classes.reduce((a,c) => a.concat(c.schedules), [])
+
     return (
         <Frame
             {...props}
@@ -146,15 +148,18 @@ export function ScheduleDetail(props) {
             Close</Frame>
 
 
-          <div style={{
-            fontSize: 16,
-            fontWeight: 500,
-            margin: "16px 16px 0 16px",
-            color: "#555",
-          }}>
-            {data.venue.venue_name}
-          </div>
+
+
           {data.class ? (
+            <div>
+            <div style={{
+              fontSize: 16,
+              fontWeight: 500,
+              margin: "16px 16px 0 16px",
+              color: "#555",
+            }}>
+              {data.venue.venue_name}
+            </div>
             <div style={{
               fontSize: 26,
               fontWeight: 700,
@@ -163,7 +168,17 @@ export function ScheduleDetail(props) {
             }}>
             {data.class.name}
           </div>
-          ) : undefined}
+          </div>
+        ) : (
+          <div style={{
+            fontSize: 26,
+            fontWeight: 700,
+            margin: "16px 16px 4px 16px",
+            color: "#333",
+          }}>
+          {data.venue.venue_name}
+        </div>
+        )}
 
 
           {false && data.schedule  ?
@@ -178,13 +193,13 @@ export function ScheduleDetail(props) {
           </div>) : undefined
           }
 
-          <Scroll contentOffsetX={scrollX} className="jesusLeaveMeAlone" direction="horizontal" width="100%" style={{position: "relative", height:95}}>
-            <Frame  style={{background: "#fff",xposition: "relative", height: "auto", paddingLeft: 16 }} width={scheduleList.length * 210}>
-          {scheduleList}
-            </Frame>
-          </Scroll>
-
           {data.class ? (
+            <div>
+            <Scroll contentOffsetX={scrollX} className="jesusLeaveMeAlone" direction="horizontal" width="100%" style={{position: "relative", height:95}}>
+              <Frame  style={{background: "#fff",xposition: "relative", height: "auto", paddingLeft: 16 }} width={scheduleList.length * 210}>
+            {scheduleList}
+              </Frame>
+            </Scroll>
             <div style={{
               fontSize: 16,
               margin: 16,
@@ -208,7 +223,68 @@ export function ScheduleDetail(props) {
             {data.class.description}
             </div>
           </div>
-          ) : undefined}
+          </div>
+        ) : (
+          <div>
+            <div style={{
+              paddingLeft: 16,
+              paddingRight: 16,
+              fontSize: 16,
+              lineHeight: 1.4,
+              marginTop: 8,
+              marginBottom: 8,
+              color: "#333",
+              "-webkit-line-clamp": "4",
+              "-webkit-box-orient": "vertical",
+              display: "-webkit-box",
+              overflow: "hidden",
+            }}>{data.venue.description}</div>
+            <div style={{
+              fontSize: 16,
+              fontWeight: 500,
+              padding: "4px 16px 16px 16px",
+              color: "#05f",
+              marginBottom: 16,
+              borderBottom: "1px solid #eee",
+            }}>Show location & more info</div>
+            <div style={{
+                paddingLeft: 16,
+                marginTop: 32,
+                fontSize: 12,
+                color: "#7c7c7c",
+                textTransform: "uppercase",
+                fontWeight: 700}}>Schedule</div>
+            <div style={{
+              background: "#fff"
+            }}>{
+              schedules
+                .slice().sort((a, b) => {
+                  return a.starttime - b.starttime
+                })
+                .map(s => {
+                  return (
+                    <div style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      borderBottom: "1px solid #eee",
+                      padding: "12px 16px",
+                    }}>
+                      <div style={{width: 72}}>{formatTimestamp(s.starttime)}</div>
+                      <div style={{ flex: 1 }}>
+                        <div style={{fontWeight: 500}}>{s.class.name}</div>
+                        <div style={{color: "#7f7f7f"}}>{s.teacher.name}</div>
+                      </div>
+                      <div style={{width: 60}}>{s.availability.credits} credits</div>
+                    </div>
+                  )
+                })
+            }</div>
+          </div>
+
+
+
+
+        )}
 
           {data.schedule ? (
           <Frame bottom="0" left="0" right="0" height={48+32} style={{background:"#fff", boxShadow: "0 0 4px #ccc", display:"flex"}}>
