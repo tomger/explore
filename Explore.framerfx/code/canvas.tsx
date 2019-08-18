@@ -12,6 +12,7 @@ export const Component_2 = createDesignComponent<{parentSize?:{width:number|stri
 export const Component_3 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_OSlrV2oHq", {}, 375,56);
 export const Component_4 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_iKRq93pet", {}, 49,56);
 export const Component_5 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_lLUugzi2M", {}, 123,28);
+export const Component_6 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_uGBCJfbln", {}, 375,165);
 export const ContentList2 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_Bv3TZPTM9", {}, 375,2715);
 export const DatePicker = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_gfqV63Ijc", {}, 375,44);
 export const Dialog = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_CZcmvT3D1", {}, 375,165);

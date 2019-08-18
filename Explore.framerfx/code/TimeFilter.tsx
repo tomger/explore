@@ -3,6 +3,16 @@ import { addPropertyControls, ControlType, Data, Frame, Scroll } from "framer"
 
 const data = Data({})
 
+export function prettyHours (hours) {
+  if (hours == 12) {
+    return hours + "pm"
+  } else if (hours > 12) {
+    return (hours - 12) + "pm"
+  } else {
+    return hours + "am"
+  }
+}
+
 export function TimeFilter(props) {
     // var [venueList, setVenueList] = React.useState(data.venueList)
     /*
@@ -17,24 +27,28 @@ export function TimeFilter(props) {
     General       Singles
     */
 
-    let timeLabel = `${props.timeRange[0]} – ${props.timeRange[1]}`
+    let timeLabel = `${prettyHours(props.timeRange[0])} – ${prettyHours(props.timeRange[1])}`
     let filters = [timeLabel, "credits", "actvities", "amenities", "favorited"];
-    let pills = filters.map(name =>
-      <Frame style={{
+    let pills = filters.map((name, index) => {
+      const selected = (index === 0 && (props.timeRange[0] !== 4 || props.timeRange[1] !== 23));
+      const frame = <Frame style={{
         fontFamily: "TT Norms",
         fontSize: 14,
         fontWeight: 500,
-        color: "#333",
+        color: selected ? "#05f" : "#333",
         position: "relative",
         display: "inline-flex",
-        height: 28,
+        height: 32,
         width: "auto",
         padding: "4px 16px",
         borderRadius: 100,
-        background: "#fff",
-        border: "1px solid #ddd",
+        background: selected ? "#EDF3FF" : "#fff",
+        border: selected ? "1px solid #CEDAE8" : "1px solid #ddd",
         marginRight: 4,
+        // cursor: "pointer",
       }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
+      return frame;
+    }
     )
 
 
@@ -55,8 +69,8 @@ export function TimeFilter(props) {
           background: "transparent",
           width: "auto",
           whiteSpace: "nowrap",
-          paddingTop: 6,
-          paddingBottom: 6,
+          paddingTop: 4,
+          paddingBottom: 4,
           paddingLeft: 12,
           paddingRight: 12,
         }}>

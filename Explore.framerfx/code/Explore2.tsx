@@ -319,6 +319,16 @@ export function VenueList(): Override {
     }
 }
 
+export function Fog(): Override {
+    return {
+        height: data.timePickerVisible ? 667 : 0,
+        onTap: function() {
+          data.timePickerVisible = false
+        }
+    }
+}
+
+
 export function TimePickerVisible(): Override {
     return {
         visible: data.timePickerVisible,
@@ -334,11 +344,17 @@ export function TimeSlider(): Override {
         },
     }
 }
-
+export function TimePickerResetOnTap(): Override {
+    return {
+        onTap: function() {
+            data.timeRange = [4, 23]
+            data.timePickerVisible = false
+        },
+    }
+}
 export function TimePickerHideOnTap(): Override {
     return {
         onTap: () => {
-            console.log("TimePickerHideOnTap BLA", this)
             data.timePickerVisible = false
         },
     }

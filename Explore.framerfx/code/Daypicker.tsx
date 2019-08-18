@@ -22,15 +22,15 @@ export function Daypicker(props) {
         padding: "0 16px",
         display: "flex",
         alignItems: "center",
-        height: 36,
+        height: 32,
         background: "transparent",
         position: "relative",
         fontFamily: "TT Norms",
     }
 
     const selectedStyle: React.CSSProperties = {...dayStyle, ...{
-        background: "#0055ff0a",
-        boxShadow: "inset 0 0 0 1px #0055ff20",
+        background: "#EDF3FF",
+        boxShadow: "inset 0 0 0 1px #CEDAE8",
         color: "#05f",
         borderRadius: 100,
         fontWeight: 500,
