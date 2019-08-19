@@ -15,6 +15,7 @@ export const Component_5 = createDesignComponent<{parentSize?:{width:number|stri
 export const Component_6 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_uGBCJfbln", {}, 375,175);
 export const ContentList2 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_Bv3TZPTM9", {}, 375,2715);
 export const DatePicker = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_gfqV63Ijc", {}, 375,44);
+export const DayPicker = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_Or9CuHbnM", {}, 375,319);
 export const Dialog = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_CZcmvT3D1", {}, 375,165);
 export const Explore2 = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_X_TUp6k06", {}, 375,667);
 export const HomeList = createDesignComponent<{parentSize?:{width:number|string,height:number|string},width?:number|string,height?:number|string}>(canvas, "id_AUZutwl85", {}, 375,950);

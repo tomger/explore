@@ -383,6 +383,37 @@ export function HelloKitty(props) {
     } else if (props.activityFilter) {
       CATS = []
     }
+
+    let catnav;
+    if (CATS.length) {
+      catnav = (<Scroll direction="horizontal" width="100%" style={{
+        position: "relative",
+        height: 32,
+      }}>
+      <Frame style={{
+        background: "white",
+        paddingLeft: 16,
+        width: CATS.length * 120
+      }}>
+        {
+          CATS.map(name =>
+            <Frame style={{
+              position: "relative",
+              display: "inline-flex",
+              height: 32,
+              width: 100,
+              borderRadius: 100,
+              background: "#fff",
+              border: "1px solid #ddd",
+              marginRight: 8,
+            }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
+          )
+
+        }
+      </Frame>
+      </Scroll>)
+    }
+
     return (
         <Frame
             size="100%"
@@ -400,32 +431,7 @@ export function HelloKitty(props) {
               margin: 16,
               color: "#333",
             }}>We found {venuesWithAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} Venues</div>
-                <Scroll direction="horizontal" width="100%" style={{
-                  position: "relative",
-                  height: 32,
-                }}>
-                <Frame style={{
-                  background: "white",
-                  paddingLeft: 16,
-                  width: CATS.length * 120
-                }}>
-                  {
-                    CATS.map(name =>
-                      <Frame style={{
-                        position: "relative",
-                        display: "inline-flex",
-                        height: 32,
-                        width: 100,
-                        borderRadius: 100,
-                        background: "#fff",
-                        border: "1px solid #ddd",
-                        marginRight: 8,
-                      }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
-                    )
-
-                  }
-                </Frame>
-                </Scroll>
+                {catnav}
                 {venuesWithAvailability.slice(0, 20)}
                 {venuesWithAvailability.length > 20
                     ? `Load ${venuesWithAvailability.length - 20} more results`

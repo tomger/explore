@@ -13,6 +13,13 @@ export function prettyHours (hours) {
   }
 }
 
+function addDaysToDate(input, days) {
+    var date = new Date(input.valueOf());
+    date.setDate(date.getDate() + days);
+    return date;
+}
+
+
 export function TimeFilter(props) {
     // var [venueList, setVenueList] = React.useState(data.venueList)
     /*
@@ -28,9 +35,16 @@ export function TimeFilter(props) {
     */
 
     let timeLabel = `${prettyHours(props.timeRange[0])} – ${prettyHours(props.timeRange[1])}`
-    let filters = [timeLabel, "credits", "actvities", "amenities", "favorited"];
+
+    let d = addDaysToDate(new Date(), props.dateFilter-1);
+    let dateLabel = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
+
+
+    let filters = [timeLabel, dateLabel, "Credits", "Amenities", "Favorited"];
     let pills = filters.map((name, index) => {
-      const selected = (index === 0 && (props.timeRange[0] !== 4 || props.timeRange[1] !== 23));
+      const selected =
+        (index === 0 && (props.timeRange[0] !== 4 || props.timeRange[1] !== 23)) ||
+        (index === 1 && (props.dateFilter !== (new Date).getDay()))
       const frame = <Frame style={{
         fontFamily: "TT Norms",
         fontSize: 14,
@@ -46,7 +60,7 @@ export function TimeFilter(props) {
         border: selected ? "1px solid #CEDAE8" : "1px solid #ddd",
         marginRight: 4,
         // cursor: "pointer",
-      }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
+      }} onTap={e => props.onFilterTap(name, index)}>{name}</Frame>
       return frame;
     }
     )
@@ -97,4 +111,6 @@ export function TimeFilter(props) {
 TimeFilter.defaultProps = {
     height: 40,
     width: "100%",
+    timeRange: [4, 23],
+    dateFilter: 0,
 }

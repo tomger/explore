@@ -12,73 +12,69 @@ function addDaysToDate(input, days) {
     return date;
 }
 
-export function Daypicker(props) {
+export function DayMenu(props) {
 
-    const [selected, setSelected] = React.useState(0);
+    const [selected, setSelected] = React.useState(props.);
 
     const dayStyle: React.CSSProperties = {
-        whiteSpace: "nowrap",
-        fontSize: 14,
+        fontSize: 16,
         padding: "0 16px",
-        display: "flex",
         alignItems: "center",
-        height: 40,
-        background: "transparent",
+        textAlign: "left",
+        justifyContent: "left",
+        borderBottom: "1px solid #eee",
+        height: 48,
+        width: "100%",
         position: "relative",
+        background: "transparent",
         fontFamily: "TT Norms",
     }
 
     const selectedStyle: React.CSSProperties = {...dayStyle, ...{
         color: "#05f",
         fontWeight: 500,
-        borderBottom: "2px solid #05f",
     }}
 
     const days = [];
     for (let i = 0; i < 10; i++) {
       let d = addDaysToDate(new Date(), i);
       let label = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
-      if (i === -1) {
-        label = "All dates"
-      } else if (i === 0) {
+      if (i === 0) {
         label = "Today"
       }
-      days.push(<Frame width={i === -1 ? 80 : 68} key={i} onTap={() => {
+      days.push(<Frame key={i} onTap={() => {
         setSelected(i);
         setTimeout(() => {
           if (props.onChange) {
-            props.onChange(i === -1 ? -1 : d.getDay())
+            props.onChange(d.getDay())
           }
-        },1)
+        },20)
       }} style={selected === i ? selectedStyle : dayStyle}>{label}</Frame>)
     }
 
     return (
-        <div>
-        <Frame width="100%" style={{ height: 1, bottom: 0, background: "#ddd"}}></Frame>
-        <Scroll height={40} width="100%" direction="horizontal" style={{
-          background: "transparent",
+        <Scroll height={props.height} width="100%" direction="vertical" style={{
+          background: "white",
           display: "flex",
           paddingLeft: 8,
         }}>
           <Frame  style={{
             background: "transparent",
             display: "flex",
-            flexDirection: "horizontal"
+            flexDirection: "column"
           }}>
           {days}
           </Frame>
         </Scroll>
-        </div>
     )
 }
 
-Daypicker.defaultProps = {
+DayMenu.defaultProps = {
   height: 40,
   width: "100%"
 }
 
-addPropertyControls(Daypicker, {
+addPropertyControls(DayMenu, {
     // tab1: { type: ControlType.ComponentInstance, title: "Tab 1" },
     // tab2: { type: ControlType.ComponentInstance, title: "Tab 2" },
 })

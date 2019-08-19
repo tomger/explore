@@ -34,6 +34,7 @@ const data = Data({
     activityFilter: "",
     confirmationDialogActive: false,
     selectedDetailData: null,
+    datePickerVisible: false,
 })
 
 function sleep(seconds) {
@@ -313,7 +314,6 @@ export function VenueList(): Override {
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
-        // top: data.dateFilter === -1 ? 50 : 150,
         onScheduleTapped: wtf,
         onCategoryChange: onCategoryChange,
     }
@@ -321,12 +321,19 @@ export function VenueList(): Override {
 
 export function Fog(): Override {
     return {
-        height: data.timePickerVisible ? 500 : 0,
+        height: data.datePickerVisible || data.timePickerVisible ? 500 : 0,
         onTap: function() {
           data.timePickerVisible = false
+          data.datePickerVisible = false
         }
     }
 }
+export function DatePickerVisible(): Override {
+    return {
+        visible: data.datePickerVisible,
+    }
+}
+
 
 
 export function TimePickerVisible(): Override {
@@ -362,10 +369,15 @@ export function TimePickerHideOnTap(): Override {
 
 export function TimePill(): Override {
     return {
+        dateFilter: data.dateFilter,
         timeRange: data.timeRange,
-        onTap: () => {
+        onFilterTap: (name, index) => {
+          if (index === 0) { //time
             data.timePickerVisible = true
-            console.log(data.timePickerVisible)
+          }
+          if (index === 1) { //time
+            data.datePickerVisible = true
+          }
         },
     }
 }
@@ -378,7 +390,7 @@ export function Scrollable(props): Override {
       el.parentNode.parentNode.parentNode.style.overflow = "visible";
     }
     return {
-      contentOffsetY: -70,
+      contentOffsetY: -160,
       contentHeight: data.contentListHeight + 350,
       onScrollStart: function(e) {
         const scrollHeightElement = el.querySelector(".scroll_height");
