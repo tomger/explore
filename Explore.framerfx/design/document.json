@@ -38191,9 +38191,9 @@
             "aspectRatio" : null,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
-            "bottom" : 666,
+            "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.50149925037481258,
+            "centerAnchorY" : 0.38005997001499248,
             "children" : [
 
             ],
@@ -38300,7 +38300,7 @@
             "guidesY" : [
 
             ],
-            "height" : 165,
+            "height" : 175,
             "heightType" : 0,
             "id" : "hp7elAlUv",
             "intrinsicHeight" : null,
@@ -38673,7 +38673,7 @@
             "blendingMode" : "normal",
             "bottom" : 0,
             "centerAnchorX" : 0.8706666666666667,
-            "centerAnchorY" : 0.81515151515151518,
+            "centerAnchorY" : 0.82571428571428573,
             "children" : [
               {
                 "__class" : "TextNode",
@@ -38761,9 +38761,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 19,
-                      "width" : 106
+                      "width" : 76
                     },
-                    "width" : 105
+                    "width" : 75
                   },
                   "entityMap" : {
 
@@ -38839,7 +38839,7 @@
             "blendingMode" : "normal",
             "bottom" : 0,
             "centerAnchorX" : 0.58933333333333338,
-            "centerAnchorY" : 0.83333333333333337,
+            "centerAnchorY" : 0.84285714285714286,
             "children" : [
               {
                 "__class" : "TextNode",
@@ -39003,7 +39003,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5013333333333333,
-            "centerAnchorY" : 0.43333333333333335,
+            "centerAnchorY" : 0.46571428571428569,
             "children" : [
 
             ],
@@ -39049,7 +39049,7 @@
             "radiusTopRight" : 0,
             "right" : 40,
             "rotation" : 0,
-            "top" : 60,
+            "top" : 70,
             "visible" : true,
             "width" : 294,
             "widthType" : 0
@@ -39078,7 +39078,7 @@
         "guidesY" : [
 
         ],
-        "height" : 165,
+        "height" : 175,
         "heightType" : 0,
         "id" : "uGBCJfbln",
         "intrinsicHeight" : null,
@@ -39116,7 +39116,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 1403,
+        "top" : 1393,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
@@ -40072,7 +40072,9 @@
           "blocks" : [
             {
               "data" : {
+                "emptyStyle" : [
 
+                ]
               },
               "depth" : 0,
               "entityRanges" : [

@@ -81,22 +81,22 @@ export function TimeSlider(props) {
 
     const knobLabelStyle = {
       fontFamily: "TT Norms",
-      height: 30, y: -38, width: 52, x: -10,
+      height: 34, y: -50, width: 55, x: -14,
       borderRadius: 5,
-      fontSize: 14,
+      fontSize: 16,
       border: "1px solid #ddd",
       boxShadow: "0 1px 1px #eee",
       background: "#fff",
 
     }
 
-    let merged = Math.abs(values[0]-values[1]) < 50;
+    let merged = Math.abs(values[0]-values[1]) < 55;
     const min = convertToHours(Math.min(x1.get(), x2.get()))
     const max = convertToHours(Math.max(x1.get(), x2.get()))
     let mergedLabel = `${prettyHours(min)} - ${prettyHours(max)}`;
     if (merged) {
-      knobLabelStyle.width = 90
-      knobLabelStyle.x = (valueX.get() + valueWidth.get()/2 - 28) - x1.get();
+      knobLabelStyle.width = 110
+      knobLabelStyle.x = (valueX.get() + valueWidth.get()/2 - 42) - x1.get();
     }
 
 

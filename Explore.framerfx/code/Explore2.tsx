@@ -321,7 +321,7 @@ export function VenueList(): Override {
 
 export function Fog(): Override {
     return {
-        height: data.timePickerVisible ? 667 : 0,
+        height: data.timePickerVisible ? 500 : 0,
         onTap: function() {
           data.timePickerVisible = false
         }
