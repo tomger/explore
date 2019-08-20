@@ -40,7 +40,8 @@ export function TimeFilter(props) {
     let dateLabel = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
 
 
-    let filters = [timeLabel, dateLabel, "Credits", "Amenities", "Favorited"];
+    let filters = [timeLabel, "Credits", "Amenities", "Favorited"];
+    // let filters = [timeLabel, dateLabel, "Credits", "Amenities", "Favorited"];
     let pills = filters.map((name, index) => {
       const selected =
         (index === 0 && (props.timeRange[0] !== 4 || props.timeRange[1] !== 23)) ||

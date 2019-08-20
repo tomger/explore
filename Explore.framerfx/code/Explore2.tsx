@@ -382,8 +382,19 @@ export function TimePill(): Override {
 }
 
 
+export function StatusBar(): Override {
+    return {
+        onTap: function() {
+          // console.log("StatusBar",data.venueListOffset);
+          if (data.venueListOffset.stopAnimation)
+            data.venueListOffset.stopAnimation();
+          data.venueListOffset.set(-160);
+        }
+    }
+}
+
 export function StickyChrome(): Override {
-    const initialOffset = 342
+    const initialOffset = 342 - 20
     return {
         top: useTransform(data.venueListOffset, value => {
             if (value > -initialOffset) {
