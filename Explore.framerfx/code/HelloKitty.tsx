@@ -410,11 +410,11 @@ export function HelloKitty(props) {
               border: "1px solid #00000012",
               justifyContent: "left",
               color: "#fff",
-              alignItems: "top",
+              alignItems: "bottom",
               fontWeight: 500,
               fontSize: 14,
               marginRight: 8,
-            }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
+            }} onTap={e => props.onCategoryChange(name)}><div style={{alignSelf: "flex-end"}}>{name}</div></Frame>
           )
 
         }

@@ -23,14 +23,17 @@ export function Daypicker(props) {
         display: "flex",
         alignItems: "center",
         height: 48,
+        color: "#333",
         background: "transparent",
         position: "relative",
         fontFamily: "TT Norms",
+        borderBottom: "2px solid transparent",
     }
 
     const selectedStyle: React.CSSProperties = {...dayStyle, ...{
         color: "#05f",
         fontWeight: 500,
+        fontSize: 14,
         borderBottom: "2px solid #05f",
     }}
 

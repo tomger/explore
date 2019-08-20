@@ -396,6 +396,13 @@ export function StatusBar(): Override {
 export function StickyChrome(): Override {
     const initialOffset = 342 - 20
     return {
+        shadow: useTransform(data.venueListOffset, value => {
+            if (value > -initialOffset) {
+                return ""
+            } else {
+                return "0 0 15px 0 #00000030"
+            }
+        }),
         top: useTransform(data.venueListOffset, value => {
             if (value > -initialOffset) {
                 return 0
