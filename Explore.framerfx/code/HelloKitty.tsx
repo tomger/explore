@@ -265,9 +265,9 @@ export function HelloKitty(props) {
                             margin: 12,
                             background: "#fff",
                             borderRadius: 5,
-                            border: "1px solid #e7e7e7",
+                            // border: "1px solid #e7e7e7",
                             boxShadow:
-                                "0px 2px 4px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25)",
+                                "0px 2px 4px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.5)",
                         }}
                     >
                         <div
@@ -300,6 +300,7 @@ export function HelloKitty(props) {
                                     style={{
                                         fontWeight: "500",
                                         fontSize: "16px",
+                                        paddingRight: 16,
                                     }}
                                 >
                                     {venue.venue_name}
@@ -388,23 +389,30 @@ export function HelloKitty(props) {
     if (CATS.length) {
       catnav = (<Scroll direction="horizontal" width="100%" style={{
         position: "relative",
-        height: 32,
+        height: 60,
       }}>
       <Frame style={{
-        background: "white",
-        paddingLeft: 16,
-        width: CATS.length * 120
+        background: "transparent",
+        paddingLeft: 12,
+        height: "auto",
+        width: CATS.length * 150
       }}>
         {
-          CATS.map(name =>
+          CATS.map((name, index) =>
             <Frame style={{
               position: "relative",
               display: "inline-flex",
-              height: 32,
-              width: 100,
-              borderRadius: 100,
-              background: "#fff",
-              border: "1px solid #ddd",
+              height: 60,
+              width: 120,
+              borderRadius: 8,
+              padding: 8,
+              background: ["#EB9D59", "#E26A77", "#8675C5"][index] || "#777",
+              border: "1px solid #00000012",
+              justifyContent: "left",
+              color: "#fff",
+              alignItems: "top",
+              fontWeight: 500,
+              fontSize: 14,
               marginRight: 8,
             }} onTap={e => props.onCategoryChange(name)}>{name}</Frame>
           )
@@ -421,10 +429,10 @@ export function HelloKitty(props) {
                 fontSize: 14,
                 fontFamily: "TT Norms",
                 color: "#333",
-                background: "white",
+                background: "#fff",
             }}
         >
-            <div className="scroll_height" style={{ background: "white", paddingTop: 16 }}>
+            <div className="scroll_height" style={{ background: "#f7f7f7", paddingTop: 16 }}>
             {false && (<div style={{
               fontSize: 20,
               fontWeight: 700,

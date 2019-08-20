@@ -22,7 +22,7 @@ export function Daypicker(props) {
         padding: "0 16px",
         display: "flex",
         alignItems: "center",
-        height: 40,
+        height: 48,
         background: "transparent",
         position: "relative",
         fontFamily: "TT Norms",
@@ -57,7 +57,7 @@ export function Daypicker(props) {
         <div>
         <Frame width="100%" style={{ height: 1, bottom: 0, background: "#eee"}}></Frame>
         <Frame width="100%" style={{ height: 1, top: 0, background: "#eee"}}></Frame>
-        <Scroll height={40} width="100%" direction="horizontal" style={{
+        <Scroll height={48} width="100%" direction="horizontal" style={{
           background: "transparent",
           display: "flex",
           paddingLeft: 8,
@@ -75,7 +75,7 @@ export function Daypicker(props) {
 }
 
 Daypicker.defaultProps = {
-  height: 40,
+  height: 48,
   width: "100%"
 }
 

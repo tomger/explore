@@ -35,9 +35,9 @@ export function TimeFilter(props) {
     */
 
     let timeLabel = `${prettyHours(props.timeRange[0])} – ${prettyHours(props.timeRange[1])}`
-
-    let d = addDaysToDate(new Date(), props.dateFilter-1);
-    let dateLabel = d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
+    let offset = props.dateFilter - new Date().getDay();
+    let d = addDaysToDate(new Date(), offset);
+    let dateLabel = offset === 0 ? "Today" : d.toLocaleDateString("en-US",{ weekday:"short"}) + " " + d.getDate()
 
 
     let filters = [timeLabel, "Credits", "Amenities", "Favorited"];
