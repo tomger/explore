@@ -424,13 +424,15 @@ export function HelloKitty(props) {
                 background: "white",
             }}
         >
-            <div className="scroll_height" style={{ background: "white" }}>
-            <div style={{
+            <div className="scroll_height" style={{ background: "white", paddingTop: 16 }}>
+            {false && (<div style={{
               fontSize: 20,
               fontWeight: 700,
-              margin: 16,
               color: "#333",
-            }}>We found {venuesWithAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} Venues</div>
+            }}>
+            We found {venuesWithAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} Venues
+            </div>)}
+
                 {catnav}
                 {venuesWithAvailability.slice(0, 20)}
                 {venuesWithAvailability.length > 20

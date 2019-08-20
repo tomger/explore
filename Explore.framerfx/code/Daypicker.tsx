@@ -55,7 +55,8 @@ export function Daypicker(props) {
 
     return (
         <div>
-        <Frame width="100%" style={{ height: 1, bottom: 0, background: "#ddd"}}></Frame>
+        <Frame width="100%" style={{ height: 1, bottom: 0, background: "#eee"}}></Frame>
+        <Frame width="100%" style={{ height: 1, top: 0, background: "#eee"}}></Frame>
         <Scroll height={40} width="100%" direction="horizontal" style={{
           background: "transparent",
           display: "flex",
