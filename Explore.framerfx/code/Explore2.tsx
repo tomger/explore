@@ -35,7 +35,9 @@ const data = Data({
     confirmationDialogActive: false,
     selectedDetailData: null,
     datePickerVisible: false,
-    venueListOffset: new MotionValue(-160)
+    venueListOffset: new MotionValue(-160),
+    scrollDirection: 0,
+    scrollTop: 0,
 })
 
 function sleep(seconds) {
@@ -404,11 +406,20 @@ export function StickyChrome(): Override {
             }
         }),
         top: useTransform(data.venueListOffset, value => {
-            if (value > -initialOffset) {
-                return 0
-            } else {
-                return -value - initialOffset
-            }
+          if (value > -initialOffset) {
+            return 0;
+          } else {
+            return -value - initialOffset
+          }
+            // let goingUp = data.scrollDirection <= 0;
+            // if (goingUp) {
+            //   return data.scrollTop;
+            //
+            //
+            // } else {
+            //   return data.scrollTop;
+            // }
+
         }),
     }
 }
@@ -422,11 +433,19 @@ export function Scrollable(props): Override {
     return {
       contentOffsetY: data.venueListOffset, //-160,
       contentHeight: data.contentListHeight + 350,
-      onScrollStart: function(e) {
+      onScroll: function(info) {
+        if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y)) {
+          data.scrollTop = info.point.y;
+        }
+        data.scrollDirection = info.delta.y;
+      },
+      onScrollStart: function(info) {
         const scrollHeightElement = el.querySelector(".scroll_height");
         if (scrollHeightElement) {
           data.contentListHeight = scrollHeightElement.offsetHeight;
         }
+
+
       }
     }
 }
