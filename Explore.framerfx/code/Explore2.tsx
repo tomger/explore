@@ -35,6 +35,7 @@ const data = Data({
     confirmationDialogActive: false,
     selectedDetailData: null,
     datePickerVisible: false,
+    venueListOffset: new MotionValue(-160)
 })
 
 function sleep(seconds) {
@@ -334,8 +335,6 @@ export function DatePickerVisible(): Override {
     }
 }
 
-
-
 export function TimePickerVisible(): Override {
     return {
         visible: data.timePickerVisible,
@@ -383,6 +382,19 @@ export function TimePill(): Override {
 }
 
 
+export function StickyChrome(): Override {
+    const initialOffset = 342
+    return {
+        top: useTransform(data.venueListOffset, value => {
+            if (value > -initialOffset) {
+                return 0
+            } else {
+                return -value - initialOffset
+            }
+        }),
+    }
+}
+
 export function Scrollable(props): Override {
     const el = document.querySelector(`#${props.children[0].props.children[0].props.id}`);
     if (el) {
@@ -390,7 +402,7 @@ export function Scrollable(props): Override {
       el.parentNode.parentNode.parentNode.style.overflow = "visible";
     }
     return {
-      contentOffsetY: -160,
+      contentOffsetY: data.venueListOffset, //-160,
       contentHeight: data.contentListHeight + 350,
       onScrollStart: function(e) {
         const scrollHeightElement = el.querySelector(".scroll_height");
