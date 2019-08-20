@@ -59,9 +59,10 @@ export function MapKit(props) {
                 }
             ).addTo(leaflet)
 
-            L.control.zoom({
-              position:'topright'
-            }).addTo(leaflet);
+            // L.control.zoom({
+            //   position:'topright'
+            // }).addTo(leaflet);
+
             // attach events
             for (let prop in props) {
                 if (prop.startsWith("on")) {
