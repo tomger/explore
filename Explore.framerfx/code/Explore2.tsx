@@ -38,6 +38,7 @@ const data = Data({
     venueListOffset: new MotionValue(-160),
     scrollDirection: 0,
     scrollTop: 0,
+    locationText: "Current Location",
 })
 
 function sleep(seconds) {
@@ -272,11 +273,14 @@ export function ActivityPicker(): Override {
     }
 }
 
-
+let mapPickerInit = Date.now();
 export function MapPicker(): Override {
     return {
         onChange: bounds => {
-            data.mapBounds = bounds
+            data.mapBounds = bounds;
+            if (mapPickerInit < Date.now() - 1000*5) {
+              data.locationText = "Mapped Area";
+            }
         },
     }
 }
@@ -376,13 +380,19 @@ export function TimePill(): Override {
           if (index === 0) { //time
             data.timePickerVisible = true
           }
-          if (index === 1) { //time
-            data.datePickerVisible = true
-          }
+          // if (index === 1) { //time
+          //   data.datePickerVisible = true
+          // }
         },
     }
 }
 
+
+export function LocationText(): Override {
+    return {
+        text: data.locationText
+    }
+}
 
 export function StatusBar(): Override {
     return {

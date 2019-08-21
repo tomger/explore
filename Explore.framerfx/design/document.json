@@ -37627,80 +37627,583 @@
                 "widthType" : 0
               },
               {
-                "__class" : "SVGNode",
-                "aspectRatio" : 1,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
+                "__class" : "ShapeContainerNode",
+                "autoSize" : true,
                 "bottom" : 60,
                 "centerAnchorX" : 0.91733333333333333,
                 "centerAnchorY" : 0.54430379746835444,
                 "children" : [
+                  {
+                    "__class" : "BooleanShapeNode",
+                    "aspectRatio" : null,
+                    "children" : [
+                      {
+                        "__class" : "PathNode",
+                        "aspectRatio" : null,
+                        "exportOptions" : [
 
+                        ],
+                        "fillColor" : "rgba(0,170,255,0.5)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 5.7487232484135955,
+                        "id" : "LYlZ82Plt",
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "duzZEtEXF",
+                        "pathClosed" : true,
+                        "pathSegments" : [
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.48324915610194452,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 15.125,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : -0.41859722862888482,
+                            "handleOutY" : 1.1268715907557514,
+                            "radius" : 0,
+                            "x" : 7.6959999999999997,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 1.2021078245599188,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : -1.2021078245599188,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 5,
+                            "y" : 5.7487232484135955
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.41859722862888571,
+                            "handleInY" : 1.1268715907557514,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 2.3039999999999994,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : -0.48324915610194452,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 0.875,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0.48324915610194452,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : -0.48324915610194452,
+                            "radius" : 0,
+                            "x" : 0,
+                            "y" : 2.9992021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.48324915610194452,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 0.875,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0.33951996375435023,
+                            "handleOutY" : -1.2536713498704302,
+                            "radius" : 0,
+                            "x" : 2.2240000000000002,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -1.2988324215516425,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 1.2988324215516425,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 5,
+                            "y" : 0
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.33951996375435023,
+                            "handleInY" : -1.2536713498704319,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 7.7759999999999998,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0.48324915610194452,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 15.125,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : -0.48324915610194452,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0.48324915610194452,
+                            "radius" : 0,
+                            "x" : 16,
+                            "y" : 2.9992021548314991
+                          }
+                        ],
+                        "rotation" : 0,
+                        "visible" : true,
+                        "width" : 16,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathNode",
+                        "aspectRatio" : null,
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "rgba(0,170,255,0.5)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 2.25,
+                        "id" : "S50iZpUPa",
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "duzZEtEXF",
+                        "pathClosed" : true,
+                        "pathSegments" : [
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.62132034355964194,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : -0.62132034355964194,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 1.125,
+                            "y" : 0
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : -0.62132034355964194,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0.62132034355964194,
+                            "radius" : 0,
+                            "x" : 0,
+                            "y" : 1.125
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.62132034355964194,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0.62132034355964194,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 1.125,
+                            "y" : 2.25
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0.62132034355964194,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : -0.62132034355964194,
+                            "radius" : 0,
+                            "x" : 2.25,
+                            "y" : 1.125
+                          }
+                        ],
+                        "rotation" : 0,
+                        "visible" : true,
+                        "width" : 2.25,
+                        "x" : 3.875,
+                        "y" : 1.7492021548314991
+                      }
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgb(0,0,0)",
+                    "fillEnabled" : true,
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 5.7487232484135955,
+                    "id" : "duzZEtEXF",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "K13deDlC0",
+                    "pathBoolean" : 1,
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "rgba(0,0,0,1)",
+                    "strokeDashArray" : "",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 10,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 16,
+                    "x" : 4,
+                    "y" : 12.125797845168497
+                  },
+                  {
+                    "__class" : "BooleanShapeNode",
+                    "aspectRatio" : null,
+                    "children" : [
+                      {
+                        "__class" : "PathNode",
+                        "aspectRatio" : null,
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "#000",
+                        "fillEnabled" : true,
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 5.7487232484135937,
+                        "id" : "uYPvYLxQG",
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "XJXEd02wg",
+                        "pathClosed" : true,
+                        "pathSegments" : [
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.41859722862888482,
+                            "handleInY" : 1.1268715907557514,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 8.3040000000000003,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : -0.48324915610194452,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 0.875,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0.48324915610194452,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : -0.48324915610194452,
+                            "radius" : 0,
+                            "x" : 0,
+                            "y" : 2.9992021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.48324915610194452,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 0.875,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0.33951996375435023,
+                            "handleOutY" : -1.2536713498704302,
+                            "radius" : 0,
+                            "x" : 8.2240000000000002,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -1.2988324215516425,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 1.2988324215516407,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 11,
+                            "y" : 0
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.33951996375435201,
+                            "handleInY" : -1.2536713498704319,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 13.776,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0.48324915610194452,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 15.125,
+                            "y" : 2.1242021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : -0.48324915610194452,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0.48324915610194452,
+                            "radius" : 0,
+                            "x" : 16,
+                            "y" : 2.9992021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.48324915610194452,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 15.125,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "disconnected",
+                            "handleOutX" : -0.4185972286288866,
+                            "handleOutY" : 1.1268715907557514,
+                            "radius" : 0,
+                            "x" : 13.696000000000002,
+                            "y" : 3.8742021548314991
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 1.2021078245599188,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : -1.2021078245599188,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 11.000000000000002,
+                            "y" : 5.7487232484135937
+                          }
+                        ],
+                        "rotation" : 0,
+                        "visible" : true,
+                        "width" : 16,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathNode",
+                        "aspectRatio" : null,
+                        "exportOptions" : [
+
+                        ],
+                        "fillColor" : "#000",
+                        "fillEnabled" : true,
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 2.25,
+                        "id" : "dVUvxOof0",
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "XJXEd02wg",
+                        "pathClosed" : true,
+                        "pathSegments" : [
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0.62132034355964194,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : -0.62132034355964194,
+                            "radius" : 0,
+                            "x" : 0,
+                            "y" : 1.125
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : -0.62132034355964194,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0.62132034355964194,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 1.125,
+                            "y" : 0
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : -0.62132034355964194,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0.62132034355964194,
+                            "radius" : 0,
+                            "x" : 2.25,
+                            "y" : 1.125
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0.62132034355964194,
+                            "handleInY" : 0,
+                            "handleMirroring" : "symmetric",
+                            "handleOutX" : -0.62132034355964194,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 1.125,
+                            "y" : 2.25
+                          }
+                        ],
+                        "rotation" : 0,
+                        "visible" : true,
+                        "width" : 2.25,
+                        "x" : 9.875,
+                        "y" : 1.7492021548315346
+                      }
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "#000",
+                    "fillEnabled" : true,
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 5.7487232484135937,
+                    "id" : "XJXEd02wg",
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "K13deDlC0",
+                    "pathBoolean" : 1,
+                    "rotation" : 0,
+                    "visible" : true,
+                    "width" : 16,
+                    "x" : 4,
+                    "y" : 6.1257978451685791
+                  }
                 ],
-                "colorable" : false,
                 "constraintsLocked" : false,
+                "deviceType" : null,
+                "exportIncludesBackground" : false,
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "rgba(0,0,0,1)",
+                "fillColor" : "transparent",
+                "fillEnabled" : false,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
-                "fillLinearGradient" : {
-                  "__class" : "LinearGradient",
-                  "alpha" : 1,
-                  "angle" : 180,
-                  "stops" : [
-                    {
-                      "__class" : "GradientColorStop",
-                      "position" : 0,
-                      "value" : "rgba(0,0,0,0)"
-                    },
-                    {
-                      "__class" : "GradientColorStop",
-                      "position" : 1,
-                      "value" : "black"
-                    }
-                  ]
-                },
-                "fillRadialGradient" : {
-                  "__class" : "RadialGradient",
-                  "alpha" : 1,
-                  "centerAnchorX" : 0.5,
-                  "centerAnchorY" : 0.5,
-                  "heightFactor" : 0.5,
-                  "stops" : [
-                    {
-                      "__class" : "GradientColorStop",
-                      "position" : 0,
-                      "value" : "rgba(0,0,0,0)"
-                    },
-                    {
-                      "__class" : "GradientColorStop",
-                      "position" : 1,
-                      "value" : "black"
-                    }
-                  ],
-                  "widthFactor" : 0.5
-                },
                 "fillType" : "color",
                 "height" : 24,
                 "heightType" : 0,
-                "id" : "bTmufpITzMvAZIglL7",
-                "intrinsicHeight" : 24,
-                "intrinsicWidth" : 24,
+                "id" : "K13deDlC0",
                 "left" : null,
                 "locked" : false,
-                "name" : null,
-                "opacity" : 0.80000000000000004,
-                "originalFilename" : "",
+                "name" : "",
+                "navigationTarget" : null,
+                "navigationTransition" : "push",
+                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                "navigationTransitionDirection" : "left",
+                "opacity" : 1,
                 "originalid" : null,
                 "parentid" : "bTmufpITz",
-                "replicaInfo" : null,
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
                 "right" : 19,
-                "rotation" : 0,
-                "svg" : "<?xml version=\"1.0\"?><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13.875 9a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0zm-1.571 1H4.875a.875.875 0 1 1 0-1.75h7.349a2.876 2.876 0 0 1 5.552 0h1.349a.875.875 0 0 1 0 1.75h-1.429a2.876 2.876 0 0 1-5.392 0zm6.821 6h-7.429a2.876 2.876 0 0 1-5.392 0H4.875a.875.875 0 0 1 0-1.75h1.349a2.876 2.876 0 0 1 5.552 0h7.349a.875.875 0 0 1 0 1.75zM9 13.875a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25z\" fill=\"#000\"><\/path><\/svg>",
+                "sizeToFit" : false,
                 "top" : null,
                 "visible" : true,
                 "width" : 24,
@@ -38601,26 +39104,29 @@
                   {
                     "__class" : "TextNode",
                     "autoSize" : true,
-                    "bottom" : 6,
-                    "centerAnchorX" : 0.52487562189054726,
-                    "centerAnchorY" : 0.515625,
-                    "codeOverrideEnabled" : false,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.43478260869565216,
+                    "centerAnchorY" : 0.5,
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/Explore2.tsx",
+                    "codeOverrideIdentifier" : ".\/Explore2.tsx_LocationText",
+                    "codeOverrideName" : "LocationText",
                     "constraintsLocked" : false,
                     "exportOptions" : [
 
                     ],
-                    "height" : 19,
+                    "height" : 16,
                     "heightType" : 0,
                     "id" : "ZgM6VsDc1",
                     "isTarget" : false,
-                    "left" : null,
+                    "left" : 12,
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
                     "originalid" : null,
                     "parentid" : "Ja0bUq1Eo",
                     "replicaInfo" : null,
-                    "right" : 46,
+                    "right" : null,
                     "rotation" : 0,
                     "styledText" : {
                       "__class" : "StyledTextDraft",
@@ -38628,11 +39134,12 @@
                         {
                           "data" : {
                             "emptyStyle" : [
-                              "LETTERSPACING:0",
-                              "LINEHEIGHT:1.2",
-                              "COLOR:#333",
-                              "FONT:TTNorms-Regular",
-                              "SIZE:16"
+                              "SIZE:15",
+                              "FONT:TTNorms-Medium",
+                              "LINEHEIGHT:1.1",
+                              "LETTERSPACING:-0.1",
+                              "COLOR:#111",
+                              "ALIGN:center"
                             ]
                           },
                           "depth" : 0,
@@ -38641,42 +39148,47 @@
                           ],
                           "inlineStyleRanges" : [
                             {
-                              "length" : 11,
+                              "length" : 16,
                               "offset" : 0,
-                              "style" : "LETTERSPACING:0"
+                              "style" : "SIZE:15"
                             },
                             {
-                              "length" : 11,
+                              "length" : 16,
                               "offset" : 0,
-                              "style" : "LINEHEIGHT:1.2"
+                              "style" : "FONT:TTNorms-Medium"
                             },
                             {
-                              "length" : 11,
+                              "length" : 16,
                               "offset" : 0,
-                              "style" : "COLOR:#333"
+                              "style" : "LINEHEIGHT:1.1"
                             },
                             {
-                              "length" : 11,
+                              "length" : 16,
                               "offset" : 0,
-                              "style" : "FONT:TTNorms-Regular"
+                              "style" : "LETTERSPACING:-0.1"
                             },
                             {
-                              "length" : 11,
+                              "length" : 16,
                               "offset" : 0,
-                              "style" : "SIZE:16"
+                              "style" : "COLOR:#111"
+                            },
+                            {
+                              "length" : 16,
+                              "offset" : 0,
+                              "style" : "ALIGN:center"
                             }
                           ],
                           "key" : "5vbf0",
-                          "text" : "Mapped Area",
+                          "text" : "Current Location",
                           "type" : "unstyled"
                         }
                       ],
                       "cached" : {
-                        "html" : "<div data-offset-key=\"5vbf0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"5vbf0-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Regular&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#333;font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:400\"><span data-text=\"true\">Mapped Area<\/span><\/span><\/div>",
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"5vbf0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"5vbf0-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#111;font-size:15px;letter-spacing:-0.1px;line-height:1.1;font-weight:500\"><span data-text=\"true\">Current Location<\/span><\/span><\/div><\/div>",
                         "os" : "10_14",
                         "size" : {
-                          "height" : 19,
-                          "width" : 99
+                          "height" : 16,
+                          "width" : 116
                         },
                         "width" : 0
                       },
@@ -38686,87 +39198,126 @@
                     },
                     "top" : null,
                     "visible" : true,
-                    "width" : 99,
+                    "width" : 116,
                     "widthType" : 0
                   },
                   {
-                    "__class" : "SVGNode",
-                    "aspectRatio" : 1,
-                    "blendingEnabled" : 0,
-                    "blendingMode" : "normal",
-                    "bottom" : 3,
-                    "centerAnchorX" : 0.19154228855721392,
-                    "centerAnchorY" : 0.515625,
+                    "__class" : "ShapeContainerNode",
+                    "autoSize" : true,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.87577639751552794,
+                    "centerAnchorY" : 0.5,
                     "children" : [
+                      {
+                        "__class" : "PathNode",
+                        "aspectRatio" : null,
+                        "exportOptions" : [
 
+                        ],
+                        "fillColor" : "rgba(0,170,255,0.5)",
+                        "fillEnabled" : false,
+                        "fillImage" : null,
+                        "fillImagePixelHeight" : null,
+                        "fillImagePixelWidth" : null,
+                        "fillImageResize" : "fill",
+                        "fillType" : "color",
+                        "height" : 3,
+                        "id" : "ILAp6wcvh",
+                        "lineCap" : "round",
+                        "lineJoin" : "round",
+                        "locked" : false,
+                        "name" : null,
+                        "opacity" : 1,
+                        "originalid" : null,
+                        "parentid" : "I8stkZPRQ",
+                        "pathClosed" : false,
+                        "pathSegments" : [
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "straight",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 0,
+                            "y" : 0
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "straight",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 3.6521739130439528,
+                            "y" : 3
+                          },
+                          {
+                            "__class" : "PathSegment",
+                            "handleInX" : 0,
+                            "handleInY" : 0,
+                            "handleMirroring" : "straight",
+                            "handleOutX" : 0,
+                            "handleOutY" : 0,
+                            "radius" : 0,
+                            "x" : 7,
+                            "y" : 0
+                          }
+                        ],
+                        "rotation" : 0,
+                        "strokeAlignment" : "center",
+                        "strokeColor" : "hsl(0, 0%, 0%)",
+                        "strokeDashArray" : "0",
+                        "strokeDashOffset" : 0,
+                        "strokeEnabled" : 1,
+                        "strokeMiterLimit" : 4,
+                        "strokeWidth" : 1.8999999999999999,
+                        "visible" : true,
+                        "width" : 7,
+                        "x" : 6,
+                        "y" : 8.25
+                      }
                     ],
-                    "colorable" : false,
                     "constraintsLocked" : false,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : false,
                     "exportOptions" : [
 
                     ],
-                    "fillColor" : "rgba(0,0,0,1)",
+                    "fillColor" : "#FFF",
+                    "fillEnabled" : false,
                     "fillImage" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
-                    "fillLinearGradient" : {
-                      "__class" : "LinearGradient",
-                      "alpha" : 1,
-                      "angle" : 180,
-                      "stops" : [
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 0,
-                          "value" : "rgba(0,0,0,0)"
-                        },
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 1,
-                          "value" : "black"
-                        }
-                      ]
-                    },
-                    "fillRadialGradient" : {
-                      "__class" : "RadialGradient",
-                      "alpha" : 1,
-                      "centerAnchorX" : 0.5,
-                      "centerAnchorY" : 0.5,
-                      "heightFactor" : 0.5,
-                      "stops" : [
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 0,
-                          "value" : "rgba(0,0,0,0)"
-                        },
-                        {
-                          "__class" : "GradientColorStop",
-                          "position" : 1,
-                          "value" : "black"
-                        }
-                      ],
-                      "widthFactor" : 0.5
-                    },
                     "fillType" : "color",
-                    "height" : 25,
+                    "height" : 18,
                     "heightType" : 0,
-                    "id" : "jgE9MMADl",
-                    "intrinsicHeight" : 24,
-                    "intrinsicWidth" : 24,
-                    "left" : 26,
+                    "id" : "I8stkZPRQ",
+                    "left" : null,
                     "locked" : false,
                     "name" : null,
+                    "navigationTarget" : null,
+                    "navigationTransition" : "push",
+                    "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                    "navigationTransitionDirection" : "left",
                     "opacity" : 1,
-                    "originalFilename" : "",
                     "originalid" : null,
                     "parentid" : "Ja0bUq1Eo",
-                    "replicaInfo" : null,
-                    "right" : null,
-                    "rotation" : 0,
-                    "svg" : "<?xml version=\"1.0\"?><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M18.232 10.078c0 3.198-3.979 7.41-5.518 8.92a.848.848 0 0 1-1.196 0C9.978 17.488 6 13.276 6 10.078 6 6.721 8.738 4 12.116 4c3.377 0 6.116 2.721 6.116 6.078zm-3.892-.145c0 1.22-.996 2.21-2.224 2.21a2.217 2.217 0 0 1-2.224-2.21c0-1.22.996-2.21 2.224-2.21 1.228 0 2.224.99 2.224 2.21z\" fill=\"#000\"><\/path><\/svg>",
-                    "top" : 4,
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 11,
+                    "sizeToFit" : false,
+                    "top" : null,
                     "visible" : true,
-                    "width" : 25,
+                    "width" : 18,
                     "widthType" : 0
                   }
                 ],
@@ -38858,7 +39409,7 @@
                 "rotation" : 0,
                 "top" : 10,
                 "visible" : true,
-                "width" : 201,
+                "width" : 161,
                 "widthType" : 0
               },
               {
@@ -38958,7 +39509,7 @@
             "isTarget" : false,
             "left" : 0,
             "locked" : false,
-            "name" : null,
+            "name" : "Frame",
             "navigationTarget" : null,
             "navigationTransition" : "push",
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
@@ -39534,11 +40085,11 @@
         "parentid" : "TAppACBc8",
         "previewSettings" : {
           "__class" : "PreviewSettings",
-          "bezel" : false,
+          "bezel" : true,
           "deviceType" : "framer\/FramerAppleIPhone8",
           "responsive" : false,
           "rotate" : false,
-          "skin" : "",
+          "skin" : "Gold",
           "touch" : true,
           "zoom" : -1
         },
@@ -47944,6 +48495,589 @@
         "top" : 1163,
         "visible" : true,
         "width" : 375,
+        "widthType" : 0
+      },
+      {
+        "__class" : "ShapeContainerNode",
+        "autoSize" : true,
+        "bottom" : null,
+        "centerAnchorX" : 0.91733333333333333,
+        "centerAnchorY" : 0.74137931034482762,
+        "children" : [
+          {
+            "__class" : "BooleanShapeNode",
+            "aspectRatio" : null,
+            "children" : [
+              {
+                "__class" : "PathNode",
+                "aspectRatio" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(0,170,255,0.5)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 5.7487232484135955,
+                "id" : "urzzrhexB",
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "peATQZbPH",
+                "pathClosed" : true,
+                "pathSegments" : [
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0.48324915610194452,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 15.125,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : -0.41859722862888482,
+                    "handleOutY" : 1.1268715907557514,
+                    "radius" : 0,
+                    "x" : 7.6959999999999997,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 1.2021078245599188,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : -1.2021078245599188,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 5,
+                    "y" : 5.7487232484135955
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0.41859722862888571,
+                    "handleInY" : 1.1268715907557514,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 2.3039999999999994,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : -0.48324915610194452,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 0.875,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0.48324915610194452,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : -0.48324915610194452,
+                    "radius" : 0,
+                    "x" : 0,
+                    "y" : 2.9992021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -0.48324915610194452,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 0.875,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0.33951996375435023,
+                    "handleOutY" : -1.2536713498704302,
+                    "radius" : 0,
+                    "x" : 2.2240000000000002,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -1.2988324215516425,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 1.2988324215516425,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 5,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -0.33951996375435023,
+                    "handleInY" : -1.2536713498704319,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 7.7759999999999998,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0.48324915610194452,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 15.125,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : -0.48324915610194452,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0.48324915610194452,
+                    "radius" : 0,
+                    "x" : 16,
+                    "y" : 2.9992021548314991
+                  }
+                ],
+                "rotation" : 0,
+                "visible" : true,
+                "width" : 16,
+                "x" : 0,
+                "y" : 0
+              },
+              {
+                "__class" : "PathNode",
+                "aspectRatio" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(0,170,255,0.5)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 2.25,
+                "id" : "JOootM02I",
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "peATQZbPH",
+                "pathClosed" : true,
+                "pathSegments" : [
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0.62132034355964194,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : -0.62132034355964194,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 1.125,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : -0.62132034355964194,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0.62132034355964194,
+                    "radius" : 0,
+                    "x" : 0,
+                    "y" : 1.125
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -0.62132034355964194,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0.62132034355964194,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 1.125,
+                    "y" : 2.25
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0.62132034355964194,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : -0.62132034355964194,
+                    "radius" : 0,
+                    "x" : 2.25,
+                    "y" : 1.125
+                  }
+                ],
+                "rotation" : 0,
+                "visible" : true,
+                "width" : 2.25,
+                "x" : 3.875,
+                "y" : 1.7492021548314991
+              }
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgb(0,0,0)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 5.7487232484135955,
+            "id" : "peATQZbPH",
+            "lineCap" : "butt",
+            "lineJoin" : "miter",
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "BBo8SRYYU",
+            "pathBoolean" : 4,
+            "rotation" : 0,
+            "strokeAlignment" : "center",
+            "strokeColor" : "rgba(0,0,0,1)",
+            "strokeDashArray" : "",
+            "strokeDashOffset" : 0,
+            "strokeEnabled" : 0,
+            "strokeMiterLimit" : 10,
+            "strokeWidth" : 1,
+            "visible" : true,
+            "width" : 16,
+            "x" : 4,
+            "y" : 12.125797845168499
+          },
+          {
+            "__class" : "BooleanShapeNode",
+            "aspectRatio" : null,
+            "children" : [
+              {
+                "__class" : "PathNode",
+                "aspectRatio" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#000",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 2.25,
+                "id" : "REEVbgf9U",
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "xjfqGAzvv",
+                "pathClosed" : true,
+                "pathSegments" : [
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0.62132034355964194,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : -0.62132034355964194,
+                    "radius" : 0,
+                    "x" : 0,
+                    "y" : 1.125
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -0.62132034355964194,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0.62132034355964194,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 1.125,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : -0.62132034355964194,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0.62132034355964194,
+                    "radius" : 0,
+                    "x" : 2.25,
+                    "y" : 1.125
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0.62132034355964194,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : -0.62132034355964194,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 1.125,
+                    "y" : 2.25
+                  }
+                ],
+                "rotation" : 0,
+                "visible" : true,
+                "width" : 2.25,
+                "x" : 9.875,
+                "y" : 1.7492021548315346
+              },
+              {
+                "__class" : "PathNode",
+                "aspectRatio" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#000",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 5.7487232484135937,
+                "id" : "gtOrUzRK1",
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "xjfqGAzvv",
+                "pathClosed" : true,
+                "pathSegments" : [
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0.41859722862888482,
+                    "handleInY" : 1.1268715907557514,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 8.3040000000000003,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : -0.48324915610194452,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 0.875,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0.48324915610194452,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : -0.48324915610194452,
+                    "radius" : 0,
+                    "x" : 0,
+                    "y" : 2.9992021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -0.48324915610194452,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 0.875,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0.33951996375435023,
+                    "handleOutY" : -1.2536713498704302,
+                    "radius" : 0,
+                    "x" : 8.2240000000000002,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -1.2988324215516425,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 1.2988324215516407,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 11,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : -0.33951996375435201,
+                    "handleInY" : -1.2536713498704319,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 13.776,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0.48324915610194452,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 15.125,
+                    "y" : 2.1242021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : -0.48324915610194452,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0.48324915610194452,
+                    "radius" : 0,
+                    "x" : 16,
+                    "y" : 2.9992021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0.48324915610194452,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 15.125,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "disconnected",
+                    "handleOutX" : -0.4185972286288866,
+                    "handleOutY" : 1.1268715907557514,
+                    "radius" : 0,
+                    "x" : 13.696000000000002,
+                    "y" : 3.8742021548314991
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 1.2021078245599188,
+                    "handleInY" : 0,
+                    "handleMirroring" : "symmetric",
+                    "handleOutX" : -1.2021078245599188,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 11.000000000000002,
+                    "y" : 5.7487232484135937
+                  }
+                ],
+                "rotation" : 0,
+                "visible" : true,
+                "width" : 16,
+                "x" : 0,
+                "y" : 0
+              }
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "#000",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 5.7487232484135937,
+            "id" : "xjfqGAzvv",
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "BBo8SRYYU",
+            "pathBoolean" : 3,
+            "rotation" : 0,
+            "visible" : true,
+            "width" : 16,
+            "x" : 4,
+            "y" : 6.1257978451684654
+          }
+        ],
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportIncludesBackground" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "transparent",
+        "fillEnabled" : false,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 24,
+        "heightType" : 0,
+        "id" : "BBo8SRYYU",
+        "left" : 3612,
+        "locked" : false,
+        "name" : "",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "TAppACBc8",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "sizeToFit" : false,
+        "top" : 970,
+        "visible" : true,
+        "width" : 24,
         "widthType" : 0
       }
     ],

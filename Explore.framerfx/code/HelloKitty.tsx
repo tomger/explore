@@ -406,7 +406,7 @@ export function HelloKitty(props) {
               width: 120,
               borderRadius: 8,
               padding: 8,
-              background: ["#EB9D59", "#E26A77", "#8675C5"][index] || "#777",
+              background: CATS.length === 3 ? (["#EB9D59", "#E26A77", "#8675C5"][index] || "#62666A") : "#62666A",
               border: "1px solid #00000012",
               justifyContent: "left",
               color: "#fff",
