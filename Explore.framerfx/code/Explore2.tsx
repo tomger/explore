@@ -256,14 +256,6 @@ export function CatNav(): Override {
 
 ////// THE NEW WORLD
 
-export function DatePicker(): Override {
-    return {
-        onChange: dateOffset => {
-            data.dateFilter = dateOffset
-        },
-    }
-}
-
 export function ActivityPicker(): Override {
     return {
         value: data.activityFilter,
@@ -276,6 +268,7 @@ export function ActivityPicker(): Override {
 let mapPickerInit = Date.now();
 export function MapPicker(): Override {
     return {
+        activityFilter: data.activityFilter,
         onChange: bounds => {
             data.mapBounds = bounds;
             if (mapPickerInit < Date.now() - 1000*5) {
@@ -405,8 +398,25 @@ export function StatusBar(): Override {
     }
 }
 
+export function DatePicker(): Override {
+    const initialTop = 112
+    return {
+        onChange: dateOffset => {
+            data.dateFilter = dateOffset
+        },
+        // top: useTransform(data.venueListOffset, value => {
+        //   if (value > -initialTop) {
+        //     return initialTop;
+        //   } else {
+        //     return initialTop;
+        //   }
+        // })
+    }
+}
+
 export function StickyChrome(): Override {
     const initialOffset = 342 - 20
+    const cardHeight = 158
     return {
         shadow: useTransform(data.venueListOffset, value => {
             if (value > -initialOffset) {
@@ -421,14 +431,25 @@ export function StickyChrome(): Override {
           } else {
             return -value - initialOffset
           }
-            // let goingUp = data.scrollDirection <= 0;
-            // if (goingUp) {
-            //   return data.scrollTop;
-            //
-            //
-            // } else {
-            //   return data.scrollTop;
-            // }
+
+          // if (value > -initialOffset && data.scrollDirection < 0) {
+          //   return 0;
+          // } else if (value <= -initialOffset && data.scrollDirection < 0) {
+          //   if (Math.abs(data.lastUp - value) > cardHeight) {
+          //     return 0;
+          //   } else {
+          //     return -data.lastUp - (initialOffset);
+          //   }
+          // } else if (value > -initialOffset && data.scrollDirection >= 0) {
+          //   return 0;
+          // } else if (value <= -initialOffset && data.scrollDirection >= 0) {
+          //   if (Math.abs(data.lastDown - value) > cardHeight) {
+          //     return - data.lastDown - (initialOffset) - Math.abs(data.lastDown - value);
+          //
+          //   } else {
+          //     return - data.lastDown - (cardHeight + initialOffset);
+          //   }
+          // }
 
         }),
     }
@@ -444,8 +465,13 @@ export function Scrollable(props): Override {
       contentOffsetY: data.venueListOffset, //-160,
       contentHeight: data.contentListHeight + 350,
       onScroll: function(info) {
-        if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y)) {
-          data.scrollTop = info.point.y;
+        if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y < 0) {
+          data.lastUp = info.point.y;
+          data.lastDown = info.point.y;
+        }
+        if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y > 0) {
+          data.lastUp = info.point.y;
+          data.lastDown = info.point.y;
         }
         data.scrollDirection = info.delta.y;
       },
