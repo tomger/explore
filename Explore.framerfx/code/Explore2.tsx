@@ -465,15 +465,15 @@ export function Scrollable(props): Override {
       contentOffsetY: data.venueListOffset, //-160,
       contentHeight: data.contentListHeight + 350,
       onScroll: function(info) {
-        if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y < 0) {
-          data.lastUp = info.point.y;
-          data.lastDown = info.point.y;
-        }
-        if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y > 0) {
-          data.lastUp = info.point.y;
-          data.lastDown = info.point.y;
-        }
-        data.scrollDirection = info.delta.y;
+        // if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y < 0) {
+        //   data.lastUp = info.point.y;
+        //   data.lastDown = info.point.y;
+        // }
+        // if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y > 0) {
+        //   data.lastUp = info.point.y;
+        //   data.lastDown = info.point.y;
+        // }
+        // data.scrollDirection = info.delta.y;
       },
       onScrollStart: function(info) {
         const scrollHeightElement = el.querySelector(".scroll_height");

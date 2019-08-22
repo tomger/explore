@@ -377,9 +377,12 @@ export function HelloKitty(props) {
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     let CATS = ["Fitness", "Wellness", "Gym"]
+    let catcolor = "#62666A";
     if (props.activityFilter == "Fitness") {
       CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"];
+      catcolor = "#EB9D59";
     } else if (props.activityFilter == "Wellness") {
+      catcolor = "#E26A77";
       CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
     } else if (props.activityFilter) {
       CATS = []
@@ -406,7 +409,7 @@ export function HelloKitty(props) {
               width: 120,
               borderRadius: 8,
               padding: 8,
-              background: CATS.length === 3 ? (["#EB9D59", "#E26A77", "#8675C5"][index] || "#62666A") : "#62666A",
+              background: CATS.length === 3 ? (["#EB9D59", "#E26A77", "#8675C5"][index] || "#62666A") : catcolor,
               border: "1px solid #00000012",
               justifyContent: "left",
               color: "#fff",
