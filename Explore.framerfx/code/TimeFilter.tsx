@@ -100,7 +100,7 @@ export function TimeFilter(props) {
           background: "#fff",
       }}>
         <Frame style={{
-          background: "transparent",
+          background: "#fff",
           width: "auto",
           whiteSpace: "nowrap",
           paddingTop: 4,

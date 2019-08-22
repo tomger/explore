@@ -398,26 +398,18 @@ export function StatusBar(): Override {
     }
 }
 
+const initialOffset = 342 - 20
+var turnDirection = 0;
+var turnBarOffset = 0;
+var turnOffset = 0;
+var barOffset = 0;
+
 export function DatePicker(): Override {
-    const initialTop = 112
+
     return {
         onChange: dateOffset => {
             data.dateFilter = dateOffset
         },
-        // top: useTransform(data.venueListOffset, value => {
-        //   if (value > -initialTop) {
-        //     return initialTop;
-        //   } else {
-        //     return initialTop;
-        //   }
-        // })
-    }
-}
-
-export function StickyChrome(): Override {
-    const initialOffset = 342 - 20
-    const cardHeight = 158
-    return {
         shadow: useTransform(data.venueListOffset, value => {
             if (value > -initialOffset) {
                 return ""
@@ -426,34 +418,49 @@ export function StickyChrome(): Override {
             }
         }),
         top: useTransform(data.venueListOffset, value => {
+          console.log("offset =", value)
+            const INITIAL_TOP = 112
+            const BAR_HEIGHT = 49
+            let rv
+            if (value > -initialOffset) {
+              return INITIAL_TOP;
+            }
+            if (turnDirection === -1) {
+                // going up
+                let delta = turnBarOffset
+                rv = Math.max(delta + value - turnOffset, -BAR_HEIGHT)
+            } else if (turnDirection === 1) {
+                // going down
+                let delta = turnBarOffset + BAR_HEIGHT
+                rv = Math.min(delta + value - (turnOffset + BAR_HEIGHT), 0)
+            } else {
+              rv = 0
+            }
+            barOffset = rv
+            return INITIAL_TOP + rv
+
+
+
+        })
+    }
+}
+
+
+export function StickyChrome(): Override {
+
+    const cardHeight = 158
+    return {
+
+        top: useTransform(data.venueListOffset, value => {
           if (value > -initialOffset) {
             return 0;
           } else {
             return -value - initialOffset
           }
-
-          // if (value > -initialOffset && data.scrollDirection < 0) {
-          //   return 0;
-          // } else if (value <= -initialOffset && data.scrollDirection < 0) {
-          //   if (Math.abs(data.lastUp - value) > cardHeight) {
-          //     return 0;
-          //   } else {
-          //     return -data.lastUp - (initialOffset);
-          //   }
-          // } else if (value > -initialOffset && data.scrollDirection >= 0) {
-          //   return 0;
-          // } else if (value <= -initialOffset && data.scrollDirection >= 0) {
-          //   if (Math.abs(data.lastDown - value) > cardHeight) {
-          //     return - data.lastDown - (initialOffset) - Math.abs(data.lastDown - value);
-          //
-          //   } else {
-          //     return - data.lastDown - (cardHeight + initialOffset);
-          //   }
-          // }
-
         }),
     }
 }
+
 
 export function Scrollable(props): Override {
     const el = document.querySelector(`#${props.children[0].props.children[0].props.id}`);
@@ -465,23 +472,23 @@ export function Scrollable(props): Override {
       contentOffsetY: data.venueListOffset, //-160,
       contentHeight: data.contentListHeight + 350,
       onScroll: function(info) {
-        // if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y < 0) {
-        //   data.lastUp = info.point.y;
-        //   data.lastDown = info.point.y;
-        // }
-        // if (Math.sign(data.scrollDirection) !== Math.sign(info.delta.y) && info.delta.y > 0) {
-        //   data.lastUp = info.point.y;
-        //   data.lastDown = info.point.y;
-        // }
-        // data.scrollDirection = info.delta.y;
+
+        // XXX move into non-data
+        let newDirection = Math.sign(info.delta.y)
+        if (data.venueListOffset.get() > -initialOffset) {
+          newDirection = 0;
+        }
+        if (turnDirection !== newDirection) {
+            turnOffset = data.venueListOffset.get()
+            turnBarOffset = barOffset
+        }
+        turnDirection = newDirection
       },
       onScrollStart: function(info) {
         const scrollHeightElement = el.querySelector(".scroll_height");
         if (scrollHeightElement) {
           data.contentListHeight = scrollHeightElement.offsetHeight;
         }
-
-
       }
     }
 }
