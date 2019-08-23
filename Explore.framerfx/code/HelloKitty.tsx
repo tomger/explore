@@ -370,7 +370,7 @@ export function HelloKitty(props) {
           margin: "40px 0 16px 16px",
           paddingRight: 32,
           color: "#333",
-        }}>We found {venuesWithoutAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} venues available on other days</div>)
+        }}>We found {venuesWithoutAvailability.length} other {props.activityFilter ? `"${props.activityFilter}"` : ""} venues in this area.</div>)
       bottomSection.push(venuesWithoutAvailability.slice(0, 20))
 
     }
