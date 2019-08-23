@@ -284,6 +284,7 @@ export function HelloKitty(props) {
                                     flexDirection: "column",
                                     justifyContent: "center",
                                     display: "flex",
+                                    lineHeight: "1.3rem",
                                 }}
                             >
                                 <div
@@ -327,8 +328,8 @@ export function HelloKitty(props) {
                                 <img
                                     style={{
                                         background: "#f7f7f7",
-                                        width: 120,
-                                        height: 80,
+                                        width: 121,
+                                        height: 81,
                                         borderRadius: 3,
                                         objectFit: "cover",
                                     }}
