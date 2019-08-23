@@ -69,6 +69,8 @@ export function MapKit(props) {
           leaflet.removeLayer(pin)
         });
         let newPins = positions.map(position => {
+          return L.marker(
+              position, {icon: L.icon({iconSize: [28, 50], iconUrl:"data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI4IiB2aWV3Qm94PSIwIDAgMjQgMjgiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xMSAyOHMxMS05LjkzNzEgMTEtMTcuMDY3OWMwLTYuMDM3NjMtNC45MjQ5LTEwLjkzMjEtMTEtMTAuOTMyMS02LjA3NTEzIDAtMTEgNC44OTQ0Ny0xMSAxMC45MzIxIDAgNy4xMzA4IDExIDE3LjA2NzkgMTEgMTcuMDY3OXoiIGZpbGw9IiMwNWYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSkiLz48cGF0aCBkPSJtMTEuMTI4MyAyNy4xOTY1Yy0uMDQ1OS4wNDM2LS4wODg3LjA4NDEtLjEyODMuMTIxNC0uMDM5Ni0uMDM3My0uMDgyNC0uMDc3OC0uMTI4My0uMTIxNC0uMjk3NS0uMjgyNS0uNzIzNC0uNjk0OC0xLjIzNDktMS4yMTIxLTEuMDIzNTctMS4wMzUzLTIuMzg3MDUtMi40ODgxLTMuNzQ5MTUtNC4xNjAxLTEuMzYzNDctMS42NzM2LTIuNzE3MDgtMy41NTY2LTMuNzI3NjgtNS40NTIyLTEuMDE0NTYtMS45MDMxLTEuNjU5OTctMy43NzU4LTEuNjU5OTctNS40NCAwLTUuNzU4NTggNC42OTgwOS0xMC40MzIxIDEwLjUtMTAuNDMyMSA1LjgwMTkgMCAxMC41IDQuNjczNTIgMTAuNSAxMC40MzIxIDAgMS42NjQyLS42NDU0IDMuNTM2OS0xLjY2IDUuNDQtMS4wMTA2IDEuODk1Ni0yLjM2NDIgMy43Nzg2LTMuNzI3NiA1LjQ1MjItMS4zNjIxIDEuNjcyLTIuNzI1NiAzLjEyNDgtMy43NDkyIDQuMTYwMS0uNTExNS41MTczLS45Mzc0LjkyOTYtMS4yMzQ5IDEuMjEyMXoiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLW9wYWNpdHk9Ii41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxKSIvPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTQgNy45NTA2MmMyLjIwOTE0IDAgNC0xLjc3OTgxIDQtMy45NzUzMXMtMS43OTA4Ni0zLjk3NTMxLTQtMy45NzUzMS00IDEuNzc5ODEtNCAzLjk3NTMxIDEuNzkwODYgMy45NzUzMSA0IDMuOTc1MzF6IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDggNi42OTMxMikiLz48L3N2Zz4="})}).addTo(leaflet)
           return L.circleMarker(position, {
             color: '#fff',
             opacity: 1,
@@ -108,9 +110,9 @@ export function MapKit(props) {
                 }
             ).addTo(leaflet)
 
-            L.control.zoom({
-              position:'topright'
-            }).addTo(leaflet);
+            // L.control.zoom({
+            //   position:'topright'
+            // }).addTo(leaflet);
 
             // attach events
             for (let prop in props) {
@@ -134,7 +136,6 @@ export function MapKit(props) {
             setMapContext(leaflet)
         })
     } else {
-      console.log("has conrtext")
       loadPins(mapContext)
     }
 

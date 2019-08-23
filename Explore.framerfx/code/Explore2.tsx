@@ -349,6 +349,16 @@ export function TimeSlider(): Override {
         },
     }
 }
+
+export function Backbutton(): Override {
+    return {
+        activityFilter: data.activityFilter,
+        onTap: function() {
+          data.activityFilter = "";
+        }
+    }
+}
+
 export function TimePickerResetOnTap(): Override {
     return {
         onTap: function() {

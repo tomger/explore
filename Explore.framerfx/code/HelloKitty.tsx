@@ -284,7 +284,7 @@ export function HelloKitty(props) {
                                     flexDirection: "column",
                                     justifyContent: "center",
                                     display: "flex",
-                                    lineHeight: "1.3rem",
+                                    lineHeight: "20px",
                                 }}
                             >
                                 <div
@@ -378,12 +378,13 @@ export function HelloKitty(props) {
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     let CATS = ["Fitness", "Wellness", "Gym"]
-    let catcolor = "#62666A";
+    let CATCOLORS = ["#E78F42", "#25C984", "#7663BC"];
+    let catcolor;
     if (props.activityFilter == "Fitness") {
       CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"];
-      catcolor = "#EB9D59";
+      catcolor = CATCOLORS[0];
     } else if (props.activityFilter == "Wellness") {
-      catcolor = "#E26A77";
+      catcolor = CATCOLORS[1];
       CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
     } else if (props.activityFilter) {
       CATS = []
@@ -403,14 +404,16 @@ export function HelloKitty(props) {
       }}>
         {
           CATS.map((name, index) =>
-            <Frame style={{
+            <Frame
+              whileTap={{scale:0.98}}
+            style={{
               position: "relative",
               display: "inline-flex",
               height: 60,
               width: 120,
               borderRadius: 8,
               padding: 8,
-              background: CATS.length === 3 ? (["#EB9D59", "#E26A77", "#8675C5"][index] || "#62666A") : catcolor,
+              background: `${CATS.length === 3 ? (CATCOLORS[index]) : catcolor}`,
               border: "1px solid #00000012",
               justifyContent: "left",
               color: "#fff",
