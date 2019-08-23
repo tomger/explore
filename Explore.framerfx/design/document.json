@@ -30467,9 +30467,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 16,
-                      "width" : 127
+                      "width" : 101
                     },
-                    "width" : 126
+                    "width" : 100
                   },
                   "entityMap" : {
 
@@ -30756,10 +30756,10 @@
                       "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"2kngr-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2kngr-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#333;font-size:14px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Wellness &amp; massage<\/span><\/span><\/div><\/div>",
                       "os" : "10_14",
                       "size" : {
-                        "height" : 16,
-                        "width" : 158
+                        "height" : 32,
+                        "width" : 101
                       },
-                      "width" : 157
+                      "width" : 100
                     },
                     "entityMap" : {
 
@@ -30958,9 +30958,9 @@
                       "os" : "10_14",
                       "size" : {
                         "height" : 16,
-                        "width" : 95
+                        "width" : 101
                       },
-                      "width" : 94
+                      "width" : 100
                     },
                     "entityMap" : {
 
@@ -41547,9 +41547,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : -189,
+            "bottom" : -51,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.87446351931330468,
+            "centerAnchorY" : 0.67466887417218546,
             "children" : [
 
             ],
@@ -41644,7 +41644,7 @@
             "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.12017167381974249,
+            "centerAnchorY" : 0.092715231788079472,
             "children" : [
               {
                 "__class" : "CodeComponentNode",
@@ -42061,78 +42061,6 @@
                     "top" : 4,
                     "visible" : false,
                     "width" : 24,
-                    "widthType" : 0
-                  },
-                  {
-                    "__class" : "CodeComponentNode",
-                    "aspectRatio" : null,
-                    "bottom" : -1,
-                    "centerAnchorX" : 0.48115942028985509,
-                    "centerAnchorY" : 0.5,
-                    "children" : [
-
-                    ],
-                    "clip" : true,
-                    "codeComponentIdentifier" : "@framer\/benjamin.input\/.\/Input.tsx_Input",
-                    "codeComponentProps" : {
-                      "backgroundColor" : "rgb(255, 255, 255)",
-                      "border" : "hsla(0, 0%, 100%, 0.1)",
-                      "borderWidth" : 1,
-                      "focusColor" : "#09F",
-                      "fontSize" : 16,
-                      "multiLine" : false,
-                      "padding" : 15,
-                      "paddingBottom" : 15,
-                      "paddingLeft" : 15,
-                      "paddingPerSide" : false,
-                      "paddingRight" : 15,
-                      "paddingTop" : 15,
-                      "password" : false,
-                      "placeholder" : "Find an activity or venue",
-                      "radius" : 0,
-                      "textColor" : "#000",
-                      "value" : ""
-                    },
-                    "codeOverrideEnabled" : true,
-                    "codeOverrideFile" : ".\/Explore2.tsx",
-                    "codeOverrideIdentifier" : ".\/Explore2.tsx_ActivityPicker",
-                    "codeOverrideName" : "ActivityPicker",
-                    "constraintsLocked" : false,
-                    "deviceType" : null,
-                    "exportOptions" : [
-
-                    ],
-                    "fillColor" : "rgba(255,255,255,1)",
-                    "fillEnabled" : false,
-                    "fillImage" : null,
-                    "fillImagePixelHeight" : null,
-                    "fillImagePixelWidth" : null,
-                    "fillImageResize" : "fill",
-                    "fillType" : "color",
-                    "height" : 39,
-                    "heightType" : 0,
-                    "id" : "BnwYPEXM2",
-                    "intrinsicHeight" : 50,
-                    "intrinsicWidth" : 300,
-                    "left" : 33,
-                    "locked" : false,
-                    "name" : null,
-                    "opacity" : 1,
-                    "originalid" : null,
-                    "parentid" : "dVB41MqJ3",
-                    "previewSettings" : null,
-                    "radius" : 0,
-                    "radiusBottomLeft" : 0,
-                    "radiusBottomRight" : 0,
-                    "radiusIsRelative" : false,
-                    "radiusPerCorner" : false,
-                    "radiusTopLeft" : 0,
-                    "radiusTopRight" : 0,
-                    "right" : 46,
-                    "rotation" : 0,
-                    "top" : -1,
-                    "visible" : true,
-                    "width" : 266,
                     "widthType" : 0
                   },
                   {
@@ -42699,6 +42627,62 @@
                     "visible" : true,
                     "width" : 24,
                     "widthType" : 0
+                  },
+                  {
+                    "__class" : "CodeComponentNode",
+                    "aspectRatio" : null,
+                    "bottom" : 0,
+                    "centerAnchorX" : 0.55362318840579705,
+                    "centerAnchorY" : 0.5,
+                    "children" : [
+
+                    ],
+                    "clip" : true,
+                    "codeComponentIdentifier" : ".\/Input.tsx_Input",
+                    "codeComponentProps" : {
+
+                    },
+                    "codeOverrideEnabled" : true,
+                    "codeOverrideFile" : ".\/Explore2.tsx",
+                    "codeOverrideIdentifier" : ".\/Explore2.tsx_ActivityPicker",
+                    "codeOverrideName" : "ActivityPicker",
+                    "constraintsLocked" : false,
+                    "deviceType" : null,
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(255,255,255,1)",
+                    "fillEnabled" : false,
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 37,
+                    "heightType" : 0,
+                    "id" : "UgXljrsgb",
+                    "intrinsicHeight" : 48,
+                    "intrinsicWidth" : null,
+                    "left" : 47,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "dVB41MqJ3",
+                    "previewSettings" : null,
+                    "radius" : 0,
+                    "radiusBottomLeft" : 0,
+                    "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
+                    "radiusPerCorner" : false,
+                    "radiusTopLeft" : 0,
+                    "radiusTopRight" : 0,
+                    "right" : 10,
+                    "rotation" : 0,
+                    "top" : 0,
+                    "visible" : true,
+                    "width" : 288,
+                    "widthType" : 0
                   }
                 ],
                 "clip" : false,
@@ -42927,7 +42911,7 @@
         "guidesY" : [
 
         ],
-        "height" : 466,
+        "height" : 604,
         "heightType" : 0,
         "id" : "vkn6cogOD",
         "intrinsicHeight" : null,
@@ -44493,9 +44477,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 19,
-                      "width" : 83
+                      "width" : 101
                     },
-                    "width" : 82
+                    "width" : 100
                   },
                   "entityMap" : {
 
@@ -44808,10 +44792,10 @@
                         "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"3dco0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3dco0-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:rgba(255, 255, 255, 1.00);font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Confirm reservation<\/span><\/span><\/div><\/div>",
                         "os" : "10_14",
                         "size" : {
-                          "height" : 19,
-                          "width" : 335
+                          "height" : 38,
+                          "width" : 101
                         },
-                        "width" : 334
+                        "width" : 100
                       },
                       "entityMap" : {
 
