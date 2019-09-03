@@ -30467,9 +30467,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 16,
-                      "width" : 127
+                      "width" : 101
                     },
-                    "width" : 126
+                    "width" : 100
                   },
                   "entityMap" : {
 
@@ -30756,10 +30756,10 @@
                       "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"2kngr-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2kngr-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#333;font-size:14px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Wellness &amp; massage<\/span><\/span><\/div><\/div>",
                       "os" : "10_14",
                       "size" : {
-                        "height" : 16,
-                        "width" : 158
+                        "height" : 32,
+                        "width" : 101
                       },
-                      "width" : 157
+                      "width" : 100
                     },
                     "entityMap" : {
 
@@ -30958,9 +30958,9 @@
                       "os" : "10_14",
                       "size" : {
                         "height" : 16,
-                        "width" : 95
+                        "width" : 101
                       },
-                      "width" : 94
+                      "width" : 100
                     },
                     "entityMap" : {
 
@@ -43968,9 +43968,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 19,
-                      "width" : 83
+                      "width" : 101
                     },
-                    "width" : 82
+                    "width" : 100
                   },
                   "entityMap" : {
 
@@ -44283,10 +44283,10 @@
                         "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"3dco0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3dco0-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:rgba(255, 255, 255, 1.00);font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Confirm reservation<\/span><\/span><\/div><\/div>",
                         "os" : "10_14",
                         "size" : {
-                          "height" : 19,
-                          "width" : 335
+                          "height" : 38,
+                          "width" : 101
                         },
-                        "width" : 334
+                        "width" : 100
                       },
                       "entityMap" : {
 
