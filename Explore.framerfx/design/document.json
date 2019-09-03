@@ -30467,9 +30467,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 16,
-                      "width" : 101
+                      "width" : 127
                     },
-                    "width" : 100
+                    "width" : 126
                   },
                   "entityMap" : {
 
@@ -30756,10 +30756,10 @@
                       "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"2kngr-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"2kngr-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#333;font-size:14px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Wellness &amp; massage<\/span><\/span><\/div><\/div>",
                       "os" : "10_14",
                       "size" : {
-                        "height" : 32,
-                        "width" : 101
+                        "height" : 16,
+                        "width" : 158
                       },
-                      "width" : 100
+                      "width" : 157
                     },
                     "entityMap" : {
 
@@ -30958,9 +30958,9 @@
                       "os" : "10_14",
                       "size" : {
                         "height" : 16,
-                        "width" : 101
+                        "width" : 95
                       },
-                      "width" : 100
+                      "width" : 94
                     },
                     "entityMap" : {
 
@@ -39894,74 +39894,6 @@
             "centerAnchorY" : 0.014992503748125937,
             "children" : [
               {
-                "__class" : "FrameNode",
-                "aspectRatio" : null,
-                "blendingEnabled" : 0,
-                "blendingMode" : "normal",
-                "blur" : 12,
-                "blurEnabled" : -1,
-                "blurType" : "layer",
-                "bottom" : 0,
-                "centerAnchorX" : 0.5,
-                "centerAnchorY" : 1.4750000000000001,
-                "children" : [
-
-                ],
-                "clip" : false,
-                "codeOverrideEnabled" : false,
-                "constraintsLocked" : false,
-                "deviceType" : null,
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255, 255, 255, 0.12)",
-                "fillEnabled" : true,
-                "fillImage" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillType" : "color",
-                "guidesX" : [
-
-                ],
-                "guidesY" : [
-
-                ],
-                "height" : 20,
-                "heightType" : 0,
-                "id" : "qOHicbqDl",
-                "intrinsicHeight" : null,
-                "intrinsicWidth" : null,
-                "isExternalMaster" : null,
-                "isMaster" : false,
-                "isTarget" : false,
-                "left" : 0,
-                "locked" : false,
-                "name" : null,
-                "navigationTarget" : null,
-                "navigationTransition" : "push",
-                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-                "navigationTransitionDirection" : "left",
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "j8uvWehaY",
-                "previewSettings" : null,
-                "radius" : 0,
-                "radiusBottomLeft" : 0,
-                "radiusBottomRight" : 0,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 0,
-                "radiusTopRight" : 0,
-                "replicaInfo" : null,
-                "right" : 0,
-                "rotation" : 0,
-                "top" : 0,
-                "visible" : true,
-                "width" : 375,
-                "widthType" : 0
-              },
-              {
                 "__class" : "CodeComponentNode",
                 "aspectRatio" : null,
                 "bottom" : 0,
@@ -44036,9 +43968,9 @@
                     "os" : "10_14",
                     "size" : {
                       "height" : 19,
-                      "width" : 101
+                      "width" : 83
                     },
-                    "width" : 100
+                    "width" : 82
                   },
                   "entityMap" : {
 
@@ -44351,10 +44283,10 @@
                         "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"3dco0-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3dco0-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:rgba(255, 255, 255, 1.00);font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:500\"><span data-text=\"true\">Confirm reservation<\/span><\/span><\/div><\/div>",
                         "os" : "10_14",
                         "size" : {
-                          "height" : 38,
-                          "width" : 101
+                          "height" : 19,
+                          "width" : 335
                         },
-                        "width" : 100
+                        "width" : 334
                       },
                       "entityMap" : {
 
