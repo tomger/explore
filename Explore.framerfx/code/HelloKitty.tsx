@@ -32,30 +32,34 @@ function mapSchedules(venue, klass, schedules, s) {
                 border: "1px solid #e7e7e7",
                 borderRadius: 3,
                 boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
-                padding: "4px 10px",
-                margin: "0 4px 0 0",
+                padding: "4px 0px 4px 0px",
+                marginRight: 5,
                 fontSize: 13,
                 fontWeight: 500,
-                width: 105,
+                width: 104,
                 height: 26,
                 whiteSpace: "nowrap",
                 textAlign: "center",
                 background: '#fff',
-
             }}
         >
-            {format}{" "}
+            <span style={{
+              width: 74,
+              display: "inline-block",
+            }}>{format}{" "}</span>
             <span
                 style={{
                     borderLeft: "1px solid #e7e7e7",
-                    paddingLeft: 8,
-                    marginLeft: 4,
+                    // paddingLeft: 9,
+                    margin: 0,
                     fontWeight: 500,
+                    width: 28,
+                    display: "inline-block",
+
                     color: "#7f7f7f",
                 }}
             >
-                {s.availability.credits}
-            </span>
+                {s.availability.credits || 6}</span>
         </Frame>
     )
 }
