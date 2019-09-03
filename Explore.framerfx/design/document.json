@@ -41673,7 +41673,200 @@
                 "centerAnchorX" : 0.5,
                 "centerAnchorY" : 0.5625,
                 "children" : [
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : false,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.91333333333333333,
+                    "centerAnchorY" : 0.1276595744680851,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "exportOptions" : [
 
+                    ],
+                    "height" : 20,
+                    "heightType" : 0,
+                    "id" : "bsGV_G4yQ",
+                    "isTarget" : false,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "Ms2c38FX3",
+                    "replicaInfo" : null,
+                    "right" : 12,
+                    "rotation" : 0,
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "emptyStyle" : [
+                              "LETTERSPACING:0",
+                              "ALIGN:center",
+                              "LINEHEIGHT:2.1",
+                              "COLOR:#333",
+                              "SIZE:12",
+                              "FONT:TTNorms-Bold"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 2,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:0"
+                            },
+                            {
+                              "length" : 2,
+                              "offset" : 0,
+                              "style" : "ALIGN:center"
+                            },
+                            {
+                              "length" : 2,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:2.1"
+                            },
+                            {
+                              "length" : 2,
+                              "offset" : 0,
+                              "style" : "COLOR:#333"
+                            },
+                            {
+                              "length" : 2,
+                              "offset" : 0,
+                              "style" : "SIZE:12"
+                            },
+                            {
+                              "length" : 2,
+                              "offset" : 0,
+                              "style" : "FONT:TTNorms-Bold"
+                            }
+                          ],
+                          "key" : "e5pe",
+                          "text" : "34",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"e5pe-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"e5pe-0-0\" style=\"tab-size:4;font-weight:700;font-family:&quot;TTNorms-Bold&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:#333;font-size:12px;letter-spacing:0px;line-height:2.1\"><span data-text=\"true\">34<\/span><\/span><\/div><\/div>",
+                        "os" : "10_14",
+                        "size" : {
+                          "height" : 25,
+                          "width" : 42
+                        },
+                        "width" : 41
+                      },
+                      "entityMap" : {
+
+                      }
+                    },
+                    "top" : 2,
+                    "visible" : true,
+                    "width" : 41,
+                    "widthType" : 0
+                  },
+                  {
+                    "__class" : "TextNode",
+                    "autoSize" : false,
+                    "bottom" : null,
+                    "centerAnchorX" : 0.91333333333333333,
+                    "centerAnchorY" : 0.2978723404255319,
+                    "codeOverrideEnabled" : false,
+                    "constraintsLocked" : false,
+                    "exportOptions" : [
+
+                    ],
+                    "height" : 14,
+                    "heightType" : 0,
+                    "id" : "Ch5mjA5lx",
+                    "isTarget" : false,
+                    "left" : null,
+                    "locked" : false,
+                    "name" : null,
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "Ms2c38FX3",
+                    "replicaInfo" : null,
+                    "right" : 12,
+                    "rotation" : 0,
+                    "styledText" : {
+                      "__class" : "StyledTextDraft",
+                      "blocks" : [
+                        {
+                          "data" : {
+                            "emptyStyle" : [
+                              "LETTERSPACING:0",
+                              "ALIGN:center",
+                              "FONT:TTNorms-Medium",
+                              "LINEHEIGHT:1",
+                              "SIZE:9",
+                              "COLOR:hsl(0, 0%, 46%)"
+                            ]
+                          },
+                          "depth" : 0,
+                          "entityRanges" : [
+
+                          ],
+                          "inlineStyleRanges" : [
+                            {
+                              "length" : 7,
+                              "offset" : 0,
+                              "style" : "LETTERSPACING:0"
+                            },
+                            {
+                              "length" : 7,
+                              "offset" : 0,
+                              "style" : "ALIGN:center"
+                            },
+                            {
+                              "length" : 7,
+                              "offset" : 0,
+                              "style" : "FONT:TTNorms-Medium"
+                            },
+                            {
+                              "length" : 7,
+                              "offset" : 0,
+                              "style" : "LINEHEIGHT:1"
+                            },
+                            {
+                              "length" : 7,
+                              "offset" : 0,
+                              "style" : "SIZE:9"
+                            },
+                            {
+                              "length" : 7,
+                              "offset" : 0,
+                              "style" : "COLOR:hsl(0, 0%, 46%)"
+                            }
+                          ],
+                          "key" : "e5pe",
+                          "text" : "credits",
+                          "type" : "unstyled"
+                        }
+                      ],
+                      "cached" : {
+                        "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"e5pe-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"e5pe-0-0\" style=\"tab-size:4;font-family:&quot;TTNorms-Medium&quot;, &quot;TT Norms&quot;, serif;-webkit-text-fill-color:hsl(0, 0%, 46%);font-size:9px;letter-spacing:0px;line-height:1;font-weight:500\"><span data-text=\"true\">credits<\/span><\/span><\/div><\/div>",
+                        "os" : "10_14",
+                        "size" : {
+                          "height" : 9,
+                          "width" : 42
+                        },
+                        "width" : 41
+                      },
+                      "entityMap" : {
+
+                      }
+                    },
+                    "top" : 21,
+                    "visible" : true,
+                    "width" : 41,
+                    "widthType" : 0
+                  }
                 ],
                 "clip" : false,
                 "codeOverrideEnabled" : false,
@@ -41744,7 +41937,7 @@
                 "borderTop" : 1,
                 "borderWidth" : 1,
                 "bottom" : null,
-                "centerAnchorX" : 0.49199999999999999,
+                "centerAnchorX" : 0.44,
                 "centerAnchorY" : 0.3169642857142857,
                 "children" : [
                   {
@@ -42222,11 +42415,11 @@
                 "radiusTopLeft" : 45,
                 "radiusTopRight" : 45,
                 "replicaInfo" : null,
-                "right" : 18,
+                "right" : 57,
                 "rotation" : 0,
                 "top" : 17,
                 "visible" : true,
-                "width" : 345,
+                "width" : 306,
                 "widthType" : 0
               },
               {

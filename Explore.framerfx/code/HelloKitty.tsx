@@ -382,7 +382,7 @@ export function HelloKitty(props) {
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     let CATS = ["Fitness", "Wellness", "Gym"]
-    let CATCOLORS = ["#E78F42", "#25C984", "#7663BC"];
+    let CATCOLORS = ["#E78F42", "#10A868", "#7663BC"];
     let catcolor;
     if (props.activityFilter == "Fitness") {
       CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"];
@@ -398,12 +398,14 @@ export function HelloKitty(props) {
     if (CATS.length) {
       catnav = (<Scroll direction="horizontal" width="100%" style={{
         position: "relative",
-        height: 60,
+        height: 50,
+        overflow: "visible",
       }}>
       <Frame style={{
         background: "transparent",
         paddingLeft: 12,
         height: "auto",
+        overflow: "visible",
         width: CATS.length * 150
       }}>
         {
@@ -413,10 +415,12 @@ export function HelloKitty(props) {
             style={{
               position: "relative",
               display: "inline-flex",
-              height: 60,
+              height: 50,
               width: 120,
+              overflow: "visible",
               borderRadius: 8,
               padding: 8,
+              boxShadow: "0 1px 2px 0 #00000030",
               background: `${CATS.length === 3 ? (CATCOLORS[index]) : catcolor}`,
               border: "1px solid #00000012",
               justifyContent: "left",
