@@ -20,7 +20,6 @@
 	"author": "Tom G",
 	"dependencies": {
 		"@framer/benjamin.slider": "^1.9.0",
-		"@framer/framer.examples": "^1.7.0",
 		"cpdata": "file:../cpdata"
 	}
 }

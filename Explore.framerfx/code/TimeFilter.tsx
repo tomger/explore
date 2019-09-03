@@ -5,11 +5,11 @@ const data = Data({})
 
 export function prettyHours (hours) {
   if (hours == 12) {
-    return hours + "pm"
+    return hours + " pm"
   } else if (hours > 12) {
-    return (hours - 12) + "pm"
+    return (hours - 12) + " pm"
   } else {
-    return hours + "am"
+    return hours + " am"
   }
 }
 
