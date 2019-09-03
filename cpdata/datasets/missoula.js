@@ -42,10 +42,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 290681,
+            "endtime": 283481,
             "id": 287886569,
             "late_cancellation": "early",
-            "starttime": 287981,
+            "starttime": 280781,
             "tag_ids": [
               "266",
               "1034",
@@ -78,10 +78,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 294281,
+            "endtime": 287081,
             "id": 287886593,
             "late_cancellation": "early",
-            "starttime": 291581,
+            "starttime": 284381,
             "tag_ids": [
               "266",
               "1034",
@@ -114,10 +114,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 305981,
+            "endtime": 298781,
             "id": 287886595,
             "late_cancellation": "early",
-            "starttime": 303281,
+            "starttime": 296081,
             "tag_ids": [
               "266",
               "1034",
@@ -150,10 +150,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 332081,
+            "endtime": 324881,
             "id": 287886579,
             "late_cancellation": "early",
-            "starttime": 329381,
+            "starttime": 322181,
             "tag_ids": [
               "266",
               "1034",
@@ -186,10 +186,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 377081,
+            "endtime": 369881,
             "id": 287987673,
             "late_cancellation": "early",
-            "starttime": 374381,
+            "starttime": 367181,
             "tag_ids": [
               "266",
               "1034",
@@ -222,10 +222,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 387881,
+            "endtime": 380681,
             "id": 287987653,
             "late_cancellation": "early",
-            "starttime": 385181,
+            "starttime": 377981,
             "tag_ids": [
               "266",
               "1034",
@@ -258,10 +258,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 463481,
+            "endtime": 456281,
             "id": 288125066,
             "late_cancellation": "early",
-            "starttime": 460781,
+            "starttime": 453581,
             "tag_ids": [
               "266",
               "1034",
@@ -294,10 +294,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 467081,
+            "endtime": 459881,
             "id": 288125067,
             "late_cancellation": "early",
-            "starttime": 464381,
+            "starttime": 457181,
             "tag_ids": [
               "266",
               "1034",
@@ -330,10 +330,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 42281,
+            "endtime": 35081,
             "id": 288341298,
             "late_cancellation": "early",
-            "starttime": 39581,
+            "starttime": 32381,
             "tag_ids": [
               "266",
               "1034",
@@ -366,10 +366,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 46781,
+            "endtime": 39581,
             "id": 288341299,
             "late_cancellation": "early",
-            "starttime": 44081,
+            "starttime": 36881,
             "tag_ids": [
               "266",
               "1034",
@@ -402,10 +402,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 117881,
+            "endtime": 110681,
             "id": 288440778,
             "late_cancellation": "early",
-            "starttime": 115181,
+            "starttime": 107981,
             "tag_ids": [
               "266",
               "1034",
@@ -438,10 +438,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 133181,
+            "endtime": 125981,
             "id": 288440772,
             "late_cancellation": "early",
-            "starttime": 130481,
+            "starttime": 123281,
             "tag_ids": [
               "266",
               "1034",
@@ -474,10 +474,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 159281,
+            "endtime": 152081,
             "id": 288440785,
             "late_cancellation": "early",
-            "starttime": 156581,
+            "starttime": 149381,
             "tag_ids": [
               "266",
               "1034",
@@ -510,10 +510,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 204281,
+            "endtime": 197081,
             "id": 288627542,
             "late_cancellation": "early",
-            "starttime": 201581,
+            "starttime": 194381,
             "tag_ids": [
               "266",
               "1034",
@@ -546,10 +546,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 215081,
+            "endtime": 207881,
             "id": 288627540,
             "late_cancellation": "early",
-            "starttime": 212381,
+            "starttime": 205181,
             "tag_ids": [
               "266",
               "1034",
@@ -582,10 +582,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 245681,
+            "endtime": 238481,
             "id": 288627571,
             "late_cancellation": "early",
-            "starttime": 242981,
+            "starttime": 235781,
             "tag_ids": [
               "266",
               "1034",
@@ -618,10 +618,10 @@ export default [
             "class": {
               "name": "SWEATcycle"
             },
-            "endtime": 249281,
+            "endtime": 242081,
             "id": 288627581,
             "late_cancellation": "early",
-            "starttime": 246581,
+            "starttime": 239381,
             "tag_ids": [
               "266",
               "1034",
@@ -665,10 +665,10 @@ export default [
             "class": {
               "name": "DRENCH"
             },
-            "endtime": 312281,
+            "endtime": 305081,
             "id": 287886598,
             "late_cancellation": "early",
-            "starttime": 309581,
+            "starttime": 302381,
             "tag_ids": [
               "140",
               "1034",
@@ -694,10 +694,10 @@ export default [
             "class": {
               "name": "DRENCH"
             },
-            "endtime": 398681,
+            "endtime": 391481,
             "id": 288537428,
             "late_cancellation": "early",
-            "starttime": 395981,
+            "starttime": 388781,
             "tag_ids": [
               "140",
               "1034",
@@ -723,10 +723,10 @@ export default [
             "class": {
               "name": "DRENCH"
             },
-            "endtime": 121481,
+            "endtime": 114281,
             "id": 288440783,
             "late_cancellation": "early",
-            "starttime": 118781,
+            "starttime": 111581,
             "tag_ids": [
               "140",
               "1034",
@@ -752,10 +752,10 @@ export default [
             "class": {
               "name": "DRENCH"
             },
-            "endtime": 139481,
+            "endtime": 132281,
             "id": 288440774,
             "late_cancellation": "early",
-            "starttime": 136781,
+            "starttime": 129581,
             "tag_ids": [
               "140",
               "1034",
@@ -792,10 +792,10 @@ export default [
             "class": {
               "name": "SWEAT INTENSIVE"
             },
-            "endtime": 338381,
+            "endtime": 331181,
             "id": 287886586,
             "late_cancellation": "early",
-            "starttime": 332981,
+            "starttime": 325781,
             "tag_ids": [
               "1034",
               "1036",
@@ -825,10 +825,10 @@ export default [
             "class": {
               "name": "SWEAT INTENSIVE"
             },
-            "endtime": 462581,
+            "endtime": 455381,
             "id": 288125071,
             "late_cancellation": "early",
-            "starttime": 457181,
+            "starttime": 449981,
             "tag_ids": [
               "1034",
               "1036",
@@ -869,10 +869,10 @@ export default [
             "class": {
               "name": "DRIP"
             },
-            "endtime": 377081,
+            "endtime": 369881,
             "id": 287987660,
             "late_cancellation": "early",
-            "starttime": 374381,
+            "starttime": 367181,
             "tag_ids": [
               "138",
               "activity-95"
@@ -895,10 +895,10 @@ export default [
             "class": {
               "name": "DRIP"
             },
-            "endtime": 418481,
+            "endtime": 411281,
             "id": 287987664,
             "late_cancellation": "early",
-            "starttime": 415781,
+            "starttime": 408581,
             "tag_ids": [
               "138",
               "activity-95"
@@ -921,10 +921,10 @@ export default [
             "class": {
               "name": "DRIP"
             },
-            "endtime": 204281,
+            "endtime": 197081,
             "id": 288627546,
             "late_cancellation": "early",
-            "starttime": 201581,
+            "starttime": 194381,
             "tag_ids": [
               "138",
               "activity-95"
@@ -958,10 +958,10 @@ export default [
             "class": {
               "name": "SWEATcycle + DRENCH"
             },
-            "endtime": 385181,
+            "endtime": 377981,
             "id": 287987669,
             "late_cancellation": "early",
-            "starttime": 381581,
+            "starttime": 374381,
             "tag_ids": [
               "140",
               "1034",
@@ -996,10 +996,10 @@ export default [
             "class": {
               "name": "SWEATcycle + DRENCH"
             },
-            "endtime": 415781,
+            "endtime": 408581,
             "id": 287987682,
             "late_cancellation": "early",
-            "starttime": 412181,
+            "starttime": 404981,
             "tag_ids": [
               "140",
               "1034",
@@ -1034,10 +1034,10 @@ export default [
             "class": {
               "name": "SWEATcycle + DRENCH"
             },
-            "endtime": 479681,
+            "endtime": 472481,
             "id": 288125073,
             "late_cancellation": "early",
-            "starttime": 476081,
+            "starttime": 468881,
             "tag_ids": [
               "140",
               "1034",
@@ -1072,10 +1072,10 @@ export default [
             "class": {
               "name": "SWEATcycle + DRENCH"
             },
-            "endtime": 212381,
+            "endtime": 205181,
             "id": 288627555,
             "late_cancellation": "early",
-            "starttime": 208781,
+            "starttime": 201581,
             "tag_ids": [
               "140",
               "1034",
@@ -1110,10 +1110,10 @@ export default [
             "class": {
               "name": "SWEATcycle + DRENCH"
             },
-            "endtime": 242981,
+            "endtime": 235781,
             "id": 288627563,
             "late_cancellation": "early",
-            "starttime": 239381,
+            "starttime": 232181,
             "tag_ids": [
               "140",
               "1034",
@@ -1159,10 +1159,10 @@ export default [
             "class": {
               "name": "SWEATcycle THEME RIDE"
             },
-            "endtime": 418481,
+            "endtime": 411281,
             "id": 287987688,
             "late_cancellation": "early",
-            "starttime": 415781,
+            "starttime": 408581,
             "tag_ids": [
               "activity"
             ],
@@ -1195,10 +1195,10 @@ export default [
             "class": {
               "name": "SWEAToM"
             },
-            "endtime": 475181,
+            "endtime": 467981,
             "id": 288125070,
             "late_cancellation": "early",
-            "starttime": 471581,
+            "starttime": 464381,
             "tag_ids": [
               "activity",
               "activity-1"
@@ -1221,10 +1221,10 @@ export default [
             "class": {
               "name": "SWEAToM"
             },
-            "endtime": 246581,
+            "endtime": 239381,
             "id": 288627569,
             "late_cancellation": "early",
-            "starttime": 242981,
+            "starttime": 235781,
             "tag_ids": [
               "activity",
               "activity-1"
@@ -1258,10 +1258,10 @@ export default [
             "class": {
               "name": "OUTDOOR SWEAT INTENSIVE"
             },
-            "endtime": 165581,
+            "endtime": 158381,
             "id": 288440776,
             "late_cancellation": "early",
-            "starttime": 161981,
+            "starttime": 154781,
             "tag_ids": [
               "activity"
             ],
@@ -1318,10 +1318,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 290681,
+            "endtime": 283481,
             "id": 287861072,
             "late_cancellation": "early",
-            "starttime": 287981,
+            "starttime": 280781,
             "tag_ids": [
               "1034",
               "1036",
@@ -1353,10 +1353,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 312281,
+            "endtime": 305081,
             "id": 287861106,
             "late_cancellation": "early",
-            "starttime": 309581,
+            "starttime": 302381,
             "tag_ids": [
               "1034",
               "1036",
@@ -1388,10 +1388,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 332081,
+            "endtime": 324881,
             "id": 287861084,
             "late_cancellation": "early",
-            "starttime": 329381,
+            "starttime": 322181,
             "tag_ids": [
               "1034",
               "1036",
@@ -1423,10 +1423,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 335681,
+            "endtime": 328481,
             "id": 287861096,
             "late_cancellation": "early",
-            "starttime": 332981,
+            "starttime": 325781,
             "tag_ids": [
               "1034",
               "1036",
@@ -1458,10 +1458,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 377081,
+            "endtime": 369881,
             "id": 287995818,
             "late_cancellation": "early",
-            "starttime": 374381,
+            "starttime": 367181,
             "tag_ids": [
               "1034",
               "1036",
@@ -1493,10 +1493,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 387881,
+            "endtime": 380681,
             "id": 287995824,
             "late_cancellation": "early",
-            "starttime": 385181,
+            "starttime": 377981,
             "tag_ids": [
               "1034",
               "1036",
@@ -1528,10 +1528,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 418481,
+            "endtime": 411281,
             "id": 287995838,
             "late_cancellation": "early",
-            "starttime": 415781,
+            "starttime": 408581,
             "tag_ids": [
               "1034",
               "1036",
@@ -1563,10 +1563,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 463481,
+            "endtime": 456281,
             "id": 288161422,
             "late_cancellation": "early",
-            "starttime": 460781,
+            "starttime": 453581,
             "tag_ids": [
               "1034",
               "1036",
@@ -1598,10 +1598,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 467081,
+            "endtime": 459881,
             "id": 288161427,
             "late_cancellation": "early",
-            "starttime": 464381,
+            "starttime": 457181,
             "tag_ids": [
               "1034",
               "1036",
@@ -1633,10 +1633,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 485081,
+            "endtime": 477881,
             "id": 288161424,
             "late_cancellation": "early",
-            "starttime": 482381,
+            "starttime": 475181,
             "tag_ids": [
               "1034",
               "1036",
@@ -1668,10 +1668,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 504881,
+            "endtime": 497681,
             "id": 288161429,
             "late_cancellation": "early",
-            "starttime": 502181,
+            "starttime": 494981,
             "tag_ids": [
               "1034",
               "1036",
@@ -1703,10 +1703,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 560681,
+            "endtime": 553481,
             "id": 288299207,
             "late_cancellation": "early",
-            "starttime": 557981,
+            "starttime": 550781,
             "tag_ids": [
               "1034",
               "1036",
@@ -1738,10 +1738,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 564281,
+            "endtime": 557081,
             "id": 288299208,
             "late_cancellation": "early",
-            "starttime": 561581,
+            "starttime": 554381,
             "tag_ids": [
               "1034",
               "1036",
@@ -1773,10 +1773,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 42281,
+            "endtime": 35081,
             "id": 288335929,
             "late_cancellation": "early",
-            "starttime": 39581,
+            "starttime": 32381,
             "tag_ids": [
               "1034",
               "1036",
@@ -1808,10 +1808,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 69281,
+            "endtime": 62081,
             "id": 288335930,
             "late_cancellation": "early",
-            "starttime": 66581,
+            "starttime": 59381,
             "tag_ids": [
               "1034",
               "1036",
@@ -1843,10 +1843,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 117881,
+            "endtime": 110681,
             "id": 288459510,
             "late_cancellation": "early",
-            "starttime": 115181,
+            "starttime": 107981,
             "tag_ids": [
               "1034",
               "1036",
@@ -1878,10 +1878,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 121481,
+            "endtime": 114281,
             "id": 288459532,
             "late_cancellation": "early",
-            "starttime": 118781,
+            "starttime": 111581,
             "tag_ids": [
               "1034",
               "1036",
@@ -1913,10 +1913,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 139481,
+            "endtime": 132281,
             "id": 288459525,
             "late_cancellation": "early",
-            "starttime": 136781,
+            "starttime": 129581,
             "tag_ids": [
               "1034",
               "1036",
@@ -1948,10 +1948,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 159281,
+            "endtime": 152081,
             "id": 288459518,
             "late_cancellation": "early",
-            "starttime": 156581,
+            "starttime": 149381,
             "tag_ids": [
               "1034",
               "1036",
@@ -1983,10 +1983,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 162881,
+            "endtime": 155681,
             "id": 288459528,
             "late_cancellation": "early",
-            "starttime": 160181,
+            "starttime": 152981,
             "tag_ids": [
               "1034",
               "1036",
@@ -2018,10 +2018,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 204281,
+            "endtime": 197081,
             "id": 288580956,
             "late_cancellation": "early",
-            "starttime": 201581,
+            "starttime": 194381,
             "tag_ids": [
               "1034",
               "1036",
@@ -2053,10 +2053,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 215081,
+            "endtime": 207881,
             "id": 288580957,
             "late_cancellation": "early",
-            "starttime": 212381,
+            "starttime": 205181,
             "tag_ids": [
               "1034",
               "1036",
@@ -2088,10 +2088,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 245681,
+            "endtime": 238481,
             "id": 288580958,
             "late_cancellation": "early",
-            "starttime": 242981,
+            "starttime": 235781,
             "tag_ids": [
               "1034",
               "1036",
@@ -2123,10 +2123,10 @@ export default [
             "class": {
               "name": "HypeRide"
             },
-            "endtime": 249281,
+            "endtime": 242081,
             "id": 288580959,
             "late_cancellation": "early",
-            "starttime": 246581,
+            "starttime": 239381,
             "tag_ids": [
               "1034",
               "1036",
@@ -2193,8 +2193,104 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 289781,
+            "endtime": 282581,
             "id": 285010332,
+            "late_cancellation": "early",
+            "starttime": 278981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 284381,
+            "id": 284435313,
+            "late_cancellation": "early",
+            "starttime": 280781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 286181,
+            "id": 284435314,
+            "late_cancellation": "early",
+            "starttime": 282581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 287981,
+            "id": 284435315,
+            "late_cancellation": "early",
+            "starttime": 284381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 289781,
+            "id": 285010334,
             "late_cancellation": "early",
             "starttime": 286181,
             "tag_ids": [
@@ -2218,7 +2314,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 291581,
-            "id": 284435313,
+            "id": 285010333,
             "late_cancellation": "early",
             "starttime": 287981,
             "tag_ids": [
@@ -2242,7 +2338,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 293381,
-            "id": 284435314,
+            "id": 285010335,
             "late_cancellation": "early",
             "starttime": 289781,
             "tag_ids": [
@@ -2255,18 +2351,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 295181,
-            "id": 284435315,
+            "id": 284435091,
             "late_cancellation": "early",
             "starttime": 291581,
             "tag_ids": [
@@ -2279,7 +2375,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -2290,7 +2386,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 296981,
-            "id": 285010334,
+            "id": 285010930,
             "late_cancellation": "early",
             "starttime": 293381,
             "tag_ids": [
@@ -2314,7 +2410,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 298781,
-            "id": 285010333,
+            "id": 285010931,
             "late_cancellation": "early",
             "starttime": 295181,
             "tag_ids": [
@@ -2338,7 +2434,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 300581,
-            "id": 285010335,
+            "id": 285010932,
             "late_cancellation": "early",
             "starttime": 296981,
             "tag_ids": [
@@ -2351,18 +2447,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 302381,
-            "id": 284435091,
+            "id": 284436157,
             "late_cancellation": "early",
             "starttime": 298781,
             "tag_ids": [
@@ -2379,14 +2475,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 304181,
-            "id": 285010930,
+            "id": 284436158,
             "late_cancellation": "early",
             "starttime": 300581,
             "tag_ids": [
@@ -2399,18 +2495,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 305981,
-            "id": 285010931,
+            "id": 284436538,
             "late_cancellation": "early",
             "starttime": 302381,
             "tag_ids": [
@@ -2434,7 +2530,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 307781,
-            "id": 285010932,
+            "id": 284436539,
             "late_cancellation": "early",
             "starttime": 304181,
             "tag_ids": [
@@ -2458,7 +2554,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 309581,
-            "id": 284436157,
+            "id": 288510649,
             "late_cancellation": "early",
             "starttime": 305981,
             "tag_ids": [
@@ -2482,7 +2578,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 311381,
-            "id": 284436158,
+            "id": 288510650,
             "late_cancellation": "early",
             "starttime": 307781,
             "tag_ids": [
@@ -2495,18 +2591,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 313181,
-            "id": 284436538,
+            "id": 284437119,
             "late_cancellation": "early",
             "starttime": 309581,
             "tag_ids": [
@@ -2530,7 +2626,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 314981,
-            "id": 284436539,
+            "id": 284437120,
             "late_cancellation": "early",
             "starttime": 311381,
             "tag_ids": [
@@ -2547,14 +2643,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 316781,
-            "id": 288510649,
+            "id": 284437121,
             "late_cancellation": "early",
             "starttime": 313181,
             "tag_ids": [
@@ -2578,33 +2674,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 318581,
-            "id": 288510650,
+            "id": 284438076,
             "late_cancellation": "early",
             "starttime": 314981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 320381,
-            "id": 284437119,
-            "late_cancellation": "early",
-            "starttime": 316781,
             "tag_ids": [
               "gym",
               "activity",
@@ -2625,8 +2697,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 320381,
+            "id": 284438697,
+            "late_cancellation": "early",
+            "starttime": 316781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 322181,
-            "id": 284437120,
+            "id": 284438698,
             "late_cancellation": "early",
             "starttime": 318581,
             "tag_ids": [
@@ -2650,7 +2746,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 323981,
-            "id": 284437121,
+            "id": 284438699,
             "late_cancellation": "early",
             "starttime": 320381,
             "tag_ids": [
@@ -2667,14 +2763,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 325781,
-            "id": 284438076,
+            "id": 284438700,
             "late_cancellation": "early",
             "starttime": 322181,
             "tag_ids": [
@@ -2698,7 +2794,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 327581,
-            "id": 284438697,
+            "id": 284439334,
             "late_cancellation": "early",
             "starttime": 323981,
             "tag_ids": [
@@ -2722,7 +2818,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 329381,
-            "id": 284438698,
+            "id": 284439335,
             "late_cancellation": "early",
             "starttime": 325781,
             "tag_ids": [
@@ -2735,7 +2831,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -2746,7 +2842,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 331181,
-            "id": 284438699,
+            "id": 284439336,
             "late_cancellation": "early",
             "starttime": 327581,
             "tag_ids": [
@@ -2763,40 +2859,16 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 332981,
-            "id": 284438700,
+            "endtime": 368981,
+            "id": 285010336,
             "late_cancellation": "early",
-            "starttime": 329381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 334781,
-            "id": 284439334,
-            "late_cancellation": "early",
-            "starttime": 331181,
+            "starttime": 365381,
             "tag_ids": [
               "gym",
               "activity",
@@ -2817,10 +2889,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 336581,
-            "id": 284439335,
+            "endtime": 370781,
+            "id": 284435316,
             "late_cancellation": "early",
-            "starttime": 332981,
+            "starttime": 367181,
             "tag_ids": [
               "gym",
               "activity",
@@ -2841,10 +2913,34 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 338381,
-            "id": 284439336,
+            "endtime": 372581,
+            "id": 284435317,
             "late_cancellation": "early",
-            "starttime": 334781,
+            "starttime": 368981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 374381,
+            "id": 284435318,
+            "late_cancellation": "early",
+            "starttime": 370781,
             "tag_ids": [
               "gym",
               "activity",
@@ -2866,7 +2962,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 376181,
-            "id": 285010336,
+            "id": 285010337,
             "late_cancellation": "early",
             "starttime": 372581,
             "tag_ids": [
@@ -2883,14 +2979,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 377981,
-            "id": 284435316,
+            "id": 285010338,
             "late_cancellation": "early",
             "starttime": 374381,
             "tag_ids": [
@@ -2907,14 +3003,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 379781,
-            "id": 284435317,
+            "id": 285010339,
             "late_cancellation": "early",
             "starttime": 376181,
             "tag_ids": [
@@ -2927,68 +3023,20 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 381581,
-            "id": 284435318,
+            "id": 284435092,
             "late_cancellation": "early",
             "starttime": 377981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 383381,
-            "id": 285010337,
-            "late_cancellation": "early",
-            "starttime": 379781,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 385181,
-            "id": 285010338,
-            "late_cancellation": "early",
-            "starttime": 381581,
             "tag_ids": [
               "gym",
               "activity",
@@ -3009,8 +3057,56 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 383381,
+            "id": 285010934,
+            "late_cancellation": "early",
+            "starttime": 379781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 385181,
+            "id": 285010936,
+            "late_cancellation": "early",
+            "starttime": 381581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 4,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 386981,
-            "id": 285010339,
+            "id": 285010935,
             "late_cancellation": "early",
             "starttime": 383381,
             "tag_ids": [
@@ -3023,18 +3119,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 388781,
-            "id": 284435092,
+            "id": 284436159,
             "late_cancellation": "early",
             "starttime": 385181,
             "tag_ids": [
@@ -3051,14 +3147,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 390581,
-            "id": 285010934,
+            "id": 284436160,
             "late_cancellation": "early",
             "starttime": 386981,
             "tag_ids": [
@@ -3071,7 +3167,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -3082,7 +3178,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 392381,
-            "id": 285010936,
+            "id": 284436542,
             "late_cancellation": "early",
             "starttime": 388781,
             "tag_ids": [
@@ -3106,105 +3202,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 394181,
-            "id": 285010935,
-            "late_cancellation": "early",
-            "starttime": 390581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 395981,
-            "id": 284436159,
-            "late_cancellation": "early",
-            "starttime": 392381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 397781,
-            "id": 284436160,
-            "late_cancellation": "early",
-            "starttime": 394181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 399581,
-            "id": 284436542,
-            "late_cancellation": "early",
-            "starttime": 395981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 401381,
             "id": 284436543,
             "late_cancellation": "early",
-            "starttime": 397781,
+            "starttime": 390581,
             "tag_ids": [
               "gym",
               "activity",
@@ -3225,8 +3225,104 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 403181,
+            "endtime": 395981,
             "id": 288510651,
+            "late_cancellation": "early",
+            "starttime": 392381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 397781,
+            "id": 288510652,
+            "late_cancellation": "early",
+            "starttime": 394181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 399581,
+            "id": 284437123,
+            "late_cancellation": "early",
+            "starttime": 395981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 401381,
+            "id": 284437122,
+            "late_cancellation": "early",
+            "starttime": 397781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 403181,
+            "id": 284437124,
             "late_cancellation": "early",
             "starttime": 399581,
             "tag_ids": [
@@ -3250,105 +3346,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 404981,
-            "id": 288510652,
-            "late_cancellation": "early",
-            "starttime": 401381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 406781,
-            "id": 284437123,
-            "late_cancellation": "early",
-            "starttime": 403181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 408581,
-            "id": 284437122,
-            "late_cancellation": "early",
-            "starttime": 404981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 410381,
-            "id": 284437124,
-            "late_cancellation": "early",
-            "starttime": 406781,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 412181,
             "id": 284438080,
             "late_cancellation": "early",
-            "starttime": 408581,
+            "starttime": 401381,
             "tag_ids": [
               "gym",
               "activity",
@@ -3369,8 +3369,104 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 413981,
+            "endtime": 406781,
             "id": 284438702,
+            "late_cancellation": "early",
+            "starttime": 403181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 408581,
+            "id": 284438701,
+            "late_cancellation": "early",
+            "starttime": 404981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 410381,
+            "id": 284438704,
+            "late_cancellation": "early",
+            "starttime": 406781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 412181,
+            "id": 284438703,
+            "late_cancellation": "early",
+            "starttime": 408581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 413981,
+            "id": 284439337,
             "late_cancellation": "early",
             "starttime": 410381,
             "tag_ids": [
@@ -3394,7 +3490,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 415781,
-            "id": 284438701,
+            "id": 284439339,
             "late_cancellation": "early",
             "starttime": 412181,
             "tag_ids": [
@@ -3411,112 +3507,16 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 417581,
-            "id": 284438704,
-            "late_cancellation": "early",
-            "starttime": 413981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 419381,
-            "id": 284438703,
-            "late_cancellation": "early",
-            "starttime": 415781,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 421181,
-            "id": 284439337,
-            "late_cancellation": "early",
-            "starttime": 417581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 422981,
-            "id": 284439339,
-            "late_cancellation": "early",
-            "starttime": 419381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 424781,
             "id": 284439338,
             "late_cancellation": "early",
-            "starttime": 421181,
+            "starttime": 413981,
             "tag_ids": [
               "gym",
               "activity",
@@ -3537,10 +3537,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 462581,
+            "endtime": 455381,
             "id": 285010340,
             "late_cancellation": "early",
-            "starttime": 458981,
+            "starttime": 451781,
             "tag_ids": [
               "gym",
               "activity",
@@ -3561,10 +3561,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 464381,
+            "endtime": 457181,
             "id": 284435319,
             "late_cancellation": "early",
-            "starttime": 460781,
+            "starttime": 453581,
             "tag_ids": [
               "gym",
               "activity",
@@ -3585,8 +3585,104 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 466181,
+            "endtime": 458981,
             "id": 284435320,
+            "late_cancellation": "early",
+            "starttime": 455381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 460781,
+            "id": 284435321,
+            "late_cancellation": "early",
+            "starttime": 457181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 462581,
+            "id": 285010341,
+            "late_cancellation": "early",
+            "starttime": 458981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 464381,
+            "id": 285010342,
+            "late_cancellation": "early",
+            "starttime": 460781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 466181,
+            "id": 285010343,
             "late_cancellation": "early",
             "starttime": 462581,
             "tag_ids": [
@@ -3610,9 +3706,33 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 467981,
-            "id": 284435321,
+            "id": 284435093,
             "late_cancellation": "early",
             "starttime": 464381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 4,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 469781,
+            "id": 285010938,
+            "late_cancellation": "early",
+            "starttime": 466181,
             "tag_ids": [
               "gym",
               "activity",
@@ -3633,32 +3753,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 469781,
-            "id": 285010341,
-            "late_cancellation": "early",
-            "starttime": 466181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 471581,
-            "id": 285010342,
+            "id": 285010939,
             "late_cancellation": "early",
             "starttime": 467981,
             "tag_ids": [
@@ -3682,7 +3778,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 473381,
-            "id": 285010343,
+            "id": 285010940,
             "late_cancellation": "early",
             "starttime": 469781,
             "tag_ids": [
@@ -3699,14 +3795,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 475181,
-            "id": 284435093,
+            "id": 284436161,
             "late_cancellation": "early",
             "starttime": 471581,
             "tag_ids": [
@@ -3719,18 +3815,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 476981,
-            "id": 285010938,
+            "id": 284436162,
             "late_cancellation": "early",
             "starttime": 473381,
             "tag_ids": [
@@ -3754,33 +3850,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 478781,
-            "id": 285010939,
+            "id": 284436546,
             "late_cancellation": "early",
             "starttime": 475181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 480581,
-            "id": 285010940,
-            "late_cancellation": "early",
-            "starttime": 476981,
             "tag_ids": [
               "gym",
               "activity",
@@ -3795,14 +3867,38 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 480581,
+            "id": 284436547,
+            "late_cancellation": "early",
+            "starttime": 476981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 482381,
-            "id": 284436161,
+            "id": 288510654,
             "late_cancellation": "early",
             "starttime": 478781,
             "tag_ids": [
@@ -3819,14 +3915,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 484181,
-            "id": 284436162,
+            "id": 288510653,
             "late_cancellation": "early",
             "starttime": 480581,
             "tag_ids": [
@@ -3843,14 +3939,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 485981,
-            "id": 284436546,
+            "id": 284437125,
             "late_cancellation": "early",
             "starttime": 482381,
             "tag_ids": [
@@ -3867,14 +3963,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 487781,
-            "id": 284436547,
+            "id": 284437126,
             "late_cancellation": "early",
             "starttime": 484181,
             "tag_ids": [
@@ -3887,7 +3983,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -3898,7 +3994,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 489581,
-            "id": 288510654,
+            "id": 284437128,
             "late_cancellation": "early",
             "starttime": 485981,
             "tag_ids": [
@@ -3915,14 +4011,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 491381,
-            "id": 288510653,
+            "id": 284438083,
             "late_cancellation": "early",
             "starttime": 487781,
             "tag_ids": [
@@ -3939,14 +4035,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 493181,
-            "id": 284437125,
+            "id": 284438706,
             "late_cancellation": "early",
             "starttime": 489581,
             "tag_ids": [
@@ -3959,18 +4055,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 494981,
-            "id": 284437126,
+            "id": 284438705,
             "late_cancellation": "early",
             "starttime": 491381,
             "tag_ids": [
@@ -3983,18 +4079,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 496781,
-            "id": 284437128,
+            "id": 284438707,
             "late_cancellation": "early",
             "starttime": 493181,
             "tag_ids": [
@@ -4007,7 +4103,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -4018,7 +4114,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 498581,
-            "id": 284438083,
+            "id": 284438708,
             "late_cancellation": "early",
             "starttime": 494981,
             "tag_ids": [
@@ -4035,14 +4131,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 500381,
-            "id": 284438706,
+            "id": 284439340,
             "late_cancellation": "early",
             "starttime": 496781,
             "tag_ids": [
@@ -4055,7 +4151,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -4066,105 +4162,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 502181,
-            "id": 284438705,
-            "late_cancellation": "early",
-            "starttime": 498581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 503981,
-            "id": 284438707,
-            "late_cancellation": "early",
-            "starttime": 500381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 505781,
-            "id": 284438708,
-            "late_cancellation": "early",
-            "starttime": 502181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 507581,
-            "id": 284439340,
-            "late_cancellation": "early",
-            "starttime": 503981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 509381,
             "id": 284439341,
             "late_cancellation": "early",
-            "starttime": 505781,
+            "starttime": 498581,
             "tag_ids": [
               "gym",
               "activity",
@@ -4185,10 +4185,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 511181,
+            "endtime": 503981,
             "id": 284439342,
             "late_cancellation": "early",
-            "starttime": 507581,
+            "starttime": 500381,
             "tag_ids": [
               "gym",
               "activity",
@@ -4209,10 +4209,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 554381,
+            "endtime": 547181,
             "id": 284435323,
             "late_cancellation": "early",
-            "starttime": 550781,
+            "starttime": 543581,
             "tag_ids": [
               "gym",
               "activity",
@@ -4233,10 +4233,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 556181,
+            "endtime": 548981,
             "id": 285010689,
             "late_cancellation": "early",
-            "starttime": 552581,
+            "starttime": 545381,
             "tag_ids": [
               "gym",
               "activity",
@@ -4257,10 +4257,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 557981,
+            "endtime": 550781,
             "id": 285010690,
             "late_cancellation": "early",
-            "starttime": 554381,
+            "starttime": 547181,
             "tag_ids": [
               "gym",
               "activity",
@@ -4281,10 +4281,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 559781,
+            "endtime": 552581,
             "id": 285010691,
             "late_cancellation": "early",
-            "starttime": 556181,
+            "starttime": 548981,
             "tag_ids": [
               "gym",
               "activity",
@@ -4305,8 +4305,104 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 561581,
+            "endtime": 554381,
             "id": 284435094,
+            "late_cancellation": "early",
+            "starttime": 550781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 556181,
+            "id": 285010942,
+            "late_cancellation": "early",
+            "starttime": 552581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 557981,
+            "id": 285010943,
+            "late_cancellation": "early",
+            "starttime": 554381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 559781,
+            "id": 285010944,
+            "late_cancellation": "early",
+            "starttime": 556181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 561581,
+            "id": 284436163,
             "late_cancellation": "early",
             "starttime": 557981,
             "tag_ids": [
@@ -4330,7 +4426,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 563381,
-            "id": 285010942,
+            "id": 284436164,
             "late_cancellation": "early",
             "starttime": 559781,
             "tag_ids": [
@@ -4354,7 +4450,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 565181,
-            "id": 285010943,
+            "id": 284436550,
             "late_cancellation": "early",
             "starttime": 561581,
             "tag_ids": [
@@ -4367,116 +4463,20 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 566981,
-            "id": 285010944,
-            "late_cancellation": "early",
-            "starttime": 563381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 568781,
-            "id": 284436163,
-            "late_cancellation": "early",
-            "starttime": 565181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 570581,
-            "id": 284436164,
-            "late_cancellation": "early",
-            "starttime": 566981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 572381,
-            "id": 284436550,
-            "late_cancellation": "early",
-            "starttime": 568781,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 574181,
             "id": 284436551,
             "late_cancellation": "early",
-            "starttime": 570581,
+            "starttime": 563381,
             "tag_ids": [
               "gym",
               "activity",
@@ -4497,10 +4497,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 575981,
+            "endtime": 568781,
             "id": 288510655,
             "late_cancellation": "early",
-            "starttime": 572381,
+            "starttime": 565181,
             "tag_ids": [
               "gym",
               "activity",
@@ -4521,10 +4521,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 577781,
+            "endtime": 570581,
             "id": 288510656,
             "late_cancellation": "early",
-            "starttime": 574181,
+            "starttime": 566981,
             "tag_ids": [
               "gym",
               "activity",
@@ -4545,8 +4545,104 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 579581,
+            "endtime": 572381,
             "id": 284437127,
+            "late_cancellation": "early",
+            "starttime": 568781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 574181,
+            "id": 284437129,
+            "late_cancellation": "early",
+            "starttime": 570581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 575981,
+            "id": 284437130,
+            "late_cancellation": "early",
+            "starttime": 572381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 577781,
+            "id": 284438088,
+            "late_cancellation": "early",
+            "starttime": 574181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 579581,
+            "id": 284438710,
             "late_cancellation": "early",
             "starttime": 575981,
             "tag_ids": [
@@ -4563,14 +4659,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 581381,
-            "id": 284437129,
+            "id": 284438709,
             "late_cancellation": "early",
             "starttime": 577781,
             "tag_ids": [
@@ -4587,14 +4683,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 583181,
-            "id": 284437130,
+            "id": 284438711,
             "late_cancellation": "early",
             "starttime": 579581,
             "tag_ids": [
@@ -4618,7 +4714,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 584981,
-            "id": 284438088,
+            "id": 284438712,
             "late_cancellation": "early",
             "starttime": 581381,
             "tag_ids": [
@@ -4631,7 +4727,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -4642,7 +4738,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 586781,
-            "id": 284438710,
+            "id": 284439343,
             "late_cancellation": "early",
             "starttime": 583181,
             "tag_ids": [
@@ -4655,7 +4751,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -4665,10 +4761,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 588581,
-            "id": 284438709,
+            "endtime": 109781,
+            "id": 285010344,
             "late_cancellation": "early",
-            "starttime": 584981,
+            "starttime": 106181,
             "tag_ids": [
               "gym",
               "activity",
@@ -4683,16 +4779,40 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 590381,
-            "id": 284438711,
+            "endtime": 111581,
+            "id": 284435324,
             "late_cancellation": "early",
-            "starttime": 586781,
+            "starttime": 107981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 113381,
+            "id": 284435325,
+            "late_cancellation": "early",
+            "starttime": 109781,
             "tag_ids": [
               "gym",
               "activity",
@@ -4713,34 +4833,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 592181,
-            "id": 284438712,
+            "endtime": 115181,
+            "id": 284435326,
             "late_cancellation": "early",
-            "starttime": 588581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 593981,
-            "id": 284439343,
-            "late_cancellation": "early",
-            "starttime": 590381,
+            "starttime": 111581,
             "tag_ids": [
               "gym",
               "activity",
@@ -4762,7 +4858,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 116981,
-            "id": 285010344,
+            "id": 285010345,
             "late_cancellation": "early",
             "starttime": 113381,
             "tag_ids": [
@@ -4775,18 +4871,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 118781,
-            "id": 284435324,
+            "id": 285010346,
             "late_cancellation": "early",
             "starttime": 115181,
             "tag_ids": [
@@ -4799,18 +4895,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 120581,
-            "id": 284435325,
+            "id": 285010347,
             "late_cancellation": "early",
             "starttime": 116981,
             "tag_ids": [
@@ -4834,7 +4930,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 122381,
-            "id": 284435326,
+            "id": 284435096,
             "late_cancellation": "early",
             "starttime": 118781,
             "tag_ids": [
@@ -4847,18 +4943,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 124181,
-            "id": 285010345,
+            "id": 285010949,
             "late_cancellation": "early",
             "starttime": 120581,
             "tag_ids": [
@@ -4875,14 +4971,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 125981,
-            "id": 285010346,
+            "id": 285010951,
             "late_cancellation": "early",
             "starttime": 122381,
             "tag_ids": [
@@ -4895,18 +4991,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 127781,
-            "id": 285010347,
+            "id": 285010952,
             "late_cancellation": "early",
             "starttime": 124181,
             "tag_ids": [
@@ -4919,18 +5015,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 129581,
-            "id": 284435096,
+            "id": 284436167,
             "late_cancellation": "early",
             "starttime": 125981,
             "tag_ids": [
@@ -4954,7 +5050,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 131381,
-            "id": 285010949,
+            "id": 284436168,
             "late_cancellation": "early",
             "starttime": 127781,
             "tag_ids": [
@@ -4967,7 +5063,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -4978,7 +5074,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 133181,
-            "id": 285010951,
+            "id": 284436558,
             "late_cancellation": "early",
             "starttime": 129581,
             "tag_ids": [
@@ -5002,7 +5098,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 134981,
-            "id": 285010952,
+            "id": 284436559,
             "late_cancellation": "early",
             "starttime": 131381,
             "tag_ids": [
@@ -5015,18 +5111,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 136781,
-            "id": 284436167,
+            "id": 288510659,
             "late_cancellation": "early",
             "starttime": 133181,
             "tag_ids": [
@@ -5039,18 +5135,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 138581,
-            "id": 284436168,
+            "id": 288510661,
             "late_cancellation": "early",
             "starttime": 134981,
             "tag_ids": [
@@ -5063,18 +5159,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 140381,
-            "id": 284436558,
+            "id": 284437134,
             "late_cancellation": "early",
             "starttime": 136781,
             "tag_ids": [
@@ -5087,18 +5183,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 142181,
-            "id": 284436559,
+            "id": 284437135,
             "late_cancellation": "early",
             "starttime": 138581,
             "tag_ids": [
@@ -5122,33 +5218,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 143981,
-            "id": 288510659,
+            "id": 284437136,
             "late_cancellation": "early",
             "starttime": 140381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 145781,
-            "id": 288510661,
-            "late_cancellation": "early",
-            "starttime": 142181,
             "tag_ids": [
               "gym",
               "activity",
@@ -5163,14 +5235,38 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 145781,
+            "id": 284438095,
+            "late_cancellation": "early",
+            "starttime": 142181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 4,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 147581,
-            "id": 284437134,
+            "id": 284438718,
             "late_cancellation": "early",
             "starttime": 143981,
             "tag_ids": [
@@ -5183,18 +5279,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 149381,
-            "id": 284437135,
+            "id": 284438717,
             "late_cancellation": "early",
             "starttime": 145781,
             "tag_ids": [
@@ -5218,81 +5314,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 151181,
-            "id": 284437136,
+            "id": 284438720,
             "late_cancellation": "early",
             "starttime": 147581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 152981,
-            "id": 284438095,
-            "late_cancellation": "early",
-            "starttime": 149381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 154781,
-            "id": 284438718,
-            "late_cancellation": "early",
-            "starttime": 151181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 156581,
-            "id": 284438717,
-            "late_cancellation": "early",
-            "starttime": 152981,
             "tag_ids": [
               "gym",
               "activity",
@@ -5313,8 +5337,80 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 152981,
+            "id": 284438719,
+            "late_cancellation": "early",
+            "starttime": 149381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 154781,
+            "id": 284439347,
+            "late_cancellation": "early",
+            "starttime": 151181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 156581,
+            "id": 284439348,
+            "late_cancellation": "early",
+            "starttime": 152981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 158381,
-            "id": 284438720,
+            "id": 284439349,
             "late_cancellation": "early",
             "starttime": 154781,
             "tag_ids": [
@@ -5337,10 +5433,34 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 160181,
-            "id": 284438719,
+            "endtime": 196181,
+            "id": 285010348,
             "late_cancellation": "early",
-            "starttime": 156581,
+            "starttime": 192581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 197981,
+            "id": 284435327,
+            "late_cancellation": "early",
+            "starttime": 194381,
             "tag_ids": [
               "gym",
               "activity",
@@ -5361,58 +5481,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 161981,
-            "id": 284439347,
+            "endtime": 199781,
+            "id": 284435328,
             "late_cancellation": "early",
-            "starttime": 158381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 163781,
-            "id": 284439348,
-            "late_cancellation": "early",
-            "starttime": 160181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 165581,
-            "id": 284439349,
-            "late_cancellation": "early",
-            "starttime": 161981,
+            "starttime": 196181,
             "tag_ids": [
               "gym",
               "activity",
@@ -5428,13 +5500,37 @@ export default [
               "credits_type": "CP",
               "label": "",
               "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 201581,
+            "id": 284435329,
+            "late_cancellation": "early",
+            "starttime": 197981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 4,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 203381,
-            "id": 285010348,
+            "id": 285010349,
             "late_cancellation": "early",
             "starttime": 199781,
             "tag_ids": [
@@ -5447,18 +5543,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 205181,
-            "id": 284435327,
+            "id": 285010350,
             "late_cancellation": "early",
             "starttime": 201581,
             "tag_ids": [
@@ -5471,18 +5567,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 206981,
-            "id": 284435328,
+            "id": 285010351,
             "late_cancellation": "early",
             "starttime": 203381,
             "tag_ids": [
@@ -5506,7 +5602,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 208781,
-            "id": 284435329,
+            "id": 284435097,
             "late_cancellation": "early",
             "starttime": 205181,
             "tag_ids": [
@@ -5519,18 +5615,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 210581,
-            "id": 285010349,
+            "id": 285010954,
             "late_cancellation": "early",
             "starttime": 206981,
             "tag_ids": [
@@ -5543,18 +5639,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 212381,
-            "id": 285010350,
+            "id": 285010955,
             "late_cancellation": "early",
             "starttime": 208781,
             "tag_ids": [
@@ -5567,18 +5663,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 214181,
-            "id": 285010351,
+            "id": 285010956,
             "late_cancellation": "early",
             "starttime": 210581,
             "tag_ids": [
@@ -5595,14 +5691,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 215981,
-            "id": 284435097,
+            "id": 284436169,
             "late_cancellation": "early",
             "starttime": 212381,
             "tag_ids": [
@@ -5619,14 +5715,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 217781,
-            "id": 285010954,
+            "id": 284436170,
             "late_cancellation": "early",
             "starttime": 214181,
             "tag_ids": [
@@ -5650,7 +5746,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 219581,
-            "id": 285010955,
+            "id": 284436562,
             "late_cancellation": "early",
             "starttime": 215981,
             "tag_ids": [
@@ -5674,7 +5770,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 221381,
-            "id": 285010956,
+            "id": 284436563,
             "late_cancellation": "early",
             "starttime": 217781,
             "tag_ids": [
@@ -5691,14 +5787,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 223181,
-            "id": 284436169,
+            "id": 288510660,
             "late_cancellation": "early",
             "starttime": 219581,
             "tag_ids": [
@@ -5715,14 +5811,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 224981,
-            "id": 284436170,
+            "id": 288510662,
             "late_cancellation": "early",
             "starttime": 221381,
             "tag_ids": [
@@ -5746,7 +5842,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 226781,
-            "id": 284436562,
+            "id": 284437137,
             "late_cancellation": "early",
             "starttime": 223181,
             "tag_ids": [
@@ -5759,7 +5855,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -5770,7 +5866,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 228581,
-            "id": 284436563,
+            "id": 284437138,
             "late_cancellation": "early",
             "starttime": 224981,
             "tag_ids": [
@@ -5783,7 +5879,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -5794,7 +5890,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 230381,
-            "id": 288510660,
+            "id": 284437139,
             "late_cancellation": "early",
             "starttime": 226781,
             "tag_ids": [
@@ -5818,7 +5914,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 232181,
-            "id": 288510662,
+            "id": 284438100,
             "late_cancellation": "early",
             "starttime": 228581,
             "tag_ids": [
@@ -5831,18 +5927,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 233981,
-            "id": 284437137,
+            "id": 284438721,
             "late_cancellation": "early",
             "starttime": 230381,
             "tag_ids": [
@@ -5859,40 +5955,16 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Gym Time"
             },
             "endtime": 235781,
-            "id": 284437138,
+            "id": 284438722,
             "late_cancellation": "early",
             "starttime": 232181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 237581,
-            "id": 284437139,
-            "late_cancellation": "early",
-            "starttime": 233981,
             "tag_ids": [
               "gym",
               "activity",
@@ -5913,8 +5985,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 237581,
+            "id": 284438724,
+            "late_cancellation": "early",
+            "starttime": 233981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 239381,
-            "id": 284438100,
+            "id": 284438723,
             "late_cancellation": "early",
             "starttime": 235781,
             "tag_ids": [
@@ -5938,105 +6034,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 241181,
-            "id": 284438721,
-            "late_cancellation": "early",
-            "starttime": 237581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 242981,
-            "id": 284438722,
-            "late_cancellation": "early",
-            "starttime": 239381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 244781,
-            "id": 284438724,
-            "late_cancellation": "early",
-            "starttime": 241181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 246581,
-            "id": 284438723,
-            "late_cancellation": "early",
-            "starttime": 242981,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 248381,
             "id": 284439350,
             "late_cancellation": "early",
-            "starttime": 244781,
+            "starttime": 237581,
             "tag_ids": [
               "gym",
               "activity",
@@ -6057,10 +6057,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 250181,
+            "endtime": 242981,
             "id": 284439351,
             "late_cancellation": "early",
-            "starttime": 246581,
+            "starttime": 239381,
             "tag_ids": [
               "gym",
               "activity",
@@ -6081,10 +6081,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 251981,
+            "endtime": 244781,
             "id": 284439352,
             "late_cancellation": "early",
-            "starttime": 248381,
+            "starttime": 241181,
             "tag_ids": [
               "gym",
               "activity",
@@ -6116,8 +6116,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 291581,
+            "endtime": 284381,
             "id": 271151215,
+            "late_cancellation": "early",
+            "starttime": 280781,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 287981,
+            "id": 271151217,
+            "late_cancellation": "early",
+            "starttime": 284381,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 4,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 291581,
+            "id": 271151218,
             "late_cancellation": "early",
             "starttime": 287981,
             "tag_ids": [
@@ -6128,18 +6172,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 295181,
-            "id": 271151217,
+            "id": 271151219,
             "late_cancellation": "early",
             "starttime": 291581,
             "tag_ids": [
@@ -6150,50 +6194,6 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 298781,
-            "id": 271151218,
-            "late_cancellation": "early",
-            "starttime": 295181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 302381,
-            "id": 271151219,
-            "late_cancellation": "early",
-            "starttime": 298781,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
               "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
@@ -6204,8 +6204,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 305981,
+            "endtime": 298781,
             "id": 285010929,
+            "late_cancellation": "early",
+            "starttime": 295181,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 302381,
+            "id": 271153318,
+            "late_cancellation": "early",
+            "starttime": 298781,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 305981,
+            "id": 271153319,
             "late_cancellation": "early",
             "starttime": 302381,
             "tag_ids": [
@@ -6227,7 +6271,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 309581,
-            "id": 271153318,
+            "id": 271153320,
             "late_cancellation": "early",
             "starttime": 305981,
             "tag_ids": [
@@ -6249,7 +6293,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 313181,
-            "id": 271153319,
+            "id": 271154024,
             "late_cancellation": "early",
             "starttime": 309581,
             "tag_ids": [
@@ -6260,18 +6304,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 316781,
-            "id": 271153320,
+            "id": 271154848,
             "late_cancellation": "early",
             "starttime": 313181,
             "tag_ids": [
@@ -6282,18 +6326,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 320381,
-            "id": 271154024,
+            "id": 271154850,
             "late_cancellation": "early",
             "starttime": 316781,
             "tag_ids": [
@@ -6304,50 +6348,6 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 323981,
-            "id": 271154848,
-            "late_cancellation": "early",
-            "starttime": 320381,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 327581,
-            "id": 271154850,
-            "late_cancellation": "early",
-            "starttime": 323981,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
               "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
@@ -6358,10 +6358,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 331181,
+            "endtime": 323981,
             "id": 271154851,
             "late_cancellation": "early",
-            "starttime": 327581,
+            "starttime": 320381,
             "tag_ids": [
               "1143",
               "1153"
@@ -6380,10 +6380,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 334781,
+            "endtime": 327581,
             "id": 271154852,
             "late_cancellation": "early",
-            "starttime": 331181,
+            "starttime": 323981,
             "tag_ids": [
               "1143",
               "1153"
@@ -6402,10 +6402,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 338381,
+            "endtime": 331181,
             "id": 271156483,
             "late_cancellation": "early",
-            "starttime": 334781,
+            "starttime": 327581,
             "tag_ids": [
               "1143",
               "1153"
@@ -6424,10 +6424,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 377981,
+            "endtime": 370781,
             "id": 271151220,
             "late_cancellation": "early",
-            "starttime": 374381,
+            "starttime": 367181,
             "tag_ids": [
               "1143",
               "1153"
@@ -6446,8 +6446,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 381581,
+            "endtime": 374381,
             "id": 271151221,
+            "late_cancellation": "early",
+            "starttime": 370781,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 377981,
+            "id": 271151223,
+            "late_cancellation": "early",
+            "starttime": 374381,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 4,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 381581,
+            "id": 271151222,
             "late_cancellation": "early",
             "starttime": 377981,
             "tag_ids": [
@@ -6462,14 +6506,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 385181,
-            "id": 271151223,
+            "id": 271151932,
             "late_cancellation": "early",
             "starttime": 381581,
             "tag_ids": [
@@ -6480,20 +6524,42 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 388781,
-            "id": 271151222,
+            "id": 271153321,
             "late_cancellation": "early",
             "starttime": 385181,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 392381,
+            "id": 271153322,
+            "late_cancellation": "early",
+            "starttime": 388781,
             "tag_ids": [
               "1143",
               "1153"
@@ -6512,30 +6578,8 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 392381,
-            "id": 271151932,
-            "late_cancellation": "early",
-            "starttime": 388781,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
             "endtime": 395981,
-            "id": 271153321,
+            "id": 271153323,
             "late_cancellation": "early",
             "starttime": 392381,
             "tag_ids": [
@@ -6546,18 +6590,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 399581,
-            "id": 271153322,
+            "id": 271154028,
             "late_cancellation": "early",
             "starttime": 395981,
             "tag_ids": [
@@ -6572,14 +6616,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 403181,
-            "id": 271153323,
+            "id": 271154853,
             "late_cancellation": "early",
             "starttime": 399581,
             "tag_ids": [
@@ -6594,60 +6638,16 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 406781,
-            "id": 271154028,
-            "late_cancellation": "early",
-            "starttime": 403181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 410381,
-            "id": 271154853,
-            "late_cancellation": "early",
-            "starttime": 406781,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 413981,
             "id": 271154854,
             "late_cancellation": "early",
-            "starttime": 410381,
+            "starttime": 403181,
             "tag_ids": [
               "1143",
               "1153"
@@ -6666,10 +6666,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 417581,
+            "endtime": 410381,
             "id": 271154855,
             "late_cancellation": "early",
-            "starttime": 413981,
+            "starttime": 406781,
             "tag_ids": [
               "1143",
               "1153"
@@ -6688,10 +6688,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 421181,
+            "endtime": 413981,
             "id": 271154856,
             "late_cancellation": "early",
-            "starttime": 417581,
+            "starttime": 410381,
             "tag_ids": [
               "1143",
               "1153"
@@ -6710,10 +6710,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 424781,
+            "endtime": 417581,
             "id": 271156484,
             "late_cancellation": "early",
-            "starttime": 421181,
+            "starttime": 413981,
             "tag_ids": [
               "1143",
               "1153"
@@ -6732,8 +6732,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 464381,
+            "endtime": 457181,
             "id": 271151224,
+            "late_cancellation": "early",
+            "starttime": 453581,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 460781,
+            "id": 271151225,
+            "late_cancellation": "early",
+            "starttime": 457181,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 464381,
+            "id": 271151226,
             "late_cancellation": "early",
             "starttime": 460781,
             "tag_ids": [
@@ -6744,18 +6788,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 467981,
-            "id": 271151225,
+            "id": 271151227,
             "late_cancellation": "early",
             "starttime": 464381,
             "tag_ids": [
@@ -6766,18 +6810,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 471581,
-            "id": 271151226,
+            "id": 285010937,
             "late_cancellation": "early",
             "starttime": 467981,
             "tag_ids": [
@@ -6788,18 +6832,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 475181,
-            "id": 271151227,
+            "id": 271153324,
             "late_cancellation": "early",
             "starttime": 471581,
             "tag_ids": [
@@ -6821,31 +6865,9 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 478781,
-            "id": 285010937,
+            "id": 271153325,
             "late_cancellation": "early",
             "starttime": 475181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 482381,
-            "id": 271153324,
-            "late_cancellation": "early",
-            "starttime": 478781,
             "tag_ids": [
               "1143",
               "1153"
@@ -6864,8 +6886,30 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
+            "endtime": 482381,
+            "id": 271153326,
+            "late_cancellation": "early",
+            "starttime": 478781,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
             "endtime": 485981,
-            "id": 271153325,
+            "id": 271154032,
             "late_cancellation": "early",
             "starttime": 482381,
             "tag_ids": [
@@ -6887,7 +6931,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 489581,
-            "id": 271153326,
+            "id": 271154858,
             "late_cancellation": "early",
             "starttime": 485981,
             "tag_ids": [
@@ -6909,53 +6953,9 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 493181,
-            "id": 271154032,
-            "late_cancellation": "early",
-            "starttime": 489581,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 496781,
-            "id": 271154858,
-            "late_cancellation": "early",
-            "starttime": 493181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 2,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 500381,
             "id": 271154857,
             "late_cancellation": "early",
-            "starttime": 496781,
+            "starttime": 489581,
             "tag_ids": [
               "1143",
               "1153"
@@ -6974,10 +6974,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 503981,
+            "endtime": 496781,
             "id": 271154859,
             "late_cancellation": "early",
-            "starttime": 500381,
+            "starttime": 493181,
             "tag_ids": [
               "1143",
               "1153"
@@ -6996,10 +6996,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 507581,
+            "endtime": 500381,
             "id": 271154860,
             "late_cancellation": "early",
-            "starttime": 503981,
+            "starttime": 496781,
             "tag_ids": [
               "1143",
               "1153"
@@ -7018,10 +7018,54 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 511181,
+            "endtime": 503981,
             "id": 271156487,
             "late_cancellation": "early",
-            "starttime": 507581,
+            "starttime": 500381,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 547181,
+            "id": 271151423,
+            "late_cancellation": "early",
+            "starttime": 543581,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 550781,
+            "id": 271151422,
+            "late_cancellation": "early",
+            "starttime": 547181,
             "tag_ids": [
               "1143",
               "1153"
@@ -7041,7 +7085,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 554381,
-            "id": 271151423,
+            "id": 271151424,
             "late_cancellation": "early",
             "starttime": 550781,
             "tag_ids": [
@@ -7063,7 +7107,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 557981,
-            "id": 271151422,
+            "id": 285010941,
             "late_cancellation": "early",
             "starttime": 554381,
             "tag_ids": [
@@ -7074,18 +7118,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 561581,
-            "id": 271151424,
+            "id": 271153327,
             "late_cancellation": "early",
             "starttime": 557981,
             "tag_ids": [
@@ -7096,18 +7140,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 565181,
-            "id": 285010941,
+            "id": 271153328,
             "late_cancellation": "early",
             "starttime": 561581,
             "tag_ids": [
@@ -7118,7 +7162,7 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 5,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
@@ -7129,7 +7173,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 568781,
-            "id": 271153327,
+            "id": 271153329,
             "late_cancellation": "early",
             "starttime": 565181,
             "tag_ids": [
@@ -7140,18 +7184,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 572381,
-            "id": 271153328,
+            "id": 271154036,
             "late_cancellation": "early",
             "starttime": 568781,
             "tag_ids": [
@@ -7173,7 +7217,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 575981,
-            "id": 271153329,
+            "id": 271154861,
             "late_cancellation": "early",
             "starttime": 572381,
             "tag_ids": [
@@ -7188,14 +7232,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 579581,
-            "id": 271154036,
+            "id": 271154862,
             "late_cancellation": "early",
             "starttime": 575981,
             "tag_ids": [
@@ -7217,53 +7261,9 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 583181,
-            "id": 271154861,
-            "late_cancellation": "early",
-            "starttime": 579581,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 586781,
-            "id": 271154862,
-            "late_cancellation": "early",
-            "starttime": 583181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 5,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 590381,
             "id": 271154863,
             "late_cancellation": "early",
-            "starttime": 586781,
+            "starttime": 579581,
             "tag_ids": [
               "1143",
               "1153"
@@ -7282,10 +7282,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 593981,
+            "endtime": 586781,
             "id": 271154864,
             "late_cancellation": "early",
-            "starttime": 590381,
+            "starttime": 583181,
             "tag_ids": [
               "1143",
               "1153"
@@ -7304,8 +7304,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 118781,
+            "endtime": 111581,
             "id": 271151228,
+            "late_cancellation": "early",
+            "starttime": 107981,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 115181,
+            "id": 271151230,
+            "late_cancellation": "early",
+            "starttime": 111581,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 118781,
+            "id": 271151229,
             "late_cancellation": "early",
             "starttime": 115181,
             "tag_ids": [
@@ -7316,18 +7360,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 122381,
-            "id": 271151230,
+            "id": 271151231,
             "late_cancellation": "early",
             "starttime": 118781,
             "tag_ids": [
@@ -7338,64 +7382,20 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 125981,
-            "id": 271151229,
-            "late_cancellation": "early",
-            "starttime": 122381,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 129581,
-            "id": 271151231,
-            "late_cancellation": "early",
-            "starttime": 125981,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 133181,
             "id": 285010950,
             "late_cancellation": "early",
-            "starttime": 129581,
+            "starttime": 122381,
             "tag_ids": [
               "1143",
               "1153"
@@ -7414,8 +7414,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 136781,
+            "endtime": 129581,
             "id": 271153333,
+            "late_cancellation": "early",
+            "starttime": 125981,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 133181,
+            "id": 271153334,
+            "late_cancellation": "early",
+            "starttime": 129581,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 136781,
+            "id": 271153335,
             "late_cancellation": "early",
             "starttime": 133181,
             "tag_ids": [
@@ -7430,14 +7474,14 @@ export default [
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 140381,
-            "id": 271153334,
+            "id": 271154044,
             "late_cancellation": "early",
             "starttime": 136781,
             "tag_ids": [
@@ -7459,7 +7503,7 @@ export default [
               "name": "Sauna Time"
             },
             "endtime": 143981,
-            "id": 271153335,
+            "id": 271154869,
             "late_cancellation": "early",
             "starttime": 140381,
             "tag_ids": [
@@ -7470,18 +7514,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 3,
+              "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 147581,
-            "id": 271154044,
+            "id": 271154870,
             "late_cancellation": "early",
             "starttime": 143981,
             "tag_ids": [
@@ -7492,18 +7536,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 151181,
-            "id": 271154869,
+            "id": 271154871,
             "late_cancellation": "early",
             "starttime": 147581,
             "tag_ids": [
@@ -7514,64 +7558,20 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 3,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 154781,
-            "id": 271154870,
-            "late_cancellation": "early",
-            "starttime": 151181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 158381,
-            "id": 271154871,
-            "late_cancellation": "early",
-            "starttime": 154781,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_1_300000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 161981,
             "id": 271154872,
             "late_cancellation": "early",
-            "starttime": 158381,
+            "starttime": 151181,
             "tag_ids": [
               "1143",
               "1153"
@@ -7590,10 +7590,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 165581,
+            "endtime": 158381,
             "id": 271156489,
             "late_cancellation": "early",
-            "starttime": 161981,
+            "starttime": 154781,
             "tag_ids": [
               "1143",
               "1153"
@@ -7612,10 +7612,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 205181,
+            "endtime": 197981,
             "id": 271151232,
             "late_cancellation": "early",
-            "starttime": 201581,
+            "starttime": 194381,
             "tag_ids": [
               "1143",
               "1153"
@@ -7634,10 +7634,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 208781,
+            "endtime": 201581,
             "id": 271151233,
             "late_cancellation": "early",
-            "starttime": 205181,
+            "starttime": 197981,
             "tag_ids": [
               "1143",
               "1153"
@@ -7656,10 +7656,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 212381,
+            "endtime": 205181,
             "id": 271151234,
             "late_cancellation": "early",
-            "starttime": 208781,
+            "starttime": 201581,
             "tag_ids": [
               "1143",
               "1153"
@@ -7678,8 +7678,52 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 215981,
+            "endtime": 208781,
             "id": 271151235,
+            "late_cancellation": "early",
+            "starttime": 205181,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 212381,
+            "id": 285010953,
+            "late_cancellation": "early",
+            "starttime": 208781,
+            "tag_ids": [
+              "1143",
+              "1153"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 2,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Sauna Time"
+            },
+            "endtime": 215981,
+            "id": 271153336,
             "late_cancellation": "early",
             "starttime": 212381,
             "tag_ids": [
@@ -7690,18 +7734,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 219581,
-            "id": 285010953,
+            "id": 271153338,
             "late_cancellation": "early",
             "starttime": 215981,
             "tag_ids": [
@@ -7712,18 +7756,18 @@ export default [
           },
           {
             "availability": {
-              "credits": 2,
+              "credits": 4,
               "credits_reasons": [],
               "credits_type": "CP",
               "label": "",
-              "pricing_algo_details": "2_1_4_0_1_1_1_402000000",
+              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
               "status": "available"
             },
             "class": {
               "name": "Sauna Time"
             },
             "endtime": 223181,
-            "id": 271153336,
+            "id": 271153337,
             "late_cancellation": "early",
             "starttime": 219581,
             "tag_ids": [
@@ -7734,50 +7778,6 @@ export default [
           },
           {
             "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 226781,
-            "id": 271153338,
-            "late_cancellation": "early",
-            "starttime": 223181,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 4,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_4_0_0_1_1_401000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Sauna Time"
-            },
-            "endtime": 230381,
-            "id": 271153337,
-            "late_cancellation": "early",
-            "starttime": 226781,
-            "tag_ids": [
-              "1143",
-              "1153"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
               "credits": 2,
               "credits_reasons": [],
               "credits_type": "CP",
@@ -7788,10 +7788,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 233981,
+            "endtime": 226781,
             "id": 271154048,
             "late_cancellation": "early",
-            "starttime": 230381,
+            "starttime": 223181,
             "tag_ids": [
               "1143",
               "1153"
@@ -7810,10 +7810,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 237581,
+            "endtime": 230381,
             "id": 271154873,
             "late_cancellation": "early",
-            "starttime": 233981,
+            "starttime": 226781,
             "tag_ids": [
               "1143",
               "1153"
@@ -7832,10 +7832,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 241181,
+            "endtime": 233981,
             "id": 271154874,
             "late_cancellation": "early",
-            "starttime": 237581,
+            "starttime": 230381,
             "tag_ids": [
               "1143",
               "1153"
@@ -7854,10 +7854,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 244781,
+            "endtime": 237581,
             "id": 271154875,
             "late_cancellation": "early",
-            "starttime": 241181,
+            "starttime": 233981,
             "tag_ids": [
               "1143",
               "1153"
@@ -7876,10 +7876,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 248381,
+            "endtime": 241181,
             "id": 271154876,
             "late_cancellation": "early",
-            "starttime": 244781,
+            "starttime": 237581,
             "tag_ids": [
               "1143",
               "1153"
@@ -7898,10 +7898,10 @@ export default [
             "class": {
               "name": "Sauna Time"
             },
-            "endtime": 251981,
+            "endtime": 244781,
             "id": 271156491,
             "late_cancellation": "early",
-            "starttime": 248381,
+            "starttime": 241181,
             "tag_ids": [
               "1143",
               "1153"
@@ -7931,10 +7931,10 @@ export default [
             "class": {
               "name": "Barre Bootcamp"
             },
-            "endtime": 291581,
+            "endtime": 284381,
             "id": 287853339,
             "late_cancellation": "early",
-            "starttime": 287981,
+            "starttime": 280781,
             "tag_ids": [
               "140",
               "1034",
@@ -7969,10 +7969,10 @@ export default [
             "class": {
               "name": "Barre Bootcamp"
             },
-            "endtime": 399581,
+            "endtime": 392381,
             "id": 287984677,
             "late_cancellation": "early",
-            "starttime": 396581,
+            "starttime": 389381,
             "tag_ids": [
               "140",
               "1034",
@@ -8018,10 +8018,10 @@ export default [
             "class": {
               "name": "Retired and Fit Stretch"
             },
-            "endtime": 301481,
+            "endtime": 294281,
             "id": 287853362,
             "late_cancellation": "early",
-            "starttime": 297881,
+            "starttime": 290681,
             "tag_ids": [
               "gym"
             ],
@@ -8043,10 +8043,10 @@ export default [
             "class": {
               "name": "Retired and Fit Stretch"
             },
-            "endtime": 129581,
+            "endtime": 122381,
             "id": 288448179,
             "late_cancellation": "early",
-            "starttime": 125981,
+            "starttime": 118781,
             "tag_ids": [
               "gym"
             ],
@@ -8079,10 +8079,10 @@ export default [
             "class": {
               "name": "CSC"
             },
-            "endtime": 313181,
+            "endtime": 305981,
             "id": 287853353,
             "late_cancellation": "early",
-            "starttime": 310181,
+            "starttime": 302981,
             "tag_ids": [
               "gym"
             ],
@@ -8115,10 +8115,10 @@ export default [
             "class": {
               "name": "Oula One"
             },
-            "endtime": 332981,
+            "endtime": 325781,
             "id": 287853320,
             "late_cancellation": "early",
-            "starttime": 329381,
+            "starttime": 322181,
             "tag_ids": [
               "1034",
               "1036",
@@ -8163,10 +8163,10 @@ export default [
             "class": {
               "name": "TRX Bootcamp"
             },
-            "endtime": 377981,
+            "endtime": 370781,
             "id": 287984713,
             "late_cancellation": "early",
-            "starttime": 374381,
+            "starttime": 367181,
             "tag_ids": [
               "138",
               "140",
@@ -8202,10 +8202,10 @@ export default [
             "class": {
               "name": "Retired and Fit Strength"
             },
-            "endtime": 392381,
+            "endtime": 385181,
             "id": 287984704,
             "late_cancellation": "early",
-            "starttime": 388781,
+            "starttime": 381581,
             "tag_ids": [
               "1034",
               "1043",
@@ -8231,10 +8231,10 @@ export default [
             "class": {
               "name": "Retired and Fit Strength"
             },
-            "endtime": 219581,
+            "endtime": 212381,
             "id": 288637782,
             "late_cancellation": "early",
-            "starttime": 215981,
+            "starttime": 208781,
             "tag_ids": [
               "1034",
               "1043",
@@ -8271,10 +8271,10 @@ export default [
             "class": {
               "name": "HIIT THE TRX"
             },
-            "endtime": 419381,
+            "endtime": 412181,
             "id": 287984658,
             "late_cancellation": "early",
-            "starttime": 415781,
+            "starttime": 408581,
             "tag_ids": [
               "138",
               "142",
@@ -8313,10 +8313,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 422981,
+            "endtime": 415781,
             "id": 287984651,
             "late_cancellation": "early",
-            "starttime": 419381,
+            "starttime": 412181,
             "tag_ids": [
               "1034",
               "1042",
@@ -8347,10 +8347,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 566981,
+            "endtime": 559781,
             "id": 288309893,
             "late_cancellation": "early",
-            "starttime": 563381,
+            "starttime": 556181,
             "tag_ids": [
               "1034",
               "1042",
@@ -8392,10 +8392,10 @@ export default [
             "class": {
               "name": "Movement Fusion"
             },
-            "endtime": 464381,
+            "endtime": 457181,
             "id": 288131758,
             "late_cancellation": "early",
-            "starttime": 460781,
+            "starttime": 453581,
             "tag_ids": [
               "470",
               "1034",
@@ -8437,10 +8437,10 @@ export default [
             "class": {
               "name": "Elevate"
             },
-            "endtime": 475181,
+            "endtime": 467981,
             "id": 288131752,
             "late_cancellation": "early",
-            "starttime": 471581,
+            "starttime": 464381,
             "tag_ids": [
               "470",
               "1034",
@@ -8471,10 +8471,10 @@ export default [
             "class": {
               "name": "Elevate"
             },
-            "endtime": 118781,
+            "endtime": 111581,
             "id": 288448177,
             "late_cancellation": "early",
-            "starttime": 115181,
+            "starttime": 107981,
             "tag_ids": [
               "470",
               "1034",
@@ -8516,10 +8516,10 @@ export default [
             "class": {
               "name": "Outdoor Bootcamp"
             },
-            "endtime": 557981,
+            "endtime": 550781,
             "id": 288309894,
             "late_cancellation": "early",
-            "starttime": 554381,
+            "starttime": 547181,
             "tag_ids": [
               "140",
               "activity",
@@ -8555,10 +8555,10 @@ export default [
             "class": {
               "name": "PiYo"
             },
-            "endtime": 160181,
+            "endtime": 152981,
             "id": 288448192,
             "late_cancellation": "early",
-            "starttime": 156581,
+            "starttime": 149381,
             "tag_ids": [
               "250",
               "1034",
@@ -8605,10 +8605,10 @@ export default [
             "class": {
               "name": "Key2 RunFit"
             },
-            "endtime": 214781,
+            "endtime": 207581,
             "id": 288968285,
             "late_cancellation": "early",
-            "starttime": 211181,
+            "starttime": 203981,
             "tag_ids": [
               "gym"
             ],
@@ -8641,10 +8641,10 @@ export default [
             "class": {
               "name": "Joyful Yoga"
             },
-            "endtime": 226781,
+            "endtime": 219581,
             "id": 288637772,
             "late_cancellation": "early",
-            "starttime": 223781,
+            "starttime": 216581,
             "tag_ids": [
               "1034",
               "1042",
@@ -8686,10 +8686,10 @@ export default [
             "class": {
               "name": "Bootcamp"
             },
-            "endtime": 246581,
+            "endtime": 239381,
             "id": 288637793,
             "late_cancellation": "early",
-            "starttime": 242981,
+            "starttime": 235781,
             "tag_ids": [
               "140",
               "1034",
@@ -8727,10 +8727,10 @@ export default [
             "class": {
               "name": "Barre Flow"
             },
-            "endtime": 250181,
+            "endtime": 242981,
             "id": 288637771,
             "late_cancellation": "early",
-            "starttime": 246581,
+            "starttime": 239381,
             "tag_ids": [
               "1034",
               "1042",
@@ -8810,8 +8810,56 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 273581,
+            "endtime": 266381,
             "id": 276301098,
+            "late_cancellation": "early",
+            "starttime": 259181,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 269981,
+            "id": 276301099,
+            "late_cancellation": "early",
+            "starttime": 262781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 273581,
+            "id": 276301100,
             "late_cancellation": "early",
             "starttime": 266381,
             "tag_ids": [
@@ -8835,7 +8883,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 277181,
-            "id": 276301099,
+            "id": 276301101,
             "late_cancellation": "early",
             "starttime": 269981,
             "tag_ids": [
@@ -8859,7 +8907,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 280781,
-            "id": 276301100,
+            "id": 276301102,
             "late_cancellation": "early",
             "starttime": 273581,
             "tag_ids": [
@@ -8883,7 +8931,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 284381,
-            "id": 276301101,
+            "id": 276301103,
             "late_cancellation": "early",
             "starttime": 277181,
             "tag_ids": [
@@ -8907,7 +8955,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 287981,
-            "id": 276301102,
+            "id": 276301104,
             "late_cancellation": "early",
             "starttime": 280781,
             "tag_ids": [
@@ -8931,7 +8979,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 291581,
-            "id": 276301103,
+            "id": 276301106,
             "late_cancellation": "early",
             "starttime": 284381,
             "tag_ids": [
@@ -8955,7 +9003,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 295181,
-            "id": 276301104,
+            "id": 276301105,
             "late_cancellation": "early",
             "starttime": 287981,
             "tag_ids": [
@@ -8979,7 +9027,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 298781,
-            "id": 276301106,
+            "id": 276301108,
             "late_cancellation": "early",
             "starttime": 291581,
             "tag_ids": [
@@ -9003,7 +9051,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 302381,
-            "id": 276301105,
+            "id": 276301107,
             "late_cancellation": "early",
             "starttime": 295181,
             "tag_ids": [
@@ -9026,8 +9074,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 298781,
+            "id": 276294816,
+            "late_cancellation": "early",
+            "starttime": 296981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 305981,
-            "id": 276301108,
+            "id": 276301109,
             "late_cancellation": "early",
             "starttime": 298781,
             "tag_ids": [
@@ -9051,7 +9123,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 309581,
-            "id": 276301107,
+            "id": 276301110,
             "late_cancellation": "early",
             "starttime": 302381,
             "tag_ids": [
@@ -9074,32 +9146,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 305981,
-            "id": 276294816,
-            "late_cancellation": "early",
-            "starttime": 304181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 313181,
-            "id": 276301109,
+            "id": 276301111,
             "late_cancellation": "early",
             "starttime": 305981,
             "tag_ids": [
@@ -9123,7 +9171,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 316781,
-            "id": 276301110,
+            "id": 276301112,
             "late_cancellation": "early",
             "starttime": 309581,
             "tag_ids": [
@@ -9147,7 +9195,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 320381,
-            "id": 276301111,
+            "id": 276301113,
             "late_cancellation": "early",
             "starttime": 313181,
             "tag_ids": [
@@ -9170,58 +9218,58 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 323981,
-            "id": 276301112,
-            "late_cancellation": "early",
-            "starttime": 316781,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 327581,
-            "id": 276301113,
-            "late_cancellation": "early",
-            "starttime": 320381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 332981,
+            "endtime": 325781,
             "id": 276294820,
             "late_cancellation": "early",
-            "starttime": 330281,
+            "starttime": 323081,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 334781,
+            "id": 276301114,
+            "late_cancellation": "early",
+            "starttime": 327581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 338381,
+            "id": 276301115,
+            "late_cancellation": "early",
+            "starttime": 331181,
             "tag_ids": [
               "gym",
               "activity",
@@ -9243,7 +9291,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 341981,
-            "id": 276301114,
+            "id": 276301116,
             "late_cancellation": "early",
             "starttime": 334781,
             "tag_ids": [
@@ -9267,7 +9315,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 345581,
-            "id": 276301115,
+            "id": 276301117,
             "late_cancellation": "early",
             "starttime": 338381,
             "tag_ids": [
@@ -9291,7 +9339,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 349181,
-            "id": 276301116,
+            "id": 276301118,
             "late_cancellation": "early",
             "starttime": 341981,
             "tag_ids": [
@@ -9315,7 +9363,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 352781,
-            "id": 276301117,
+            "id": 276301119,
             "late_cancellation": "early",
             "starttime": 345581,
             "tag_ids": [
@@ -9339,7 +9387,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 356381,
-            "id": 276301118,
+            "id": 276301120,
             "late_cancellation": "early",
             "starttime": 349181,
             "tag_ids": [
@@ -9363,7 +9411,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 359981,
-            "id": 276301119,
+            "id": 276301121,
             "late_cancellation": "early",
             "starttime": 352781,
             "tag_ids": [
@@ -9387,7 +9435,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 363581,
-            "id": 276301120,
+            "id": 276301122,
             "late_cancellation": "early",
             "starttime": 356381,
             "tag_ids": [
@@ -9411,7 +9459,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 367181,
-            "id": 276301121,
+            "id": 276301123,
             "late_cancellation": "early",
             "starttime": 359981,
             "tag_ids": [
@@ -9435,7 +9483,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 370781,
-            "id": 276301122,
+            "id": 276301124,
             "late_cancellation": "early",
             "starttime": 363581,
             "tag_ids": [
@@ -9458,8 +9506,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 369581,
+            "id": 276293725,
+            "late_cancellation": "early",
+            "starttime": 366281,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 374381,
-            "id": 276301123,
+            "id": 276301125,
             "late_cancellation": "early",
             "starttime": 367181,
             "tag_ids": [
@@ -9483,7 +9555,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 377981,
-            "id": 276301124,
+            "id": 276301126,
             "late_cancellation": "early",
             "starttime": 370781,
             "tag_ids": [
@@ -9506,56 +9578,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 376781,
-            "id": 276293725,
-            "late_cancellation": "early",
-            "starttime": 373481,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 381581,
-            "id": 276301125,
-            "late_cancellation": "early",
-            "starttime": 374381,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 385181,
-            "id": 276301126,
+            "id": 276301129,
             "late_cancellation": "early",
             "starttime": 377981,
             "tag_ids": [
@@ -9578,8 +9602,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 388781,
+            "id": 276301128,
+            "late_cancellation": "early",
+            "starttime": 381581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 392381,
-            "id": 276301129,
+            "id": 276301130,
             "late_cancellation": "early",
             "starttime": 385181,
             "tag_ids": [
@@ -9603,7 +9651,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 395981,
-            "id": 276301128,
+            "id": 276301131,
             "late_cancellation": "early",
             "starttime": 388781,
             "tag_ids": [
@@ -9627,7 +9675,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 399581,
-            "id": 276301130,
+            "id": 276301132,
             "late_cancellation": "early",
             "starttime": 392381,
             "tag_ids": [
@@ -9651,7 +9699,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 403181,
-            "id": 276301131,
+            "id": 276301133,
             "late_cancellation": "early",
             "starttime": 395981,
             "tag_ids": [
@@ -9675,7 +9723,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 406781,
-            "id": 276301132,
+            "id": 276301134,
             "late_cancellation": "early",
             "starttime": 399581,
             "tag_ids": [
@@ -9698,10 +9746,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 410381,
-            "id": 276301133,
+            "endtime": 421181,
+            "id": 276301135,
             "late_cancellation": "early",
-            "starttime": 403181,
+            "starttime": 413981,
             "tag_ids": [
               "gym",
               "activity",
@@ -9722,10 +9770,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 413981,
-            "id": 276301134,
+            "endtime": 424781,
+            "id": 276301137,
             "late_cancellation": "early",
-            "starttime": 406781,
+            "starttime": 417581,
             "tag_ids": [
               "gym",
               "activity",
@@ -9747,7 +9795,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 428381,
-            "id": 276301135,
+            "id": 276301136,
             "late_cancellation": "early",
             "starttime": 421181,
             "tag_ids": [
@@ -9771,7 +9819,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 431981,
-            "id": 276301137,
+            "id": 276301138,
             "late_cancellation": "early",
             "starttime": 424781,
             "tag_ids": [
@@ -9795,7 +9843,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 435581,
-            "id": 276301136,
+            "id": 276301139,
             "late_cancellation": "early",
             "starttime": 428381,
             "tag_ids": [
@@ -9819,7 +9867,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 439181,
-            "id": 276301138,
+            "id": 276301141,
             "late_cancellation": "early",
             "starttime": 431981,
             "tag_ids": [
@@ -9843,7 +9891,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 442781,
-            "id": 276301139,
+            "id": 276301140,
             "late_cancellation": "early",
             "starttime": 435581,
             "tag_ids": [
@@ -9867,7 +9915,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 446381,
-            "id": 276301141,
+            "id": 276301143,
             "late_cancellation": "early",
             "starttime": 439181,
             "tag_ids": [
@@ -9891,7 +9939,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 449981,
-            "id": 276301140,
+            "id": 276301142,
             "late_cancellation": "early",
             "starttime": 442781,
             "tag_ids": [
@@ -9915,7 +9963,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 453581,
-            "id": 276301143,
+            "id": 276301144,
             "late_cancellation": "early",
             "starttime": 446381,
             "tag_ids": [
@@ -9939,7 +9987,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 457181,
-            "id": 276301142,
+            "id": 276301145,
             "late_cancellation": "early",
             "starttime": 449981,
             "tag_ids": [
@@ -9963,7 +10011,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 460781,
-            "id": 276301144,
+            "id": 276301146,
             "late_cancellation": "early",
             "starttime": 453581,
             "tag_ids": [
@@ -9987,7 +10035,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 464381,
-            "id": 276301145,
+            "id": 276301147,
             "late_cancellation": "early",
             "starttime": 457181,
             "tag_ids": [
@@ -10011,7 +10059,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 467981,
-            "id": 276301146,
+            "id": 276301148,
             "late_cancellation": "early",
             "starttime": 460781,
             "tag_ids": [
@@ -10034,8 +10082,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 465881,
+            "id": 276293902,
+            "late_cancellation": "early",
+            "starttime": 462581,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 471581,
-            "id": 276301147,
+            "id": 276301150,
             "late_cancellation": "early",
             "starttime": 464381,
             "tag_ids": [
@@ -10059,7 +10131,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 475181,
-            "id": 276301148,
+            "id": 276301149,
             "late_cancellation": "early",
             "starttime": 467981,
             "tag_ids": [
@@ -10082,56 +10154,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 473081,
-            "id": 276293902,
-            "late_cancellation": "early",
-            "starttime": 469781,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 478781,
-            "id": 276301150,
-            "late_cancellation": "early",
-            "starttime": 471581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 482381,
-            "id": 276301149,
+            "id": 276301152,
             "late_cancellation": "early",
             "starttime": 475181,
             "tag_ids": [
@@ -10154,8 +10178,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 485981,
+            "id": 276301153,
+            "late_cancellation": "early",
+            "starttime": 478781,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 489581,
-            "id": 276301152,
+            "id": 276301154,
             "late_cancellation": "early",
             "starttime": 482381,
             "tag_ids": [
@@ -10179,7 +10227,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 493181,
-            "id": 276301153,
+            "id": 276301155,
             "late_cancellation": "early",
             "starttime": 485981,
             "tag_ids": [
@@ -10202,58 +10250,58 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 496781,
-            "id": 276301154,
-            "late_cancellation": "early",
-            "starttime": 489581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 500381,
-            "id": 276301155,
-            "late_cancellation": "early",
-            "starttime": 493181,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 505481,
+            "endtime": 498281,
             "id": 276293903,
             "late_cancellation": "early",
-            "starttime": 502181,
+            "starttime": 494981,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 507581,
+            "id": 276301156,
+            "late_cancellation": "early",
+            "starttime": 500381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 511181,
+            "id": 276301157,
+            "late_cancellation": "early",
+            "starttime": 503981,
             "tag_ids": [
               "gym",
               "activity",
@@ -10275,7 +10323,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 514781,
-            "id": 276301156,
+            "id": 276301158,
             "late_cancellation": "early",
             "starttime": 507581,
             "tag_ids": [
@@ -10299,7 +10347,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 518381,
-            "id": 276301157,
+            "id": 276301159,
             "late_cancellation": "early",
             "starttime": 511181,
             "tag_ids": [
@@ -10323,7 +10371,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 521981,
-            "id": 276301158,
+            "id": 276301160,
             "late_cancellation": "early",
             "starttime": 514781,
             "tag_ids": [
@@ -10347,7 +10395,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 525581,
-            "id": 276301159,
+            "id": 276301161,
             "late_cancellation": "early",
             "starttime": 518381,
             "tag_ids": [
@@ -10371,7 +10419,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 529181,
-            "id": 276301160,
+            "id": 276301162,
             "late_cancellation": "early",
             "starttime": 521981,
             "tag_ids": [
@@ -10395,7 +10443,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 532781,
-            "id": 276301161,
+            "id": 276301163,
             "late_cancellation": "early",
             "starttime": 525581,
             "tag_ids": [
@@ -10419,7 +10467,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 536381,
-            "id": 276301162,
+            "id": 276301164,
             "late_cancellation": "early",
             "starttime": 529181,
             "tag_ids": [
@@ -10443,7 +10491,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 539981,
-            "id": 276301163,
+            "id": 276301165,
             "late_cancellation": "early",
             "starttime": 532781,
             "tag_ids": [
@@ -10467,7 +10515,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 543581,
-            "id": 276301164,
+            "id": 276301166,
             "late_cancellation": "early",
             "starttime": 536381,
             "tag_ids": [
@@ -10491,7 +10539,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 547181,
-            "id": 276301165,
+            "id": 276301167,
             "late_cancellation": "early",
             "starttime": 539981,
             "tag_ids": [
@@ -10515,7 +10563,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 550781,
-            "id": 276301166,
+            "id": 276301168,
             "late_cancellation": "early",
             "starttime": 543581,
             "tag_ids": [
@@ -10538,8 +10586,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 548681,
+            "id": 276294047,
+            "late_cancellation": "early",
+            "starttime": 545381,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 554381,
-            "id": 276301167,
+            "id": 276301169,
             "late_cancellation": "early",
             "starttime": 547181,
             "tag_ids": [
@@ -10563,7 +10635,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 557981,
-            "id": 276301168,
+            "id": 276301171,
             "late_cancellation": "early",
             "starttime": 550781,
             "tag_ids": [
@@ -10586,32 +10658,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 555881,
-            "id": 276294047,
-            "late_cancellation": "early",
-            "starttime": 552581,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 561581,
-            "id": 276301169,
+            "id": 276301170,
             "late_cancellation": "early",
             "starttime": 554381,
             "tag_ids": [
@@ -10635,7 +10683,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 565181,
-            "id": 276301171,
+            "id": 276301172,
             "late_cancellation": "early",
             "starttime": 557981,
             "tag_ids": [
@@ -10659,7 +10707,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 568781,
-            "id": 276301170,
+            "id": 276301173,
             "late_cancellation": "early",
             "starttime": 561581,
             "tag_ids": [
@@ -10683,7 +10731,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 572381,
-            "id": 276301172,
+            "id": 276301174,
             "late_cancellation": "early",
             "starttime": 565181,
             "tag_ids": [
@@ -10707,7 +10755,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 575981,
-            "id": 276301173,
+            "id": 276301175,
             "late_cancellation": "early",
             "starttime": 568781,
             "tag_ids": [
@@ -10731,7 +10779,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 579581,
-            "id": 276301174,
+            "id": 276301176,
             "late_cancellation": "early",
             "starttime": 572381,
             "tag_ids": [
@@ -10754,10 +10802,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 583181,
-            "id": 276301175,
+            "endtime": 593981,
+            "id": 276301177,
             "late_cancellation": "early",
-            "starttime": 575981,
+            "starttime": 586781,
             "tag_ids": [
               "gym",
               "activity",
@@ -10778,10 +10826,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 586781,
-            "id": 276301176,
+            "endtime": 597581,
+            "id": 276301178,
             "late_cancellation": "early",
-            "starttime": 579581,
+            "starttime": 590381,
             "tag_ids": [
               "gym",
               "activity",
@@ -10803,7 +10851,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 601181,
-            "id": 276301177,
+            "id": 276301179,
             "late_cancellation": "early",
             "starttime": 593981,
             "tag_ids": [
@@ -10827,7 +10875,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 604781,
-            "id": 276301178,
+            "id": 276301180,
             "late_cancellation": "early",
             "starttime": 597581,
             "tag_ids": [
@@ -10851,7 +10899,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 608381,
-            "id": 276301179,
+            "id": 276301181,
             "late_cancellation": "early",
             "starttime": 601181,
             "tag_ids": [
@@ -10874,10 +10922,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 611981,
-            "id": 276301180,
+            "endtime": 7181,
+            "id": 276301182,
             "late_cancellation": "early",
-            "starttime": 604781,
+            "starttime": -19,
             "tag_ids": [
               "gym",
               "activity",
@@ -10898,10 +10946,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 615581,
-            "id": 276301181,
+            "endtime": 10781,
+            "id": 276301183,
             "late_cancellation": "early",
-            "starttime": 608381,
+            "starttime": 3581,
             "tag_ids": [
               "gym",
               "activity",
@@ -10923,7 +10971,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 14381,
-            "id": 276301182,
+            "id": 276301184,
             "late_cancellation": "early",
             "starttime": 7181,
             "tag_ids": [
@@ -10947,7 +10995,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 17981,
-            "id": 276301183,
+            "id": 276301185,
             "late_cancellation": "early",
             "starttime": 10781,
             "tag_ids": [
@@ -10971,7 +11019,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 21581,
-            "id": 276301184,
+            "id": 276301186,
             "late_cancellation": "early",
             "starttime": 14381,
             "tag_ids": [
@@ -10995,7 +11043,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 25181,
-            "id": 276301185,
+            "id": 276301187,
             "late_cancellation": "early",
             "starttime": 17981,
             "tag_ids": [
@@ -11019,7 +11067,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 28781,
-            "id": 276301186,
+            "id": 276301188,
             "late_cancellation": "early",
             "starttime": 21581,
             "tag_ids": [
@@ -11043,7 +11091,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 32381,
-            "id": 276301187,
+            "id": 276301189,
             "late_cancellation": "early",
             "starttime": 25181,
             "tag_ids": [
@@ -11067,7 +11115,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 35981,
-            "id": 276301188,
+            "id": 276301190,
             "late_cancellation": "early",
             "starttime": 28781,
             "tag_ids": [
@@ -11091,7 +11139,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 39581,
-            "id": 276301189,
+            "id": 276301192,
             "late_cancellation": "early",
             "starttime": 32381,
             "tag_ids": [
@@ -11115,7 +11163,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 43181,
-            "id": 276301190,
+            "id": 276301191,
             "late_cancellation": "early",
             "starttime": 35981,
             "tag_ids": [
@@ -11139,7 +11187,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 46781,
-            "id": 276301192,
+            "id": 276301193,
             "late_cancellation": "early",
             "starttime": 39581,
             "tag_ids": [
@@ -11163,7 +11211,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 50381,
-            "id": 276301191,
+            "id": 276301194,
             "late_cancellation": "early",
             "starttime": 43181,
             "tag_ids": [
@@ -11187,7 +11235,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 53981,
-            "id": 276301193,
+            "id": 276301195,
             "late_cancellation": "early",
             "starttime": 46781,
             "tag_ids": [
@@ -11211,7 +11259,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 57581,
-            "id": 276301194,
+            "id": 276301196,
             "late_cancellation": "early",
             "starttime": 50381,
             "tag_ids": [
@@ -11235,7 +11283,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 61181,
-            "id": 276301195,
+            "id": 276301197,
             "late_cancellation": "early",
             "starttime": 53981,
             "tag_ids": [
@@ -11258,10 +11306,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 64781,
-            "id": 276301196,
+            "endtime": 75581,
+            "id": 276301198,
             "late_cancellation": "early",
-            "starttime": 57581,
+            "starttime": 68381,
             "tag_ids": [
               "gym",
               "activity",
@@ -11282,10 +11330,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 68381,
-            "id": 276301197,
+            "endtime": 79181,
+            "id": 276301199,
             "late_cancellation": "early",
-            "starttime": 61181,
+            "starttime": 71981,
             "tag_ids": [
               "gym",
               "activity",
@@ -11307,7 +11355,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 82781,
-            "id": 276301198,
+            "id": 276301200,
             "late_cancellation": "early",
             "starttime": 75581,
             "tag_ids": [
@@ -11331,7 +11379,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 86381,
-            "id": 276301199,
+            "id": 276301201,
             "late_cancellation": "early",
             "starttime": 79181,
             "tag_ids": [
@@ -11355,7 +11403,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 89981,
-            "id": 276301200,
+            "id": 276301202,
             "late_cancellation": "early",
             "starttime": 82781,
             "tag_ids": [
@@ -11378,10 +11426,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 93581,
-            "id": 276301201,
+            "endtime": 93580,
+            "id": 276301203,
             "late_cancellation": "early",
-            "starttime": 86381,
+            "starttime": 86380,
             "tag_ids": [
               "gym",
               "activity",
@@ -11402,10 +11450,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 97181,
-            "id": 276301202,
+            "endtime": 97180,
+            "id": 276301204,
             "late_cancellation": "early",
-            "starttime": 89981,
+            "starttime": 89980,
             "tag_ids": [
               "gym",
               "activity",
@@ -11427,7 +11475,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 100780,
-            "id": 276301203,
+            "id": 276301205,
             "late_cancellation": "early",
             "starttime": 93580,
             "tag_ids": [
@@ -11451,7 +11499,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 104380,
-            "id": 276301204,
+            "id": 276301206,
             "late_cancellation": "early",
             "starttime": 97180,
             "tag_ids": [
@@ -11475,7 +11523,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 107980,
-            "id": 276301205,
+            "id": 276301207,
             "late_cancellation": "early",
             "starttime": 100780,
             "tag_ids": [
@@ -11499,7 +11547,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 111580,
-            "id": 276301206,
+            "id": 276301208,
             "late_cancellation": "early",
             "starttime": 104380,
             "tag_ids": [
@@ -11523,7 +11571,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 115180,
-            "id": 276301207,
+            "id": 276301209,
             "late_cancellation": "early",
             "starttime": 107980,
             "tag_ids": [
@@ -11547,7 +11595,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 118780,
-            "id": 276301208,
+            "id": 276301210,
             "late_cancellation": "early",
             "starttime": 111580,
             "tag_ids": [
@@ -11571,7 +11619,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 122380,
-            "id": 276301209,
+            "id": 276301211,
             "late_cancellation": "early",
             "starttime": 115180,
             "tag_ids": [
@@ -11595,7 +11643,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 125980,
-            "id": 276301210,
+            "id": 276301213,
             "late_cancellation": "early",
             "starttime": 118780,
             "tag_ids": [
@@ -11619,7 +11667,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 129580,
-            "id": 276301211,
+            "id": 276301212,
             "late_cancellation": "early",
             "starttime": 122380,
             "tag_ids": [
@@ -11642,8 +11690,32 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 125980,
+            "id": 276294298,
+            "late_cancellation": "early",
+            "starttime": 124180,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 133180,
-            "id": 276301213,
+            "id": 276301214,
             "late_cancellation": "early",
             "starttime": 125980,
             "tag_ids": [
@@ -11667,7 +11739,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 136780,
-            "id": 276301212,
+            "id": 276301215,
             "late_cancellation": "early",
             "starttime": 129580,
             "tag_ids": [
@@ -11690,32 +11762,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 133180,
-            "id": 276294298,
-            "late_cancellation": "early",
-            "starttime": 131380,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 140380,
-            "id": 276301214,
+            "id": 276301216,
             "late_cancellation": "early",
             "starttime": 133180,
             "tag_ids": [
@@ -11739,7 +11787,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 143980,
-            "id": 276301215,
+            "id": 276301217,
             "late_cancellation": "early",
             "starttime": 136780,
             "tag_ids": [
@@ -11763,7 +11811,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 147580,
-            "id": 276301216,
+            "id": 276301218,
             "late_cancellation": "early",
             "starttime": 140380,
             "tag_ids": [
@@ -11786,58 +11834,58 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 151180,
-            "id": 276301217,
-            "late_cancellation": "early",
-            "starttime": 143980,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 154780,
-            "id": 276301218,
-            "late_cancellation": "early",
-            "starttime": 147580,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 156280,
+            "endtime": 149080,
             "id": 276294300,
             "late_cancellation": "early",
-            "starttime": 152980,
+            "starttime": 145780,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 161980,
+            "id": 276301219,
+            "late_cancellation": "early",
+            "starttime": 154780,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 165580,
+            "id": 276301220,
+            "late_cancellation": "early",
+            "starttime": 158380,
             "tag_ids": [
               "gym",
               "activity",
@@ -11859,7 +11907,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 169180,
-            "id": 276301219,
+            "id": 276301221,
             "late_cancellation": "early",
             "starttime": 161980,
             "tag_ids": [
@@ -11883,7 +11931,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 172780,
-            "id": 276301220,
+            "id": 276301222,
             "late_cancellation": "early",
             "starttime": 165580,
             "tag_ids": [
@@ -11907,7 +11955,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 176380,
-            "id": 276301221,
+            "id": 276301224,
             "late_cancellation": "early",
             "starttime": 169180,
             "tag_ids": [
@@ -11931,7 +11979,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 179980,
-            "id": 276301222,
+            "id": 276301223,
             "late_cancellation": "early",
             "starttime": 172780,
             "tag_ids": [
@@ -11955,7 +12003,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 183580,
-            "id": 276301224,
+            "id": 276301225,
             "late_cancellation": "early",
             "starttime": 176380,
             "tag_ids": [
@@ -11979,7 +12027,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 187180,
-            "id": 276301223,
+            "id": 276301226,
             "late_cancellation": "early",
             "starttime": 179980,
             "tag_ids": [
@@ -12003,7 +12051,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 190780,
-            "id": 276301225,
+            "id": 276301227,
             "late_cancellation": "early",
             "starttime": 183580,
             "tag_ids": [
@@ -12027,7 +12075,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 194380,
-            "id": 276301226,
+            "id": 276301228,
             "late_cancellation": "early",
             "starttime": 187180,
             "tag_ids": [
@@ -12051,7 +12099,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 197980,
-            "id": 276301227,
+            "id": 276301229,
             "late_cancellation": "early",
             "starttime": 190780,
             "tag_ids": [
@@ -12075,7 +12123,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 201580,
-            "id": 276301228,
+            "id": 276301230,
             "late_cancellation": "early",
             "starttime": 194380,
             "tag_ids": [
@@ -12099,7 +12147,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 205180,
-            "id": 276301229,
+            "id": 276301231,
             "late_cancellation": "early",
             "starttime": 197980,
             "tag_ids": [
@@ -12122,32 +12170,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 208780,
-            "id": 276301230,
-            "late_cancellation": "early",
-            "starttime": 201580,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 212380,
-            "id": 276301231,
+            "id": 276301234,
             "late_cancellation": "early",
             "starttime": 205180,
             "tag_ids": [
@@ -12170,8 +12194,56 @@ export default [
             "class": {
               "name": "Gym Time"
             },
+            "endtime": 215980,
+            "id": 276301233,
+            "late_cancellation": "early",
+            "starttime": 208780,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 213880,
+            "id": 276294564,
+            "late_cancellation": "early",
+            "starttime": 210580,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
             "endtime": 219580,
-            "id": 276301234,
+            "id": 276301235,
             "late_cancellation": "early",
             "starttime": 212380,
             "tag_ids": [
@@ -12195,7 +12267,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 223180,
-            "id": 276301233,
+            "id": 276301236,
             "late_cancellation": "early",
             "starttime": 215980,
             "tag_ids": [
@@ -12218,32 +12290,8 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 221080,
-            "id": 276294564,
-            "late_cancellation": "early",
-            "starttime": 217780,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
             "endtime": 226780,
-            "id": 276301235,
+            "id": 276301238,
             "late_cancellation": "early",
             "starttime": 219580,
             "tag_ids": [
@@ -12267,7 +12315,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 230380,
-            "id": 276301236,
+            "id": 276301237,
             "late_cancellation": "early",
             "starttime": 223180,
             "tag_ids": [
@@ -12291,7 +12339,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 233980,
-            "id": 276301238,
+            "id": 276301239,
             "late_cancellation": "early",
             "starttime": 226780,
             "tag_ids": [
@@ -12314,58 +12362,58 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 237580,
-            "id": 276301237,
-            "late_cancellation": "early",
-            "starttime": 230380,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 241180,
-            "id": 276301239,
-            "late_cancellation": "early",
-            "starttime": 233980,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 242680,
+            "endtime": 235480,
             "id": 276294566,
             "late_cancellation": "early",
-            "starttime": 239380,
+            "starttime": 232180,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 248380,
+            "id": 276301240,
+            "late_cancellation": "early",
+            "starttime": 241180,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 251980,
+            "id": 276301241,
+            "late_cancellation": "early",
+            "starttime": 244780,
             "tag_ids": [
               "gym",
               "activity",
@@ -12387,7 +12435,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 255580,
-            "id": 276301240,
+            "id": 276301242,
             "late_cancellation": "early",
             "starttime": 248380,
             "tag_ids": [
@@ -12411,7 +12459,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 259180,
-            "id": 276301241,
+            "id": 276301243,
             "late_cancellation": "early",
             "starttime": 251980,
             "tag_ids": [
@@ -12435,57 +12483,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 262780,
-            "id": 276301242,
-            "late_cancellation": "early",
-            "starttime": 255580,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 266380,
-            "id": 276301243,
-            "late_cancellation": "early",
-            "starttime": 259180,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 269980,
             "id": 276301244,
             "late_cancellation": "early",
-            "starttime": 262780,
+            "starttime": 255580,
             "tag_ids": [
               "gym",
               "activity",
@@ -12517,10 +12517,10 @@ export default [
             "class": {
               "name": "Cycle"
             },
-            "endtime": 287981,
+            "endtime": 280781,
             "id": 276294813,
             "late_cancellation": "early",
-            "starttime": 285281,
+            "starttime": 278081,
             "tag_ids": [
               "1034",
               "1036",
@@ -12550,10 +12550,10 @@ export default [
             "class": {
               "name": "Cycle"
             },
-            "endtime": 460781,
+            "endtime": 453581,
             "id": 276293900,
             "late_cancellation": "early",
-            "starttime": 458081,
+            "starttime": 450881,
             "tag_ids": [
               "1034",
               "1036",
@@ -12583,10 +12583,10 @@ export default [
             "class": {
               "name": "Cycle"
             },
-            "endtime": 115180,
+            "endtime": 107980,
             "id": 276294296,
             "late_cancellation": "early",
-            "starttime": 112480,
+            "starttime": 105280,
             "tag_ids": [
               "1034",
               "1036",
@@ -12627,10 +12627,10 @@ export default [
             "class": {
               "name": "POUND"
             },
-            "endtime": 299681,
+            "endtime": 292481,
             "id": 276294814,
             "late_cancellation": "early",
-            "starttime": 296981,
+            "starttime": 289781,
             "tag_ids": [
               "1034",
               "1043",
@@ -12657,10 +12657,10 @@ export default [
             "class": {
               "name": "POUND"
             },
-            "endtime": 126880,
+            "endtime": 119680,
             "id": 276294295,
             "late_cancellation": "early",
-            "starttime": 124180,
+            "starttime": 116980,
             "tag_ids": [
               "1034",
               "1043",
@@ -12687,10 +12687,10 @@ export default [
             "class": {
               "name": "POUND"
             },
-            "endtime": 226180,
+            "endtime": 218980,
             "id": 276294565,
             "late_cancellation": "early",
-            "starttime": 223780,
+            "starttime": 216580,
             "tag_ids": [
               "1034",
               "1043",
@@ -12728,10 +12728,10 @@ export default [
             "class": {
               "name": "Tabata"
             },
-            "endtime": 303881,
+            "endtime": 296681,
             "id": 276294815,
             "late_cancellation": "early",
-            "starttime": 300581,
+            "starttime": 293381,
             "tag_ids": [
               "142",
               "160",
@@ -12759,10 +12759,10 @@ export default [
             "class": {
               "name": "Tabata"
             },
-            "endtime": 131080,
+            "endtime": 123880,
             "id": 276294297,
             "late_cancellation": "early",
-            "starttime": 127780,
+            "starttime": 120580,
             "tag_ids": [
               "142",
               "160",
@@ -12801,10 +12801,10 @@ export default [
             "class": {
               "name": "Barre"
             },
-            "endtime": 312581,
+            "endtime": 305381,
             "id": 276294817,
             "late_cancellation": "early",
-            "starttime": 310181,
+            "starttime": 302981,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -12827,10 +12827,10 @@ export default [
             "class": {
               "name": "Barre"
             },
-            "endtime": 139780,
+            "endtime": 132580,
             "id": 276294299,
             "late_cancellation": "early",
-            "starttime": 137380,
+            "starttime": 130180,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -12864,10 +12864,10 @@ export default [
             "class": {
               "name": "PiYo"
             },
-            "endtime": 330281,
+            "endtime": 323081,
             "id": 276294818,
             "late_cancellation": "early",
-            "starttime": 325781,
+            "starttime": 318581,
             "tag_ids": [
               "1034",
               "1042",
@@ -12899,10 +12899,10 @@ export default [
             "class": {
               "name": "PiYo"
             },
-            "endtime": 486281,
+            "endtime": 479081,
             "id": 276293907,
             "late_cancellation": "early",
-            "starttime": 482981,
+            "starttime": 475781,
             "tag_ids": [
               "1034",
               "1042",
@@ -12934,10 +12934,10 @@ export default [
             "class": {
               "name": "PiYo"
             },
-            "endtime": 42881,
+            "endtime": 35681,
             "id": 276294140,
             "late_cancellation": "early",
-            "starttime": 39581,
+            "starttime": 32381,
             "tag_ids": [
               "1034",
               "1042",
@@ -12980,10 +12980,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 338381,
+            "endtime": 331181,
             "id": 276294819,
             "late_cancellation": "early",
-            "starttime": 332981,
+            "starttime": 325781,
             "tag_ids": [
               "1034",
               "1042",
@@ -13014,10 +13014,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 390281,
+            "endtime": 383081,
             "id": 276293724,
             "late_cancellation": "early",
-            "starttime": 386981,
+            "starttime": 379781,
             "tag_ids": [
               "1034",
               "1042",
@@ -13048,10 +13048,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 482081,
+            "endtime": 474881,
             "id": 276301151,
             "late_cancellation": "early",
-            "starttime": 478781,
+            "starttime": 471581,
             "tag_ids": [
               "1034",
               "1042",
@@ -13082,10 +13082,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 561281,
+            "endtime": 554081,
             "id": 276294049,
             "late_cancellation": "early",
-            "starttime": 557981,
+            "starttime": 550781,
             "tag_ids": [
               "1034",
               "1042",
@@ -13116,10 +13116,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 163480,
+            "endtime": 156280,
             "id": 276294303,
             "late_cancellation": "early",
-            "starttime": 160180,
+            "starttime": 152980,
             "tag_ids": [
               "1034",
               "1042",
@@ -13150,10 +13150,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 217480,
+            "endtime": 210280,
             "id": 276294563,
             "late_cancellation": "early",
-            "starttime": 214180,
+            "starttime": 206980,
             "tag_ids": [
               "1034",
               "1042",
@@ -13195,10 +13195,10 @@ export default [
             "class": {
               "name": "Muscle Pump"
             },
-            "endtime": 386681,
+            "endtime": 379481,
             "id": 276301127,
             "late_cancellation": "early",
-            "starttime": 383381,
+            "starttime": 376181,
             "tag_ids": [
               "1034",
               "1043",
@@ -13235,10 +13235,10 @@ export default [
             "class": {
               "name": "TRX"
             },
-            "endtime": 398981,
+            "endtime": 391781,
             "id": 276293726,
             "late_cancellation": "early",
-            "starttime": 396581,
+            "starttime": 389381,
             "tag_ids": [
               "138",
               "1034",
@@ -13265,10 +13265,10 @@ export default [
             "class": {
               "name": "TRX"
             },
-            "endtime": 418481,
+            "endtime": 411281,
             "id": 276293727,
             "late_cancellation": "early",
-            "starttime": 415781,
+            "starttime": 408581,
             "tag_ids": [
               "138",
               "1034",
@@ -13295,10 +13295,10 @@ export default [
             "class": {
               "name": "TRX"
             },
-            "endtime": 213280,
+            "endtime": 206080,
             "id": 276301232,
             "late_cancellation": "early",
-            "starttime": 210580,
+            "starttime": 203380,
             "tag_ids": [
               "138",
               "1034",
@@ -13336,10 +13336,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 422681,
+            "endtime": 415481,
             "id": 276293728,
             "late_cancellation": "early",
-            "starttime": 419381,
+            "starttime": 412181,
             "tag_ids": [
               "1034",
               "1036",
@@ -13369,10 +13369,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 474881,
+            "endtime": 467681,
             "id": 276293901,
             "late_cancellation": "early",
-            "starttime": 471581,
+            "starttime": 464381,
             "tag_ids": [
               "1034",
               "1036",
@@ -13402,10 +13402,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 564881,
+            "endtime": 557681,
             "id": 276294048,
             "late_cancellation": "early",
-            "starttime": 561581,
+            "starttime": 554381,
             "tag_ids": [
               "1034",
               "1036",
@@ -13435,10 +13435,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 46481,
+            "endtime": 39281,
             "id": 276294142,
             "late_cancellation": "early",
-            "starttime": 43181,
+            "starttime": 35981,
             "tag_ids": [
               "1034",
               "1036",
@@ -13468,10 +13468,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 249880,
+            "endtime": 242680,
             "id": 276294568,
             "late_cancellation": "early",
-            "starttime": 246580,
+            "starttime": 239380,
             "tag_ids": [
               "1034",
               "1036",
@@ -13512,10 +13512,10 @@ export default [
             "class": {
               "name": "Kickboxing"
             },
-            "endtime": 159880,
+            "endtime": 152680,
             "id": 276294301,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "200",
               "1034",
@@ -13559,10 +13559,10 @@ export default [
             "class": {
               "name": "TBC"
             },
-            "endtime": 203380,
+            "endtime": 196180,
             "id": 276294562,
             "late_cancellation": "early",
-            "starttime": 200680,
+            "starttime": 193480,
             "tag_ids": [
               "1034",
               "1043",
@@ -13600,10 +13600,10 @@ export default [
             "class": {
               "name": "RUMBLE"
             },
-            "endtime": 246280,
+            "endtime": 239080,
             "id": 276294567,
             "late_cancellation": "early",
-            "starttime": 242980,
+            "starttime": 235780,
             "tag_ids": [
               "activity"
             ],
@@ -13670,10 +13670,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 305080,
+            "endtime": 297880,
             "id": 287886863,
             "late_cancellation": "early",
-            "starttime": 300580,
+            "starttime": 293380,
             "tag_ids": [
               "186",
               "1034",
@@ -13705,10 +13705,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 313180,
+            "endtime": 305980,
             "id": 287886886,
             "late_cancellation": "early",
-            "starttime": 309580,
+            "starttime": 302380,
             "tag_ids": [
               "186",
               "1034",
@@ -13740,10 +13740,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 334780,
+            "endtime": 327580,
             "id": 287886836,
             "late_cancellation": "early",
-            "starttime": 329380,
+            "starttime": 322180,
             "tag_ids": [
               "186",
               "1034",
@@ -13775,10 +13775,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 391480,
+            "endtime": 384280,
             "id": 287987968,
             "late_cancellation": "early",
-            "starttime": 386980,
+            "starttime": 379780,
             "tag_ids": [
               "186",
               "1034",
@@ -13810,10 +13810,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 399580,
+            "endtime": 392380,
             "id": 287987979,
             "late_cancellation": "early",
-            "starttime": 395980,
+            "starttime": 388780,
             "tag_ids": [
               "186",
               "1034",
@@ -13845,10 +13845,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 422080,
+            "endtime": 414880,
             "id": 287987985,
             "late_cancellation": "early",
-            "starttime": 417580,
+            "starttime": 410380,
             "tag_ids": [
               "186",
               "1034",
@@ -13880,10 +13880,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 468880,
+            "endtime": 461680,
             "id": 288127330,
             "late_cancellation": "early",
-            "starttime": 464380,
+            "starttime": 457180,
             "tag_ids": [
               "186",
               "1034",
@@ -13915,10 +13915,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 477880,
+            "endtime": 470680,
             "id": 288127338,
             "late_cancellation": "early",
-            "starttime": 473380,
+            "starttime": 466180,
             "tag_ids": [
               "186",
               "1034",
@@ -13950,10 +13950,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 485980,
+            "endtime": 478780,
             "id": 288127356,
             "late_cancellation": "early",
-            "starttime": 482380,
+            "starttime": 475180,
             "tag_ids": [
               "186",
               "1034",
@@ -13985,10 +13985,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 560680,
+            "endtime": 553480,
             "id": 288305676,
             "late_cancellation": "early",
-            "starttime": 556180,
+            "starttime": 548980,
             "tag_ids": [
               "186",
               "1034",
@@ -14020,10 +14020,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 566080,
+            "endtime": 558880,
             "id": 288305679,
             "late_cancellation": "early",
-            "starttime": 561580,
+            "starttime": 554380,
             "tag_ids": [
               "186",
               "1034",
@@ -14055,10 +14055,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 69280,
+            "endtime": 62080,
             "id": 288367552,
             "late_cancellation": "early",
-            "starttime": 64780,
+            "starttime": 57580,
             "tag_ids": [
               "186",
               "1034",
@@ -14090,10 +14090,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 132280,
+            "endtime": 125080,
             "id": 288442004,
             "late_cancellation": "early",
-            "starttime": 127780,
+            "starttime": 120580,
             "tag_ids": [
               "186",
               "1034",
@@ -14125,10 +14125,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 140380,
+            "endtime": 133180,
             "id": 288442001,
             "late_cancellation": "early",
-            "starttime": 136780,
+            "starttime": 129580,
             "tag_ids": [
               "186",
               "1034",
@@ -14160,10 +14160,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 161980,
+            "endtime": 154780,
             "id": 288441981,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "186",
               "1034",
@@ -14195,10 +14195,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 209680,
+            "endtime": 202480,
             "id": 288628294,
             "late_cancellation": "early",
-            "starttime": 205180,
+            "starttime": 197980,
             "tag_ids": [
               "186",
               "1034",
@@ -14230,10 +14230,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 218680,
+            "endtime": 211480,
             "id": 288628301,
             "late_cancellation": "early",
-            "starttime": 214180,
+            "starttime": 206980,
             "tag_ids": [
               "186",
               "1034",
@@ -14265,10 +14265,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 226780,
+            "endtime": 219580,
             "id": 288628319,
             "late_cancellation": "early",
-            "starttime": 223180,
+            "starttime": 215980,
             "tag_ids": [
               "186",
               "1034",
@@ -14300,10 +14300,10 @@ export default [
             "class": {
               "name": "Yoga"
             },
-            "endtime": 249280,
+            "endtime": 242080,
             "id": 288628313,
             "late_cancellation": "early",
-            "starttime": 244780,
+            "starttime": 237580,
             "tag_ids": [
               "186",
               "1034",
@@ -14346,10 +14346,10 @@ export default [
             "class": {
               "name": "$5 Friday Night Vinyasa"
             },
-            "endtime": 505780,
+            "endtime": 498580,
             "id": 288127345,
             "late_cancellation": "early",
-            "starttime": 502180,
+            "starttime": 494980,
             "tag_ids": [
               "186",
               "1034",
@@ -14392,10 +14392,10 @@ export default [
             "class": {
               "name": "AcroYoga Jam"
             },
-            "endtime": 577780,
+            "endtime": 570580,
             "id": 288305675,
             "late_cancellation": "early",
-            "starttime": 570580,
+            "starttime": 563380,
             "tag_ids": [
               "144",
               "1034",
@@ -14427,10 +14427,10 @@ export default [
             "class": {
               "name": "AcroYoga Jam"
             },
-            "endtime": 170980,
+            "endtime": 163780,
             "id": 288441995,
             "late_cancellation": "early",
-            "starttime": 167380,
+            "starttime": 160180,
             "tag_ids": [
               "144",
               "1034",
@@ -14473,10 +14473,10 @@ export default [
             "class": {
               "name": "Intro to AcroYoga"
             },
-            "endtime": 167380,
+            "endtime": 160180,
             "id": 288441987,
             "late_cancellation": "early",
-            "starttime": 162880,
+            "starttime": 155680,
             "tag_ids": [
               "144",
               "1034",
@@ -14543,10 +14543,10 @@ export default [
             "class": {
               "name": "Vinyasa Yoga"
             },
-            "endtime": 314080,
+            "endtime": 306880,
             "id": 287891884,
             "late_cancellation": "early",
-            "starttime": 310480,
+            "starttime": 303280,
             "tag_ids": [
               "1034",
               "1042",
@@ -14586,10 +14586,10 @@ export default [
             "class": {
               "name": "Aerial Yoga"
             },
-            "endtime": 334780,
+            "endtime": 327580,
             "id": 287891909,
             "late_cancellation": "early",
-            "starttime": 331180,
+            "starttime": 323980,
             "tag_ids": [
               "194",
               "1034",
@@ -14620,10 +14620,10 @@ export default [
             "class": {
               "name": "Aerial Yoga"
             },
-            "endtime": 570580,
+            "endtime": 563380,
             "id": 288305018,
             "late_cancellation": "early",
-            "starttime": 566980,
+            "starttime": 559780,
             "tag_ids": [
               "194",
               "1034",
@@ -14654,10 +14654,10 @@ export default [
             "class": {
               "name": "Aerial Yoga"
             },
-            "endtime": 61180,
+            "endtime": 53980,
             "id": 288368301,
             "late_cancellation": "early",
-            "starttime": 57580,
+            "starttime": 50380,
             "tag_ids": [
               "194",
               "1034",
@@ -14688,10 +14688,10 @@ export default [
             "class": {
               "name": "Aerial Yoga"
             },
-            "endtime": 165580,
+            "endtime": 158380,
             "id": 288438466,
             "late_cancellation": "early",
-            "starttime": 161980,
+            "starttime": 154780,
             "tag_ids": [
               "194",
               "1034",
@@ -14733,10 +14733,10 @@ export default [
             "class": {
               "name": "Restorative"
             },
-            "endtime": 339280,
+            "endtime": 332080,
             "id": 287891902,
             "late_cancellation": "early",
-            "starttime": 335680,
+            "starttime": 328480,
             "tag_ids": [
               "182",
               "1034",
@@ -14777,10 +14777,10 @@ export default [
             "class": {
               "name": "RestAir"
             },
-            "endtime": 575980,
+            "endtime": 568780,
             "id": 288305010,
             "late_cancellation": "early",
-            "starttime": 572380,
+            "starttime": 565180,
             "tag_ids": [
               "activity"
             ],
@@ -14802,10 +14802,10 @@ export default [
             "class": {
               "name": "RestAir"
             },
-            "endtime": 68380,
+            "endtime": 61180,
             "id": 288368302,
             "late_cancellation": "early",
-            "starttime": 64780,
+            "starttime": 57580,
             "tag_ids": [
               "activity"
             ],
@@ -14827,10 +14827,10 @@ export default [
             "class": {
               "name": "RestAir"
             },
-            "endtime": 248380,
+            "endtime": 241180,
             "id": 288628903,
             "late_cancellation": "early",
-            "starttime": 244780,
+            "starttime": 237580,
             "tag_ids": [
               "activity"
             ],
@@ -14852,10 +14852,10 @@ export default [
             "class": {
               "name": "RestAir"
             },
-            "endtime": 252880,
+            "endtime": 245680,
             "id": 288628910,
             "late_cancellation": "early",
-            "starttime": 249280,
+            "starttime": 242080,
             "tag_ids": [
               "activity"
             ],
@@ -14922,10 +14922,10 @@ export default [
             "class": {
               "name": "BODYPUMP"
             },
-            "endtime": 291280,
+            "endtime": 284080,
             "id": 274316207,
             "late_cancellation": "early",
-            "starttime": 287980,
+            "starttime": 280780,
             "tag_ids": [
               "activity"
             ],
@@ -14947,10 +14947,10 @@ export default [
             "class": {
               "name": "BODYPUMP"
             },
-            "endtime": 329080,
+            "endtime": 321880,
             "id": 275053130,
             "late_cancellation": "early",
-            "starttime": 325780,
+            "starttime": 318580,
             "tag_ids": [
               "activity"
             ],
@@ -14972,10 +14972,10 @@ export default [
             "class": {
               "name": "BODYPUMP"
             },
-            "endtime": 471280,
+            "endtime": 464080,
             "id": 283870275,
             "late_cancellation": "early",
-            "starttime": 467980,
+            "starttime": 460780,
             "tag_ids": [
               "activity"
             ],
@@ -14997,10 +14997,10 @@ export default [
             "class": {
               "name": "BODYPUMP"
             },
-            "endtime": 558580,
+            "endtime": 551380,
             "id": 275046627,
             "late_cancellation": "early",
-            "starttime": 554980,
+            "starttime": 547780,
             "tag_ids": [
               "activity"
             ],
@@ -15022,10 +15022,10 @@ export default [
             "class": {
               "name": "BODYPUMP"
             },
-            "endtime": 118180,
+            "endtime": 110980,
             "id": 282864421,
             "late_cancellation": "early",
-            "starttime": 115180,
+            "starttime": 107980,
             "tag_ids": [
               "activity"
             ],
@@ -15047,10 +15047,10 @@ export default [
             "class": {
               "name": "BODYPUMP"
             },
-            "endtime": 156280,
+            "endtime": 149080,
             "id": 274189866,
             "late_cancellation": "early",
-            "starttime": 152980,
+            "starttime": 145780,
             "tag_ids": [
               "activity"
             ],
@@ -15083,8 +15083,56 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 291580,
+            "endtime": 284380,
             "id": 278967084,
+            "late_cancellation": "early",
+            "starttime": 280780,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 287980,
+            "id": 278967085,
+            "late_cancellation": "early",
+            "starttime": 284380,
+            "tag_ids": [
+              "gym",
+              "activity",
+              "gym-access",
+              "activity-588"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Gym Time"
+            },
+            "endtime": 291580,
+            "id": 278967086,
             "late_cancellation": "early",
             "starttime": 287980,
             "tag_ids": [
@@ -15107,10 +15155,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 295180,
-            "id": 278967085,
+            "endtime": 305980,
+            "id": 278967087,
             "late_cancellation": "early",
-            "starttime": 291580,
+            "starttime": 302380,
             "tag_ids": [
               "gym",
               "activity",
@@ -15131,10 +15179,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 298780,
-            "id": 278967086,
+            "endtime": 309580,
+            "id": 278967088,
             "late_cancellation": "early",
-            "starttime": 295180,
+            "starttime": 305980,
             "tag_ids": [
               "gym",
               "activity",
@@ -15156,7 +15204,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 313180,
-            "id": 278967087,
+            "id": 278967089,
             "late_cancellation": "early",
             "starttime": 309580,
             "tag_ids": [
@@ -15180,7 +15228,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 316780,
-            "id": 278967088,
+            "id": 278967090,
             "late_cancellation": "early",
             "starttime": 313180,
             "tag_ids": [
@@ -15204,7 +15252,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 320380,
-            "id": 278967089,
+            "id": 278967091,
             "late_cancellation": "early",
             "starttime": 316780,
             "tag_ids": [
@@ -15228,7 +15276,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 323980,
-            "id": 278967090,
+            "id": 278967092,
             "late_cancellation": "early",
             "starttime": 320380,
             "tag_ids": [
@@ -15252,7 +15300,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 327580,
-            "id": 278967091,
+            "id": 278967093,
             "late_cancellation": "early",
             "starttime": 323980,
             "tag_ids": [
@@ -15276,7 +15324,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 331180,
-            "id": 278967092,
+            "id": 278967094,
             "late_cancellation": "early",
             "starttime": 327580,
             "tag_ids": [
@@ -15300,7 +15348,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 334780,
-            "id": 278967093,
+            "id": 278967095,
             "late_cancellation": "early",
             "starttime": 331180,
             "tag_ids": [
@@ -15324,7 +15372,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 338380,
-            "id": 278967094,
+            "id": 278967096,
             "late_cancellation": "early",
             "starttime": 334780,
             "tag_ids": [
@@ -15347,10 +15395,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 341980,
-            "id": 278967095,
+            "endtime": 370780,
+            "id": 278967097,
             "late_cancellation": "early",
-            "starttime": 338380,
+            "starttime": 367180,
             "tag_ids": [
               "gym",
               "activity",
@@ -15371,10 +15419,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 345580,
-            "id": 278967096,
+            "endtime": 374380,
+            "id": 278967098,
             "late_cancellation": "early",
-            "starttime": 341980,
+            "starttime": 370780,
             "tag_ids": [
               "gym",
               "activity",
@@ -15396,7 +15444,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 377980,
-            "id": 278967097,
+            "id": 278967099,
             "late_cancellation": "early",
             "starttime": 374380,
             "tag_ids": [
@@ -15419,10 +15467,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 381580,
-            "id": 278967098,
+            "endtime": 392380,
+            "id": 278967100,
             "late_cancellation": "early",
-            "starttime": 377980,
+            "starttime": 388780,
             "tag_ids": [
               "gym",
               "activity",
@@ -15443,10 +15491,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 385180,
-            "id": 278967099,
+            "endtime": 395980,
+            "id": 278967101,
             "late_cancellation": "early",
-            "starttime": 381580,
+            "starttime": 392380,
             "tag_ids": [
               "gym",
               "activity",
@@ -15468,7 +15516,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 399580,
-            "id": 278967100,
+            "id": 278967102,
             "late_cancellation": "early",
             "starttime": 395980,
             "tag_ids": [
@@ -15492,7 +15540,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 403180,
-            "id": 278967101,
+            "id": 278967103,
             "late_cancellation": "early",
             "starttime": 399580,
             "tag_ids": [
@@ -15516,7 +15564,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 406780,
-            "id": 278967102,
+            "id": 278967104,
             "late_cancellation": "early",
             "starttime": 403180,
             "tag_ids": [
@@ -15540,7 +15588,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 410380,
-            "id": 278967103,
+            "id": 278967105,
             "late_cancellation": "early",
             "starttime": 406780,
             "tag_ids": [
@@ -15564,7 +15612,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 413980,
-            "id": 278967104,
+            "id": 278967106,
             "late_cancellation": "early",
             "starttime": 410380,
             "tag_ids": [
@@ -15588,7 +15636,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 417580,
-            "id": 278967105,
+            "id": 278967107,
             "late_cancellation": "early",
             "starttime": 413980,
             "tag_ids": [
@@ -15612,7 +15660,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 421180,
-            "id": 278967106,
+            "id": 278967108,
             "late_cancellation": "early",
             "starttime": 417580,
             "tag_ids": [
@@ -15636,7 +15684,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 424780,
-            "id": 278967107,
+            "id": 278967109,
             "late_cancellation": "early",
             "starttime": 421180,
             "tag_ids": [
@@ -15659,10 +15707,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 428380,
-            "id": 278967108,
+            "endtime": 457180,
+            "id": 278967110,
             "late_cancellation": "early",
-            "starttime": 424780,
+            "starttime": 453580,
             "tag_ids": [
               "gym",
               "activity",
@@ -15683,10 +15731,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 431980,
-            "id": 278967109,
+            "endtime": 460780,
+            "id": 278967111,
             "late_cancellation": "early",
-            "starttime": 428380,
+            "starttime": 457180,
             "tag_ids": [
               "gym",
               "activity",
@@ -15708,7 +15756,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 464380,
-            "id": 278967110,
+            "id": 278967112,
             "late_cancellation": "early",
             "starttime": 460780,
             "tag_ids": [
@@ -15731,10 +15779,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 467980,
-            "id": 278967111,
+            "endtime": 478780,
+            "id": 278967113,
             "late_cancellation": "early",
-            "starttime": 464380,
+            "starttime": 475180,
             "tag_ids": [
               "gym",
               "activity",
@@ -15755,10 +15803,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 471580,
-            "id": 278967112,
+            "endtime": 482380,
+            "id": 278967114,
             "late_cancellation": "early",
-            "starttime": 467980,
+            "starttime": 478780,
             "tag_ids": [
               "gym",
               "activity",
@@ -15780,7 +15828,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 485980,
-            "id": 278967113,
+            "id": 278967115,
             "late_cancellation": "early",
             "starttime": 482380,
             "tag_ids": [
@@ -15804,7 +15852,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 489580,
-            "id": 278967114,
+            "id": 278967116,
             "late_cancellation": "early",
             "starttime": 485980,
             "tag_ids": [
@@ -15828,7 +15876,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 493180,
-            "id": 278967115,
+            "id": 278967117,
             "late_cancellation": "early",
             "starttime": 489580,
             "tag_ids": [
@@ -15852,7 +15900,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 496780,
-            "id": 278967116,
+            "id": 278967118,
             "late_cancellation": "early",
             "starttime": 493180,
             "tag_ids": [
@@ -15876,7 +15924,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 500380,
-            "id": 278967117,
+            "id": 278967119,
             "late_cancellation": "early",
             "starttime": 496780,
             "tag_ids": [
@@ -15900,7 +15948,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 503980,
-            "id": 278967118,
+            "id": 278967120,
             "late_cancellation": "early",
             "starttime": 500380,
             "tag_ids": [
@@ -15924,7 +15972,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 507580,
-            "id": 278967119,
+            "id": 278967121,
             "late_cancellation": "early",
             "starttime": 503980,
             "tag_ids": [
@@ -15948,7 +15996,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 511180,
-            "id": 278967120,
+            "id": 278967122,
             "late_cancellation": "early",
             "starttime": 507580,
             "tag_ids": [
@@ -15971,10 +16019,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 514780,
-            "id": 278967121,
+            "endtime": 550780,
+            "id": 278968791,
             "late_cancellation": "early",
-            "starttime": 511180,
+            "starttime": 547180,
             "tag_ids": [
               "gym",
               "activity",
@@ -15995,10 +16043,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 518380,
-            "id": 278967122,
+            "endtime": 554380,
+            "id": 278968792,
             "late_cancellation": "early",
-            "starttime": 514780,
+            "starttime": 550780,
             "tag_ids": [
               "gym",
               "activity",
@@ -16020,7 +16068,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 557980,
-            "id": 278968791,
+            "id": 278968793,
             "late_cancellation": "early",
             "starttime": 554380,
             "tag_ids": [
@@ -16044,7 +16092,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 561580,
-            "id": 278968792,
+            "id": 278968794,
             "late_cancellation": "early",
             "starttime": 557980,
             "tag_ids": [
@@ -16068,7 +16116,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 565180,
-            "id": 278968793,
+            "id": 278968795,
             "late_cancellation": "early",
             "starttime": 561580,
             "tag_ids": [
@@ -16092,7 +16140,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 568780,
-            "id": 278968794,
+            "id": 278968796,
             "late_cancellation": "early",
             "starttime": 565180,
             "tag_ids": [
@@ -16116,7 +16164,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 572380,
-            "id": 278968795,
+            "id": 278968797,
             "late_cancellation": "early",
             "starttime": 568780,
             "tag_ids": [
@@ -16140,7 +16188,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 575980,
-            "id": 278968796,
+            "id": 278968798,
             "late_cancellation": "early",
             "starttime": 572380,
             "tag_ids": [
@@ -16164,7 +16212,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 579580,
-            "id": 278968797,
+            "id": 278968799,
             "late_cancellation": "early",
             "starttime": 575980,
             "tag_ids": [
@@ -16188,7 +16236,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 583180,
-            "id": 278968798,
+            "id": 278968800,
             "late_cancellation": "early",
             "starttime": 579580,
             "tag_ids": [
@@ -16212,7 +16260,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 586780,
-            "id": 278968799,
+            "id": 278968801,
             "late_cancellation": "early",
             "starttime": 583180,
             "tag_ids": [
@@ -16236,7 +16284,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 590380,
-            "id": 278968800,
+            "id": 278968802,
             "late_cancellation": "early",
             "starttime": 586780,
             "tag_ids": [
@@ -16259,10 +16307,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 593980,
-            "id": 278968801,
+            "endtime": 32380,
+            "id": 278968803,
             "late_cancellation": "early",
-            "starttime": 590380,
+            "starttime": 28780,
             "tag_ids": [
               "gym",
               "activity",
@@ -16283,10 +16331,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 597580,
-            "id": 278968802,
+            "endtime": 35980,
+            "id": 278968804,
             "late_cancellation": "early",
-            "starttime": 593980,
+            "starttime": 32380,
             "tag_ids": [
               "gym",
               "activity",
@@ -16308,7 +16356,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 39580,
-            "id": 278968803,
+            "id": 278968805,
             "late_cancellation": "early",
             "starttime": 35980,
             "tag_ids": [
@@ -16332,7 +16380,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 43180,
-            "id": 278968804,
+            "id": 278968806,
             "late_cancellation": "early",
             "starttime": 39580,
             "tag_ids": [
@@ -16356,7 +16404,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 46780,
-            "id": 278968805,
+            "id": 278968807,
             "late_cancellation": "early",
             "starttime": 43180,
             "tag_ids": [
@@ -16380,7 +16428,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 50380,
-            "id": 278968806,
+            "id": 278968808,
             "late_cancellation": "early",
             "starttime": 46780,
             "tag_ids": [
@@ -16404,7 +16452,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 53980,
-            "id": 278968807,
+            "id": 278968809,
             "late_cancellation": "early",
             "starttime": 50380,
             "tag_ids": [
@@ -16428,7 +16476,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 57580,
-            "id": 278968808,
+            "id": 278968810,
             "late_cancellation": "early",
             "starttime": 53980,
             "tag_ids": [
@@ -16452,7 +16500,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 61180,
-            "id": 278968809,
+            "id": 278968811,
             "late_cancellation": "early",
             "starttime": 57580,
             "tag_ids": [
@@ -16476,7 +16524,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 64780,
-            "id": 278968810,
+            "id": 278968812,
             "late_cancellation": "early",
             "starttime": 61180,
             "tag_ids": [
@@ -16500,7 +16548,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 68380,
-            "id": 278968811,
+            "id": 278968813,
             "late_cancellation": "early",
             "starttime": 64780,
             "tag_ids": [
@@ -16524,7 +16572,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 71980,
-            "id": 278968812,
+            "id": 278968814,
             "late_cancellation": "early",
             "starttime": 68380,
             "tag_ids": [
@@ -16547,10 +16595,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 75580,
-            "id": 278968813,
+            "endtime": 111580,
+            "id": 278967123,
             "late_cancellation": "early",
-            "starttime": 71980,
+            "starttime": 107980,
             "tag_ids": [
               "gym",
               "activity",
@@ -16571,10 +16619,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 79180,
-            "id": 278968814,
+            "endtime": 115180,
+            "id": 278967124,
             "late_cancellation": "early",
-            "starttime": 75580,
+            "starttime": 111580,
             "tag_ids": [
               "gym",
               "activity",
@@ -16596,7 +16644,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 118780,
-            "id": 278967123,
+            "id": 278967125,
             "late_cancellation": "early",
             "starttime": 115180,
             "tag_ids": [
@@ -16619,10 +16667,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 122380,
-            "id": 278967124,
+            "endtime": 133180,
+            "id": 278967126,
             "late_cancellation": "early",
-            "starttime": 118780,
+            "starttime": 129580,
             "tag_ids": [
               "gym",
               "activity",
@@ -16643,10 +16691,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 125980,
-            "id": 278967125,
+            "endtime": 136780,
+            "id": 278967127,
             "late_cancellation": "early",
-            "starttime": 122380,
+            "starttime": 133180,
             "tag_ids": [
               "gym",
               "activity",
@@ -16668,7 +16716,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 140380,
-            "id": 278967126,
+            "id": 278967128,
             "late_cancellation": "early",
             "starttime": 136780,
             "tag_ids": [
@@ -16692,7 +16740,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 143980,
-            "id": 278967127,
+            "id": 278967129,
             "late_cancellation": "early",
             "starttime": 140380,
             "tag_ids": [
@@ -16716,7 +16764,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 147580,
-            "id": 278967128,
+            "id": 278967130,
             "late_cancellation": "early",
             "starttime": 143980,
             "tag_ids": [
@@ -16740,7 +16788,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 151180,
-            "id": 278967129,
+            "id": 278967131,
             "late_cancellation": "early",
             "starttime": 147580,
             "tag_ids": [
@@ -16764,7 +16812,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 154780,
-            "id": 278967130,
+            "id": 278967132,
             "late_cancellation": "early",
             "starttime": 151180,
             "tag_ids": [
@@ -16788,7 +16836,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 158380,
-            "id": 278967131,
+            "id": 278967133,
             "late_cancellation": "early",
             "starttime": 154780,
             "tag_ids": [
@@ -16812,7 +16860,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 161980,
-            "id": 278967132,
+            "id": 278967134,
             "late_cancellation": "early",
             "starttime": 158380,
             "tag_ids": [
@@ -16836,7 +16884,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 165580,
-            "id": 278967133,
+            "id": 278967135,
             "late_cancellation": "early",
             "starttime": 161980,
             "tag_ids": [
@@ -16859,10 +16907,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 169180,
-            "id": 278967134,
+            "endtime": 197980,
+            "id": 278967136,
             "late_cancellation": "early",
-            "starttime": 165580,
+            "starttime": 194380,
             "tag_ids": [
               "gym",
               "activity",
@@ -16883,10 +16931,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 172780,
-            "id": 278967135,
+            "endtime": 201580,
+            "id": 278967137,
             "late_cancellation": "early",
-            "starttime": 169180,
+            "starttime": 197980,
             "tag_ids": [
               "gym",
               "activity",
@@ -16908,7 +16956,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 205180,
-            "id": 278967136,
+            "id": 278967138,
             "late_cancellation": "early",
             "starttime": 201580,
             "tag_ids": [
@@ -16931,10 +16979,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 208780,
-            "id": 278967137,
+            "endtime": 219580,
+            "id": 278967139,
             "late_cancellation": "early",
-            "starttime": 205180,
+            "starttime": 215980,
             "tag_ids": [
               "gym",
               "activity",
@@ -16955,10 +17003,10 @@ export default [
             "class": {
               "name": "Gym Time"
             },
-            "endtime": 212380,
-            "id": 278967138,
+            "endtime": 223180,
+            "id": 278967140,
             "late_cancellation": "early",
-            "starttime": 208780,
+            "starttime": 219580,
             "tag_ids": [
               "gym",
               "activity",
@@ -16980,7 +17028,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 226780,
-            "id": 278967139,
+            "id": 278967141,
             "late_cancellation": "early",
             "starttime": 223180,
             "tag_ids": [
@@ -17004,7 +17052,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 230380,
-            "id": 278967140,
+            "id": 278967142,
             "late_cancellation": "early",
             "starttime": 226780,
             "tag_ids": [
@@ -17028,7 +17076,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 233980,
-            "id": 278967141,
+            "id": 278967143,
             "late_cancellation": "early",
             "starttime": 230380,
             "tag_ids": [
@@ -17052,7 +17100,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 237580,
-            "id": 278967142,
+            "id": 278967144,
             "late_cancellation": "early",
             "starttime": 233980,
             "tag_ids": [
@@ -17076,7 +17124,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 241180,
-            "id": 278967143,
+            "id": 278967145,
             "late_cancellation": "early",
             "starttime": 237580,
             "tag_ids": [
@@ -17100,7 +17148,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 244780,
-            "id": 278967144,
+            "id": 278967146,
             "late_cancellation": "early",
             "starttime": 241180,
             "tag_ids": [
@@ -17124,7 +17172,7 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 248380,
-            "id": 278967145,
+            "id": 278967147,
             "late_cancellation": "early",
             "starttime": 244780,
             "tag_ids": [
@@ -17148,57 +17196,9 @@ export default [
               "name": "Gym Time"
             },
             "endtime": 251980,
-            "id": 278967146,
-            "late_cancellation": "early",
-            "starttime": 248380,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 255580,
-            "id": 278967147,
-            "late_cancellation": "early",
-            "starttime": 251980,
-            "tag_ids": [
-              "gym",
-              "activity",
-              "gym-access",
-              "activity-588"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Gym Time"
-            },
-            "endtime": 259180,
             "id": 278967148,
             "late_cancellation": "early",
-            "starttime": 255580,
+            "starttime": 248380,
             "tag_ids": [
               "gym",
               "activity",
@@ -17230,10 +17230,10 @@ export default [
             "class": {
               "name": "Sunny-Side Up Yoga"
             },
-            "endtime": 295180,
+            "endtime": 287980,
             "id": 274316275,
             "late_cancellation": "early",
-            "starttime": 291580,
+            "starttime": 284380,
             "tag_ids": [
               "1034",
               "1042",
@@ -17264,10 +17264,10 @@ export default [
             "class": {
               "name": "Sunny-Side Up Yoga"
             },
-            "endtime": 467980,
+            "endtime": 460780,
             "id": 274316276,
             "late_cancellation": "early",
-            "starttime": 464380,
+            "starttime": 457180,
             "tag_ids": [
               "1034",
               "1042",
@@ -17309,10 +17309,10 @@ export default [
             "class": {
               "name": "Zumba​"
             },
-            "endtime": 298180,
+            "endtime": 290980,
             "id": 283870306,
             "late_cancellation": "early",
-            "starttime": 295180,
+            "starttime": 287980,
             "tag_ids": [
               "210",
               "activity",
@@ -17336,10 +17336,10 @@ export default [
             "class": {
               "name": "Zumba​"
             },
-            "endtime": 564280,
+            "endtime": 557080,
             "id": 283519272,
             "late_cancellation": "early",
-            "starttime": 560680,
+            "starttime": 553480,
             "tag_ids": [
               "210",
               "activity",
@@ -17370,10 +17370,10 @@ export default [
             "class": {
               "name": "bbareless"
             },
-            "endtime": 313180,
+            "endtime": 305980,
             "id": 274316315,
             "late_cancellation": "early",
-            "starttime": 309880,
+            "starttime": 302680,
             "tag_ids": [
               "activity"
             ],
@@ -17406,10 +17406,10 @@ export default [
             "class": {
               "name": "T'ai Chi Chih (TCC)"
             },
-            "endtime": 323980,
+            "endtime": 316780,
             "id": 274316365,
             "late_cancellation": "early",
-            "starttime": 320380,
+            "starttime": 313180,
             "tag_ids": [
               "activity"
             ],
@@ -17442,10 +17442,10 @@ export default [
             "class": {
               "name": "BODYCOMBAT"
             },
-            "endtime": 332680,
+            "endtime": 325480,
             "id": 274316395,
             "late_cancellation": "early",
-            "starttime": 329380,
+            "starttime": 322180,
             "tag_ids": [
               "1034",
               "1056",
@@ -17470,10 +17470,10 @@ export default [
             "class": {
               "name": "BODYCOMBAT"
             },
-            "endtime": 564280,
+            "endtime": 557080,
             "id": 275048424,
             "late_cancellation": "early",
-            "starttime": 560680,
+            "starttime": 553480,
             "tag_ids": [
               "1034",
               "1056",
@@ -17509,10 +17509,10 @@ export default [
             "class": {
               "name": "Form and Flow Yoga"
             },
-            "endtime": 335080,
+            "endtime": 327880,
             "id": 274316440,
             "late_cancellation": "early",
-            "starttime": 330580,
+            "starttime": 323380,
             "tag_ids": [
               "1034",
               "1042",
@@ -17554,10 +17554,10 @@ export default [
             "class": {
               "name": "CXWORX"
             },
-            "endtime": 333880,
+            "endtime": 326680,
             "id": 274316556,
             "late_cancellation": "early",
-            "starttime": 332080,
+            "starttime": 324880,
             "tag_ids": [
               "activity"
             ],
@@ -17579,10 +17579,10 @@ export default [
             "class": {
               "name": "CXWORX"
             },
-            "endtime": 560680,
+            "endtime": 553480,
             "id": 275048013,
             "late_cancellation": "early",
-            "starttime": 558880,
+            "starttime": 551680,
             "tag_ids": [
               "activity"
             ],
@@ -17615,10 +17615,10 @@ export default [
             "class": {
               "name": "RPM, (Cycling)"
             },
-            "endtime": 377080,
+            "endtime": 369880,
             "id": 274316587,
             "late_cancellation": "early",
-            "starttime": 374380,
+            "starttime": 367180,
             "tag_ids": [
               "1034",
               "1036",
@@ -17648,10 +17648,10 @@ export default [
             "class": {
               "name": "RPM, (Cycling)"
             },
-            "endtime": 557980,
+            "endtime": 550780,
             "id": 275046775,
             "late_cancellation": "early",
-            "starttime": 554980,
+            "starttime": 547780,
             "tag_ids": [
               "1034",
               "1036",
@@ -17681,10 +17681,10 @@ export default [
             "class": {
               "name": "RPM, (Cycling)"
             },
-            "endtime": 159280,
+            "endtime": 152080,
             "id": 282864705,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "1034",
               "1036",
@@ -17725,10 +17725,10 @@ export default [
             "class": {
               "name": "Extra Gentle Yoga"
             },
-            "endtime": 410380,
+            "endtime": 403180,
             "id": 274189427,
             "late_cancellation": "early",
-            "starttime": 406780,
+            "starttime": 399580,
             "tag_ids": [
               "1034",
               "1042",
@@ -17759,10 +17759,10 @@ export default [
             "class": {
               "name": "Extra Gentle Yoga"
             },
-            "endtime": 237580,
+            "endtime": 230380,
             "id": 274189428,
             "late_cancellation": "early",
-            "starttime": 233980,
+            "starttime": 226780,
             "tag_ids": [
               "1034",
               "1042",
@@ -17804,10 +17804,10 @@ export default [
             "class": {
               "name": "BODYPUMP EXPRESS"
             },
-            "endtime": 418480,
+            "endtime": 411280,
             "id": 274316642,
             "late_cancellation": "early",
-            "starttime": 415780,
+            "starttime": 408580,
             "tag_ids": [
               "activity"
             ],
@@ -17829,10 +17829,10 @@ export default [
             "class": {
               "name": "BODYPUMP EXPRESS"
             },
-            "endtime": 241180,
+            "endtime": 233980,
             "id": 274189484,
             "late_cancellation": "early",
-            "starttime": 239380,
+            "starttime": 232180,
             "tag_ids": [
               "activity"
             ],
@@ -17865,10 +17865,10 @@ export default [
             "class": {
               "name": "Kundalini Yoga"
             },
-            "endtime": 421180,
+            "endtime": 413980,
             "id": 274316672,
             "late_cancellation": "early",
-            "starttime": 416680,
+            "starttime": 409480,
             "tag_ids": [
               "176",
               "activity",
@@ -17892,10 +17892,10 @@ export default [
             "class": {
               "name": "Kundalini Yoga"
             },
-            "endtime": 48580,
+            "endtime": 41380,
             "id": 275049785,
             "late_cancellation": "early",
-            "starttime": 43180,
+            "starttime": 35980,
             "tag_ids": [
               "176",
               "activity",
@@ -17930,10 +17930,10 @@ export default [
             "class": {
               "name": "BODYCOMBAT EXPRESS"
             },
-            "endtime": 421180,
+            "endtime": 413980,
             "id": 274316700,
             "late_cancellation": "early",
-            "starttime": 418480,
+            "starttime": 411280,
             "tag_ids": [
               "activity"
             ],
@@ -17955,10 +17955,10 @@ export default [
             "class": {
               "name": "BODYCOMBAT EXPRESS"
             },
-            "endtime": 242980,
+            "endtime": 235780,
             "id": 274189529,
             "late_cancellation": "early",
-            "starttime": 241180,
+            "starttime": 233980,
             "tag_ids": [
               "activity"
             ],
@@ -17991,10 +17991,10 @@ export default [
             "class": {
               "name": "HIIT/CXWORX"
             },
-            "endtime": 464380,
+            "endtime": 457180,
             "id": 274817720,
             "late_cancellation": "early",
-            "starttime": 460780,
+            "starttime": 453580,
             "tag_ids": [
               "142",
               "activity",
@@ -18029,10 +18029,10 @@ export default [
             "class": {
               "name": "Aqua Boot Camp"
             },
-            "endtime": 464380,
+            "endtime": 457180,
             "id": 275054024,
             "late_cancellation": "early",
-            "starttime": 461680,
+            "starttime": 454480,
             "tag_ids": [
               "activity"
             ],
@@ -18054,10 +18054,10 @@ export default [
             "class": {
               "name": "Aqua Boot Camp"
             },
-            "endtime": 118780,
+            "endtime": 111580,
             "id": 274185251,
             "late_cancellation": "early",
-            "starttime": 116080,
+            "starttime": 108880,
             "tag_ids": [
               "activity"
             ],
@@ -18090,10 +18090,10 @@ export default [
             "class": {
               "name": "R.I.P.P.E.D."
             },
-            "endtime": 485680,
+            "endtime": 478480,
             "id": 274537902,
             "late_cancellation": "early",
-            "starttime": 482680,
+            "starttime": 475480,
             "tag_ids": [
               "1034",
               "1043",
@@ -18130,10 +18130,10 @@ export default [
             "class": {
               "name": "All Around Yoga"
             },
-            "endtime": 561580,
+            "endtime": 554380,
             "id": 275046908,
             "late_cancellation": "early",
-            "starttime": 557080,
+            "starttime": 549880,
             "tag_ids": [
               "1034",
               "1042",
@@ -18164,10 +18164,10 @@ export default [
             "class": {
               "name": "All Around Yoga"
             },
-            "endtime": 569680,
+            "endtime": 562480,
             "id": 275049341,
             "late_cancellation": "early",
-            "starttime": 565180,
+            "starttime": 557980,
             "tag_ids": [
               "1034",
               "1042",
@@ -18198,10 +18198,10 @@ export default [
             "class": {
               "name": "All Around Yoga"
             },
-            "endtime": 161080,
+            "endtime": 153880,
             "id": 274189953,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "1034",
               "1042",
@@ -18243,10 +18243,10 @@ export default [
             "class": {
               "name": "Aqua Turbo"
             },
-            "endtime": 560980,
+            "endtime": 553780,
             "id": 275048011,
             "late_cancellation": "early",
-            "starttime": 557980,
+            "starttime": 550780,
             "tag_ids": [
               "activity"
             ],
@@ -18268,10 +18268,10 @@ export default [
             "class": {
               "name": "Aqua Turbo"
             },
-            "endtime": 161380,
+            "endtime": 154180,
             "id": 275868663,
             "late_cancellation": "early",
-            "starttime": 158380,
+            "starttime": 151180,
             "tag_ids": [
               "activity"
             ],
@@ -18300,10 +18300,10 @@ export default [
             "class": {
               "name": "Gentle Yoga"
             },
-            "endtime": 54880,
+            "endtime": 47680,
             "id": 275049984,
             "late_cancellation": "early",
-            "starttime": 50380,
+            "starttime": 43180,
             "tag_ids": [
               "1034",
               "1042",
@@ -18345,10 +18345,10 @@ export default [
             "class": {
               "name": "Oula"
             },
-            "endtime": 60580,
+            "endtime": 53380,
             "id": 275050162,
             "late_cancellation": "early",
-            "starttime": 57580,
+            "starttime": 50380,
             "tag_ids": [
               "activity"
             ],
@@ -18381,10 +18381,10 @@ export default [
             "class": {
               "name": "Dance Fusion"
             },
-            "endtime": 159580,
+            "endtime": 152380,
             "id": 274189928,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "activity",
               "activity-100"
@@ -18418,10 +18418,10 @@ export default [
             "class": {
               "name": "RPM/CXWORX"
             },
-            "endtime": 205180,
+            "endtime": 197980,
             "id": 274189153,
             "late_cancellation": "early",
-            "starttime": 201580,
+            "starttime": 194380,
             "tag_ids": [
               "activity"
             ],
@@ -18454,10 +18454,10 @@ export default [
             "class": {
               "name": "Heated Fusion Yoga"
             },
-            "endtime": 248380,
+            "endtime": 241180,
             "id": 274189704,
             "late_cancellation": "early",
-            "starttime": 243880,
+            "starttime": 236680,
             "tag_ids": [
               "1034",
               "1042",
@@ -18523,8 +18523,62 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 305080,
+            "endtime": 297880,
             "id": 271828418,
+            "late_cancellation": "early",
+            "starttime": 296980,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 301480,
+            "id": 271828419,
+            "late_cancellation": "early",
+            "starttime": 300580,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 305080,
+            "id": 271828420,
             "late_cancellation": "early",
             "starttime": 304180,
             "tag_ids": [
@@ -18551,7 +18605,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 308680,
-            "id": 271828419,
+            "id": 271828421,
             "late_cancellation": "early",
             "starttime": 307780,
             "tag_ids": [
@@ -18578,7 +18632,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 312280,
-            "id": 271828420,
+            "id": 271828422,
             "late_cancellation": "early",
             "starttime": 311380,
             "tag_ids": [
@@ -18605,7 +18659,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 315880,
-            "id": 271828421,
+            "id": 271828423,
             "late_cancellation": "early",
             "starttime": 314980,
             "tag_ids": [
@@ -18621,18 +18675,17 @@ export default [
           },
           {
             "availability": {
-              "credits": 9,
               "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
+              "credits_type": "PREMIUM",
+              "label": "premium",
+              "reason": "out_of_spots",
+              "status": "unavailable"
             },
             "class": {
               "name": "Facial Waxing"
             },
             "endtime": 319480,
-            "id": 271828422,
+            "id": 271828424,
             "late_cancellation": "early",
             "starttime": 318580,
             "tag_ids": [
@@ -18659,7 +18712,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 323080,
-            "id": 271828423,
+            "id": 271828425,
             "late_cancellation": "early",
             "starttime": 322180,
             "tag_ids": [
@@ -18675,17 +18728,18 @@ export default [
           },
           {
             "availability": {
+              "credits": 9,
               "credits_reasons": [],
-              "credits_type": "PREMIUM",
-              "label": "premium",
-              "reason": "out_of_spots",
-              "status": "unavailable"
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
             },
             "class": {
               "name": "Facial Waxing"
             },
             "endtime": 326680,
-            "id": 271828424,
+            "id": 271828426,
             "late_cancellation": "early",
             "starttime": 325780,
             "tag_ids": [
@@ -18712,7 +18766,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 330280,
-            "id": 271828425,
+            "id": 271828427,
             "late_cancellation": "early",
             "starttime": 329380,
             "tag_ids": [
@@ -18739,7 +18793,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 333880,
-            "id": 271828426,
+            "id": 271828428,
             "late_cancellation": "early",
             "starttime": 332980,
             "tag_ids": [
@@ -18765,64 +18819,64 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 337480,
-            "id": 271828427,
-            "late_cancellation": "early",
-            "starttime": 336580,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 341080,
-            "id": 271828428,
-            "late_cancellation": "early",
-            "starttime": 340180,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 391480,
+            "endtime": 384280,
             "id": 271828429,
             "late_cancellation": "early",
-            "starttime": 390580,
+            "starttime": 383380,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 395080,
+            "id": 271828430,
+            "late_cancellation": "early",
+            "starttime": 394180,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 398680,
+            "id": 272562654,
+            "late_cancellation": "early",
+            "starttime": 397780,
             "tag_ids": [
               "976",
               "1034",
@@ -18847,7 +18901,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 402280,
-            "id": 271828430,
+            "id": 272562655,
             "late_cancellation": "early",
             "starttime": 401380,
             "tag_ids": [
@@ -18874,7 +18928,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 405880,
-            "id": 272562654,
+            "id": 272562656,
             "late_cancellation": "early",
             "starttime": 404980,
             "tag_ids": [
@@ -18901,7 +18955,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 409480,
-            "id": 272562655,
+            "id": 272572019,
             "late_cancellation": "early",
             "starttime": 408580,
             "tag_ids": [
@@ -18928,7 +18982,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 413080,
-            "id": 272562656,
+            "id": 272572020,
             "late_cancellation": "early",
             "starttime": 412180,
             "tag_ids": [
@@ -18955,7 +19009,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 416680,
-            "id": 272572019,
+            "id": 272572021,
             "late_cancellation": "early",
             "starttime": 415780,
             "tag_ids": [
@@ -18982,7 +19036,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 420280,
-            "id": 272572020,
+            "id": 272572022,
             "late_cancellation": "early",
             "starttime": 419380,
             "tag_ids": [
@@ -19008,64 +19062,64 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 423880,
-            "id": 272572021,
-            "late_cancellation": "early",
-            "starttime": 422980,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 427480,
-            "id": 272572022,
-            "late_cancellation": "early",
-            "starttime": 426580,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 477880,
+            "endtime": 470680,
             "id": 271828431,
             "late_cancellation": "early",
-            "starttime": 476980,
+            "starttime": 469780,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 481480,
+            "id": 271828432,
+            "late_cancellation": "early",
+            "starttime": 480580,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 485080,
+            "id": 272562658,
+            "late_cancellation": "early",
+            "starttime": 484180,
             "tag_ids": [
               "976",
               "1034",
@@ -19090,7 +19144,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 488680,
-            "id": 271828432,
+            "id": 272562657,
             "late_cancellation": "early",
             "starttime": 487780,
             "tag_ids": [
@@ -19117,7 +19171,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 492280,
-            "id": 272562658,
+            "id": 272562659,
             "late_cancellation": "early",
             "starttime": 491380,
             "tag_ids": [
@@ -19144,7 +19198,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 495880,
-            "id": 272562657,
+            "id": 272572023,
             "late_cancellation": "early",
             "starttime": 494980,
             "tag_ids": [
@@ -19171,7 +19225,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 499480,
-            "id": 272562659,
+            "id": 272572024,
             "late_cancellation": "early",
             "starttime": 498580,
             "tag_ids": [
@@ -19198,7 +19252,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 503080,
-            "id": 272572023,
+            "id": 272572025,
             "late_cancellation": "early",
             "starttime": 502180,
             "tag_ids": [
@@ -19225,63 +19279,9 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 506680,
-            "id": 272572024,
-            "late_cancellation": "early",
-            "starttime": 505780,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 510280,
-            "id": 272572025,
-            "late_cancellation": "early",
-            "starttime": 509380,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 513880,
             "id": 272572026,
             "late_cancellation": "early",
-            "starttime": 512980,
+            "starttime": 505780,
             "tag_ids": [
               "976",
               "1034",
@@ -19304,10 +19304,64 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 564280,
+            "endtime": 557080,
             "id": 271828433,
             "late_cancellation": "early",
-            "starttime": 563380,
+            "starttime": 556180,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 567880,
+            "id": 271828434,
+            "late_cancellation": "early",
+            "starttime": 566980,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 571480,
+            "id": 272562660,
+            "late_cancellation": "early",
+            "starttime": 570580,
             "tag_ids": [
               "976",
               "1034",
@@ -19332,7 +19386,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 575080,
-            "id": 271828434,
+            "id": 272562661,
             "late_cancellation": "early",
             "starttime": 574180,
             "tag_ids": [
@@ -19359,7 +19413,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 578680,
-            "id": 272562660,
+            "id": 272562662,
             "late_cancellation": "early",
             "starttime": 577780,
             "tag_ids": [
@@ -19386,7 +19440,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 582280,
-            "id": 272562661,
+            "id": 272572027,
             "late_cancellation": "early",
             "starttime": 581380,
             "tag_ids": [
@@ -19413,7 +19467,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 585880,
-            "id": 272562662,
+            "id": 272572028,
             "late_cancellation": "early",
             "starttime": 584980,
             "tag_ids": [
@@ -19440,7 +19494,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 589480,
-            "id": 272572027,
+            "id": 272572029,
             "late_cancellation": "early",
             "starttime": 588580,
             "tag_ids": [
@@ -19467,7 +19521,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 593080,
-            "id": 272572028,
+            "id": 272572030,
             "late_cancellation": "early",
             "starttime": 592180,
             "tag_ids": [
@@ -19493,10 +19547,10 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 596680,
-            "id": 272572029,
+            "endtime": 45880,
+            "id": 271829254,
             "late_cancellation": "early",
-            "starttime": 595780,
+            "starttime": 44980,
             "tag_ids": [
               "976",
               "1034",
@@ -19520,10 +19574,10 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 600280,
-            "id": 272572030,
+            "endtime": 49480,
+            "id": 271829255,
             "late_cancellation": "early",
-            "starttime": 599380,
+            "starttime": 48580,
             "tag_ids": [
               "976",
               "1034",
@@ -19548,7 +19602,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 53080,
-            "id": 271829254,
+            "id": 271829256,
             "late_cancellation": "early",
             "starttime": 52180,
             "tag_ids": [
@@ -19575,7 +19629,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 56680,
-            "id": 271829255,
+            "id": 271829257,
             "late_cancellation": "early",
             "starttime": 55780,
             "tag_ids": [
@@ -19602,7 +19656,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 60280,
-            "id": 271829256,
+            "id": 271829258,
             "late_cancellation": "early",
             "starttime": 59380,
             "tag_ids": [
@@ -19629,7 +19683,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 63880,
-            "id": 271829257,
+            "id": 271829259,
             "late_cancellation": "early",
             "starttime": 62980,
             "tag_ids": [
@@ -19656,7 +19710,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 67480,
-            "id": 271829258,
+            "id": 272572033,
             "late_cancellation": "early",
             "starttime": 66580,
             "tag_ids": [
@@ -19683,7 +19737,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 71080,
-            "id": 271829259,
+            "id": 272572032,
             "late_cancellation": "early",
             "starttime": 70180,
             "tag_ids": [
@@ -19710,7 +19764,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 74680,
-            "id": 272572033,
+            "id": 272572034,
             "late_cancellation": "early",
             "starttime": 73780,
             "tag_ids": [
@@ -19736,64 +19790,64 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 78280,
-            "id": 272572032,
-            "late_cancellation": "early",
-            "starttime": 77380,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 81880,
-            "id": 272572034,
-            "late_cancellation": "early",
-            "starttime": 80980,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 132280,
+            "endtime": 125080,
             "id": 271828435,
             "late_cancellation": "early",
-            "starttime": 131380,
+            "starttime": 124180,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 135880,
+            "id": 271828436,
+            "late_cancellation": "early",
+            "starttime": 134980,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 139480,
+            "id": 272562666,
+            "late_cancellation": "early",
+            "starttime": 138580,
             "tag_ids": [
               "976",
               "1034",
@@ -19818,7 +19872,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 143080,
-            "id": 271828436,
+            "id": 272562667,
             "late_cancellation": "early",
             "starttime": 142180,
             "tag_ids": [
@@ -19845,7 +19899,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 146680,
-            "id": 272562666,
+            "id": 272562668,
             "late_cancellation": "early",
             "starttime": 145780,
             "tag_ids": [
@@ -19872,7 +19926,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 150280,
-            "id": 272562667,
+            "id": 272572035,
             "late_cancellation": "early",
             "starttime": 149380,
             "tag_ids": [
@@ -19899,7 +19953,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 153880,
-            "id": 272562668,
+            "id": 272572036,
             "late_cancellation": "early",
             "starttime": 152980,
             "tag_ids": [
@@ -19926,7 +19980,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 157480,
-            "id": 272572035,
+            "id": 272572037,
             "late_cancellation": "early",
             "starttime": 156580,
             "tag_ids": [
@@ -19953,7 +20007,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 161080,
-            "id": 272572036,
+            "id": 272572038,
             "late_cancellation": "early",
             "starttime": 160180,
             "tag_ids": [
@@ -19979,64 +20033,64 @@ export default [
             "class": {
               "name": "Facial Waxing"
             },
-            "endtime": 164680,
-            "id": 272572037,
-            "late_cancellation": "early",
-            "starttime": 163780,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 168280,
-            "id": 272572038,
-            "late_cancellation": "early",
-            "starttime": 167380,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 218680,
+            "endtime": 211480,
             "id": 271828437,
             "late_cancellation": "early",
-            "starttime": 217780,
+            "starttime": 210580,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 222280,
+            "id": 271828438,
+            "late_cancellation": "early",
+            "starttime": 221380,
+            "tag_ids": [
+              "976",
+              "1034",
+              "1038",
+              "1143",
+              "1147",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Facial Waxing"
+            },
+            "endtime": 225880,
+            "id": 272562669,
+            "late_cancellation": "early",
+            "starttime": 224980,
             "tag_ids": [
               "976",
               "1034",
@@ -20061,7 +20115,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 229480,
-            "id": 271828438,
+            "id": 272562670,
             "late_cancellation": "early",
             "starttime": 228580,
             "tag_ids": [
@@ -20088,7 +20142,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 233080,
-            "id": 272562669,
+            "id": 272562671,
             "late_cancellation": "early",
             "starttime": 232180,
             "tag_ids": [
@@ -20115,7 +20169,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 236680,
-            "id": 272562670,
+            "id": 272572039,
             "late_cancellation": "early",
             "starttime": 235780,
             "tag_ids": [
@@ -20142,7 +20196,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 240280,
-            "id": 272562671,
+            "id": 272572040,
             "late_cancellation": "early",
             "starttime": 239380,
             "tag_ids": [
@@ -20169,7 +20223,7 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 243880,
-            "id": 272572039,
+            "id": 272572041,
             "late_cancellation": "early",
             "starttime": 242980,
             "tag_ids": [
@@ -20196,63 +20250,9 @@ export default [
               "name": "Facial Waxing"
             },
             "endtime": 247480,
-            "id": 272572040,
-            "late_cancellation": "early",
-            "starttime": 246580,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 251080,
-            "id": 272572041,
-            "late_cancellation": "early",
-            "starttime": 250180,
-            "tag_ids": [
-              "976",
-              "1034",
-              "1038",
-              "1143",
-              "1147",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Facial Waxing"
-            },
-            "endtime": 254680,
             "id": 272572042,
             "late_cancellation": "early",
-            "starttime": 253780,
+            "starttime": 246580,
             "tag_ids": [
               "976",
               "1034",
@@ -20286,8 +20286,54 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 307780,
+            "endtime": 300580,
             "id": 277060665,
+            "late_cancellation": "early",
+            "starttime": 298780,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Hair Cut"
+            },
+            "endtime": 304180,
+            "id": 277060666,
+            "late_cancellation": "early",
+            "starttime": 302380,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Hair Cut"
+            },
+            "endtime": 307780,
+            "id": 277060667,
             "late_cancellation": "early",
             "starttime": 305980,
             "tag_ids": [
@@ -20310,7 +20356,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 311380,
-            "id": 277060666,
+            "id": 277061073,
             "late_cancellation": "early",
             "starttime": 309580,
             "tag_ids": [
@@ -20333,7 +20379,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 314980,
-            "id": 277060667,
+            "id": 277061495,
             "late_cancellation": "early",
             "starttime": 313180,
             "tag_ids": [
@@ -20356,7 +20402,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 318580,
-            "id": 277061073,
+            "id": 277061496,
             "late_cancellation": "early",
             "starttime": 316780,
             "tag_ids": [
@@ -20379,7 +20425,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 322180,
-            "id": 277061495,
+            "id": 277061498,
             "late_cancellation": "early",
             "starttime": 320380,
             "tag_ids": [
@@ -20402,7 +20448,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 325780,
-            "id": 277061496,
+            "id": 277061497,
             "late_cancellation": "early",
             "starttime": 323980,
             "tag_ids": [
@@ -20425,7 +20471,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 329380,
-            "id": 277061498,
+            "id": 277061788,
             "late_cancellation": "early",
             "starttime": 327580,
             "tag_ids": [
@@ -20448,7 +20494,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 332980,
-            "id": 277061497,
+            "id": 277061789,
             "late_cancellation": "early",
             "starttime": 331180,
             "tag_ids": [
@@ -20470,10 +20516,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 336580,
-            "id": 277061788,
+            "endtime": 386980,
+            "id": 277060668,
             "late_cancellation": "early",
-            "starttime": 334780,
+            "starttime": 385180,
             "tag_ids": [
               "1143",
               "1161",
@@ -20493,10 +20539,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 340180,
-            "id": 277061789,
+            "endtime": 390580,
+            "id": 277060669,
             "late_cancellation": "early",
-            "starttime": 338380,
+            "starttime": 388780,
             "tag_ids": [
               "1143",
               "1161",
@@ -20517,7 +20563,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 394180,
-            "id": 277060668,
+            "id": 277060670,
             "late_cancellation": "early",
             "starttime": 392380,
             "tag_ids": [
@@ -20540,7 +20586,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 397780,
-            "id": 277060669,
+            "id": 277061077,
             "late_cancellation": "early",
             "starttime": 395980,
             "tag_ids": [
@@ -20563,7 +20609,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 401380,
-            "id": 277060670,
+            "id": 277061499,
             "late_cancellation": "early",
             "starttime": 399580,
             "tag_ids": [
@@ -20586,7 +20632,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 404980,
-            "id": 277061077,
+            "id": 277061500,
             "late_cancellation": "early",
             "starttime": 403180,
             "tag_ids": [
@@ -20609,7 +20655,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 408580,
-            "id": 277061499,
+            "id": 277061501,
             "late_cancellation": "early",
             "starttime": 406780,
             "tag_ids": [
@@ -20632,7 +20678,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 412180,
-            "id": 277061500,
+            "id": 277061502,
             "late_cancellation": "early",
             "starttime": 410380,
             "tag_ids": [
@@ -20655,7 +20701,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 415780,
-            "id": 277061501,
+            "id": 277061790,
             "late_cancellation": "early",
             "starttime": 413980,
             "tag_ids": [
@@ -20678,7 +20724,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 419380,
-            "id": 277061502,
+            "id": 277061791,
             "late_cancellation": "early",
             "starttime": 417580,
             "tag_ids": [
@@ -20700,10 +20746,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 422980,
-            "id": 277061790,
+            "endtime": 473380,
+            "id": 277060671,
             "late_cancellation": "early",
-            "starttime": 421180,
+            "starttime": 471580,
             "tag_ids": [
               "1143",
               "1161",
@@ -20723,10 +20769,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 426580,
-            "id": 277061791,
+            "endtime": 476980,
+            "id": 277060672,
             "late_cancellation": "early",
-            "starttime": 424780,
+            "starttime": 475180,
             "tag_ids": [
               "1143",
               "1161",
@@ -20747,7 +20793,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 480580,
-            "id": 277060671,
+            "id": 277060673,
             "late_cancellation": "early",
             "starttime": 478780,
             "tag_ids": [
@@ -20770,7 +20816,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 484180,
-            "id": 277060672,
+            "id": 277061081,
             "late_cancellation": "early",
             "starttime": 482380,
             "tag_ids": [
@@ -20793,7 +20839,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 487780,
-            "id": 277060673,
+            "id": 277061503,
             "late_cancellation": "early",
             "starttime": 485980,
             "tag_ids": [
@@ -20816,7 +20862,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 491380,
-            "id": 277061081,
+            "id": 277061504,
             "late_cancellation": "early",
             "starttime": 489580,
             "tag_ids": [
@@ -20839,7 +20885,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 494980,
-            "id": 277061503,
+            "id": 277061505,
             "late_cancellation": "early",
             "starttime": 493180,
             "tag_ids": [
@@ -20862,7 +20908,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 498580,
-            "id": 277061504,
+            "id": 277061507,
             "late_cancellation": "early",
             "starttime": 496780,
             "tag_ids": [
@@ -20885,7 +20931,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 502180,
-            "id": 277061505,
+            "id": 277061792,
             "late_cancellation": "early",
             "starttime": 500380,
             "tag_ids": [
@@ -20908,7 +20954,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 505780,
-            "id": 277061507,
+            "id": 277061793,
             "late_cancellation": "early",
             "starttime": 503980,
             "tag_ids": [
@@ -20930,10 +20976,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 509380,
-            "id": 277061792,
+            "endtime": 559780,
+            "id": 277060674,
             "late_cancellation": "early",
-            "starttime": 507580,
+            "starttime": 557980,
             "tag_ids": [
               "1143",
               "1161",
@@ -20953,10 +20999,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 512980,
-            "id": 277061793,
+            "endtime": 563380,
+            "id": 277060675,
             "late_cancellation": "early",
-            "starttime": 511180,
+            "starttime": 561580,
             "tag_ids": [
               "1143",
               "1161",
@@ -20977,7 +21023,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 566980,
-            "id": 277060674,
+            "id": 277060676,
             "late_cancellation": "early",
             "starttime": 565180,
             "tag_ids": [
@@ -21000,7 +21046,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 570580,
-            "id": 277060675,
+            "id": 277061085,
             "late_cancellation": "early",
             "starttime": 568780,
             "tag_ids": [
@@ -21023,7 +21069,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 574180,
-            "id": 277060676,
+            "id": 277061506,
             "late_cancellation": "early",
             "starttime": 572380,
             "tag_ids": [
@@ -21046,7 +21092,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 577780,
-            "id": 277061085,
+            "id": 277061508,
             "late_cancellation": "early",
             "starttime": 575980,
             "tag_ids": [
@@ -21069,7 +21115,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 581380,
-            "id": 277061506,
+            "id": 277061509,
             "late_cancellation": "early",
             "starttime": 579580,
             "tag_ids": [
@@ -21092,7 +21138,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 584980,
-            "id": 277061508,
+            "id": 277061510,
             "late_cancellation": "early",
             "starttime": 583180,
             "tag_ids": [
@@ -21115,7 +21161,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 588580,
-            "id": 277061509,
+            "id": 277061794,
             "late_cancellation": "early",
             "starttime": 586780,
             "tag_ids": [
@@ -21138,7 +21184,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 592180,
-            "id": 277061510,
+            "id": 277061795,
             "late_cancellation": "early",
             "starttime": 590380,
             "tag_ids": [
@@ -21160,10 +21206,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 595780,
-            "id": 277061794,
+            "endtime": 41380,
+            "id": 277060378,
             "late_cancellation": "early",
-            "starttime": 593980,
+            "starttime": 39580,
             "tag_ids": [
               "1143",
               "1161",
@@ -21183,10 +21229,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 599380,
-            "id": 277061795,
+            "endtime": 44980,
+            "id": 277060379,
             "late_cancellation": "early",
-            "starttime": 597580,
+            "starttime": 43180,
             "tag_ids": [
               "1143",
               "1161",
@@ -21207,7 +21253,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 48580,
-            "id": 277060378,
+            "id": 277060380,
             "late_cancellation": "early",
             "starttime": 46780,
             "tag_ids": [
@@ -21230,7 +21276,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 52180,
-            "id": 277060379,
+            "id": 277060381,
             "late_cancellation": "early",
             "starttime": 50380,
             "tag_ids": [
@@ -21253,7 +21299,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 55780,
-            "id": 277060380,
+            "id": 277060382,
             "late_cancellation": "early",
             "starttime": 53980,
             "tag_ids": [
@@ -21276,7 +21322,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 59380,
-            "id": 277060381,
+            "id": 277060383,
             "late_cancellation": "early",
             "starttime": 57580,
             "tag_ids": [
@@ -21299,7 +21345,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 62980,
-            "id": 277060382,
+            "id": 277060384,
             "late_cancellation": "early",
             "starttime": 61180,
             "tag_ids": [
@@ -21321,10 +21367,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 66580,
-            "id": 277060383,
+            "endtime": 127780,
+            "id": 277060677,
             "late_cancellation": "early",
-            "starttime": 64780,
+            "starttime": 125980,
             "tag_ids": [
               "1143",
               "1161",
@@ -21344,10 +21390,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 70180,
-            "id": 277060384,
+            "endtime": 131380,
+            "id": 277060678,
             "late_cancellation": "early",
-            "starttime": 68380,
+            "starttime": 129580,
             "tag_ids": [
               "1143",
               "1161",
@@ -21368,7 +21414,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 134980,
-            "id": 277060677,
+            "id": 277060679,
             "late_cancellation": "early",
             "starttime": 133180,
             "tag_ids": [
@@ -21391,7 +21437,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 138580,
-            "id": 277060678,
+            "id": 277061089,
             "late_cancellation": "early",
             "starttime": 136780,
             "tag_ids": [
@@ -21414,7 +21460,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 142180,
-            "id": 277060679,
+            "id": 277061511,
             "late_cancellation": "early",
             "starttime": 140380,
             "tag_ids": [
@@ -21437,7 +21483,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 145780,
-            "id": 277061089,
+            "id": 277061512,
             "late_cancellation": "early",
             "starttime": 143980,
             "tag_ids": [
@@ -21460,7 +21506,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 149380,
-            "id": 277061511,
+            "id": 277061513,
             "late_cancellation": "early",
             "starttime": 147580,
             "tag_ids": [
@@ -21483,7 +21529,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 152980,
-            "id": 277061512,
+            "id": 277061514,
             "late_cancellation": "early",
             "starttime": 151180,
             "tag_ids": [
@@ -21506,7 +21552,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 156580,
-            "id": 277061513,
+            "id": 277061796,
             "late_cancellation": "early",
             "starttime": 154780,
             "tag_ids": [
@@ -21529,7 +21575,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 160180,
-            "id": 277061514,
+            "id": 277061797,
             "late_cancellation": "early",
             "starttime": 158380,
             "tag_ids": [
@@ -21551,10 +21597,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 163780,
-            "id": 277061796,
+            "endtime": 214180,
+            "id": 277060680,
             "late_cancellation": "early",
-            "starttime": 161980,
+            "starttime": 212380,
             "tag_ids": [
               "1143",
               "1161",
@@ -21574,10 +21620,10 @@ export default [
             "class": {
               "name": "Hair Cut"
             },
-            "endtime": 167380,
-            "id": 277061797,
+            "endtime": 217780,
+            "id": 277060681,
             "late_cancellation": "early",
-            "starttime": 165580,
+            "starttime": 215980,
             "tag_ids": [
               "1143",
               "1161",
@@ -21598,7 +21644,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 221380,
-            "id": 277060680,
+            "id": 277060682,
             "late_cancellation": "early",
             "starttime": 219580,
             "tag_ids": [
@@ -21621,7 +21667,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 224980,
-            "id": 277060681,
+            "id": 277061093,
             "late_cancellation": "early",
             "starttime": 223180,
             "tag_ids": [
@@ -21644,7 +21690,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 228580,
-            "id": 277060682,
+            "id": 277061515,
             "late_cancellation": "early",
             "starttime": 226780,
             "tag_ids": [
@@ -21667,7 +21713,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 232180,
-            "id": 277061093,
+            "id": 277061516,
             "late_cancellation": "early",
             "starttime": 230380,
             "tag_ids": [
@@ -21690,7 +21736,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 235780,
-            "id": 277061515,
+            "id": 277061517,
             "late_cancellation": "early",
             "starttime": 233980,
             "tag_ids": [
@@ -21713,7 +21759,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 239380,
-            "id": 277061516,
+            "id": 277061518,
             "late_cancellation": "early",
             "starttime": 237580,
             "tag_ids": [
@@ -21736,7 +21782,7 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 242980,
-            "id": 277061517,
+            "id": 277061798,
             "late_cancellation": "early",
             "starttime": 241180,
             "tag_ids": [
@@ -21759,55 +21805,9 @@ export default [
               "name": "Hair Cut"
             },
             "endtime": 246580,
-            "id": 277061518,
-            "late_cancellation": "early",
-            "starttime": 244780,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Hair Cut"
-            },
-            "endtime": 250180,
-            "id": 277061798,
-            "late_cancellation": "early",
-            "starttime": 248380,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Hair Cut"
-            },
-            "endtime": 253780,
             "id": 277061799,
             "late_cancellation": "early",
-            "starttime": 251980,
+            "starttime": 244780,
             "tag_ids": [
               "1143",
               "1161",
@@ -21837,10 +21837,10 @@ export default [
             "class": {
               "name": "Signature Facial"
             },
-            "endtime": 331180,
+            "endtime": 323980,
             "id": 288576071,
             "late_cancellation": "early",
-            "starttime": 327580,
+            "starttime": 320380,
             "tag_ids": [
               "1143"
             ],
@@ -21857,10 +21857,10 @@ export default [
             "class": {
               "name": "Signature Facial"
             },
-            "endtime": 336580,
+            "endtime": 329380,
             "id": 288576072,
             "late_cancellation": "early",
-            "starttime": 332980,
+            "starttime": 325780,
             "tag_ids": [
               "1143"
             ],
@@ -21877,10 +21877,10 @@ export default [
             "class": {
               "name": "Signature Facial"
             },
-            "endtime": 417580,
+            "endtime": 410380,
             "id": 288576073,
             "late_cancellation": "early",
-            "starttime": 413980,
+            "starttime": 406780,
             "tag_ids": [
               "1143"
             ],
@@ -21897,10 +21897,10 @@ export default [
             "class": {
               "name": "Signature Facial"
             },
-            "endtime": 421180,
+            "endtime": 413980,
             "id": 288576074,
             "late_cancellation": "early",
-            "starttime": 417580,
+            "starttime": 410380,
             "tag_ids": [
               "1143"
             ],
@@ -21917,10 +21917,10 @@ export default [
             "class": {
               "name": "Signature Facial"
             },
-            "endtime": 503980,
+            "endtime": 496780,
             "id": 288576075,
             "late_cancellation": "early",
-            "starttime": 500380,
+            "starttime": 493180,
             "tag_ids": [
               "1143"
             ],
@@ -21937,10 +21937,10 @@ export default [
             "class": {
               "name": "Signature Facial"
             },
-            "endtime": 507580,
+            "endtime": 500380,
             "id": 288576076,
             "late_cancellation": "early",
-            "starttime": 503980,
+            "starttime": 496780,
             "tag_ids": [
               "1143"
             ],
@@ -21993,10 +21993,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 304180,
+            "endtime": 296980,
             "id": 287889447,
             "late_cancellation": "early",
-            "starttime": 300580,
+            "starttime": 293380,
             "tag_ids": [
               "1034",
               "1036",
@@ -22026,10 +22026,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 313180,
+            "endtime": 305980,
             "id": 287889442,
             "late_cancellation": "early",
-            "starttime": 309580,
+            "starttime": 302380,
             "tag_ids": [
               "1034",
               "1036",
@@ -22059,10 +22059,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 332980,
+            "endtime": 325780,
             "id": 287889432,
             "late_cancellation": "early",
-            "starttime": 329380,
+            "starttime": 322180,
             "tag_ids": [
               "1034",
               "1036",
@@ -22092,10 +22092,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 415780,
+            "endtime": 408580,
             "id": 287987332,
             "late_cancellation": "early",
-            "starttime": 412180,
+            "starttime": 404980,
             "tag_ids": [
               "1034",
               "1036",
@@ -22125,10 +22125,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 464380,
+            "endtime": 457180,
             "id": 288126359,
             "late_cancellation": "early",
-            "starttime": 460780,
+            "starttime": 453580,
             "tag_ids": [
               "1034",
               "1036",
@@ -22158,10 +22158,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 476980,
+            "endtime": 469780,
             "id": 288126348,
             "late_cancellation": "early",
-            "starttime": 473380,
+            "starttime": 466180,
             "tag_ids": [
               "1034",
               "1036",
@@ -22191,10 +22191,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 563380,
+            "endtime": 556180,
             "id": 288280552,
             "late_cancellation": "early",
-            "starttime": 559780,
+            "starttime": 552580,
             "tag_ids": [
               "1034",
               "1036",
@@ -22224,10 +22224,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 44980,
+            "endtime": 37780,
             "id": 288357230,
             "late_cancellation": "early",
-            "starttime": 41380,
+            "starttime": 34180,
             "tag_ids": [
               "1034",
               "1036",
@@ -22257,10 +22257,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 118780,
+            "endtime": 111580,
             "id": 288441031,
             "late_cancellation": "early",
-            "starttime": 115180,
+            "starttime": 107980,
             "tag_ids": [
               "1034",
               "1036",
@@ -22290,10 +22290,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 131380,
+            "endtime": 124180,
             "id": 288441002,
             "late_cancellation": "early",
-            "starttime": 127780,
+            "starttime": 120580,
             "tag_ids": [
               "1034",
               "1036",
@@ -22323,10 +22323,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 140380,
+            "endtime": 133180,
             "id": 288441028,
             "late_cancellation": "early",
-            "starttime": 136780,
+            "starttime": 129580,
             "tag_ids": [
               "1034",
               "1036",
@@ -22356,10 +22356,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 160180,
+            "endtime": 152980,
             "id": 288441011,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "1034",
               "1036",
@@ -22389,10 +22389,10 @@ export default [
             "class": {
               "name": "OULA"
             },
-            "endtime": 246580,
+            "endtime": 239380,
             "id": 288628045,
             "late_cancellation": "early",
-            "starttime": 242980,
+            "starttime": 235780,
             "tag_ids": [
               "1034",
               "1036",
@@ -22433,10 +22433,10 @@ export default [
             "class": {
               "name": "Oula.One"
             },
-            "endtime": 390580,
+            "endtime": 383380,
             "id": 287987341,
             "late_cancellation": "early",
-            "starttime": 386980,
+            "starttime": 379780,
             "tag_ids": [
               "1034",
               "1036",
@@ -22466,10 +22466,10 @@ export default [
             "class": {
               "name": "Oula.One"
             },
-            "endtime": 217780,
+            "endtime": 210580,
             "id": 288628042,
             "late_cancellation": "early",
-            "starttime": 214180,
+            "starttime": 206980,
             "tag_ids": [
               "1034",
               "1036",
@@ -22510,10 +22510,10 @@ export default [
             "class": {
               "name": "OULA-Power"
             },
-            "endtime": 419380,
+            "endtime": 412180,
             "id": 287987335,
             "late_cancellation": "early",
-            "starttime": 415780,
+            "starttime": 408580,
             "tag_ids": [
               "1034",
               "1036",
@@ -22542,10 +22542,10 @@ export default [
             "class": {
               "name": "OULA-Power"
             },
-            "endtime": 559780,
+            "endtime": 552580,
             "id": 288280557,
             "late_cancellation": "early",
-            "starttime": 556180,
+            "starttime": 548980,
             "tag_ids": [
               "1034",
               "1036",
@@ -22574,10 +22574,10 @@ export default [
             "class": {
               "name": "OULA-Power"
             },
-            "endtime": 225880,
+            "endtime": 218680,
             "id": 288628044,
             "late_cancellation": "early",
-            "starttime": 223180,
+            "starttime": 215980,
             "tag_ids": [
               "1034",
               "1036",
@@ -22617,10 +22617,10 @@ export default [
             "class": {
               "name": "Donate to Dance"
             },
-            "endtime": 64780,
+            "endtime": 57580,
             "id": 288357229,
             "late_cancellation": "early",
-            "starttime": 61180,
+            "starttime": 53980,
             "tag_ids": [
               "activity",
               "activity-100"
@@ -22678,10 +22678,10 @@ export default [
             "class": {
               "name": "Pole Fitness (no prereqs)"
             },
-            "endtime": 332980,
+            "endtime": 325780,
             "id": 287893849,
             "late_cancellation": "early",
-            "starttime": 329380,
+            "starttime": 322180,
             "tag_ids": [
               "1034",
               "1036",
@@ -22722,10 +22722,10 @@ export default [
             "class": {
               "name": "Community Acro Jam"
             },
-            "endtime": 341980,
+            "endtime": 334780,
             "id": 287893836,
             "late_cancellation": "early",
-            "starttime": 338380,
+            "starttime": 331180,
             "tag_ids": [
               "activity"
             ],
@@ -22758,10 +22758,10 @@ export default [
             "class": {
               "name": "Pole: Heelography, Exotic (prereqs apply)"
             },
-            "endtime": 160180,
+            "endtime": 152980,
             "id": 288441759,
             "late_cancellation": "early",
-            "starttime": 156580,
+            "starttime": 149380,
             "tag_ids": [
               "activity"
             ],
@@ -22827,10 +22827,10 @@ export default [
             "class": {
               "name": "Full Set of Lashes"
             },
-            "endtime": 404980,
+            "endtime": 397780,
             "id": 289102580,
             "late_cancellation": "early",
-            "starttime": 399580,
+            "starttime": 392380,
             "tag_ids": [
               "1143",
               "activity"
@@ -22888,10 +22888,10 @@ export default [
             "class": {
               "name": "Yesterday"
             },
-            "endtime": 332739,
+            "endtime": 325539,
             "id": 288720443,
             "late_cancellation": "early",
-            "starttime": 325779,
+            "starttime": 318579,
             "tag_ids": [
               "1143"
             ],
@@ -22909,10 +22909,10 @@ export default [
             "class": {
               "name": "Yesterday"
             },
-            "endtime": 332739,
+            "endtime": 325539,
             "id": 288720460,
             "late_cancellation": "early",
-            "starttime": 325779,
+            "starttime": 318579,
             "tag_ids": [
               "1143"
             ],
@@ -22930,10 +22930,10 @@ export default [
             "class": {
               "name": "Yesterday"
             },
-            "endtime": 410139,
+            "endtime": 402939,
             "id": 288720445,
             "late_cancellation": "early",
-            "starttime": 403179,
+            "starttime": 395979,
             "tag_ids": [
               "1143"
             ],
@@ -22951,10 +22951,10 @@ export default [
             "class": {
               "name": "Yesterday"
             },
-            "endtime": 410139,
+            "endtime": 402939,
             "id": 288720461,
             "late_cancellation": "early",
-            "starttime": 403179,
+            "starttime": 395979,
             "tag_ids": [
               "1143"
             ],
@@ -22972,10 +22972,10 @@ export default [
             "class": {
               "name": "Yesterday"
             },
-            "endtime": 420939,
+            "endtime": 413739,
             "id": 288720446,
             "late_cancellation": "early",
-            "starttime": 413979,
+            "starttime": 406779,
             "tag_ids": [
               "1143"
             ],
@@ -22993,10 +22993,10 @@ export default [
             "class": {
               "name": "Yesterday"
             },
-            "endtime": 420939,
+            "endtime": 413739,
             "id": 288720462,
             "late_cancellation": "early",
-            "starttime": 413979,
+            "starttime": 406779,
             "tag_ids": [
               "1143"
             ],
@@ -23025,10 +23025,10 @@ export default [
             "class": {
               "name": "Star Wars: Episode IV A New Hope"
             },
-            "endtime": 335739,
+            "endtime": 328539,
             "id": 289563208,
             "late_cancellation": "early",
-            "starttime": 328479,
+            "starttime": 321279,
             "tag_ids": [
               "1143"
             ],
@@ -23045,10 +23045,10 @@ export default [
             "class": {
               "name": "Star Wars: Episode IV A New Hope"
             },
-            "endtime": 344739,
+            "endtime": 337539,
             "id": 289672707,
             "late_cancellation": "early",
-            "starttime": 337479,
+            "starttime": 330279,
             "tag_ids": [
               "1143"
             ],
@@ -23065,10 +23065,10 @@ export default [
             "class": {
               "name": "Star Wars: Episode IV A New Hope"
             },
-            "endtime": 411339,
+            "endtime": 404139,
             "id": 289672708,
             "late_cancellation": "early",
-            "starttime": 404079,
+            "starttime": 396879,
             "tag_ids": [
               "1143"
             ],
@@ -23097,10 +23097,10 @@ export default [
             "class": {
               "name": "The Last Black Man in San Francisco"
             },
-            "endtime": 336639,
+            "endtime": 329439,
             "id": 288718976,
             "late_cancellation": "early",
-            "starttime": 329379,
+            "starttime": 322179,
             "tag_ids": [
               "1143"
             ],
@@ -23118,10 +23118,10 @@ export default [
             "class": {
               "name": "The Last Black Man in San Francisco"
             },
-            "endtime": 345639,
+            "endtime": 338439,
             "id": 288718977,
             "late_cancellation": "early",
-            "starttime": 338379,
+            "starttime": 331179,
             "tag_ids": [
               "1143"
             ],
@@ -23139,10 +23139,10 @@ export default [
             "class": {
               "name": "The Last Black Man in San Francisco"
             },
-            "endtime": 412239,
+            "endtime": 405039,
             "id": 288718978,
             "late_cancellation": "early",
-            "starttime": 404979,
+            "starttime": 397779,
             "tag_ids": [
               "1143"
             ],
@@ -23160,10 +23160,10 @@ export default [
             "class": {
               "name": "The Last Black Man in San Francisco"
             },
-            "endtime": 423039,
+            "endtime": 415839,
             "id": 288718979,
             "late_cancellation": "early",
-            "starttime": 415779,
+            "starttime": 408579,
             "tag_ids": [
               "1143"
             ],
@@ -23181,10 +23181,10 @@ export default [
             "class": {
               "name": "The Last Black Man in San Francisco"
             },
-            "endtime": 432039,
+            "endtime": 424839,
             "id": 288718980,
             "late_cancellation": "early",
-            "starttime": 424779,
+            "starttime": 417579,
             "tag_ids": [
               "1143"
             ],
@@ -23213,10 +23213,10 @@ export default [
             "class": {
               "name": "The Darjeeling Limited"
             },
-            "endtime": 341019,
+            "endtime": 333819,
             "id": 286596633,
             "late_cancellation": "early",
-            "starttime": 334779,
+            "starttime": 327579,
             "tag_ids": [
               "1143"
             ],
@@ -23245,10 +23245,10 @@ export default [
             "class": {
               "name": "Midsommar"
             },
-            "endtime": 431799,
+            "endtime": 424599,
             "id": 288720444,
             "late_cancellation": "early",
-            "starttime": 422979,
+            "starttime": 415779,
             "tag_ids": [
               "1143"
             ],
@@ -23266,10 +23266,10 @@ export default [
             "class": {
               "name": "Midsommar"
             },
-            "endtime": 431799,
+            "endtime": 424599,
             "id": 288720459,
             "late_cancellation": "early",
-            "starttime": 422979,
+            "starttime": 415779,
             "tag_ids": [
               "1143"
             ],
@@ -23298,10 +23298,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 497199,
+            "endtime": 489999,
             "id": 288227742,
             "late_cancellation": "early",
-            "starttime": 491379,
+            "starttime": 484179,
             "tag_ids": [
               "1143"
             ],
@@ -23319,10 +23319,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 507999,
+            "endtime": 500799,
             "id": 289563232,
             "late_cancellation": "early",
-            "starttime": 502179,
+            "starttime": 494979,
             "tag_ids": [
               "1143"
             ],
@@ -23340,10 +23340,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 518799,
+            "endtime": 511599,
             "id": 289563231,
             "late_cancellation": "early",
-            "starttime": 512979,
+            "starttime": 505779,
             "tag_ids": [
               "1143"
             ],
@@ -23361,10 +23361,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 583599,
+            "endtime": 576399,
             "id": 289563233,
             "late_cancellation": "early",
-            "starttime": 577779,
+            "starttime": 570579,
             "tag_ids": [
               "1143"
             ],
@@ -23382,10 +23382,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 594399,
+            "endtime": 587199,
             "id": 289563234,
             "late_cancellation": "early",
-            "starttime": 588579,
+            "starttime": 581379,
             "tag_ids": [
               "1143"
             ],
@@ -23403,10 +23403,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 603399,
+            "endtime": 596199,
             "id": 289563235,
             "late_cancellation": "early",
-            "starttime": 597579,
+            "starttime": 590379,
             "tag_ids": [
               "1143"
             ],
@@ -23424,10 +23424,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 65199,
+            "endtime": 57999,
             "id": 289563236,
             "late_cancellation": "early",
-            "starttime": 59379,
+            "starttime": 52179,
             "tag_ids": [
               "1143"
             ],
@@ -23445,10 +23445,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 75999,
+            "endtime": 68799,
             "id": 289563237,
             "late_cancellation": "early",
-            "starttime": 70179,
+            "starttime": 62979,
             "tag_ids": [
               "1143"
             ],
@@ -23466,10 +23466,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 84999,
+            "endtime": 77799,
             "id": 289563238,
             "late_cancellation": "early",
-            "starttime": 79179,
+            "starttime": 71979,
             "tag_ids": [
               "1143"
             ],
@@ -23487,10 +23487,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 162399,
+            "endtime": 155199,
             "id": 289563239,
             "late_cancellation": "early",
-            "starttime": 156579,
+            "starttime": 149379,
             "tag_ids": [
               "1143"
             ],
@@ -23508,10 +23508,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 171399,
+            "endtime": 164199,
             "id": 289563240,
             "late_cancellation": "early",
-            "starttime": 165579,
+            "starttime": 158379,
             "tag_ids": [
               "1143"
             ],
@@ -23529,10 +23529,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 248799,
+            "endtime": 241599,
             "id": 289563241,
             "late_cancellation": "early",
-            "starttime": 242979,
+            "starttime": 235779,
             "tag_ids": [
               "1143"
             ],
@@ -23550,10 +23550,10 @@ export default [
             "class": {
               "name": "Maiden"
             },
-            "endtime": 257799,
+            "endtime": 250599,
             "id": 289563242,
             "late_cancellation": "early",
-            "starttime": 251979,
+            "starttime": 244779,
             "tag_ids": [
               "1143"
             ],
@@ -23581,10 +23581,10 @@ export default [
             "class": {
               "name": "Star Wars: Episode V The Empire Strikes Back"
             },
-            "endtime": 508719,
+            "endtime": 501519,
             "id": 289673265,
             "late_cancellation": "early",
-            "starttime": 501279,
+            "starttime": 494079,
             "tag_ids": [
               "1143"
             ],
@@ -23613,10 +23613,10 @@ export default [
             "class": {
               "name": "Bill & Ted's Excellent Adventure"
             },
-            "endtime": 606579,
+            "endtime": 599379,
             "id": 288227743,
             "late_cancellation": "early",
-            "starttime": 601179,
+            "starttime": 593979,
             "tag_ids": [
               "1143"
             ],
@@ -23679,10 +23679,10 @@ export default [
             "class": {
               "name": "Barre-Mat-Tower MashUp"
             },
-            "endtime": 295179,
+            "endtime": 287979,
             "id": 287991477,
             "late_cancellation": "early",
-            "starttime": 291579,
+            "starttime": 284379,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23716,10 +23716,10 @@ export default [
             "class": {
               "name": "Barre Basics"
             },
-            "endtime": 309579,
+            "endtime": 302379,
             "id": 287991475,
             "late_cancellation": "early",
-            "starttime": 305979,
+            "starttime": 298779,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23742,10 +23742,10 @@ export default [
             "class": {
               "name": "Barre Basics"
             },
-            "endtime": 162279,
+            "endtime": 155079,
             "id": 288655783,
             "late_cancellation": "early",
-            "starttime": 158679,
+            "starttime": 151479,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23779,10 +23779,10 @@ export default [
             "class": {
               "name": "Barre Burn"
             },
-            "endtime": 395979,
+            "endtime": 388779,
             "id": 288119680,
             "late_cancellation": "early",
-            "starttime": 392379,
+            "starttime": 385179,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23816,10 +23816,10 @@ export default [
             "class": {
               "name": "Thursday Night Mat Class"
             },
-            "endtime": 421179,
+            "endtime": 413979,
             "id": 288119681,
             "late_cancellation": "early",
-            "starttime": 417579,
+            "starttime": 410379,
             "tag_ids": [
               "activity"
             ],
@@ -23852,10 +23852,10 @@ export default [
             "class": {
               "name": "Mat Mix-Up"
             },
-            "endtime": 478779,
+            "endtime": 471579,
             "id": 288310067,
             "late_cancellation": "early",
-            "starttime": 476079,
+            "starttime": 468879,
             "tag_ids": [
               "activity"
             ],
@@ -23877,10 +23877,10 @@ export default [
             "class": {
               "name": "Mat Mix-Up"
             },
-            "endtime": 140379,
+            "endtime": 133179,
             "id": 288655784,
             "late_cancellation": "early",
-            "starttime": 137679,
+            "starttime": 130479,
             "tag_ids": [
               "activity"
             ],
@@ -23913,10 +23913,10 @@ export default [
             "class": {
               "name": "Barre"
             },
-            "endtime": 482379,
+            "endtime": 475179,
             "id": 288310071,
             "late_cancellation": "early",
-            "starttime": 478779,
+            "starttime": 471579,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23939,10 +23939,10 @@ export default [
             "class": {
               "name": "Barre"
             },
-            "endtime": 562479,
+            "endtime": 555279,
             "id": 288356845,
             "late_cancellation": "early",
-            "starttime": 557979,
+            "starttime": 550779,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23965,10 +23965,10 @@ export default [
             "class": {
               "name": "Barre"
             },
-            "endtime": 136779,
+            "endtime": 129579,
             "id": 288655785,
             "late_cancellation": "early",
-            "starttime": 133179,
+            "starttime": 125979,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -23991,10 +23991,10 @@ export default [
             "class": {
               "name": "Barre"
             },
-            "endtime": 210579,
+            "endtime": 203379,
             "id": 288787059,
             "late_cancellation": "early",
-            "starttime": 206979,
+            "starttime": 199779,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -24028,10 +24028,10 @@ export default [
             "class": {
               "name": "Open Mat"
             },
-            "endtime": 46779,
+            "endtime": 39579,
             "id": 288424976,
             "late_cancellation": "early",
-            "starttime": 43179,
+            "starttime": 35979,
             "tag_ids": [
               "activity"
             ],
@@ -24064,10 +24064,10 @@ export default [
             "class": {
               "name": "GlideBarre"
             },
-            "endtime": 223179,
+            "endtime": 215979,
             "id": 288787057,
             "late_cancellation": "early",
-            "starttime": 219579,
+            "starttime": 212379,
             "tag_ids": [
               "activity",
               "activity-553"
@@ -24135,10 +24135,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 291580,
+            "endtime": 284380,
             "id": 287887521,
             "late_cancellation": "early",
-            "starttime": 287980,
+            "starttime": 280780,
             "tag_ids": [
               "150",
               "1034",
@@ -24165,10 +24165,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 295180,
+            "endtime": 287980,
             "id": 287887526,
             "late_cancellation": "early",
-            "starttime": 291580,
+            "starttime": 284380,
             "tag_ids": [
               "150",
               "1034",
@@ -24195,10 +24195,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 313180,
+            "endtime": 305980,
             "id": 287887527,
             "late_cancellation": "early",
-            "starttime": 309580,
+            "starttime": 302380,
             "tag_ids": [
               "150",
               "1034",
@@ -24225,10 +24225,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 328480,
+            "endtime": 321280,
             "id": 287887511,
             "late_cancellation": "early",
-            "starttime": 324880,
+            "starttime": 317680,
             "tag_ids": [
               "150",
               "1034",
@@ -24255,10 +24255,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 332980,
+            "endtime": 325780,
             "id": 287887518,
             "late_cancellation": "early",
-            "starttime": 329380,
+            "starttime": 322180,
             "tag_ids": [
               "150",
               "1034",
@@ -24285,10 +24285,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 464380,
+            "endtime": 457180,
             "id": 288126303,
             "late_cancellation": "early",
-            "starttime": 460780,
+            "starttime": 453580,
             "tag_ids": [
               "150",
               "1034",
@@ -24315,10 +24315,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 467980,
+            "endtime": 460780,
             "id": 288126304,
             "late_cancellation": "early",
-            "starttime": 464380,
+            "starttime": 457180,
             "tag_ids": [
               "150",
               "1034",
@@ -24345,10 +24345,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 485980,
+            "endtime": 478780,
             "id": 288126306,
             "late_cancellation": "early",
-            "starttime": 482380,
+            "starttime": 475180,
             "tag_ids": [
               "150",
               "1034",
@@ -24375,10 +24375,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 501280,
+            "endtime": 494080,
             "id": 288126301,
             "late_cancellation": "early",
-            "starttime": 497680,
+            "starttime": 490480,
             "tag_ids": [
               "150",
               "1034",
@@ -24405,10 +24405,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 118779,
+            "endtime": 111579,
             "id": 288440607,
             "late_cancellation": "early",
-            "starttime": 115179,
+            "starttime": 107979,
             "tag_ids": [
               "150",
               "1034",
@@ -24435,10 +24435,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 122379,
+            "endtime": 115179,
             "id": 288440610,
             "late_cancellation": "early",
-            "starttime": 118779,
+            "starttime": 111579,
             "tag_ids": [
               "150",
               "1034",
@@ -24465,10 +24465,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 140379,
+            "endtime": 133179,
             "id": 288440620,
             "late_cancellation": "early",
-            "starttime": 136779,
+            "starttime": 129579,
             "tag_ids": [
               "150",
               "1034",
@@ -24495,10 +24495,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 155679,
+            "endtime": 148479,
             "id": 288440613,
             "late_cancellation": "early",
-            "starttime": 152079,
+            "starttime": 144879,
             "tag_ids": [
               "150",
               "1034",
@@ -24525,10 +24525,10 @@ export default [
             "class": {
               "name": "Body Power"
             },
-            "endtime": 160179,
+            "endtime": 152979,
             "id": 288440617,
             "late_cancellation": "early",
-            "starttime": 156579,
+            "starttime": 149379,
             "tag_ids": [
               "150",
               "1034",
@@ -24566,10 +24566,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 377980,
+            "endtime": 370780,
             "id": 287974762,
             "late_cancellation": "early",
-            "starttime": 374380,
+            "starttime": 367180,
             "tag_ids": [
               "470",
               "1034",
@@ -24596,10 +24596,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 381580,
+            "endtime": 374380,
             "id": 287974767,
             "late_cancellation": "early",
-            "starttime": 377980,
+            "starttime": 370780,
             "tag_ids": [
               "470",
               "1034",
@@ -24626,10 +24626,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 399580,
+            "endtime": 392380,
             "id": 287974773,
             "late_cancellation": "early",
-            "starttime": 395980,
+            "starttime": 388780,
             "tag_ids": [
               "470",
               "1034",
@@ -24656,10 +24656,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 414880,
+            "endtime": 407680,
             "id": 287974779,
             "late_cancellation": "early",
-            "starttime": 411280,
+            "starttime": 404080,
             "tag_ids": [
               "470",
               "1034",
@@ -24686,10 +24686,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 419380,
+            "endtime": 412180,
             "id": 287974782,
             "late_cancellation": "early",
-            "starttime": 415780,
+            "starttime": 408580,
             "tag_ids": [
               "470",
               "1034",
@@ -24716,10 +24716,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 557980,
+            "endtime": 550780,
             "id": 288273019,
             "late_cancellation": "early",
-            "starttime": 554380,
+            "starttime": 547180,
             "tag_ids": [
               "470",
               "1034",
@@ -24746,10 +24746,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 205179,
+            "endtime": 197979,
             "id": 288626308,
             "late_cancellation": "early",
-            "starttime": 201579,
+            "starttime": 194379,
             "tag_ids": [
               "470",
               "1034",
@@ -24776,10 +24776,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 208779,
+            "endtime": 201579,
             "id": 288626309,
             "late_cancellation": "early",
-            "starttime": 205179,
+            "starttime": 197979,
             "tag_ids": [
               "470",
               "1034",
@@ -24806,10 +24806,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 226779,
+            "endtime": 219579,
             "id": 288626307,
             "late_cancellation": "early",
-            "starttime": 223179,
+            "starttime": 215979,
             "tag_ids": [
               "470",
               "1034",
@@ -24836,10 +24836,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 242079,
+            "endtime": 234879,
             "id": 288626310,
             "late_cancellation": "early",
-            "starttime": 238479,
+            "starttime": 231279,
             "tag_ids": [
               "470",
               "1034",
@@ -24866,10 +24866,10 @@ export default [
             "class": {
               "name": "Boot Camp"
             },
-            "endtime": 246579,
+            "endtime": 239379,
             "id": 288626311,
             "late_cancellation": "early",
-            "starttime": 242979,
+            "starttime": 235779,
             "tag_ids": [
               "470",
               "1034",
@@ -24930,10 +24930,10 @@ export default [
             "class": {
               "name": "60 Minute Custom Massage"
             },
-            "endtime": 568779,
+            "endtime": 561579,
             "id": 288981177,
             "late_cancellation": "early",
-            "starttime": 565179,
+            "starttime": 557979,
             "tag_ids": [
               "1034",
               "1038",
@@ -24957,10 +24957,10 @@ export default [
             "class": {
               "name": "60 Minute Custom Massage"
             },
-            "endtime": 573279,
+            "endtime": 566079,
             "id": 288981178,
             "late_cancellation": "early",
-            "starttime": 569679,
+            "starttime": 562479,
             "tag_ids": [
               "1034",
               "1038",
@@ -24984,10 +24984,10 @@ export default [
             "class": {
               "name": "60 Minute Custom Massage"
             },
-            "endtime": 577779,
+            "endtime": 570579,
             "id": 288981179,
             "late_cancellation": "early",
-            "starttime": 574179,
+            "starttime": 566979,
             "tag_ids": [
               "1034",
               "1038",
@@ -25011,10 +25011,10 @@ export default [
             "class": {
               "name": "60 Minute Custom Massage"
             },
-            "endtime": 582279,
+            "endtime": 575079,
             "id": 288981180,
             "late_cancellation": "early",
-            "starttime": 578679,
+            "starttime": 571479,
             "tag_ids": [
               "1034",
               "1038",
@@ -25083,10 +25083,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 476979,
+            "endtime": 469779,
             "id": 269488319,
             "late_cancellation": "early",
-            "starttime": 471579,
+            "starttime": 464379,
             "tag_ids": [
               "976",
               "1034",
@@ -25109,10 +25109,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 483279,
+            "endtime": 476079,
             "id": 269488320,
             "late_cancellation": "early",
-            "starttime": 477879,
+            "starttime": 470679,
             "tag_ids": [
               "976",
               "1034",
@@ -25135,10 +25135,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 489579,
+            "endtime": 482379,
             "id": 269488321,
             "late_cancellation": "early",
-            "starttime": 484179,
+            "starttime": 476979,
             "tag_ids": [
               "976",
               "1034",
@@ -25161,10 +25161,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 131379,
+            "endtime": 124179,
             "id": 259954714,
             "late_cancellation": "early",
-            "starttime": 125979,
+            "starttime": 118779,
             "tag_ids": [
               "976",
               "1034",
@@ -25187,10 +25187,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 137679,
+            "endtime": 130479,
             "id": 259954715,
             "late_cancellation": "early",
-            "starttime": 132279,
+            "starttime": 125079,
             "tag_ids": [
               "976",
               "1034",
@@ -25214,10 +25214,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 143979,
+            "endtime": 136779,
             "id": 259954716,
             "late_cancellation": "early",
-            "starttime": 138579,
+            "starttime": 131379,
             "tag_ids": [
               "976",
               "1034",
@@ -25241,10 +25241,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 217779,
+            "endtime": 210579,
             "id": 259954717,
             "late_cancellation": "early",
-            "starttime": 212379,
+            "starttime": 205179,
             "tag_ids": [
               "976",
               "1034",
@@ -25268,10 +25268,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 224079,
+            "endtime": 216879,
             "id": 259954718,
             "late_cancellation": "early",
-            "starttime": 218679,
+            "starttime": 211479,
             "tag_ids": [
               "976",
               "1034",
@@ -25295,10 +25295,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 230379,
+            "endtime": 223179,
             "id": 259954719,
             "late_cancellation": "early",
-            "starttime": 224979,
+            "starttime": 217779,
             "tag_ids": [
               "976",
               "1034",
@@ -25357,10 +25357,10 @@ export default [
             "class": {
               "name": "ReGen"
             },
-            "endtime": 307779,
+            "endtime": 300579,
             "id": 288198923,
             "late_cancellation": "early",
-            "starttime": 305979,
+            "starttime": 298779,
             "tag_ids": [
               "activity"
             ],
@@ -25382,10 +25382,10 @@ export default [
             "class": {
               "name": "ReGen"
             },
-            "endtime": 480579,
+            "endtime": 473379,
             "id": 288198929,
             "late_cancellation": "early",
-            "starttime": 478779,
+            "starttime": 471579,
             "tag_ids": [
               "activity"
             ],
@@ -25407,10 +25407,10 @@ export default [
             "class": {
               "name": "ReGen"
             },
-            "endtime": 134979,
+            "endtime": 127779,
             "id": 288201048,
             "late_cancellation": "early",
-            "starttime": 133179,
+            "starttime": 125979,
             "tag_ids": [
               "activity"
             ],
@@ -25443,10 +25443,10 @@ export default [
             "class": {
               "name": "Beginning Barbell Group"
             },
-            "endtime": 336579,
+            "endtime": 329379,
             "id": 288198924,
             "late_cancellation": "early",
-            "starttime": 332979,
+            "starttime": 325779,
             "tag_ids": [
               "150",
               "470",
@@ -25493,10 +25493,10 @@ export default [
             "class": {
               "name": "KB Strength"
             },
-            "endtime": 399579,
+            "endtime": 392379,
             "id": 288198925,
             "late_cancellation": "early",
-            "starttime": 395979,
+            "starttime": 388779,
             "tag_ids": [
               "activity"
             ],
@@ -25529,10 +25529,10 @@ export default [
             "class": {
               "name": "Team Conditioning/Boot Camp"
             },
-            "endtime": 505779,
+            "endtime": 498579,
             "id": 280333435,
             "late_cancellation": "early",
-            "starttime": 502179,
+            "starttime": 494979,
             "tag_ids": [
               "140",
               "1034",
@@ -25569,10 +25569,10 @@ export default [
             "class": {
               "name": "KB Aerobic"
             },
-            "endtime": 225879,
+            "endtime": 218679,
             "id": 288201070,
             "late_cancellation": "early",
-            "starttime": 223179,
+            "starttime": 215979,
             "tag_ids": [
               "activity"
             ],
@@ -25639,10 +25639,10 @@ export default [
             "class": {
               "name": "Drop In Reformer Class"
             },
-            "endtime": 329379,
+            "endtime": 322179,
             "id": 287887576,
             "late_cancellation": "early",
-            "starttime": 325779,
+            "starttime": 318579,
             "tag_ids": [
               "252",
               "1034",
@@ -25686,10 +25686,10 @@ export default [
             "class": {
               "name": "Booty Barre"
             },
-            "endtime": 388779,
+            "endtime": 381579,
             "id": 287972963,
             "late_cancellation": "early",
-            "starttime": 385179,
+            "starttime": 377979,
             "tag_ids": [
               "1034",
               "1042",
@@ -25734,10 +25734,10 @@ export default [
             "class": {
               "name": "Pilates Mat Class"
             },
-            "endtime": 485079,
+            "endtime": 477879,
             "id": 288124050,
             "late_cancellation": "early",
-            "starttime": 482379,
+            "starttime": 475179,
             "tag_ids": [
               "250",
               "activity",
@@ -25772,10 +25772,10 @@ export default [
             "class": {
               "name": "Drop In GYROKINESIS Class"
             },
-            "endtime": 569679,
+            "endtime": 562479,
             "id": 288308980,
             "late_cancellation": "early",
-            "starttime": 565179,
+            "starttime": 557979,
             "tag_ids": [
               "activity",
               "activity-90"
@@ -25809,10 +25809,10 @@ export default [
             "class": {
               "name": "Booty Barre"
             },
-            "endtime": 159279,
+            "endtime": 152079,
             "id": 288438541,
             "late_cancellation": "early",
-            "starttime": 155679,
+            "starttime": 148479,
             "tag_ids": [
               "1034",
               "1042",
@@ -25855,10 +25855,10 @@ export default [
             "class": {
               "name": "Reformer for Dancers"
             },
-            "endtime": 233979,
+            "endtime": 226779,
             "id": 288625503,
             "late_cancellation": "early",
-            "starttime": 230379,
+            "starttime": 223179,
             "tag_ids": [
               "252",
               "1034",
@@ -25936,8 +25936,30 @@ export default [
             "class": {
               "name": "Physical Therapy"
             },
-            "endtime": 302379,
+            "endtime": 295179,
             "id": 289469600,
+            "late_cancellation": "early",
+            "starttime": 291579,
+            "tag_ids": [
+              "gym",
+              "1143"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 42,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Physical Therapy"
+            },
+            "endtime": 302379,
+            "id": 289469599,
             "late_cancellation": "early",
             "starttime": 298779,
             "tag_ids": [
@@ -25958,10 +25980,10 @@ export default [
             "class": {
               "name": "Physical Therapy"
             },
-            "endtime": 309579,
-            "id": 289469599,
+            "endtime": 377979,
+            "id": 289469598,
             "late_cancellation": "early",
-            "starttime": 305979,
+            "starttime": 374379,
             "tag_ids": [
               "gym",
               "1143"
@@ -25980,10 +26002,32 @@ export default [
             "class": {
               "name": "Physical Therapy"
             },
-            "endtime": 385179,
-            "id": 289469598,
+            "endtime": 388779,
+            "id": 289469580,
             "late_cancellation": "early",
-            "starttime": 381579,
+            "starttime": 385179,
+            "tag_ids": [
+              "gym",
+              "1143"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 42,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Physical Therapy"
+            },
+            "endtime": 392379,
+            "id": 289469581,
+            "late_cancellation": "early",
+            "starttime": 388779,
             "tag_ids": [
               "gym",
               "1143"
@@ -26003,7 +26047,7 @@ export default [
               "name": "Physical Therapy"
             },
             "endtime": 395979,
-            "id": 289469580,
+            "id": 289469582,
             "late_cancellation": "early",
             "starttime": 392379,
             "tag_ids": [
@@ -26025,7 +26069,7 @@ export default [
               "name": "Physical Therapy"
             },
             "endtime": 399579,
-            "id": 289469581,
+            "id": 289469583,
             "late_cancellation": "early",
             "starttime": 395979,
             "tag_ids": [
@@ -26047,7 +26091,7 @@ export default [
               "name": "Physical Therapy"
             },
             "endtime": 403179,
-            "id": 289469582,
+            "id": 289469584,
             "late_cancellation": "early",
             "starttime": 399579,
             "tag_ids": [
@@ -26068,10 +26112,10 @@ export default [
             "class": {
               "name": "Physical Therapy"
             },
-            "endtime": 406779,
-            "id": 289469583,
+            "endtime": 561579,
+            "id": 289469604,
             "late_cancellation": "early",
-            "starttime": 403179,
+            "starttime": 557979,
             "tag_ids": [
               "gym",
               "1143"
@@ -26090,10 +26134,10 @@ export default [
             "class": {
               "name": "Physical Therapy"
             },
-            "endtime": 410379,
-            "id": 289469584,
+            "endtime": 565179,
+            "id": 289469605,
             "late_cancellation": "early",
-            "starttime": 406779,
+            "starttime": 561579,
             "tag_ids": [
               "gym",
               "1143"
@@ -26113,7 +26157,7 @@ export default [
               "name": "Physical Therapy"
             },
             "endtime": 568779,
-            "id": 289469604,
+            "id": 289469606,
             "late_cancellation": "early",
             "starttime": 565179,
             "tag_ids": [
@@ -26135,7 +26179,7 @@ export default [
               "name": "Physical Therapy"
             },
             "endtime": 572379,
-            "id": 289469605,
+            "id": 289469607,
             "late_cancellation": "early",
             "starttime": 568779,
             "tag_ids": [
@@ -26157,53 +26201,9 @@ export default [
               "name": "Physical Therapy"
             },
             "endtime": 575979,
-            "id": 289469606,
-            "late_cancellation": "early",
-            "starttime": 572379,
-            "tag_ids": [
-              "gym",
-              "1143"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 42,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Physical Therapy"
-            },
-            "endtime": 579579,
-            "id": 289469607,
-            "late_cancellation": "early",
-            "starttime": 575979,
-            "tag_ids": [
-              "gym",
-              "1143"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 42,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Physical Therapy"
-            },
-            "endtime": 583179,
             "id": 289469608,
             "late_cancellation": "early",
-            "starttime": 579579,
+            "starttime": 572379,
             "tag_ids": [
               "gym",
               "1143"
@@ -26233,8 +26233,52 @@ export default [
             "class": {
               "name": "BFR Training"
             },
-            "endtime": 395979,
+            "endtime": 388779,
             "id": 289469585,
+            "late_cancellation": "early",
+            "starttime": 385179,
+            "tag_ids": [
+              "gym",
+              "1143"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 34,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "BFR Training"
+            },
+            "endtime": 392379,
+            "id": 289469587,
+            "late_cancellation": "early",
+            "starttime": 388779,
+            "tag_ids": [
+              "gym",
+              "1143"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 34,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "BFR Training"
+            },
+            "endtime": 395979,
+            "id": 289469586,
             "late_cancellation": "early",
             "starttime": 392379,
             "tag_ids": [
@@ -26256,7 +26300,7 @@ export default [
               "name": "BFR Training"
             },
             "endtime": 399579,
-            "id": 289469587,
+            "id": 289469588,
             "late_cancellation": "early",
             "starttime": 395979,
             "tag_ids": [
@@ -26278,7 +26322,7 @@ export default [
               "name": "BFR Training"
             },
             "endtime": 403179,
-            "id": 289469586,
+            "id": 289469589,
             "late_cancellation": "early",
             "starttime": 399579,
             "tag_ids": [
@@ -26299,32 +26343,10 @@ export default [
             "class": {
               "name": "BFR Training"
             },
-            "endtime": 406779,
-            "id": 289469588,
+            "endtime": 565179,
+            "id": 289469609,
             "late_cancellation": "early",
-            "starttime": 403179,
-            "tag_ids": [
-              "gym",
-              "1143"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 34,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "BFR Training"
-            },
-            "endtime": 410379,
-            "id": 289469589,
-            "late_cancellation": "early",
-            "starttime": 406779,
+            "starttime": 561579,
             "tag_ids": [
               "gym",
               "1143"
@@ -26344,31 +26366,9 @@ export default [
               "name": "BFR Training"
             },
             "endtime": 572379,
-            "id": 289469609,
-            "late_cancellation": "early",
-            "starttime": 568779,
-            "tag_ids": [
-              "gym",
-              "1143"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 34,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "BFR Training"
-            },
-            "endtime": 579579,
             "id": 289469610,
             "late_cancellation": "early",
-            "starttime": 575979,
+            "starttime": 568779,
             "tag_ids": [
               "gym",
               "1143"
@@ -26432,8 +26432,100 @@ export default [
             "class": {
               "name": "Eyebrow and Lip Wax"
             },
-            "endtime": 303279,
+            "endtime": 296079,
             "id": 285984662,
+            "late_cancellation": "early",
+            "starttime": 295179,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 297879,
+            "id": 285984665,
+            "late_cancellation": "early",
+            "starttime": 296979,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 299679,
+            "id": 285984668,
+            "late_cancellation": "early",
+            "starttime": 298779,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 301479,
+            "id": 285984669,
+            "late_cancellation": "early",
+            "starttime": 300579,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 303279,
+            "id": 285984671,
             "late_cancellation": "early",
             "starttime": 302379,
             "tag_ids": [
@@ -26456,7 +26548,7 @@ export default [
               "name": "Eyebrow and Lip Wax"
             },
             "endtime": 305079,
-            "id": 285984665,
+            "id": 285984676,
             "late_cancellation": "early",
             "starttime": 304179,
             "tag_ids": [
@@ -26478,102 +26570,10 @@ export default [
             "class": {
               "name": "Eyebrow and Lip Wax"
             },
-            "endtime": 306879,
-            "id": 285984668,
-            "late_cancellation": "early",
-            "starttime": 305979,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 308679,
-            "id": 285984669,
-            "late_cancellation": "early",
-            "starttime": 307779,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 310479,
-            "id": 285984671,
-            "late_cancellation": "early",
-            "starttime": 309579,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 312279,
-            "id": 285984676,
-            "late_cancellation": "early",
-            "starttime": 311379,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 393279,
+            "endtime": 386079,
             "id": 285984688,
             "late_cancellation": "early",
-            "starttime": 392379,
+            "starttime": 385179,
             "tag_ids": [
               "1143",
               "1161",
@@ -26593,10 +26593,10 @@ export default [
             "class": {
               "name": "Eyebrow and Lip Wax"
             },
-            "endtime": 395079,
+            "endtime": 387879,
             "id": 285984691,
             "late_cancellation": "early",
-            "starttime": 394179,
+            "starttime": 386979,
             "tag_ids": [
               "1143",
               "1161",
@@ -26616,10 +26616,102 @@ export default [
             "class": {
               "name": "Eyebrow and Lip Wax"
             },
-            "endtime": 139479,
+            "endtime": 132279,
             "id": 285984722,
             "late_cancellation": "early",
-            "starttime": 138579,
+            "starttime": 131379,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 209679,
+            "id": 285984727,
+            "late_cancellation": "early",
+            "starttime": 208779,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 211479,
+            "id": 285984732,
+            "late_cancellation": "early",
+            "starttime": 210579,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 213279,
+            "id": 285984734,
+            "late_cancellation": "early",
+            "starttime": 212379,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 7,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Eyebrow and Lip Wax"
+            },
+            "endtime": 215079,
+            "id": 285984737,
+            "late_cancellation": "early",
+            "starttime": 214179,
             "tag_ids": [
               "1143",
               "1161",
@@ -26640,7 +26732,7 @@ export default [
               "name": "Eyebrow and Lip Wax"
             },
             "endtime": 216879,
-            "id": 285984727,
+            "id": 285984739,
             "late_cancellation": "early",
             "starttime": 215979,
             "tag_ids": [
@@ -26663,101 +26755,9 @@ export default [
               "name": "Eyebrow and Lip Wax"
             },
             "endtime": 218679,
-            "id": 285984732,
-            "late_cancellation": "early",
-            "starttime": 217779,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 220479,
-            "id": 285984734,
-            "late_cancellation": "early",
-            "starttime": 219579,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 222279,
-            "id": 285984737,
-            "late_cancellation": "early",
-            "starttime": 221379,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 224079,
-            "id": 285984739,
-            "late_cancellation": "early",
-            "starttime": 223179,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 7,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Eyebrow and Lip Wax"
-            },
-            "endtime": 225879,
             "id": 285984745,
             "late_cancellation": "early",
-            "starttime": 224979,
+            "starttime": 217779,
             "tag_ids": [
               "1143",
               "1161",
@@ -26788,8 +26788,104 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 304179,
+            "endtime": 296979,
             "id": 285984663,
+            "late_cancellation": "early",
+            "starttime": 295179,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 298779,
+            "id": 285984666,
+            "late_cancellation": "early",
+            "starttime": 296979,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 300579,
+            "id": 285984667,
+            "late_cancellation": "early",
+            "starttime": 298779,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 302379,
+            "id": 285984672,
+            "late_cancellation": "early",
+            "starttime": 300579,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 304179,
+            "id": 285984674,
             "late_cancellation": "early",
             "starttime": 302379,
             "tag_ids": [
@@ -26813,7 +26909,7 @@ export default [
               "name": "Men's Haircut"
             },
             "endtime": 305979,
-            "id": 285984666,
+            "id": 285984677,
             "late_cancellation": "early",
             "starttime": 304179,
             "tag_ids": [
@@ -26836,106 +26932,10 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 307779,
-            "id": 285984667,
-            "late_cancellation": "early",
-            "starttime": 305979,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 309579,
-            "id": 285984672,
-            "late_cancellation": "early",
-            "starttime": 307779,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 311379,
-            "id": 285984674,
-            "late_cancellation": "early",
-            "starttime": 309579,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 313179,
-            "id": 285984677,
-            "late_cancellation": "early",
-            "starttime": 311379,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 394179,
+            "endtime": 386979,
             "id": 285984689,
             "late_cancellation": "early",
-            "starttime": 392379,
+            "starttime": 385179,
             "tag_ids": [
               "1143",
               "1161",
@@ -26956,10 +26956,10 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 395979,
+            "endtime": 388779,
             "id": 285984692,
             "late_cancellation": "early",
-            "starttime": 394179,
+            "starttime": 386979,
             "tag_ids": [
               "1143",
               "1161",
@@ -26980,10 +26980,106 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 140379,
+            "endtime": 133179,
             "id": 285984723,
             "late_cancellation": "early",
-            "starttime": 138579,
+            "starttime": 131379,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 210579,
+            "id": 285984728,
+            "late_cancellation": "early",
+            "starttime": 208779,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 212379,
+            "id": 285984733,
+            "late_cancellation": "early",
+            "starttime": 210579,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 214179,
+            "id": 285984735,
+            "late_cancellation": "early",
+            "starttime": 212379,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 6,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Men's Haircut"
+            },
+            "endtime": 215979,
+            "id": 285984738,
+            "late_cancellation": "early",
+            "starttime": 214179,
             "tag_ids": [
               "1143",
               "1161",
@@ -27005,7 +27101,7 @@ export default [
               "name": "Men's Haircut"
             },
             "endtime": 217779,
-            "id": 285984728,
+            "id": 285984740,
             "late_cancellation": "early",
             "starttime": 215979,
             "tag_ids": [
@@ -27029,105 +27125,9 @@ export default [
               "name": "Men's Haircut"
             },
             "endtime": 219579,
-            "id": 285984733,
-            "late_cancellation": "early",
-            "starttime": 217779,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 221379,
-            "id": 285984735,
-            "late_cancellation": "early",
-            "starttime": 219579,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 223179,
-            "id": 285984738,
-            "late_cancellation": "early",
-            "starttime": 221379,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 224979,
-            "id": 285984740,
-            "late_cancellation": "early",
-            "starttime": 223179,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 6,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Men's Haircut"
-            },
-            "endtime": 226779,
             "id": 285984746,
             "late_cancellation": "early",
-            "starttime": 224979,
+            "starttime": 217779,
             "tag_ids": [
               "1143",
               "1161",
@@ -27159,8 +27159,56 @@ export default [
             "class": {
               "name": "Women's Haircut"
             },
-            "endtime": 305979,
+            "endtime": 298779,
             "id": 285984664,
+            "late_cancellation": "early",
+            "starttime": 295179,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 12,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Women's Haircut"
+            },
+            "endtime": 302379,
+            "id": 285984670,
+            "late_cancellation": "early",
+            "starttime": 298779,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 12,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Women's Haircut"
+            },
+            "endtime": 305979,
+            "id": 285984675,
             "late_cancellation": "early",
             "starttime": 302379,
             "tag_ids": [
@@ -27184,7 +27232,7 @@ export default [
               "name": "Women's Haircut"
             },
             "endtime": 309579,
-            "id": 285984670,
+            "id": 285984679,
             "late_cancellation": "early",
             "starttime": 305979,
             "tag_ids": [
@@ -27207,58 +27255,10 @@ export default [
             "class": {
               "name": "Women's Haircut"
             },
-            "endtime": 313179,
-            "id": 285984675,
-            "late_cancellation": "early",
-            "starttime": 309579,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 12,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Women's Haircut"
-            },
-            "endtime": 316779,
-            "id": 285984679,
-            "late_cancellation": "early",
-            "starttime": 313179,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 12,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Women's Haircut"
-            },
-            "endtime": 395979,
+            "endtime": 388779,
             "id": 285984690,
             "late_cancellation": "early",
-            "starttime": 392379,
+            "starttime": 385179,
             "tag_ids": [
               "1143",
               "1161",
@@ -27279,10 +27279,58 @@ export default [
             "class": {
               "name": "Women's Haircut"
             },
-            "endtime": 143979,
+            "endtime": 136779,
             "id": 285984725,
             "late_cancellation": "early",
-            "starttime": 140379,
+            "starttime": 133179,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 12,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Women's Haircut"
+            },
+            "endtime": 212379,
+            "id": 285984729,
+            "late_cancellation": "early",
+            "starttime": 208779,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 12,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Women's Haircut"
+            },
+            "endtime": 215979,
+            "id": 285984736,
+            "late_cancellation": "early",
+            "starttime": 212379,
             "tag_ids": [
               "1143",
               "1161",
@@ -27304,7 +27352,7 @@ export default [
               "name": "Women's Haircut"
             },
             "endtime": 219579,
-            "id": 285984729,
+            "id": 285984742,
             "late_cancellation": "early",
             "starttime": 215979,
             "tag_ids": [
@@ -27328,57 +27376,9 @@ export default [
               "name": "Women's Haircut"
             },
             "endtime": 223179,
-            "id": 285984736,
-            "late_cancellation": "early",
-            "starttime": 219579,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 12,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Women's Haircut"
-            },
-            "endtime": 226779,
-            "id": 285984742,
-            "late_cancellation": "early",
-            "starttime": 223179,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 12,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Women's Haircut"
-            },
-            "endtime": 230379,
             "id": 285984748,
             "late_cancellation": "early",
-            "starttime": 226779,
+            "starttime": 219579,
             "tag_ids": [
               "1143",
               "1161",
@@ -27410,8 +27410,56 @@ export default [
             "class": {
               "name": "Blowout"
             },
-            "endtime": 311379,
+            "endtime": 304179,
             "id": 285984673,
+            "late_cancellation": "early",
+            "starttime": 302379,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Blowout"
+            },
+            "endtime": 307779,
+            "id": 285984678,
+            "late_cancellation": "early",
+            "starttime": 305979,
+            "tag_ids": [
+              "1143",
+              "1161",
+              "1164",
+              "activity"
+            ],
+            "teacher": {}
+          },
+          {
+            "availability": {
+              "credits": 9,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Blowout"
+            },
+            "endtime": 311379,
+            "id": 285984680,
             "late_cancellation": "early",
             "starttime": 309579,
             "tag_ids": [
@@ -27434,58 +27482,10 @@ export default [
             "class": {
               "name": "Blowout"
             },
-            "endtime": 314979,
-            "id": 285984678,
-            "late_cancellation": "early",
-            "starttime": 313179,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Blowout"
-            },
-            "endtime": 318579,
-            "id": 285984680,
-            "late_cancellation": "early",
-            "starttime": 316779,
-            "tag_ids": [
-              "1143",
-              "1161",
-              "1164",
-              "activity"
-            ],
-            "teacher": {}
-          },
-          {
-            "availability": {
-              "credits": 9,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Blowout"
-            },
-            "endtime": 142179,
+            "endtime": 134979,
             "id": 285984724,
             "late_cancellation": "early",
-            "starttime": 140379,
+            "starttime": 133179,
             "tag_ids": [
               "1143",
               "1161",
@@ -27506,10 +27506,10 @@ export default [
             "class": {
               "name": "Blowout"
             },
-            "endtime": 145779,
+            "endtime": 138579,
             "id": 285984726,
             "late_cancellation": "early",
-            "starttime": 143979,
+            "starttime": 136779,
             "tag_ids": [
               "1143",
               "1161",
@@ -27530,10 +27530,10 @@ export default [
             "class": {
               "name": "Blowout"
             },
-            "endtime": 226779,
+            "endtime": 219579,
             "id": 285984741,
             "late_cancellation": "early",
-            "starttime": 223179,
+            "starttime": 215979,
             "tag_ids": [
               "1143",
               "1161",
@@ -27554,10 +27554,10 @@ export default [
             "class": {
               "name": "Blowout"
             },
-            "endtime": 228579,
+            "endtime": 221379,
             "id": 285984747,
             "late_cancellation": "early",
-            "starttime": 226779,
+            "starttime": 219579,
             "tag_ids": [
               "1143",
               "1161",
@@ -27578,10 +27578,10 @@ export default [
             "class": {
               "name": "Blowout"
             },
-            "endtime": 232179,
+            "endtime": 224979,
             "id": 285984749,
             "late_cancellation": "early",
-            "starttime": 230379,
+            "starttime": 223179,
             "tag_ids": [
               "1143",
               "1161",
@@ -27613,10 +27613,10 @@ export default [
             "class": {
               "name": "2 Week Lash Fill"
             },
-            "endtime": 221379,
+            "endtime": 214179,
             "id": 285984730,
             "late_cancellation": "early",
-            "starttime": 215979,
+            "starttime": 208779,
             "tag_ids": [
               "1143",
               "1161",
@@ -27636,10 +27636,10 @@ export default [
             "class": {
               "name": "2 Week Lash Fill"
             },
-            "endtime": 228579,
+            "endtime": 221379,
             "id": 285984743,
             "late_cancellation": "early",
-            "starttime": 223179,
+            "starttime": 215979,
             "tag_ids": [
               "1143",
               "1161",
@@ -27670,10 +27670,10 @@ export default [
             "class": {
               "name": "3 Week Lash Fill"
             },
-            "endtime": 223179,
+            "endtime": 215979,
             "id": 285984731,
             "late_cancellation": "early",
-            "starttime": 215979,
+            "starttime": 208779,
             "tag_ids": [
               "1143",
               "1161",
@@ -27693,10 +27693,10 @@ export default [
             "class": {
               "name": "3 Week Lash Fill"
             },
-            "endtime": 230379,
+            "endtime": 223179,
             "id": 285984744,
             "late_cancellation": "early",
-            "starttime": 223179,
+            "starttime": 215979,
             "tag_ids": [
               "1143",
               "1161",
@@ -27751,10 +27751,10 @@ export default [
             "class": {
               "name": "Bamboo Bodies"
             },
-            "endtime": 417579,
+            "endtime": 410379,
             "id": 288164213,
             "late_cancellation": "early",
-            "starttime": 414879,
+            "starttime": 407679,
             "tag_ids": [
               "activity"
             ],
@@ -27787,10 +27787,10 @@ export default [
             "class": {
               "name": "Hip Hop"
             },
-            "endtime": 167379,
+            "endtime": 160179,
             "id": 288731840,
             "late_cancellation": "early",
-            "starttime": 163779,
+            "starttime": 156579,
             "tag_ids": [
               "activity"
             ],
@@ -27823,10 +27823,10 @@ export default [
             "class": {
               "name": "Yoga with Kendra"
             },
-            "endtime": 245679,
+            "endtime": 238479,
             "id": 288731838,
             "late_cancellation": "early",
-            "starttime": 242079,
+            "starttime": 234879,
             "tag_ids": [
               "activity",
               "activity-1"
@@ -27884,10 +27884,10 @@ export default [
             "class": {
               "name": "Strength\\Full Body Workout"
             },
-            "endtime": 561579,
+            "endtime": 554379,
             "id": 288339731,
             "late_cancellation": "early",
-            "starttime": 557979,
+            "starttime": 550779,
             "tag_ids": [
               "activity"
             ],
@@ -27920,10 +27920,10 @@ export default [
             "class": {
               "name": "Speed\\Endurance Workout"
             },
-            "endtime": 43179,
+            "endtime": 35979,
             "id": 288420975,
             "late_cancellation": "early",
-            "starttime": 39579,
+            "starttime": 32379,
             "tag_ids": [
               "activity"
             ],
@@ -27979,10 +27979,10 @@ export default [
             "class": {
               "name": "90 Minute Custom Massage"
             },
-            "endtime": 484179,
+            "endtime": 476979,
             "id": 289226358,
             "late_cancellation": "early",
-            "starttime": 480579,
+            "starttime": 473379,
             "tag_ids": [
               "1034",
               "1038",
@@ -28054,8 +28054,66 @@ export default [
             "class": {
               "name": "Acupuncture"
             },
-            "endtime": 46779,
+            "endtime": 39579,
             "id": 277975736,
+            "late_cancellation": "early",
+            "starttime": 35979,
+            "tag_ids": [
+              "1034",
+              "1038",
+              "1050",
+              "1143",
+              "1157",
+              "activity"
+            ],
+            "teacher": {
+              "id": 29558479,
+              "name": "Amy Carroll, L.Ac"
+            },
+            "teacher_name": "Amy Carroll, L.Ac"
+          },
+          {
+            "availability": {
+              "credits_reasons": [],
+              "credits_type": "PREMIUM",
+              "label": "premium",
+              "reason": "out_of_spots",
+              "status": "unavailable"
+            },
+            "class": {
+              "name": "Acupuncture"
+            },
+            "endtime": 43179,
+            "id": 277975738,
+            "late_cancellation": "early",
+            "starttime": 39579,
+            "tag_ids": [
+              "1034",
+              "1038",
+              "1050",
+              "1143",
+              "1157",
+              "activity"
+            ],
+            "teacher": {
+              "id": 29558479,
+              "name": "Amy Carroll, L.Ac"
+            },
+            "teacher_name": "Amy Carroll, L.Ac"
+          },
+          {
+            "availability": {
+              "credits_reasons": [],
+              "credits_type": "PREMIUM",
+              "label": "premium",
+              "reason": "out_of_spots",
+              "status": "unavailable"
+            },
+            "class": {
+              "name": "Acupuncture"
+            },
+            "endtime": 46779,
+            "id": 277975739,
             "late_cancellation": "early",
             "starttime": 43179,
             "tag_ids": [
@@ -28074,17 +28132,18 @@ export default [
           },
           {
             "availability": {
+              "credits": 19,
               "credits_reasons": [],
-              "credits_type": "PREMIUM",
-              "label": "premium",
-              "reason": "out_of_spots",
-              "status": "unavailable"
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
             },
             "class": {
               "name": "Acupuncture"
             },
             "endtime": 50379,
-            "id": 277975738,
+            "id": 277975740,
             "late_cancellation": "early",
             "starttime": 46779,
             "tag_ids": [
@@ -28103,17 +28162,18 @@ export default [
           },
           {
             "availability": {
+              "credits": 19,
               "credits_reasons": [],
-              "credits_type": "PREMIUM",
-              "label": "premium",
-              "reason": "out_of_spots",
-              "status": "unavailable"
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
             },
             "class": {
               "name": "Acupuncture"
             },
             "endtime": 53979,
-            "id": 277975739,
+            "id": 277975741,
             "late_cancellation": "early",
             "starttime": 50379,
             "tag_ids": [
@@ -28132,66 +28192,6 @@ export default [
           },
           {
             "availability": {
-              "credits": 19,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Acupuncture"
-            },
-            "endtime": 57579,
-            "id": 277975740,
-            "late_cancellation": "early",
-            "starttime": 53979,
-            "tag_ids": [
-              "1034",
-              "1038",
-              "1050",
-              "1143",
-              "1157",
-              "activity"
-            ],
-            "teacher": {
-              "id": 29558479,
-              "name": "Amy Carroll, L.Ac"
-            },
-            "teacher_name": "Amy Carroll, L.Ac"
-          },
-          {
-            "availability": {
-              "credits": 19,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Acupuncture"
-            },
-            "endtime": 61179,
-            "id": 277975741,
-            "late_cancellation": "early",
-            "starttime": 57579,
-            "tag_ids": [
-              "1034",
-              "1038",
-              "1050",
-              "1143",
-              "1157",
-              "activity"
-            ],
-            "teacher": {
-              "id": 29558479,
-              "name": "Amy Carroll, L.Ac"
-            },
-            "teacher_name": "Amy Carroll, L.Ac"
-          },
-          {
-            "availability": {
               "credits_reasons": [],
               "credits_type": "PREMIUM",
               "label": "premium",
@@ -28201,10 +28201,10 @@ export default [
             "class": {
               "name": "Acupuncture"
             },
-            "endtime": 64779,
+            "endtime": 57579,
             "id": 277975742,
             "late_cancellation": "early",
-            "starttime": 61179,
+            "starttime": 53979,
             "tag_ids": [
               "1034",
               "1038",
@@ -28276,10 +28276,10 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 145778,
+            "endtime": 138578,
             "id": 288644786,
             "late_cancellation": "early",
-            "starttime": 143978,
+            "starttime": 136778,
             "tag_ids": [
               "1143",
               "activity"
@@ -28302,10 +28302,10 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 149378,
+            "endtime": 142178,
             "id": 288644793,
             "late_cancellation": "early",
-            "starttime": 147578,
+            "starttime": 140378,
             "tag_ids": [
               "1143",
               "activity"
@@ -28328,10 +28328,10 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 232178,
+            "endtime": 224978,
             "id": 288774259,
             "late_cancellation": "early",
-            "starttime": 230378,
+            "starttime": 223178,
             "tag_ids": [
               "1143",
               "activity"
@@ -28354,10 +28354,10 @@ export default [
             "class": {
               "name": "Men's Haircut"
             },
-            "endtime": 235778,
+            "endtime": 228578,
             "id": 288774260,
             "late_cancellation": "early",
-            "starttime": 233978,
+            "starttime": 226778,
             "tag_ids": [
               "1143",
               "activity"
@@ -28414,10 +28414,10 @@ export default [
             "class": {
               "name": "Sound Healing and Reiki Integrated Therapy"
             },
-            "endtime": 393578,
+            "endtime": 386378,
             "id": 288574002,
             "late_cancellation": "early",
-            "starttime": 388778,
+            "starttime": 381578,
             "tag_ids": [
               "1143",
               "activity"
@@ -28475,8 +28475,58 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 298779,
+            "endtime": 291579,
             "id": 288104124,
+            "late_cancellation": "early",
+            "starttime": 284379,
+            "tag_ids": [
+              "gym"
+            ],
+            "teacher": {
+              "id": 30471174,
+              "name": ""
+            },
+            "teacher_name": ""
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Open Gym"
+            },
+            "endtime": 295179,
+            "id": 288104078,
+            "late_cancellation": "early",
+            "starttime": 287979,
+            "tag_ids": [
+              "gym"
+            ],
+            "teacher": {
+              "id": 30471174,
+              "name": ""
+            },
+            "teacher_name": ""
+          },
+          {
+            "availability": {
+              "credits": 3,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Open Gym"
+            },
+            "endtime": 298779,
+            "id": 288104044,
             "late_cancellation": "early",
             "starttime": 291579,
             "tag_ids": [
@@ -28501,7 +28551,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 302379,
-            "id": 288104078,
+            "id": 288104040,
             "late_cancellation": "early",
             "starttime": 295179,
             "tag_ids": [
@@ -28526,7 +28576,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 305979,
-            "id": 288104044,
+            "id": 288104121,
             "late_cancellation": "early",
             "starttime": 298779,
             "tag_ids": [
@@ -28551,7 +28601,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 309579,
-            "id": 288104040,
+            "id": 288104105,
             "late_cancellation": "early",
             "starttime": 302379,
             "tag_ids": [
@@ -28576,7 +28626,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 313179,
-            "id": 288104121,
+            "id": 288104082,
             "late_cancellation": "early",
             "starttime": 305979,
             "tag_ids": [
@@ -28601,7 +28651,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 316779,
-            "id": 288104105,
+            "id": 288104021,
             "late_cancellation": "early",
             "starttime": 309579,
             "tag_ids": [
@@ -28626,7 +28676,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 320379,
-            "id": 288104082,
+            "id": 288104101,
             "late_cancellation": "early",
             "starttime": 313179,
             "tag_ids": [
@@ -28651,7 +28701,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 323979,
-            "id": 288104021,
+            "id": 288104055,
             "late_cancellation": "early",
             "starttime": 316779,
             "tag_ids": [
@@ -28676,7 +28726,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 327579,
-            "id": 288104101,
+            "id": 288104103,
             "late_cancellation": "early",
             "starttime": 320379,
             "tag_ids": [
@@ -28701,7 +28751,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 331179,
-            "id": 288104055,
+            "id": 288104033,
             "late_cancellation": "early",
             "starttime": 323979,
             "tag_ids": [
@@ -28725,10 +28775,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 334779,
-            "id": 288104103,
+            "endtime": 377979,
+            "id": 288112329,
             "late_cancellation": "early",
-            "starttime": 327579,
+            "starttime": 370779,
             "tag_ids": [
               "gym"
             ],
@@ -28750,10 +28800,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 338379,
-            "id": 288104033,
+            "endtime": 381579,
+            "id": 288112295,
             "late_cancellation": "early",
-            "starttime": 331179,
+            "starttime": 374379,
             "tag_ids": [
               "gym"
             ],
@@ -28776,7 +28826,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 385179,
-            "id": 288112329,
+            "id": 288112301,
             "late_cancellation": "early",
             "starttime": 377979,
             "tag_ids": [
@@ -28801,7 +28851,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 388779,
-            "id": 288112295,
+            "id": 288112304,
             "late_cancellation": "early",
             "starttime": 381579,
             "tag_ids": [
@@ -28826,7 +28876,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 392379,
-            "id": 288112301,
+            "id": 288112328,
             "late_cancellation": "early",
             "starttime": 385179,
             "tag_ids": [
@@ -28851,7 +28901,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 395979,
-            "id": 288112304,
+            "id": 288112323,
             "late_cancellation": "early",
             "starttime": 388779,
             "tag_ids": [
@@ -28876,7 +28926,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 399579,
-            "id": 288112328,
+            "id": 288112321,
             "late_cancellation": "early",
             "starttime": 392379,
             "tag_ids": [
@@ -28901,7 +28951,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 403179,
-            "id": 288112323,
+            "id": 288112285,
             "late_cancellation": "early",
             "starttime": 395979,
             "tag_ids": [
@@ -28926,7 +28976,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 406779,
-            "id": 288112321,
+            "id": 288112325,
             "late_cancellation": "early",
             "starttime": 399579,
             "tag_ids": [
@@ -28951,7 +29001,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 410379,
-            "id": 288112285,
+            "id": 288112307,
             "late_cancellation": "early",
             "starttime": 403179,
             "tag_ids": [
@@ -28976,7 +29026,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 413979,
-            "id": 288112325,
+            "id": 288112330,
             "late_cancellation": "early",
             "starttime": 406779,
             "tag_ids": [
@@ -29001,7 +29051,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 417579,
-            "id": 288112307,
+            "id": 288112298,
             "late_cancellation": "early",
             "starttime": 410379,
             "tag_ids": [
@@ -29025,10 +29075,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 421179,
-            "id": 288112330,
+            "endtime": 464379,
+            "id": 288294353,
             "late_cancellation": "early",
-            "starttime": 413979,
+            "starttime": 457179,
             "tag_ids": [
               "gym"
             ],
@@ -29050,10 +29100,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 424779,
-            "id": 288112298,
+            "endtime": 467979,
+            "id": 288294360,
             "late_cancellation": "early",
-            "starttime": 417579,
+            "starttime": 460779,
             "tag_ids": [
               "gym"
             ],
@@ -29076,7 +29126,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 471579,
-            "id": 288294353,
+            "id": 288294357,
             "late_cancellation": "early",
             "starttime": 464379,
             "tag_ids": [
@@ -29101,7 +29151,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 475179,
-            "id": 288294360,
+            "id": 288294355,
             "late_cancellation": "early",
             "starttime": 467979,
             "tag_ids": [
@@ -29126,7 +29176,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 478779,
-            "id": 288294357,
+            "id": 288294359,
             "late_cancellation": "early",
             "starttime": 471579,
             "tag_ids": [
@@ -29151,7 +29201,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 482379,
-            "id": 288294355,
+            "id": 288294358,
             "late_cancellation": "early",
             "starttime": 475179,
             "tag_ids": [
@@ -29176,7 +29226,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 485979,
-            "id": 288294359,
+            "id": 288294352,
             "late_cancellation": "early",
             "starttime": 478779,
             "tag_ids": [
@@ -29201,7 +29251,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 489579,
-            "id": 288294358,
+            "id": 288294362,
             "late_cancellation": "early",
             "starttime": 482379,
             "tag_ids": [
@@ -29226,7 +29276,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 493179,
-            "id": 288294352,
+            "id": 288294354,
             "late_cancellation": "early",
             "starttime": 485979,
             "tag_ids": [
@@ -29251,7 +29301,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 496779,
-            "id": 288294362,
+            "id": 288294356,
             "late_cancellation": "early",
             "starttime": 489579,
             "tag_ids": [
@@ -29276,7 +29326,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 500379,
-            "id": 288294354,
+            "id": 288294351,
             "late_cancellation": "early",
             "starttime": 493179,
             "tag_ids": [
@@ -29301,7 +29351,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 503979,
-            "id": 288294356,
+            "id": 288294361,
             "late_cancellation": "early",
             "starttime": 496779,
             "tag_ids": [
@@ -29325,10 +29375,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 507579,
-            "id": 288294351,
+            "endtime": 557979,
+            "id": 288337435,
             "late_cancellation": "early",
-            "starttime": 500379,
+            "starttime": 550779,
             "tag_ids": [
               "gym"
             ],
@@ -29350,10 +29400,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 511179,
-            "id": 288294361,
+            "endtime": 561579,
+            "id": 288337434,
             "late_cancellation": "early",
-            "starttime": 503979,
+            "starttime": 554379,
             "tag_ids": [
               "gym"
             ],
@@ -29376,7 +29426,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 565179,
-            "id": 288337435,
+            "id": 288337439,
             "late_cancellation": "early",
             "starttime": 557979,
             "tag_ids": [
@@ -29401,7 +29451,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 568779,
-            "id": 288337434,
+            "id": 288337436,
             "late_cancellation": "early",
             "starttime": 561579,
             "tag_ids": [
@@ -29426,7 +29476,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 572379,
-            "id": 288337439,
+            "id": 288337438,
             "late_cancellation": "early",
             "starttime": 565179,
             "tag_ids": [
@@ -29451,7 +29501,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 575979,
-            "id": 288337436,
+            "id": 288337433,
             "late_cancellation": "early",
             "starttime": 568779,
             "tag_ids": [
@@ -29476,7 +29526,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 579579,
-            "id": 288337438,
+            "id": 288337437,
             "late_cancellation": "early",
             "starttime": 572379,
             "tag_ids": [
@@ -29500,10 +29550,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 583179,
-            "id": 288337433,
+            "endtime": 46779,
+            "id": 288443707,
             "late_cancellation": "early",
-            "starttime": 575979,
+            "starttime": 39579,
             "tag_ids": [
               "gym"
             ],
@@ -29525,10 +29575,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 586779,
-            "id": 288337437,
+            "endtime": 50379,
+            "id": 288443725,
             "late_cancellation": "early",
-            "starttime": 579579,
+            "starttime": 43179,
             "tag_ids": [
               "gym"
             ],
@@ -29551,7 +29601,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 53979,
-            "id": 288443707,
+            "id": 288443718,
             "late_cancellation": "early",
             "starttime": 46779,
             "tag_ids": [
@@ -29576,7 +29626,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 57579,
-            "id": 288443725,
+            "id": 288443722,
             "late_cancellation": "early",
             "starttime": 50379,
             "tag_ids": [
@@ -29601,7 +29651,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 61179,
-            "id": 288443718,
+            "id": 288443712,
             "late_cancellation": "early",
             "starttime": 53979,
             "tag_ids": [
@@ -29625,10 +29675,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 64779,
-            "id": 288443722,
+            "endtime": 118779,
+            "id": 288595220,
             "late_cancellation": "early",
-            "starttime": 57579,
+            "starttime": 111579,
             "tag_ids": [
               "gym"
             ],
@@ -29650,10 +29700,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 68379,
-            "id": 288443712,
+            "endtime": 122379,
+            "id": 288595236,
             "late_cancellation": "early",
-            "starttime": 61179,
+            "starttime": 115179,
             "tag_ids": [
               "gym"
             ],
@@ -29676,7 +29726,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 125979,
-            "id": 288595220,
+            "id": 288595204,
             "late_cancellation": "early",
             "starttime": 118779,
             "tag_ids": [
@@ -29701,7 +29751,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 129579,
-            "id": 288595236,
+            "id": 288595206,
             "late_cancellation": "early",
             "starttime": 122379,
             "tag_ids": [
@@ -29726,7 +29776,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 133179,
-            "id": 288595204,
+            "id": 288595214,
             "late_cancellation": "early",
             "starttime": 125979,
             "tag_ids": [
@@ -29751,7 +29801,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 136779,
-            "id": 288595206,
+            "id": 288595218,
             "late_cancellation": "early",
             "starttime": 129579,
             "tag_ids": [
@@ -29776,7 +29826,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 140379,
-            "id": 288595214,
+            "id": 288595223,
             "late_cancellation": "early",
             "starttime": 133179,
             "tag_ids": [
@@ -29801,7 +29851,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 143979,
-            "id": 288595218,
+            "id": 288595231,
             "late_cancellation": "early",
             "starttime": 136779,
             "tag_ids": [
@@ -29826,7 +29876,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 147579,
-            "id": 288595223,
+            "id": 288595247,
             "late_cancellation": "early",
             "starttime": 140379,
             "tag_ids": [
@@ -29851,7 +29901,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 151179,
-            "id": 288595231,
+            "id": 288595229,
             "late_cancellation": "early",
             "starttime": 143979,
             "tag_ids": [
@@ -29876,7 +29926,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 154779,
-            "id": 288595247,
+            "id": 288595243,
             "late_cancellation": "early",
             "starttime": 147579,
             "tag_ids": [
@@ -29901,7 +29951,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 158379,
-            "id": 288595229,
+            "id": 288735887,
             "late_cancellation": "early",
             "starttime": 151179,
             "tag_ids": [
@@ -29926,7 +29976,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 161979,
-            "id": 288595243,
+            "id": 288735891,
             "late_cancellation": "early",
             "starttime": 154779,
             "tag_ids": [
@@ -29950,10 +30000,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 165579,
-            "id": 288735887,
+            "endtime": 205179,
+            "id": 288735901,
             "late_cancellation": "early",
-            "starttime": 158379,
+            "starttime": 197979,
             "tag_ids": [
               "gym"
             ],
@@ -29975,10 +30025,10 @@ export default [
             "class": {
               "name": "Open Gym"
             },
-            "endtime": 169179,
-            "id": 288735891,
+            "endtime": 208779,
+            "id": 288735904,
             "late_cancellation": "early",
-            "starttime": 161979,
+            "starttime": 201579,
             "tag_ids": [
               "gym"
             ],
@@ -30001,7 +30051,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 212379,
-            "id": 288735901,
+            "id": 288735889,
             "late_cancellation": "early",
             "starttime": 205179,
             "tag_ids": [
@@ -30026,7 +30076,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 215979,
-            "id": 288735904,
+            "id": 288735909,
             "late_cancellation": "early",
             "starttime": 208779,
             "tag_ids": [
@@ -30051,7 +30101,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 219579,
-            "id": 288735889,
+            "id": 288735903,
             "late_cancellation": "early",
             "starttime": 212379,
             "tag_ids": [
@@ -30076,7 +30126,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 223179,
-            "id": 288735909,
+            "id": 288735897,
             "late_cancellation": "early",
             "starttime": 215979,
             "tag_ids": [
@@ -30101,7 +30151,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 226779,
-            "id": 288735903,
+            "id": 288735893,
             "late_cancellation": "early",
             "starttime": 219579,
             "tag_ids": [
@@ -30126,7 +30176,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 230379,
-            "id": 288735897,
+            "id": 288735884,
             "late_cancellation": "early",
             "starttime": 223179,
             "tag_ids": [
@@ -30151,7 +30201,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 233979,
-            "id": 288735893,
+            "id": 288735888,
             "late_cancellation": "early",
             "starttime": 226779,
             "tag_ids": [
@@ -30176,7 +30226,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 237579,
-            "id": 288735884,
+            "id": 288735899,
             "late_cancellation": "early",
             "starttime": 230379,
             "tag_ids": [
@@ -30201,7 +30251,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 241179,
-            "id": 288735888,
+            "id": 288735886,
             "late_cancellation": "early",
             "starttime": 233979,
             "tag_ids": [
@@ -30226,7 +30276,7 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 244779,
-            "id": 288735899,
+            "id": 289059031,
             "late_cancellation": "early",
             "starttime": 237579,
             "tag_ids": [
@@ -30251,59 +30301,9 @@ export default [
               "name": "Open Gym"
             },
             "endtime": 248379,
-            "id": 288735886,
-            "late_cancellation": "early",
-            "starttime": 241179,
-            "tag_ids": [
-              "gym"
-            ],
-            "teacher": {
-              "id": 30471174,
-              "name": ""
-            },
-            "teacher_name": ""
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Open Gym"
-            },
-            "endtime": 251979,
-            "id": 289059031,
-            "late_cancellation": "early",
-            "starttime": 244779,
-            "tag_ids": [
-              "gym"
-            ],
-            "teacher": {
-              "id": 30471174,
-              "name": ""
-            },
-            "teacher_name": ""
-          },
-          {
-            "availability": {
-              "credits": 3,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Open Gym"
-            },
-            "endtime": 255579,
             "id": 289059063,
             "late_cancellation": "early",
-            "starttime": 248379,
+            "starttime": 241179,
             "tag_ids": [
               "gym"
             ],
@@ -30360,10 +30360,10 @@ export default [
             "class": {
               "name": "Vinyasa Flow with Nick"
             },
-            "endtime": 302378,
+            "endtime": 295178,
             "id": 288029385,
             "late_cancellation": "early",
-            "starttime": 298778,
+            "starttime": 291578,
             "tag_ids": [
               "activity"
             ],
@@ -30396,10 +30396,10 @@ export default [
             "class": {
               "name": "Vinyasa Flow with John"
             },
-            "endtime": 338378,
+            "endtime": 331178,
             "id": 288141343,
             "late_cancellation": "early",
-            "starttime": 334778,
+            "starttime": 327578,
             "tag_ids": [
               "activity"
             ],
@@ -30432,10 +30432,10 @@ export default [
             "class": {
               "name": "Vinyasa Flow with DJ"
             },
-            "endtime": 563378,
+            "endtime": 556178,
             "id": 288351190,
             "late_cancellation": "early",
-            "starttime": 559778,
+            "starttime": 552578,
             "tag_ids": [
               "activity"
             ],
@@ -30468,10 +30468,10 @@ export default [
             "class": {
               "name": "Yoga for Beginners"
             },
-            "endtime": 246578,
+            "endtime": 239378,
             "id": 288752840,
             "late_cancellation": "early",
-            "starttime": 242978,
+            "starttime": 235778,
             "tag_ids": [
               "activity",
               "activity-1"
@@ -30528,8 +30528,58 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 313178,
+            "endtime": 305978,
             "id": 288898689,
+            "late_cancellation": "early",
+            "starttime": 302378,
+            "tag_ids": [
+              "gym"
+            ],
+            "teacher": {
+              "id": 30471529,
+              "name": ""
+            },
+            "teacher_name": ""
+          },
+          {
+            "availability": {
+              "credits": 5,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Open Gym - Hour Session"
+            },
+            "endtime": 309578,
+            "id": 288898680,
+            "late_cancellation": "early",
+            "starttime": 305978,
+            "tag_ids": [
+              "gym"
+            ],
+            "teacher": {
+              "id": 30471529,
+              "name": ""
+            },
+            "teacher_name": ""
+          },
+          {
+            "availability": {
+              "credits": 5,
+              "credits_reasons": [],
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
+              "status": "available"
+            },
+            "class": {
+              "name": "Open Gym - Hour Session"
+            },
+            "endtime": 313178,
+            "id": 288898671,
             "late_cancellation": "early",
             "starttime": 309578,
             "tag_ids": [
@@ -30553,10 +30603,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 316778,
-            "id": 288898680,
+            "endtime": 392378,
+            "id": 288898685,
             "late_cancellation": "early",
-            "starttime": 313178,
+            "starttime": 388778,
             "tag_ids": [
               "gym"
             ],
@@ -30578,10 +30628,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 320378,
-            "id": 288898671,
+            "endtime": 395978,
+            "id": 288898676,
             "late_cancellation": "early",
-            "starttime": 316778,
+            "starttime": 392378,
             "tag_ids": [
               "gym"
             ],
@@ -30604,7 +30654,7 @@ export default [
               "name": "Open Gym - Hour Session"
             },
             "endtime": 399578,
-            "id": 288898685,
+            "id": 288898668,
             "late_cancellation": "early",
             "starttime": 395978,
             "tag_ids": [
@@ -30628,10 +30678,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 403178,
-            "id": 288898676,
+            "endtime": 478778,
+            "id": 288898691,
             "late_cancellation": "early",
-            "starttime": 399578,
+            "starttime": 475178,
             "tag_ids": [
               "gym"
             ],
@@ -30653,10 +30703,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 406778,
-            "id": 288898668,
+            "endtime": 482378,
+            "id": 288898683,
             "late_cancellation": "early",
-            "starttime": 403178,
+            "starttime": 478778,
             "tag_ids": [
               "gym"
             ],
@@ -30679,7 +30729,7 @@ export default [
               "name": "Open Gym - Hour Session"
             },
             "endtime": 485978,
-            "id": 288898691,
+            "id": 288898670,
             "late_cancellation": "early",
             "starttime": 482378,
             "tag_ids": [
@@ -30703,10 +30753,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 489578,
-            "id": 288898683,
+            "endtime": 133178,
+            "id": 288591772,
             "late_cancellation": "early",
-            "starttime": 485978,
+            "starttime": 129578,
             "tag_ids": [
               "gym"
             ],
@@ -30728,10 +30778,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 493178,
-            "id": 288898670,
+            "endtime": 136778,
+            "id": 288898677,
             "late_cancellation": "early",
-            "starttime": 489578,
+            "starttime": 133178,
             "tag_ids": [
               "gym"
             ],
@@ -30754,7 +30804,7 @@ export default [
               "name": "Open Gym - Hour Session"
             },
             "endtime": 140378,
-            "id": 288591772,
+            "id": 288591776,
             "late_cancellation": "early",
             "starttime": 136778,
             "tag_ids": [
@@ -30778,10 +30828,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 143978,
-            "id": 288898677,
+            "endtime": 219578,
+            "id": 288898690,
             "late_cancellation": "early",
-            "starttime": 140378,
+            "starttime": 215978,
             "tag_ids": [
               "gym"
             ],
@@ -30803,10 +30853,10 @@ export default [
             "class": {
               "name": "Open Gym - Hour Session"
             },
-            "endtime": 147578,
-            "id": 288591776,
+            "endtime": 223178,
+            "id": 288898681,
             "late_cancellation": "early",
-            "starttime": 143978,
+            "starttime": 219578,
             "tag_ids": [
               "gym"
             ],
@@ -30829,59 +30879,9 @@ export default [
               "name": "Open Gym - Hour Session"
             },
             "endtime": 226778,
-            "id": 288898690,
-            "late_cancellation": "early",
-            "starttime": 223178,
-            "tag_ids": [
-              "gym"
-            ],
-            "teacher": {
-              "id": 30471529,
-              "name": ""
-            },
-            "teacher_name": ""
-          },
-          {
-            "availability": {
-              "credits": 5,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Open Gym - Hour Session"
-            },
-            "endtime": 230378,
-            "id": 288898681,
-            "late_cancellation": "early",
-            "starttime": 226778,
-            "tag_ids": [
-              "gym"
-            ],
-            "teacher": {
-              "id": 30471529,
-              "name": ""
-            },
-            "teacher_name": ""
-          },
-          {
-            "availability": {
-              "credits": 5,
-              "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_1_0_0_0_0_0_000000000",
-              "status": "available"
-            },
-            "class": {
-              "name": "Open Gym - Hour Session"
-            },
-            "endtime": 233978,
             "id": 288898669,
             "late_cancellation": "early",
-            "starttime": 230378,
+            "starttime": 223178,
             "tag_ids": [
               "gym"
             ],
@@ -30938,10 +30938,10 @@ export default [
             "class": {
               "name": "Sunday Morning Meditation Group"
             },
-            "endtime": 48578,
+            "endtime": 41378,
             "id": 288458725,
             "late_cancellation": "early",
-            "starttime": 43178,
+            "starttime": 35978,
             "tag_ids": [
               "1143",
               "1155"
@@ -31009,10 +31009,10 @@ export default [
             "class": {
               "name": "Namaste and Have a Beer Yoga"
             },
-            "endtime": 572378,
+            "endtime": 565178,
             "id": 259740096,
             "late_cancellation": "early",
-            "starttime": 568778,
+            "starttime": 561578,
             "tag_ids": [
               "1034",
               "1042",
@@ -31053,7 +31053,7 @@ export default [
     "venue_id": 51765,
     "venue_name": "Key Running ",
     "location_name": "Heart of Missoula",
-    "display_rating_total": "3",
+    "display_rating_total": "4",
     "display_rating_average": "0",
     "lat": 46.87228,
     "lon": -113.99371,
@@ -31079,10 +31079,10 @@ export default [
             "class": {
               "name": "TRAIL RUNFIT"
             },
-            "endtime": 302378,
+            "endtime": 295178,
             "id": 288037660,
             "late_cancellation": "early",
-            "starttime": 298778,
+            "starttime": 291578,
             "tag_ids": [
               "activity"
             ],
@@ -31104,10 +31104,10 @@ export default [
             "class": {
               "name": "TRAIL RUNFIT"
             },
-            "endtime": 306578,
+            "endtime": 299378,
             "id": 288037662,
             "late_cancellation": "early",
-            "starttime": 302978,
+            "starttime": 295778,
             "tag_ids": [
               "activity"
             ],
@@ -31140,10 +31140,10 @@ export default [
             "class": {
               "name": "RUNFIT - Outside"
             },
-            "endtime": 327578,
+            "endtime": 320378,
             "id": 288037658,
             "late_cancellation": "early",
-            "starttime": 324578,
+            "starttime": 317378,
             "tag_ids": [
               "activity"
             ],
@@ -31176,10 +31176,10 @@ export default [
             "class": {
               "name": "QUICKFIT"
             },
-            "endtime": 329378,
+            "endtime": 322178,
             "id": 288037657,
             "late_cancellation": "early",
-            "starttime": 327578,
+            "starttime": 320378,
             "tag_ids": [
               "activity"
             ],
@@ -31201,10 +31201,10 @@ export default [
             "class": {
               "name": "QUICKFIT"
             },
-            "endtime": 398678,
+            "endtime": 391478,
             "id": 288160988,
             "late_cancellation": "early",
-            "starttime": 396878,
+            "starttime": 389678,
             "tag_ids": [
               "activity"
             ],
@@ -31226,10 +31226,10 @@ export default [
             "class": {
               "name": "QUICKFIT"
             },
-            "endtime": 139478,
+            "endtime": 132278,
             "id": 288652181,
             "late_cancellation": "early",
-            "starttime": 137678,
+            "starttime": 130478,
             "tag_ids": [
               "activity"
             ],
@@ -31251,10 +31251,10 @@ export default [
             "class": {
               "name": "QUICKFIT"
             },
-            "endtime": 203378,
+            "endtime": 196178,
             "id": 288774845,
             "late_cancellation": "early",
-            "starttime": 201578,
+            "starttime": 194378,
             "tag_ids": [
               "activity"
             ],
@@ -31287,10 +31287,10 @@ export default [
             "class": {
               "name": "STRONGFIT"
             },
-            "endtime": 463478,
+            "endtime": 456278,
             "id": 288259312,
             "late_cancellation": "early",
-            "starttime": 460778,
+            "starttime": 453578,
             "tag_ids": [
               "activity"
             ],
@@ -31323,10 +31323,10 @@ export default [
             "class": {
               "name": "RUNFIT"
             },
-            "endtime": 466178,
+            "endtime": 458978,
             "id": 288259313,
             "late_cancellation": "early",
-            "starttime": 463478,
+            "starttime": 456278,
             "tag_ids": [
               "activity"
             ],
@@ -31359,10 +31359,10 @@ export default [
             "class": {
               "name": "RUNFIT - Outside INT/ADVANCED"
             },
-            "endtime": 226778,
+            "endtime": 219578,
             "id": 288774843,
             "late_cancellation": "early",
-            "starttime": 223778,
+            "starttime": 216578,
             "tag_ids": [
               "activity"
             ],
@@ -31430,10 +31430,10 @@ export default [
             "class": {
               "name": "HITFIT"
             },
-            "endtime": 290978,
+            "endtime": 283778,
             "id": 288037579,
             "late_cancellation": "early",
-            "starttime": 287978,
+            "starttime": 280778,
             "tag_ids": [
               "activity"
             ],
@@ -31455,10 +31455,10 @@ export default [
             "class": {
               "name": "HITFIT"
             },
-            "endtime": 301778,
+            "endtime": 294578,
             "id": 288037578,
             "late_cancellation": "early",
-            "starttime": 298778,
+            "starttime": 291578,
             "tag_ids": [
               "activity"
             ],
@@ -31480,10 +31480,10 @@ export default [
             "class": {
               "name": "HITFIT"
             },
-            "endtime": 128978,
+            "endtime": 121778,
             "id": 288643475,
             "late_cancellation": "early",
-            "starttime": 125978,
+            "starttime": 118778,
             "tag_ids": [
               "activity"
             ],
@@ -31516,10 +31516,10 @@ export default [
             "class": {
               "name": "RUNFIT - Outside"
             },
-            "endtime": 395978,
+            "endtime": 388778,
             "id": 288162225,
             "late_cancellation": "early",
-            "starttime": 392978,
+            "starttime": 385778,
             "tag_ids": [
               "activity"
             ],
@@ -31552,10 +31552,10 @@ export default [
             "class": {
               "name": "RUNFIT - Inside"
             },
-            "endtime": 214478,
+            "endtime": 207278,
             "id": 288779216,
             "late_cancellation": "early",
-            "starttime": 211478,
+            "starttime": 204278,
             "tag_ids": [
               "activity"
             ],
@@ -31588,10 +31588,10 @@ export default [
             "class": {
               "name": "RUNFIT - Outside INT/ADVANCED"
             },
-            "endtime": 226778,
+            "endtime": 219578,
             "id": 288779214,
             "late_cancellation": "early",
-            "starttime": 223778,
+            "starttime": 216578,
             "tag_ids": [
               "activity"
             ],
@@ -31606,7 +31606,7 @@ export default [
     ]
   },
   {
-    "images": "https://res.cloudinary.com/classpass/image/upload/f_auto,q_auto,w_320,c_scale,h_160/mclssxd3bwkcu1ckulfi.png",
+    "images": "https://res.cloudinary.com/classpass/image/upload/f_auto,q_auto,w_320,c_scale,h_160/owngouwwtftep4q17zfw.png",
     "rating_message": "Not enough ratings yet. Be one of the first.",
     "activities": "Facial, Beauty",
     "description": "Treat yourself to a great experience and KINDRED, a mani, pedi and facial bar.\r\n \r\nCome in and walk out feeling a more beautiful natural you. Express services with all the luxury feel of the spa. Be KIND to you. Services including manicures and pedicures, facials, makeup artistry, waxing, lash extensions, lash lifts and permanent cosmetics. \r\n\r\n*Make sure to book the correct service. If you have gel nail polish on you will need to select the ClassPass service that has the gel removal option included with it. They may not have enough time to accommodate removing gel if the removal option is not selected.\r\n\r\nKINDRED Skin + Soul & Claws Nail Lounge is a premier ClassPass Wellness venue. See their class descriptions for more information on the services they provide. Gratuity is not included in the cost of your reservation. Please remember to tip based on the full amount of the service reserved.",
@@ -31639,20 +31639,19 @@ export default [
         "schedules": [
           {
             "availability": {
-              "credits": 18,
               "credits_reasons": [],
-              "credits_type": "CP",
-              "label": "",
-              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
-              "status": "available"
+              "credits_type": "PREMIUM",
+              "label": "premium",
+              "reason": "out_of_spots",
+              "status": "unavailable"
             },
             "class": {
               "name": "The KINDRED Signature Facial (30 mins)"
             },
-            "endtime": 217765,
-            "id": 292247048,
+            "endtime": 397765,
+            "id": 292247060,
             "late_cancellation": "early",
-            "starttime": 215965,
+            "starttime": 395965,
             "tag_ids": [
               "1143",
               "1147",
@@ -31664,19 +31663,20 @@ export default [
           },
           {
             "availability": {
+              "credits": 18,
               "credits_reasons": [],
-              "credits_type": "PREMIUM",
-              "label": "premium",
-              "reason": "out_of_spots",
-              "status": "unavailable"
+              "credits_type": "CP",
+              "label": "",
+              "pricing_algo_details": "2_2_0_0_0_0_0_000000000",
+              "status": "available"
             },
             "class": {
               "name": "The KINDRED Signature Facial (30 mins)"
             },
-            "endtime": 404965,
-            "id": 292247060,
+            "endtime": 210565,
+            "id": 292247048,
             "late_cancellation": "early",
-            "starttime": 403165,
+            "starttime": 208765,
             "tag_ids": [
               "1143",
               "1147",
@@ -31734,10 +31734,10 @@ export default [
             "class": {
               "name": "Tennis"
             },
-            "endtime": 422078,
+            "endtime": 414878,
             "id": 288162995,
             "late_cancellation": "early",
-            "starttime": 416678,
+            "starttime": 409478,
             "tag_ids": [
               "activity"
             ],
@@ -31795,10 +31795,10 @@ export default [
             "class": {
               "name": "Strength and Conditioning"
             },
-            "endtime": 313178,
+            "endtime": 305978,
             "id": 288032052,
             "late_cancellation": "early",
-            "starttime": 309578,
+            "starttime": 302378,
             "tag_ids": [
               "activity"
             ],
@@ -31820,10 +31820,10 @@ export default [
             "class": {
               "name": "Strength and Conditioning"
             },
-            "endtime": 485978,
+            "endtime": 478778,
             "id": 288305179,
             "late_cancellation": "early",
-            "starttime": 482378,
+            "starttime": 475178,
             "tag_ids": [
               "activity"
             ],
@@ -31845,10 +31845,10 @@ export default [
             "class": {
               "name": "Strength and Conditioning"
             },
-            "endtime": 140378,
+            "endtime": 133178,
             "id": 288637258,
             "late_cancellation": "early",
-            "starttime": 136778,
+            "starttime": 129578,
             "tag_ids": [
               "activity"
             ],

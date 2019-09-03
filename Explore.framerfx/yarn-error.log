@@ -1,5 +1,5 @@
 Arguments: 
-  /private/var/folders/fy/rg__t24n3675_lcwhqvw9rs80000gp/T/AppTranslocation/0147013F-E3A8-41E2-9188-0DEA3D8E8E47/d/Framer X.app/Contents/Resources/Node/bin/node /private/var/folders/fy/rg__t24n3675_lcwhqvw9rs80000gp/T/AppTranslocation/0147013F-E3A8-41E2-9188-0DEA3D8E8E47/d/Framer X.app/Contents/Resources/Server/node_modules/yarn/bin/yarn.js check --cwd /Users/tgermeau/Documents/GitHub/explore/Explore.framerfx --skip-integrity-check --cache-folder /Users/tgermeau/Library/Caches/Framer/yarn/cache --mutex file:/Users/tgermeau/Library/Caches/Framer/yarn/mutex --json --ignore-scripts --link-folder /Users/tgermeau/Library/Application Support/Framer X/yarn-link-folder
+  /private/var/folders/fy/rg__t24n3675_lcwhqvw9rs80000gp/T/AppTranslocation/67B0CDAA-4017-4D04-82BC-5F7DE80E993F/d/Framer X.app/Contents/Resources/Node/bin/node /private/var/folders/fy/rg__t24n3675_lcwhqvw9rs80000gp/T/AppTranslocation/67B0CDAA-4017-4D04-82BC-5F7DE80E993F/d/Framer X.app/Contents/Resources/Server/node_modules/yarn/bin/yarn.js check --cwd /Users/tgermeau/Documents/GitHub/explore/Explore.framerfx --skip-integrity-check --cache-folder /Users/tgermeau/Library/Caches/Framer/yarn/cache --mutex file:/Users/tgermeau/Library/Caches/Framer/yarn/mutex --json --ignore-scripts --link-folder /Users/tgermeau/Library/Application Support/Framer X/yarn-link-folder
 
 PATH: 
   undefined
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: ENOSPC: no space left on device, copyfile '/Users/tgermeau/Documents/GitHub/explore/cpdata/node_modules/terser-webpack-plugin/node_modules/source-map/dist/source-map.min.js.map' -> '/Users/tgermeau/Library/Caches/Framer/yarn/cache/v4/npm-cpdata-1.0.0-719da5c3-0e18-4f38-b499-260c209c03dd-1567540180597/node_modules/cpdata/node_modules/terser-webpack-plugin/node_modules/source-map/dist/source-map.min.js.map'
+  Error: ENOSPC: no space left on device, copyfile '/Users/tgermeau/Documents/GitHub/explore/cpdata/cache/10871-3.json' -> '/Users/tgermeau/Library/Caches/Framer/yarn/cache/v4/npm-cpdata-1.0.0-5147d7e8-4c96-4ef6-ad73-4da38bdbba8b-1567540655328/node_modules/cpdata/cache/10871-3.json'
 
 npm manifest: 
   {
