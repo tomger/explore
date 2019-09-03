@@ -196,11 +196,12 @@ export function HelloKitty(props) {
           return props.mapBounds.contains([venue.lat, venue.lon]);
         })
         .filter(venue => {
+          if (props.favoritesOn) {
+            return [53318, 38270, 39278].indexOf(venue.venue_id) !== -1
+          }
           if (!props.activityFilter) {
             return true;
           }
-
-
           if (props.activityFilter.toLowerCase() == "fitness") {
             return ["yoga", "strength training", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
                 .indexOf(venue.activities.toLowerCase()) !== -1;
@@ -393,7 +394,7 @@ export function HelloKitty(props) {
     } else if (props.activityFilter == "Wellness") {
       catcolor = CATCOLORS[1];
       CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
-    } else if (props.activityFilter) {
+    } else if (props.activityFilter || props.favoritesOn) {
       CATS = []
     }
 

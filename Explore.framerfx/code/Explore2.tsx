@@ -37,6 +37,7 @@ const data = Data({
     datePickerVisible: false,
     venueListOffset: new MotionValue(-160),
     scrollDirection: 0,
+    favoritesOn: false,
     scrollTop: 0,
     locationText: "Current Location",
 })
@@ -313,6 +314,7 @@ export function VenueList(): Override {
         dateFilter: data.dateFilter,
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
+        favoritesOn: data.favoritesOn,
         activityFilter: data.activityFilter,
         onScheduleTapped: wtf,
         onCategoryChange: onCategoryChange,
@@ -379,9 +381,13 @@ export function TimePill(): Override {
     return {
         dateFilter: data.dateFilter,
         timeRange: data.timeRange,
+        favoritesOn: data.favoritesOn,
         onFilterTap: (name, index) => {
           if (index === 0) { //time
             data.timePickerVisible = true
+          }
+          if (index === 2) {
+            data.favoritesOn = !data.favoritesOn
           }
           // if (index === 1) { //time
           //   data.datePickerVisible = true
