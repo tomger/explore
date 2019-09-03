@@ -214,6 +214,9 @@ export function HelloKitty(props) {
             venue.activities.toLowerCase()
               .indexOf(props.activityFilter.toLowerCase()) !== -1);
         })
+        .slice().sort((a, b) => {
+          return parseFloat(b.display_rating_average) - parseFloat(a.display_rating_average)
+        })
         .map(venue => {
             let classes = ALL_DAYS ? [] : venue.classes
               .map(mapClasses.bind(null, venue))
@@ -299,7 +302,7 @@ export function HelloKitty(props) {
                                         color: "#999",
                                     }}
                                 >
-                                    {venue.activities}
+                                    {venue.activities.replace("training", "")}
                                 </div>
                                 <div
                                     style={{
@@ -352,10 +355,10 @@ export function HelloKitty(props) {
                     </Frame>
                 )
             return element
-        })
-        .slice().sort((a, b) => {
-          return a.props.earliestScheduleTime - b.props.earliestScheduleTime
         }) // venues
+        // .slice().sort((a, b) => {
+        //   return a.props.earliestScheduleTime - b.props.earliestScheduleTime
+        // }) // venues
 
     // const venuesWithAvailability = ALL_DAYS ? venueElements :
     //   venueElements
