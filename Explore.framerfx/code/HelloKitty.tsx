@@ -59,7 +59,7 @@ function mapSchedules(venue, klass, schedules, s) {
                     color: "#7f7f7f",
                 }}
             >
-                {s.availability.credits || 40}</span>
+                {s.availability.credits || 6}</span>
         </Frame>
     )
 }
@@ -196,16 +196,16 @@ export function HelloKitty(props) {
           return props.mapBounds.contains([venue.lat, venue.lon]);
         })
         .filter(venue => {
-          // if (!props.activityFilter) {
-          //   return true;
-          // } 
+          if (!props.activityFilter) {
+            return true;
+          }
 
 
           if (props.activityFilter.toLowerCase() == "fitness") {
             return ["yoga", "strength training", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
                 .indexOf(venue.activities.toLowerCase()) !== -1;
           }
-          if (props.activityFilter.toLowerCase() == "") {
+          if (props.activityFilter.toLowerCase() == "wellness") {
             return ["massage", "facial", "cryotherapy", "sports recovery", "sauna", "meditation", "acupuncture", "cupping", "beauty"]
                 .indexOf(venue.activities.toLowerCase()) !== -1;
           }
