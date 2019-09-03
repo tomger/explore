@@ -247,7 +247,7 @@ export function ScheduleDetail(props) {
 
         )}
 
-          {data.schedule ? (
+          {data.schedule || userOverrideId ? (
           <Frame bottom="0" left="0" right="0" height={48+32} style={{background:"#fff", boxShadow: "0 0 4px #ccc", display:"flex"}}>
             <Frame onTap={e=>close()} height={48} left={20} top={16} right={20}
                 style={{borderRadius: 5, fontSize: 16,  fontWeight: 500, background: "#05f", color: "#fff"}}>Confirm reservation</Frame>
