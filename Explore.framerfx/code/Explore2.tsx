@@ -428,7 +428,6 @@ export function DatePicker(): Override {
             }
         }),
         top: useTransform(data.venueListOffset, value => {
-          console.log("offset =", value)
             const INITIAL_TOP = 112
             const BAR_HEIGHT = 49
             let rv
