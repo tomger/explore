@@ -37,7 +37,7 @@ var pinCache = [];
 export function MapKit(props) {
     const frameRef = React.useRef(null)
     const frame = (
-        <Frame width={props.width} height={props.height} ref={frameRef}></Frame>
+        <Frame width={props.width} height={props.height} ref={frameRef} {...props}></Frame>
     )
 
     const [mapContext, setMapContext] = React.useState()

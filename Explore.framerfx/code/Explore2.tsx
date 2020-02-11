@@ -26,7 +26,7 @@ const data = Data({
     keyword: DEFAULT_KEYWORD_TEXT,
     keywordFieldBack: false,
     loading: false,
-    dateFilter: (new Date).getDay(),
+    dateFilter: new Date().getDay(),
     timeRange: [4, 23],
     timePickerVisible: false,
     mapBounds: null,
@@ -252,8 +252,6 @@ export function CatNav(): Override {
     }
 }
 
-
-
 ////// THE NEW WORLD
 
 export function ActivityPicker(): Override {
@@ -265,48 +263,54 @@ export function ActivityPicker(): Override {
     }
 }
 
-let mapPickerInit = Date.now();
+let mapPickerInit = Date.now()
 export function MapPicker(): Override {
     return {
+        // scale: 0.96,
+        // radius: 8,
+        // top: 10,
         activityFilter: data.activityFilter,
         onChange: bounds => {
-            data.mapBounds = bounds;
-            if (mapPickerInit < Date.now() - 1000*5) {
-              data.locationText = "Mapped Area";
+            data.mapBounds = bounds
+            if (mapPickerInit < Date.now() - 1000 * 5) {
+                data.locationText = "Mapped Area"
             }
         },
     }
 }
 
-
-export function ScheduleDetailScroll() : Override {
-
-  return {
-    top: data.confirmationDialogActive ? 0 : 700,
-    transition: { ease: "easeOut", duration: 0.2 },
-    animate: { top: data.confirmationDialogActive ? 0 : 700}
-  }
+export function ScheduleDetailScroll(): Override {
+    return {
+        top: data.confirmationDialogActive ? 0 : 700,
+        transition: { ease: "easeOut", duration: 0.2 },
+        animate: { top: data.confirmationDialogActive ? 0 : 700 },
+    }
 }
 
-
-export function ScheduleDetail() : Override {
-  return {
-    onClose: function() {
-      data.confirmationDialogActive = false
-    },
-    data: data.selectedDetailData,
-  }
+export function ScheduleDetail(): Override {
+    return {
+        onClose: function() {
+            data.confirmationDialogActive = false
+        },
+        data: data.selectedDetailData,
+    }
 }
 
-function wtf(s){
-  if (data.confirmationDialogActive) {
-    return; // hack cause i can't figure out stopPropagation
-  }
-  data.selectedDetailData = s;
-  data.confirmationDialogActive = true;
+function wtf(s) {
+    if (data.confirmationDialogActive) {
+        return // hack cause i can't figure out stopPropagation
+    }
+    data.selectedDetailData = s
+    data.confirmationDialogActive = true
+}
+let showLoadingAnimation = async () => {
+    data.loading = true
+    await sleep(Math.random() * 0.8 + 0.5)
+    data.loading = false
 }
 function onCategoryChange(cat) {
-  data.activityFilter = cat
+    showLoadingAnimation()
+    data.activityFilter = cat
 }
 export function VenueList(): Override {
     return {
@@ -314,6 +318,7 @@ export function VenueList(): Override {
         timeRange: data.timeRange,
         mapBounds: data.mapBounds,
         activityFilter: data.activityFilter,
+        loading: data.loading,
         onScheduleTapped: wtf,
         onCategoryChange: onCategoryChange,
     }
@@ -323,9 +328,9 @@ export function Fog(): Override {
     return {
         height: data.datePickerVisible || data.timePickerVisible ? 500 : 0,
         onTap: function() {
-          data.timePickerVisible = false
-          data.datePickerVisible = false
-        }
+            data.timePickerVisible = false
+            data.datePickerVisible = false
+        },
     }
 }
 export function DatePickerVisible(): Override {
@@ -354,8 +359,8 @@ export function Backbutton(): Override {
     return {
         activityFilter: data.activityFilter,
         onTap: function() {
-          data.activityFilter = "";
-        }
+            data.activityFilter = ""
+        },
     }
 }
 
@@ -380,44 +385,44 @@ export function TimePill(): Override {
         dateFilter: data.dateFilter,
         timeRange: data.timeRange,
         onFilterTap: (name, index) => {
-          if (index === 0) { //time
-            data.timePickerVisible = true
-          }
-          // if (index === 1) { //time
-          //   data.datePickerVisible = true
-          // }
+            if (index === 0) {
+                //time
+                data.timePickerVisible = true
+            }
+            // if (index === 1) { //time
+            //   data.datePickerVisible = true
+            // }
         },
     }
 }
 
-
 export function LocationText(): Override {
     return {
-        text: data.locationText
+        text: data.locationText,
     }
 }
 
 export function StatusBar(): Override {
     return {
         onTap: function() {
-          // console.log("StatusBar",data.venueListOffset);
-          if (data.venueListOffset.stopAnimation)
-            data.venueListOffset.stopAnimation();
-          data.venueListOffset.set(-160);
-        }
+            // console.log("StatusBar",data.venueListOffset);
+            if (data.venueListOffset.stopAnimation)
+                data.venueListOffset.stopAnimation()
+            data.venueListOffset.set(-160)
+        },
     }
 }
 
 const initialOffset = 342 - 20
-var turnDirection = 0;
-var turnBarOffset = 0;
-var turnOffset = 0;
-var barOffset = 0;
+var turnDirection = 0
+var turnBarOffset = 0
+var turnOffset = 0
+var barOffset = 0
 
 export function DatePicker(): Override {
-
     return {
         onChange: dateOffset => {
+            showLoadingAnimation()
             data.dateFilter = dateOffset
         },
         shadow: useTransform(data.venueListOffset, value => {
@@ -428,12 +433,12 @@ export function DatePicker(): Override {
             }
         }),
         top: useTransform(data.venueListOffset, value => {
-          console.log("offset =", value)
+            console.log("offset =", value)
             const INITIAL_TOP = 112
             const BAR_HEIGHT = 49
             let rv
             if (value > -initialOffset) {
-              return INITIAL_TOP;
+                return INITIAL_TOP
             }
             if (turnDirection === -1) {
                 // going up
@@ -444,62 +449,56 @@ export function DatePicker(): Override {
                 let delta = turnBarOffset + BAR_HEIGHT
                 rv = Math.min(delta + value - (turnOffset + BAR_HEIGHT), 0)
             } else {
-              rv = 0
+                rv = 0
             }
             barOffset = rv
             return INITIAL_TOP + rv
-
-
-
-        })
-    }
-}
-
-
-export function StickyChrome(): Override {
-
-    const cardHeight = 158
-    return {
-
-        top: useTransform(data.venueListOffset, value => {
-          if (value > -initialOffset) {
-            return 0;
-          } else {
-            return -value - initialOffset
-          }
         }),
     }
 }
 
+export function StickyChrome(): Override {
+    const cardHeight = 158
+    return {
+        top: useTransform(data.venueListOffset, value => {
+            if (value > -initialOffset) {
+                return 0
+            } else {
+                return -value - initialOffset
+            }
+        }),
+    }
+}
 
 export function Scrollable(props): Override {
-    const el = document.querySelector(`#${props.children[0].props.children[0].props.id}`);
+    const el = document.querySelector(
+        `#${props.children[0].props.children[0].props.id}`
+    )
     if (el) {
-      el.parentNode.parentNode.style.overflow = "visible";
-      el.parentNode.parentNode.parentNode.style.overflow = "visible";
+        el.parentNode.parentNode.style.overflow = "visible"
+        el.parentNode.parentNode.parentNode.style.overflow = "visible"
     }
     return {
-      contentOffsetY: data.venueListOffset, //-160,
-      contentHeight: data.contentListHeight + 350,
-      onScroll: function(info) {
-
-        // XXX move into non-data
-        let newDirection = Math.sign(info.delta.y)
-        if (data.venueListOffset.get() > -initialOffset) {
-          newDirection = 0;
-        }
-        if (turnDirection !== newDirection) {
-            turnOffset = data.venueListOffset.get()
-            turnBarOffset = barOffset
-        }
-        turnDirection = newDirection
-      },
-      onScrollStart: function(info) {
-        const scrollHeightElement = el.querySelector(".scroll_height");
-        if (scrollHeightElement) {
-          data.contentListHeight = scrollHeightElement.offsetHeight;
-        }
-      }
+        contentOffsetY: data.venueListOffset, //-160,
+        contentHeight: data.contentListHeight + 350,
+        onScroll: function(info) {
+            // XXX move into non-data
+            let newDirection = Math.sign(info.delta.y)
+            if (data.venueListOffset.get() > -initialOffset) {
+                newDirection = 0
+            }
+            if (turnDirection !== newDirection) {
+                turnOffset = data.venueListOffset.get()
+                turnBarOffset = barOffset
+            }
+            turnDirection = newDirection
+        },
+        onScrollStart: function(info) {
+            const scrollHeightElement = el.querySelector(".scroll_height")
+            if (scrollHeightElement) {
+                data.contentListHeight = scrollHeightElement.offsetHeight
+            }
+        },
     }
 }
 
@@ -508,13 +507,13 @@ export function Draggable(props): Override {
     // const height = hack ? hack.offsetHeight : 1000;
     return {
         drag: "y",
-        dragConstraints: {bottom: 200, top: -data.contentListHeight+290},
+        dragConstraints: { bottom: 200, top: -data.contentListHeight + 290 },
         onDragStart: function() {
-          let el = document.querySelector("#xxx_hellokitty_height");
-          if (el) {
-            console.log("x", el.offsetHeight)
-            data.contentListHeight = el.offsetHeight;
-          }
-        }
+            let el = document.querySelector("#xxx_hellokitty_height")
+            if (el) {
+                console.log("x", el.offsetHeight)
+                data.contentListHeight = el.offsetHeight
+            }
+        },
     }
 }

@@ -15,15 +15,15 @@ function mapSchedules(venue, klass, schedules, s) {
         <Frame
             key={s.id}
             onTap={e => {
-              e.stopPropagation();
-              if (this.onScheduleTapped) {
-                this.onScheduleTapped({
-                  schedule: s,
-                  venue: venue,
-                  class: klass,
-                  schedules: schedules,
-                })
-              }
+                e.stopPropagation()
+                if (this.onScheduleTapped) {
+                    this.onScheduleTapped({
+                        schedule: s,
+                        venue: venue,
+                        class: klass,
+                        schedules: schedules,
+                    })
+                }
             }}
             style={{
                 willChange: "unset",
@@ -40,8 +40,7 @@ function mapSchedules(venue, klass, schedules, s) {
                 height: 26,
                 whiteSpace: "nowrap",
                 textAlign: "center",
-                background: '#fff',
-
+                background: "#fff",
             }}
         >
             {format}{" "}
@@ -70,7 +69,7 @@ export function HelloKitty(props) {
     const nowDay = new Date().getDay()
     const nowHour = new Date().getHours()
     const [expandedVenues, setExpandedVenues] = React.useState([])
-    const ALL_DAYS = props.dateFilter === -1;
+    const ALL_DAYS = props.dateFilter === -1
 
     function addExpandedVenue(venue_id) {
         setExpandedVenues(expandedVenues.concat([venue_id]))
@@ -100,12 +99,13 @@ export function HelloKitty(props) {
                     startTimeHour.getHours() <= props.timeRange[1]
                 )
             })
-            .slice().sort((a, b) => {
+            .slice()
+            .sort((a, b) => {
                 return a.starttime - b.starttime
             })
 
         let schedulesElements = filteredSchedules.map(
-          mapSchedules.bind(props, venue, klass, filteredSchedules)
+            mapSchedules.bind(props, venue, klass, filteredSchedules)
         )
 
         return filteredSchedules.length === 0 ? (
@@ -115,13 +115,13 @@ export function HelloKitty(props) {
                 earliestScheduleTime={filteredSchedules[0].starttime}
                 key={klass.name + klass.schedules[0].starttime}
                 onTap={e => {
-                  if (props.onScheduleTapped) {
-                    props.onScheduleTapped({
-                      venue: venue,
-                      class: klass,
-                      schedules: filteredSchedules,
-                    })
-                  }
+                    if (props.onScheduleTapped) {
+                        props.onScheduleTapped({
+                            venue: venue,
+                            class: klass,
+                            schedules: filteredSchedules,
+                        })
+                    }
                 }}
                 style={{
                     padding: "12px",
@@ -185,40 +185,76 @@ export function HelloKitty(props) {
 
     const venueElements = venues
         .filter(venue => {
-          if (!props.mapBounds) {
-            return true;
-          }
+            if (!props.mapBounds) {
+                return true
+            }
 
-          return props.mapBounds.contains([venue.lat, venue.lon]);
+            return props.mapBounds.contains([venue.lat, venue.lon])
         })
         .filter(venue => {
-          if (!props.activityFilter) {
-            return true;
-          }
+            if (!props.activityFilter) {
+                return true
+            }
 
-
-          if (props.activityFilter.toLowerCase() == "fitness") {
-            return ["yoga", "strength training", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
-                .indexOf(venue.activities.toLowerCase()) !== -1;
-          }
-          if (props.activityFilter.toLowerCase() == "wellness") {
-            return ["massage", "facial", "cryotherapy", "sports recovery", "sauna", "meditation", "acupuncture", "cupping", "beauty"]
-                .indexOf(venue.activities.toLowerCase()) !== -1;
-          }
-          return (venue.venue_name.toLowerCase()
-              .indexOf(props.activityFilter.toLowerCase()) !== -1 ||
-            venue.activities.toLowerCase()
-              .indexOf(props.activityFilter.toLowerCase()) !== -1);
+            if (props.activityFilter.toLowerCase() == "fitness") {
+                return (
+                    [
+                        "yoga",
+                        "strength training",
+                        "barre",
+                        "hiit",
+                        "bootcamp",
+                        "martial arts",
+                        "rowing",
+                        "running",
+                        "cycling",
+                        "pilates",
+                        "dance",
+                        "boxing",
+                        "outdoors",
+                        "sports",
+                    ].indexOf(venue.activities.toLowerCase()) !== -1
+                )
+            }
+            if (props.activityFilter.toLowerCase() == "wellness") {
+                return (
+                    [
+                        "massage",
+                        "facial",
+                        "cryotherapy",
+                        "sports recovery",
+                        "sauna",
+                        "meditation",
+                        "acupuncture",
+                        "cupping",
+                        "beauty",
+                    ].indexOf(venue.activities.toLowerCase()) !== -1
+                )
+            }
+            return (
+                venue.venue_name
+                    .toLowerCase()
+                    .indexOf(props.activityFilter.toLowerCase()) !== -1 ||
+                venue.activities
+                    .toLowerCase()
+                    .indexOf(props.activityFilter.toLowerCase()) !== -1
+            )
         })
         .map(venue => {
-            let classes = ALL_DAYS ? [] : venue.classes
-              .map(mapClasses.bind(null, venue))
-              .filter(p => !!p)
-              .slice().sort((a, b) => {
-                return a.props.earliestScheduleTime - b.props.earliestScheduleTime
-              })
+            let classes = ALL_DAYS
+                ? []
+                : venue.classes
+                      .map(mapClasses.bind(null, venue))
+                      .filter(p => !!p)
+                      .slice()
+                      .sort((a, b) => {
+                          return (
+                              a.props.earliestScheduleTime -
+                              b.props.earliestScheduleTime
+                          )
+                      })
 
-            let classSection;
+            let classSection
             if (expandedVenues.indexOf(venue.venue_id) !== -1) {
                 classSection = classes
             } else {
@@ -231,7 +267,7 @@ export function HelloKitty(props) {
                             style={{
                                 position: "relative",
                                 height: 40,
-                                background:"transparent",
+                                background: "transparent",
                                 textAlign: "left",
                                 borderTop: "1px solid #e7e7e7",
                                 color: "#333",
@@ -245,188 +281,216 @@ export function HelloKitty(props) {
                 }
             }
 
-            let element =
-                  (
-                    <Frame
-                        earliestScheduleTime={!!classes[0] ? classes[0].props.earliestScheduleTime : -1}
-                        key={venue.venue_id}
-                        onTap={e => {
-                          e.stopPropagation();
-                          if (props.onScheduleTapped) {
+            let element = (
+                <Frame
+                    earliestScheduleTime={
+                        !!classes[0]
+                            ? classes[0].props.earliestScheduleTime
+                            : -1
+                    }
+                    key={venue.venue_id}
+                    onTap={e => {
+                        e.stopPropagation()
+                        if (props.onScheduleTapped) {
                             props.onScheduleTapped({
-                              venue: venue,
+                                venue: venue,
                             })
-                          }
-                        }}
+                        }
+                    }}
+                    style={{
+                        position: "relative",
+                        width: "auto",
+                        height: "auto",
+                        margin: 12,
+                        background: "#fff",
+                        borderRadius: 5,
+                        // border: "1px solid #e7e7e7",
+                        boxShadow:
+                            "0px 2px 4px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.5)",
+                    }}
+                >
+                    <div
                         style={{
-                            position: "relative",
-                            width: "auto",
-                            height: "auto",
-                            margin: 12,
-                            background: "#fff",
-                            borderRadius: 5,
-                            // border: "1px solid #e7e7e7",
-                            boxShadow:
-                                "0px 2px 4px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.5)",
+                            padding: 12,
+                            display: "flex",
+                            lineHeight: "22px",
+                            flexDirection: "row",
                         }}
                     >
                         <div
                             style={{
-                                padding: 12,
+                                flex: 1,
+                                flexDirection: "column",
+                                justifyContent: "center",
                                 display: "flex",
-                                lineHeight: "22px",
-                                flexDirection: "row",
+                                lineHeight: "20px",
                             }}
                         >
                             <div
                                 style={{
-                                    flex: 1,
-                                    flexDirection: "column",
-                                    justifyContent: "center",
-                                    display: "flex",
-                                    lineHeight: "20px",
+                                    fontWeight: "600",
+                                    fontSize: "12px",
+                                    textTransform: "uppercase",
+                                    color: "#999",
                                 }}
                             >
-                                <div
+                                {venue.activities}
+                            </div>
+                            <div
+                                style={{
+                                    fontWeight: "500",
+                                    fontSize: "16px",
+                                    paddingRight: 16,
+                                }}
+                            >
+                                {venue.venue_name}
+                            </div>
+                            <div style={{ fontSize: 14 }}>
+                                {venue.location_name}
+                            </div>
+                            <div style={{ fontSize: 14, color: "#7f7f7f" }}>
+                                {venue.display_rating_average}
+                                <span
                                     style={{
-                                        fontWeight: "600",
-                                        fontSize: "12px",
-                                        textTransform: "uppercase",
-                                        color: "#999",
+                                        fontSize: 12,
+                                        marginLeft: 4,
+                                        position: "relative",
+                                        top: -1,
                                     }}
                                 >
-                                    {venue.activities}
-                                </div>
-                                <div
-                                    style={{
-                                        fontWeight: "500",
-                                        fontSize: "16px",
-                                        paddingRight: 16,
-                                    }}
-                                >
-                                    {venue.venue_name}
-                                </div>
-                                <div style={{ fontSize: 14 }}>
-                                    {venue.location_name}
-                                </div>
-                                <div style={{ fontSize: 14, color: "#7f7f7f" }}>
-                                    {venue.display_rating_average}
-                                    <span
-                                        style={{
-                                            fontSize: 12,
-                                            marginLeft: 4,
-                                            position: "relative",
-                                            top: -1,
-                                        }}
-                                    >
-                                        ★
-                                    </span>{" "}
-                                    ({venue.display_rating_total})
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    style={{
-                                        background: "#f7f7f7",
-                                        width: 121,
-                                        height: 81,
-                                        borderRadius: 3,
-                                        objectFit: "cover",
-                                    }}
-                                    src={venue.images}
-                                />
+                                    ★
+                                </span>{" "}
+                                ({venue.display_rating_total})
                             </div>
                         </div>
-                        <div
-                            style={{
-                                flexDirection: "column",
-                                display: "flex",
-                            }}
-                        >
-                            {ALL_DAYS ? undefined : <div>{classSection}</div>}
+                        <div>
+                            <img
+                                style={{
+                                    background: "#f7f7f7",
+                                    width: 121,
+                                    height: 81,
+                                    borderRadius: 3,
+                                    objectFit: "cover",
+                                }}
+                                src={venue.images}
+                            />
                         </div>
-                    </Frame>
-                )
+                    </div>
+                    <div
+                        style={{
+                            flexDirection: "column",
+                            display: "flex",
+                        }}
+                    >
+                        {ALL_DAYS ? undefined : <div>{classSection}</div>}
+                    </div>
+                </Frame>
+            )
             return element
         })
-        .slice().sort((a, b) => {
-          return a.props.earliestScheduleTime - b.props.earliestScheduleTime
+        .slice()
+        .sort((a, b) => {
+            return a.props.earliestScheduleTime - b.props.earliestScheduleTime
         }) // venues
 
     // const venuesWithAvailability = ALL_DAYS ? venueElements :
     //   venueElements
     //     .filter(p => p.props.earliestScheduleTime !== -1);
 
-    const venuesWithAvailability = venueElements
-        .filter(p => p.props.earliestScheduleTime !== -1);
+    const venuesWithAvailability = venueElements.filter(
+        p => p.props.earliestScheduleTime !== -1
+    )
 
-
-    var bottomSection = [];
-    const venuesWithoutAvailability = venueElements.filter(p => p.props.earliestScheduleTime === -1);
-    if (venuesWithAvailability.length < 20 && venuesWithoutAvailability.length > 0) {
-      bottomSection.push(  <div style={{
-          fontSize: 20,
-          fontWeight: 700,
-          margin: "40px 0 16px 16px",
-          paddingRight: 32,
-          color: "#333",
-        }}>We found {venuesWithoutAvailability.length} other {props.activityFilter ? `"${props.activityFilter}"` : ""} venues in this area.</div>)
-      bottomSection.push(venuesWithoutAvailability.slice(0, 20))
-
+    var bottomSection = []
+    const venuesWithoutAvailability = venueElements.filter(
+        p => p.props.earliestScheduleTime === -1
+    )
+    if (
+        venuesWithAvailability.length < 20 &&
+        venuesWithoutAvailability.length > 0
+    ) {
+        bottomSection.push(
+            <div
+                style={{
+                    fontSize: 20,
+                    fontWeight: 700,
+                    margin: "40px 0 16px 16px",
+                    paddingRight: 32,
+                    color: "#333",
+                }}
+            >
+                We found {venuesWithoutAvailability.length} other{" "}
+                {props.activityFilter ? `"${props.activityFilter}"` : ""} venues
+                in this area.
+            </div>
+        )
+        bottomSection.push(venuesWithoutAvailability.slice(0, 20))
     }
-
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     let CATS = ["Fitness", "Wellness", "Gym"]
-    let CATCOLORS = ["#E78F42", "#25C984", "#7663BC"];
-    let catcolor;
+    let CATCOLORS = ["#fff", "#fff", "#fff"]
+    let catcolor
     if (props.activityFilter == "Fitness") {
-      CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"];
-      catcolor = CATCOLORS[0];
+        CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"]
+        catcolor = CATCOLORS[0]
     } else if (props.activityFilter == "Wellness") {
-      catcolor = CATCOLORS[1];
-      CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
+        catcolor = CATCOLORS[1]
+        CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"]
     } else if (props.activityFilter) {
-      CATS = []
+        CATS = []
     }
 
-    let catnav;
+    let catnav
     if (CATS.length) {
-      catnav = (<Scroll direction="horizontal" width="100%" style={{
-        position: "relative",
-        height: 60,
-      }}>
-      <Frame style={{
-        background: "transparent",
-        paddingLeft: 12,
-        height: "auto",
-        width: CATS.length * 150
-      }}>
-        {
-          CATS.map((name, index) =>
-            <Frame
-              whileTap={{scale:0.98}}
-            style={{
-              position: "relative",
-              display: "inline-flex",
-              height: 60,
-              width: 120,
-              borderRadius: 8,
-              padding: 8,
-              background: `${CATS.length === 3 ? (CATCOLORS[index]) : catcolor}`,
-              border: "1px solid #00000012",
-              justifyContent: "left",
-              color: "#fff",
-              alignItems: "bottom",
-              fontWeight: 500,
-              fontSize: 14,
-              marginRight: 8,
-            }} onTap={e => props.onCategoryChange(name)}><div style={{alignSelf: "flex-end"}}>{name}</div></Frame>
-          )
-
-        }
-      </Frame>
-      </Scroll>)
+        catnav = (
+            <Scroll
+                direction="horizontal"
+                width="100%"
+                style={{
+                    position: "relative",
+                    height: 32,
+                }}
+            >
+                <Frame
+                    style={{
+                        background: "transparent",
+                        paddingLeft: 12,
+                        height: "auto",
+                        width: CATS.length * 130,
+                    }}
+                >
+                    {CATS.map((name, index) => (
+                        <Frame
+                            whileTap={{ scale: 0.98 }}
+                            style={{
+                                position: "relative",
+                                display: "inline-flex",
+                                height: 32,
+                                width: 100,
+                                borderRadius: 32,
+                                padding: 8,
+                                background: `${
+                                    CATS.length === 3
+                                        ? CATCOLORS[index]
+                                        : catcolor
+                                }`,
+                                border: "1px solid #00000020",
+                                justifyContent: "center",
+                                color: "#222",
+                                alignItems: "bottom",
+                                fontWeight: 500,
+                                fontSize: 14,
+                                marginRight: 8,
+                            }}
+                            onTap={e => props.onCategoryChange(name)}
+                        >
+                            <div style={{ alignSelf: "flex-end" }}>{name}</div>
+                        </Frame>
+                    ))}
+                </Frame>
+            </Scroll>
+        )
     }
 
     return (
@@ -439,23 +503,91 @@ export function HelloKitty(props) {
                 background: "#fff",
             }}
         >
-            <div className="scroll_height" style={{ background: "#f7f7f7", paddingTop: 16 }}>
-            {false && (<div style={{
-              fontSize: 20,
-              fontWeight: 700,
-              color: "#333",
-            }}>
-            We found {venuesWithAvailability.length} {props.activityFilter ? `"${props.activityFilter}"` : ""} Venues
-            </div>)}
+            <div
+                className="scroll_height"
+                style={{ background: "#f7f7f7", paddingTop: 16 }}
+            >
+                {false && (
+                    <div
+                        style={{
+                            fontSize: 20,
+                            fontWeight: 700,
+                            color: "#333",
+                        }}
+                    >
+                        We found {venuesWithAvailability.length}{" "}
+                        {props.activityFilter
+                            ? `"${props.activityFilter}"`
+                            : ""}{" "}
+                        Venues
+                    </div>
+                )}
 
-                {catnav}
-                {venuesWithAvailability.slice(0, 20)}
-                {venuesWithAvailability.length > 20
-                    ? `Load ${venuesWithAvailability.length - 20} more results`
-                    : ""}
+                {props.loading ? (
+                    <div style={{ paddingLeft: 12 }}>
+                        <div
+                            style={{
+                                background: "#fff",
+                                height: 32,
+                                width: 100,
+                                borderRadius: 32,
 
+                                marginRight: 8,
+                                display: "inline-block",
+                            }}
+                        ></div>
+                        <div
+                            style={{
+                                background: "#fff",
+                                height: 32,
+                                width: 100,
+                                borderRadius: 32,
 
-              {bottomSection}
+                                marginRight: 8,
+                                display: "inline-block",
+                            }}
+                        ></div>
+                        <div
+                            style={{
+                                background: "#fff",
+                                height: 32,
+                                width: 100,
+                                borderRadius: 32,
+                                marginRight: 8,
+                                display: "inline-block",
+                            }}
+                        ></div>
+                    </div>
+                ) : (
+                    catnav
+                )}
+                {props.loading ? (
+                    <div style={{ paddingLeft: 12, paddingTop: 10 }}>
+                        <div
+                            style={{
+                                background: "#fff",
+                                height: 180,
+                                width: 375 - 24,
+
+                                borderRadius: 5,
+                            }}
+                        ></div>
+                        <div
+                            style={{
+                                marginTop: 12,
+                                background: "#fff",
+                                height: 180,
+                                width: 375 - 24,
+
+                                borderRadius: 5,
+                            }}
+                        ></div>
+                    </div>
+                ) : (
+                    venuesWithAvailability.slice(0, 20)
+                )}
+
+                {props.loading ? "" : bottomSection}
             </div>
         </Frame>
     )
