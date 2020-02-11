@@ -15,49 +15,6 @@ function formatTimestamp(starttime) {
 }
 
 
-//
-// function mapSchedules(s) {
-//     let date = new Date(1560052855000 + 8000 + s.starttime * 1000)
-//     let format = date
-//         .toLocaleTimeString("en-US", {
-//             hour: "numeric",
-//             minute: "numeric",
-//             timeZone: "America/New_York",
-//         })
-//         .toLowerCase()
-//     return (
-//         <span
-//             key={s.starttime}
-//             style={{
-//                 display: "inline-block",
-//                 border: "1px solid #e7e7e7",
-//                 borderRadius: 3,
-//                 boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
-//                 padding: "4px 10px",
-//                 margin: "0 4px 0 0",
-//                 fontSize: 13,
-//                 fontWeight: 500,
-//                 width: 105,
-//                 height: 26,
-//                 whiteSpace: "nowrap",
-//                 textAlign: "center",
-//             }}
-//         >
-//             {format}{" "}
-//             <span
-//                 style={{
-//                     borderLeft: "1px solid #e7e7e7",
-//                     paddingLeft: 8,
-//                     marginLeft: 4,
-//                     fontWeight: 500,
-//                     color: "#7f7f7f",
-//                 }}
-//             >
-//                 {s.availability.credits}
-//             </span>
-//         </span>
-//     )
-// }
 
 export function ScheduleDetail(props) {
     const [userOverrideId, setUserOverrideId] = React.useState()
@@ -290,7 +247,7 @@ export function ScheduleDetail(props) {
 
         )}
 
-          {data.schedule ? (
+          {data.schedule || userOverrideId ? (
           <Frame bottom="0" left="0" right="0" height={48+32} style={{background:"#fff", boxShadow: "0 0 4px #ccc", display:"flex"}}>
             <Frame onTap={e=>close()} height={48} left={20} top={16} right={20}
                 style={{borderRadius: 5, fontSize: 16,  fontWeight: 500, background: "#05f", color: "#fff"}}>Confirm reservation</Frame>

@@ -32,30 +32,34 @@ function mapSchedules(venue, klass, schedules, s) {
                 border: "1px solid #e7e7e7",
                 borderRadius: 3,
                 boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.06)",
-                padding: "4px 10px",
-                margin: "0 4px 0 0",
+                padding: "4px 0px 4px 0px",
+                marginRight: 5,
                 fontSize: 13,
                 fontWeight: 500,
-                width: 105,
+                width: 104,
                 height: 26,
                 whiteSpace: "nowrap",
                 textAlign: "center",
                 background: '#fff',
-
             }}
         >
-            {format}{" "}
+            <span style={{
+              width: 74,
+              display: "inline-block",
+            }}>{format}{" "}</span>
             <span
                 style={{
                     borderLeft: "1px solid #e7e7e7",
-                    paddingLeft: 8,
-                    marginLeft: 4,
+                    // paddingLeft: 9,
+                    margin: 0,
                     fontWeight: 500,
+                    width: 28,
+                    display: "inline-block",
+
                     color: "#7f7f7f",
                 }}
             >
-                {s.availability.credits}
-            </span>
+                {s.availability.credits || 6}</span>
         </Frame>
     )
 }
@@ -192,11 +196,12 @@ export function HelloKitty(props) {
           return props.mapBounds.contains([venue.lat, venue.lon]);
         })
         .filter(venue => {
+          if (props.favoritesOn) {
+            return [53318, 38270, 39278].indexOf(venue.venue_id) !== -1
+          }
           if (!props.activityFilter) {
             return true;
           }
-
-
           if (props.activityFilter.toLowerCase() == "fitness") {
             return ["yoga", "strength training", "barre", "hiit", "bootcamp", "martial arts", "rowing", "running", "cycling", "pilates", "dance", "boxing", "outdoors", "sports"]
                 .indexOf(venue.activities.toLowerCase()) !== -1;
@@ -209,6 +214,9 @@ export function HelloKitty(props) {
               .indexOf(props.activityFilter.toLowerCase()) !== -1 ||
             venue.activities.toLowerCase()
               .indexOf(props.activityFilter.toLowerCase()) !== -1);
+        })
+        .slice().sort((a, b) => {
+          return parseFloat(b.display_rating_average) - parseFloat(a.display_rating_average)
         })
         .map(venue => {
             let classes = ALL_DAYS ? [] : venue.classes
@@ -295,7 +303,7 @@ export function HelloKitty(props) {
                                         color: "#999",
                                     }}
                                 >
-                                    {venue.activities}
+                                    {venue.activities.replace("training", "")}
                                 </div>
                                 <div
                                     style={{
@@ -348,10 +356,10 @@ export function HelloKitty(props) {
                     </Frame>
                 )
             return element
-        })
-        .slice().sort((a, b) => {
-          return a.props.earliestScheduleTime - b.props.earliestScheduleTime
         }) // venues
+        // .slice().sort((a, b) => {
+        //   return a.props.earliestScheduleTime - b.props.earliestScheduleTime
+        // }) // venues
 
     // const venuesWithAvailability = ALL_DAYS ? venueElements :
     //   venueElements
@@ -378,7 +386,7 @@ export function HelloKitty(props) {
 
     // console.info("HelloKitty took",performance.now() - performanceStart);
     let CATS = ["Fitness", "Wellness", "Gym"]
-    let CATCOLORS = ["#E78F42", "#25C984", "#7663BC"];
+    let CATCOLORS = ["#E78F42", "#10A868", "#7663BC"];
     let catcolor;
     if (props.activityFilter == "Fitness") {
       CATS = ["Yoga", "Cycling", "Pilates", "Boxing", "Strength", "Barre"];
@@ -386,7 +394,7 @@ export function HelloKitty(props) {
     } else if (props.activityFilter == "Wellness") {
       catcolor = CATCOLORS[1];
       CATS = ["Massage", "Facial", "Cryotherapy", "Sports recovery"];
-    } else if (props.activityFilter) {
+    } else if (props.activityFilter || props.favoritesOn) {
       CATS = []
     }
 
@@ -394,12 +402,14 @@ export function HelloKitty(props) {
     if (CATS.length) {
       catnav = (<Scroll direction="horizontal" width="100%" style={{
         position: "relative",
-        height: 60,
+        height: 50,
+        overflow: "visible",
       }}>
       <Frame style={{
         background: "transparent",
         paddingLeft: 12,
         height: "auto",
+        overflow: "visible",
         width: CATS.length * 150
       }}>
         {
@@ -409,10 +419,12 @@ export function HelloKitty(props) {
             style={{
               position: "relative",
               display: "inline-flex",
-              height: 60,
+              height: 50,
               width: 120,
+              overflow: "visible",
               borderRadius: 8,
               padding: 8,
+              boxShadow: "0 1px 2px 0 #00000030",
               background: `${CATS.length === 3 ? (CATCOLORS[index]) : catcolor}`,
               border: "1px solid #00000012",
               justifyContent: "left",

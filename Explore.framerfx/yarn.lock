@@ -32,11 +32,6 @@
   resolved "https://registry.framer.com/@framer/framer.device-skin-apple-iphone8-space-gray/-/@framer/framer.device-skin-apple-iphone8-space-gray-1.0.0.tgz#336e100533d33e4fc7cd10507ccf64a8bc96637a"
   integrity sha512-WNnCJXI6Pgpep5tK2SQ5NVhPf7fBZIMvLWdYTF0nS0mG0QfWKgllT5YN3LGwKqOYI7mnzSlOQR1PPFFk8gOVVA==
 
-"@framer/framer.examples@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.framer.com/@framer/framer.examples/-/@framer/framer.examples-1.7.0.tgz#65c98f155b5cf78a89c88b9a7099790700678e56"
-  integrity sha512-GA0jKhhUuNMrQaaVJUipp2o+tM2oX+vZAc3aE4bgpJ8Gs0DiCnl3l1er5QtiQAZUT/F3E9AEiKk6vOpFCAekjA==
-
 "@types/prop-types@*":
   version "15.5.6"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"
