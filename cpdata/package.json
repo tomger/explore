@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.4.1",
+    "async": "^3.2.2",
     "esm": "^3.2.25",
     "moment": "^2.18.1",
     "puppeteer": "^1.17.0",
